@@ -1,6 +1,3 @@
-## THEME
-theme: hugolify-theme
-
 ## LANGUAGE
 defaultContentLanguage: en
 languageCode: en
@@ -16,8 +13,3 @@ markup:
     ordered: true
 paginate: 6
 removePathAccents: true
-
-## STATIC
-staticDir:
-  - static1
-  - static2
