@@ -1,12 +1,11 @@
-# SMFD
-Sébastien Moulène Front-end Developer
+# UN CINQ
 
 ## Live
-https://www.smfd.dev
+https://www.uncinq.dev
 
 ## Installation 
 ```
-git clone git@github.com:sebousan/smfd.dev.git --recurse-submodules
+git clone git@github.com:sebousan/uncinq.dev.git --recurse-submodules
 ```
 
 ## Documentation
