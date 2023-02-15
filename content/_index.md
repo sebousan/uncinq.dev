@@ -1,6 +1,18 @@
 ---
 isIndex: true
-title: Home
+title: Web development since 20 years
+hero: 
+  title: We are working on open-source solutions
+  text: For a better, simpler, more accessible and low carbon web
+  image:
+    src: /images/uploads/205.OK.svg
+  cta:
+    text: Solutions
+    url: "#main"
+  cta_second:
+    text: Github
+    blank: true
+    url: https://github.com/hugolify
 blocks:
   - type: informations
     background: false
@@ -15,12 +27,6 @@ blocks:
         image:
           src: /images/uploads/hugolify.svg
           isLogo: false
-    title: We are working on open-source solution
-    text: for a better, simpler, more accessible and low carbon web
-    column: 3
-  - type: informations
-    background: false
-    items:
       - title: Lawyerify
         text: Hugolify based. Solution dedicated to lawyers and their firms
         cta:
@@ -31,8 +37,12 @@ blocks:
           src: /images/uploads/lawyerify.svg
       - title: Architectify
         text: Hugolify based. Solution dedicated to architects and their firms
-      - title: Realestatify
-        text: Hugolify based. Solution dedicated to real estate agents and their firms
-    title: And three solutions
-    column: 3
+        image:
+          src: /images/uploads/architectify.svg
+        cta:
+          blank: true
+          text: See more about Architectify
+          url: https://www.architectify.fr
+    title: Three solutions available
+    column: 4
 ---
