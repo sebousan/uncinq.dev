@@ -1,13 +1,13 @@
 ---
 isIndex: true
 title: Web development since 20 years
-hero: 
+hero:
   title: We are working on open-source solutions
-  text: For a better, simpler, more accessible and low carbon web
+  text: For a better, simpler, more accessible and low carbon web.
   image:
     src: /images/uploads/205.OK.svg
   cta:
-    text: Solutions
+    text: Our solutions
     url: "#main"
   cta_second:
     text: Github
