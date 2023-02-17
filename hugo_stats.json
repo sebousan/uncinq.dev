@@ -44,6 +44,7 @@
       "hugolify",
       "items",
       "items-4",
+      "linkedin",
       "logo",
       "media",
       "media-image",
@@ -52,8 +53,7 @@
       "nav-accessibility",
       "nav-legal",
       "nav-social",
-      "row",
-      "social-linkedin"
+      "row"
     ],
     "ids": [
       "footer",
