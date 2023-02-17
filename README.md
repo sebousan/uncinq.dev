@@ -5,7 +5,7 @@ https://www.uncinq.dev
 
 ## Installation 
 ```
-git clone git@github.com:sebousan/uncinq.dev.git --recurse-submodules
+git clone git@github.com:sebousan/uncinq.dev.git
 ```
 
 ## Documentation
