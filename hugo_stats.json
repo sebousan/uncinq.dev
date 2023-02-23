@@ -21,6 +21,7 @@
       "picture",
       "script",
       "section",
+      "source",
       "span",
       "title",
       "ul"
@@ -28,6 +29,7 @@
     "classes": [
       "404-page",
       "block-informations",
+      "block-pushes",
       "bottom",
       "breadcrumb-wrapper",
       "btn",
@@ -43,7 +45,8 @@
       "home-page",
       "hugolify",
       "items",
-      "items-4",
+      "items-1",
+      "items-3",
       "linkedin",
       "logo",
       "media",
@@ -53,7 +56,10 @@
       "nav-accessibility",
       "nav-legal",
       "nav-social",
-      "row"
+      "push",
+      "push-start",
+      "row",
+      "surtitle"
     ],
     "ids": [
       "footer",

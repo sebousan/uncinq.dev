@@ -1,7 +1,7 @@
 {
     "name": "uncinq",
     "version": "1.0.0",
-    "homepage": "https://www.uncinq.dev",
+    "homepage": "https://uncinq.dev",
     "repository": "https://github.com/sebousan/uncinq.dev",
     "bugs": {
         "url": "https://github.com/sebousan/uncinq.dev/issues"
@@ -24,6 +24,7 @@
         "watch": "hugo server",
         "build": "hugo --gc --minify",
         "update": "hugo mod get -u",
+        "clean": "hugo mod clean",
         "cms": "npx netlify-cms-proxy-server"
     }
 }
