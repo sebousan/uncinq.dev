@@ -13,7 +13,6 @@ hero:
     text: Github
     blank: true
     url: https://github.com/hugolify
-  surtitle: Hello
 blocks:
   - type: pushes
     column: 1
