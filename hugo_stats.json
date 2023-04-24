@@ -3,6 +3,8 @@
     "tags": [
       "a",
       "body",
+      "br",
+      "button",
       "div",
       "footer",
       "h1",
@@ -23,6 +25,7 @@
       "section",
       "source",
       "span",
+      "strong",
       "title",
       "ul"
     ],
@@ -37,8 +40,11 @@
       "card",
       "container",
       "content",
+      "content-body",
       "cta",
       "description",
+      "grid",
+      "header",
       "heading",
       "hero",
       "hero-content",
@@ -57,14 +63,24 @@
       "nav-accessibility",
       "nav-legal",
       "nav-social",
+      "offcanvas",
       "push",
       "push-start",
       "row",
-      "surtitle"
+      "section-mentions-legales",
+      "title",
+      "toc"
     ],
     "ids": [
+      "TableOfContents",
+      "bienvenue",
+      "conception",
+      "editeur",
       "footer",
-      "main"
+      "hébergement",
+      "main",
+      "toc",
+      "tocLabel"
     ]
   }
 }
