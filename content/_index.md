@@ -9,10 +9,6 @@ hero:
   cta:
     text: Notre solution et nos produits
     url: "#main"
-  cta_second:
-    text: Github
-    blank: true
-    url: https://github.com/hugolify
 blocks:
   - type: pushes
     column: 1
