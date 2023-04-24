@@ -1,12 +1,3 @@
 links:
-  - title: Un Cinq is a part of Sébastien Moulène
-    blank: true
-    url: https://www.sebastienmoulene.com
-#   - title: Legal mentions
-#     url: /legal-mentions
-#   - title: Privacy policy
-#     url: /privacy-policy
-#   - title: Sitemap
-#     url: /sitemap
-#   - title: Contact
-#     url: /contact
+  - title: Mentions légales
+    url: /mentions-legales

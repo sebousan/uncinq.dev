@@ -1,13 +1,13 @@
 ---
 isIndex: true
-title: Web development since 20 years
+title: Développement web depuis 20 ans
 hero:
-  title: We are working on open-source solution and products
-  text: For a better, simpler, more accessible and low carbon web.
+  title: Nous travaillons sur une solution et des produits open-source
+  text: Pour un web pérenne, plus simple, plus accessible et à faible émission de carbone.
   image:
     src: /images/uploads/205.OK.svg
   cta:
-    text: Our solution and products
+    text: Notre solution et nos produits
     url: "#main"
   cta_second:
     text: Github
@@ -17,9 +17,8 @@ blocks:
   - type: pushes
     column: 1
     background: false
-    title: "Our open source solution "
-    text: Jamstack solution for building easily a fast, as accessible as possible
-      and low carbon website.
+    title: Notre solution open-source
+    text: Solution Jamstack pour créer facilement un site Web rapide, aussi accessible que possible et à faible émission de carbone.
     items:
       - offset: start
         cta:
@@ -30,24 +29,24 @@ blocks:
           alt: Hugolify
         background_color: "#000000"
   - type: informations
+    title: Nos deux produits disponnibles
     background: false
+    column: 3
     items:
       - title: Lawyerify
-        text: Hugolify based. Solution dedicated to lawyers and their firms
+        text: Basé sur Hugolify. Solution dédiée aux cabinets d’avocats.
         cta:
           blank: true
-          text: See more about Lawyerify
+          text: En savoir plus sur Lawyerify
           url: https://www.lawyerify.io
         image:
           src: /images/uploads/lawyerify.svg
       - title: Architectify
-        text: Hugolify based. Solution dedicated to architects and their firms
+        text: Basé sur Hugolify. Solution dédiée aux cabinets d’architectes.
         image:
           src: /images/uploads/architectify.svg
         cta:
           blank: true
-          text: See more about Architectify
+          text: En savoir plus sur Architectify
           url: https://www.architectify.io
-    title: Our two available products
-    column: 3
 ---
