@@ -155,10 +155,10 @@ blocks:
       au site web. De l’autre coté un admin dédié et simplifié pour Venn Capital.
     background: false
     images:
-      - src: /images/uploads/venn-capital-screenshot-home-wp.png
+      - src: /images/uploads/venn-capital-screenshot-admin-wp.png
         legend: Admin Wordpress de l’ancien site
         half: true
-      - src: /images/uploads/venn-capital-screenshot-home-hugolify.png
+      - src: /images/uploads/venn-capital-screenshot-admin-hugolify.png
         legend: Admin Hugolify dédié à Venn Capital
         half: true
   - type: title
@@ -185,7 +185,7 @@ blocks:
               backgroundColor: '#0675c4'
             }, {
               label: 'Hugolify',
-              data: [31.1, 40.9, 0, 525],
+              data: [31.1, 40.9, 268, 525],
               fill: true,
               backgroundColor: '#A90940'
             }]
@@ -211,7 +211,7 @@ blocks:
               backgroundColor: '#0675c4'
             }, {
               label: 'Hugolify',
-              data: [2, 1, 0, 22],
+              data: [2, 1, 11, 22],
               backgroundColor: '#a90940'
             }]
           };
@@ -262,6 +262,17 @@ blocks:
             }]
           };
     grid: small
+  # - type: images
+  #   title: Comparaison des sites
+  #   text: Nous avons profité de la migration pour faire un refonte graphique de la marque et du design du site.
+  #   background: false
+  #   images:
+  #     - src: /images/uploads/venn-capital-screenshot-home-wp.png
+  #       legend: Ancien site
+  #       half: true
+  #     - src: /images/uploads/venn-capital-screenshot-home-hugolify.png
+  #       legend: Nouveau site
+  #       half: true
   - type: quote
     quote: « Un cas d’étude qui nous permet de constater qu’avec Hugolify on a un site trois fois plus rapide et huit à neuf fois moins énergivore qu’un site “no code”. »
     author:
