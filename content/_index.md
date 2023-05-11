@@ -9,12 +9,16 @@ hero:
   cta:
     text: Notre solution et nos produits
     url: "#main"
+  cta_second:
+    text: contact@uncinq.dev
+    url: "mailto:contact@uncinq.dev"
+    blank: true
 blocks:
   - type: pushes
     column: 1
     background: false
     title: Notre solution open-source
-    text: Solution Jamstack pour créer facilement un site Web rapide, aussi accessible que possible et à faible émission de carbone.
+    text: Solution Jamstack pour créer facilement un site web rapide, aussi accessible que possible et à faible émission de carbone. Tout en ayant un espace admin dédié et simplifié.
     items:
       - offset: start
         cta:
@@ -23,10 +27,9 @@ blocks:
         image:
           src: /images/uploads/github.png
           alt: Hugolify
-        background_color: "#000000"
   - type: informations
     title: Nos deux produits disponnibles
-    background: false
+    background: true
     column: 3
     items:
       - title: Lawyerify
