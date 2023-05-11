@@ -36,7 +36,6 @@ blocks:
     image:
       src: /images/uploads/logo-wordpress.png
     direction: rtl
-  
   - type: quote
     quote: « La maintenance chronophage de notre ancienne solution ne nous permettait pas de garantir notre site en ligne sur le long terme »
     author:

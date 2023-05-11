@@ -11,4 +11,6 @@ hero:
   title: Les études de cas
   text: Découvrez nos expériences sur les migrations de site web de nos clients.
     Le passage d’un CMS commun à notre solution Hugolify.
+  image:
+    src: /images/uploads/152.Study-Group.svg
 ---

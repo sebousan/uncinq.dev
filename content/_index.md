@@ -1,6 +1,6 @@
 ---
 isIndex: true
-title: Développement web depuis 20 ans
+title: Accueil
 hero:
   title: Nous travaillons sur une solution et des produits open-source
   text: Pour un web pérenne, plus simple, plus accessible et à faible émission de carbone.
