@@ -23,9 +23,7 @@ blocks:
     grid: small
     text: >-
       La précédente version du site a été créé grâce au système de gestion de
-      contenu Wordpress. Ce logiciel écrit en PHP repose sur une base de données
-      MySQL. Cela implique un hébergement sur serveur Apache et une maintenance
-      quotidienne du système, de wordpress et de ses plugins.
+      contenu Wordpress avec un thème acheté sur la marketplace. Ce logiciel écrit en PHP repose sur une base de données MySQL. Cela implique un hébergement sur serveur Apache et une maintenance quotidienne du système, de wordpress, du theme et de ses plugins.
 
 
       Sans mise à jour de ces solutions, vous vous exposez grandement au piratage de votre site web.
@@ -85,14 +83,12 @@ blocks:
         limit: 100
   - type: informations
     column: 3
-    background: false
+    background: true
     title: Pourquoi améliorer ces critères ?
     items:
       - icon: people
         title: Pour vos utilisateurs
-        text: "Un site plus léger, c'est une meilleure expérience : les pages se
-          chargent rapidement, même sur mobile et même si le réseau n'est pas
-          très bon."
+        text: "Un site plus léger, c'est une meilleure expérience : les pages se chargent rapidement, même sur mobile et même si le réseau n'est pas très bon."
       - icon: graph-up-arrow
         title: Pour votre activité
         text: Un site web plus rapide, c'est une meilleure performance business. Cela a
@@ -103,7 +99,7 @@ blocks:
           impact environnemental.
   - type: datas
     title: Analyse du nouveau site du cabinet
-    text: Grâce à Lawyerify, tous les voyants sont au vert !
+    text: Grâce à Hugolify, tous les voyants sont au vert !
     column: 4
     show_color: true
     show_gauge: true
@@ -142,7 +138,7 @@ blocks:
         suffix: "kWh"
         limit: 100
   - type: quote
-    quote: « Un Cinq en nous proposant sa solution Hugolify, nous a permis de simplifier et de rendre plus agréable la mise à jour du contenu de notre site Internet »
+    quote: « Un Cinq en nous proposant sa solution Hugolify, nous a permis de simplifier la mise à jour du contenu de notre site Internet grâce à son espace admin dédié »
     author:
       title: Dimitri Boismare
       text: Venn Capital
@@ -152,7 +148,7 @@ blocks:
     title: Comparaison des espaces d’administration
     text: D’un côté un admin compliqué et parasité par des fonctionnalités inutiles
       au site web. De l’autre coté un admin dédié et simplifié pour Venn Capital.
-    background: false
+    background: true
     images:
       - src: /images/uploads/venn-capital-screenshot-admin-wp.png
         legend: Admin Wordpress de l’ancien site
