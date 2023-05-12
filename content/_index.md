@@ -28,7 +28,7 @@ blocks:
           src: /images/uploads/github.png
           alt: Hugolify
   - type: informations
-    title: Nos deux produits disponnibles
+    title: Nos deux produits disponibles
     background: true
     column: 3
     items:
