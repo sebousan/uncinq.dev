@@ -1,6 +1,6 @@
 ---
 isIndex: false
-draft: true
+draft: false
 date: 2023-05-10T08:34:08.410Z
 title: Venn Capital
 description: Migration d’un site Wordpress vers Hugolify
@@ -22,11 +22,13 @@ blocks:
   - align: start
     grid: small
     text: >-
-      La précédente version du site a été créé grâce au système de gestion de
-      contenu Wordpress avec un thème acheté sur la marketplace. Ce logiciel écrit en PHP repose sur une base de données MySQL. Cela implique un hébergement sur serveur Apache et une maintenance quotidienne du système, de wordpress, du theme et de ses plugins.
+      La précédente version du site a été créé grâce au système de gestion de contenu Wordpress avec un thème acheté sur la marketplace. Ce logiciel écrit en PHP repose sur une base de données MySQL. Cela implique un hébergement sur serveur Apache et une maintenance quotidienne du système, de wordpress, du theme et de ses plugins.
 
 
-      Sans mise à jour de ces solutions, vous vous exposez grandement au piratage de votre site web.
+      Sans mise à jour de ces solutions, Le site web s’expose grandement aux piratages.
+
+
+      Le fait d’utiliser une solution “no-code” comme celle-ci provoque une augmentation considérable du poids des pages et donc une lenteur importante d’affichage du site Web 
     background: false
     offset: start
     title: État des lieux
@@ -34,16 +36,22 @@ blocks:
     image:
       src: /images/uploads/logo-wordpress.png
     direction: rtl
-  - type: quote
-    quote: « La maintenance chronophage de notre ancienne solution ne nous permettait pas de garantir notre site en ligne sur le long terme »
-    author:
-      title: Pierrick Corbel
-      text: Venn Capital
-      image:
-        src: /images/uploads/pierrick-corbel.png
+  - type: images
+    heading:
+      title: Comparaison des sites
+      text: Nous avons profité de la migration pour faire un refonte graphique de la marque et du design du site.
+    background: true
+    images:
+      - src: /images/uploads/venn-capital-screenshot-home-wp.png
+        legend: Ancien site
+        half: true
+      - src: /images/uploads/venn-capital-screenshot-home-hugolify.png
+        legend: Nouveau site
+        half: true
   - type: datas
-    title: Analyse de l’ancien site du cabinet
-    text: Grâce à Google Lighthouse qui est un outil open source permettant de mesurer la qualité des pages Web. Voici, ci-dessous, le test de la page d’accueil sur mobile.
+    heading:
+      title: Analyse de l’ancien site
+      text: Grâce à Google Lighthouse qui est un outil open source permettant de mesurer la qualité des pages Web. Voici, ci-dessous, le test de la page d’accueil sur mobile.
     column: 4
     show_color: true
     show_gauge: true
@@ -65,8 +73,9 @@ blocks:
         suffix: "%"
         limit: 100
   - type: datas
-    title: Et son impact environnemental ?
-    text: En se basant sur une année pour 10000 pages vues par mois (provenant de website carbon calculator)
+    heading:
+      title: Et son impact environnemental ?
+      text: En se basant sur une année pour 10000 pages vues par mois (provenant de website carbon calculator)
     column: 4
     show_color: false
     show_gauge: false
@@ -84,7 +93,8 @@ blocks:
   - type: informations
     column: 3
     background: true
-    title: Pourquoi améliorer ces critères ?
+    heading:
+      title: Pourquoi améliorer ces critères ?
     items:
       - icon: people
         title: Pour vos utilisateurs
@@ -97,9 +107,18 @@ blocks:
         icon: globe-europe-africa
         text: En ayant un site web non énergivore vous réduirez considérablement votre
           impact environnemental.
+  - type: quote
+    background: true
+    quote: « La lenteur de notre ancien site ne nous permettait pas d’assurer un message clair en ligne auprès de nos clients »
+    author:
+      title: Pierrick Corbel
+      text: Venn Capital
+      image:
+        src: /images/uploads/pierrick-corbel.png
   - type: datas
-    title: Analyse du nouveau site du cabinet
-    text: Grâce à Hugolify, tous les voyants sont au vert !
+    heading:
+      title: Analyse du nouveau site
+      text: Grâce à Hugolify, tous les voyants sont au vert ! 
     column: 4
     show_color: true
     show_gauge: true
@@ -109,8 +128,9 @@ blocks:
         suffix: "%"
         value: 100
       - title: Accessibilité
-        value: 100
+        value: 98
         suffix: "%"
+        text:  Le 100% n'est pas atteint à cause de la couleur orange du texte qui n’est pas assez contrastée.
         limit: 100
       - title: Meilleures pratiques
         value: 100
@@ -121,33 +141,28 @@ blocks:
         limit: 100
         suffix: "%"
   - type: datas
-    title: Et son impact environnemental 
-    text: Même critère de test que pour l'ancien site
+    heading:
+      title: Et son impact environnemental 
+      text: Même critère de test que pour l'ancien site
     column: 4
     show_color: false
     show_gauge: false
     items:
       - title: CO2
-        text: autant que l'eau bouillante pour 1806 tasses de thé
+        text: autant que l'eau bouillante pour 1383 tasses de thé
         limit: 100
+        value: 10.21
         suffix: "kg"
-        value: 13.33
       - title: Énergie
-        text: soit l’équivalent de 223km en voiture électrique
-        value: 35
-        suffix: "kWh"
+        text: soit l’équivalent de 171km en voiture électrique
         limit: 100
-  - type: quote
-    quote: « Un Cinq en nous proposant sa solution Hugolify, nous a permis de simplifier la mise à jour du contenu de notre site Internet grâce à son espace admin dédié »
-    author:
-      title: Dimitri Boismare
-      text: Venn Capital
-      image:
-        src: /images/uploads/dimitri-boismare.png
+        value: 27
+        suffix: "kWh"
   - type: images
-    title: Comparaison des espaces d’administration
-    text: D’un côté un admin compliqué et parasité par des fonctionnalités inutiles
-      au site web. De l’autre coté un admin dédié et simplifié pour Venn Capital.
+    heading:
+      title: Comparaison des espaces d’administration
+      text: D’un côté un admin compliqué et parasité par des fonctionnalités inutiles
+        au site web. De l’autre coté un admin dédié et simplifié pour Venn Capital.
     background: true
     images:
       - src: /images/uploads/venn-capital-screenshot-admin-wp.png
@@ -156,11 +171,21 @@ blocks:
       - src: /images/uploads/venn-capital-screenshot-admin-hugolify.png
         legend: Admin Hugolify dédié à Venn Capital
         half: true
+  - type: quote
+    quote: « Un Cinq en nous proposant sa solution Hugolify, nous a permis de simplifier la mise à jour du contenu de notre site Internet grâce à son espace admin dédié »
+    background: true
+    author:
+      title: Dimitri Boismare
+      text: Venn Capital
+      image:
+        src: /images/uploads/dimitri-boismare.png
   - type: title
-    title: Comparaison des deux sites
-    text: Pour sensiblement les mêmes besoins, voici la comparaison chiffrée des deux sites grâce aux données de Google Lighthouse et Website carbon calculator
+    heading:
+      title: Comparaison des deux sites
+      text: Pour sensiblement les mêmes besoins mais un design plus élaboré, voici la comparaison chiffrée des deux sites grâce aux données de Google Lighthouse et Website carbon calculator
   - type: chart
-    text: Octets téléchargés (en Ko), à chaque visite.
+    heading:
+      text: Octets téléchargés (en Ko), à chaque visite de la page d’accueil sur mobile.
     chart:
       type: bar
       data:
@@ -180,14 +205,15 @@ blocks:
               backgroundColor: '#0675c4'
             }, {
               label: 'Hugolify',
-              data: [31.1, 40.9, 268, 525],
+              data: [31.1, 40.9, 149, 388],
               fill: true,
               backgroundColor: '#A90940'
             }]
           };
     grid: medium
   - type: chart
-    text: Nombre de fichiers et de requêtes, à chaque visite.
+    heading:
+      text: Nombre de fichiers et de requêtes, à chaque visite.
     chart:
       type: bar
       data:
@@ -206,36 +232,14 @@ blocks:
               backgroundColor: '#0675c4'
             }, {
               label: 'Hugolify',
-              data: [2, 1, 11, 22],
+              data: [2, 1, 11, 17],
               backgroundColor: '#a90940'
             }]
           };
     grid: medium
   - type: chart
-    text: Vitesse de chargement sur mobile (en seconde)
-    chart:
-      type: bar
-      data:
-        lang: JSON
-        json: |-
-          {
-            labels: [
-              'Temps de chargement',
-              'Temps de chargement total'
-            ],
-            datasets: [{
-              label: 'Wordpress',
-              data: [2.11,7.90],
-              backgroundColor: '#0675c4'
-            }, {
-              label: 'Hugolify',
-              data: [1.41,2.30],
-              backgroundColor: '#A90940'
-            }]
-          };
-    grid: small
-  - type: chart
-    text: Empreinte carbone (sur 1 an, avec 10000 pages vues par mois)
+    heading:
+      text: Empreinte carbone (sur 1 an, avec 10000 pages vues par mois)
     chart:
       type: bar
       data:
@@ -252,31 +256,45 @@ blocks:
               backgroundColor: '#0675c4'
             }, {
               label: 'Hugolify',
-              data: [13.33,35],
+              data: [10.21,27],
               backgroundColor: '#A90940'
             }]
           };
     grid: small
-  # - type: images
-  #   title: Comparaison des sites
-  #   text: Nous avons profité de la migration pour faire un refonte graphique de la marque et du design du site.
-  #   background: false
-  #   images:
-  #     - src: /images/uploads/venn-capital-screenshot-home-wp.png
-  #       legend: Ancien site
-  #       half: true
-  #     - src: /images/uploads/venn-capital-screenshot-home-hugolify.png
-  #       legend: Nouveau site
-  #       half: true
+  - type: chart
+    heading:
+      text: Vitesse de chargement en seconde
+    chart:
+      type: bar
+      data:
+        lang: JSON
+        json: |-
+          {
+            labels: [
+              'Temps de chargement sur mobile',
+              'Temps de chargement sur desktop'
+            ],
+            datasets: [{
+              label: 'Wordpress',
+              data: [6.80,1.40],
+              backgroundColor: '#0675c4'
+            }, {
+              label: 'Hugolify',
+              data: [2.00,0.70],
+              backgroundColor: '#A90940'
+            }]
+          };
+    grid: small
   - type: quote
-    quote: « Un cas d’étude qui nous permet de constater qu’avec Hugolify on a un site trois fois plus rapide et huit à neuf fois moins énergivore qu’un site “no code”. »
+    quote: « Un cas d’étude qui nous permet de constater qu’avec Hugolify on a un site trois fois plus rapide et jusqu’à onze fois moins énergivore qu’un site “no code”. »
     author:
       title: Sébastien Moulène
       text: Un Cinq
       image:
         src: /images/uploads/sebastien-moulene.jpg
   - type: cta
-    title: Bonne visite !
+    heading:
+      title: Bonne visite !
     cta:
       text: Découvrez le nouveau site web de Venn Capital
       url: https://www.venn-capital.com/

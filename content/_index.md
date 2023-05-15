@@ -14,21 +14,21 @@ hero:
     url: "mailto:contact@uncinq.dev"
     blank: true
 blocks:
-  - type: pushes
-    column: 1
+  - type: editorial
+    direction: rtl
     background: false
     title: Notre solution open-source
     text: Solution Jamstack pour créer facilement un site web rapide, aussi accessible que possible et à faible émission de carbone. Tout en ayant un espace admin dédié et simplifié.
-    items:
-      - offset: start
-        cta:
-          blank: true
-          url: https://www.hugolify.io
-        image:
-          src: /images/uploads/github.png
-          alt: Hugolify
+    image:
+      src: /images/uploads/github.png
+      alt: Hugolify
+    cta:
+      blank: true
+      url: https://www.hugolify.io
+      text: Découvrir Hugolify
   - type: informations
-    title: Nos deux produits disponibles
+    heading:
+      title: Nos deux produits disponibles
     background: true
     column: 3
     items:
