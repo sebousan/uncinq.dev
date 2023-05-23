@@ -285,6 +285,54 @@ blocks:
             }]
           };
     grid: small
+  - type: informations
+    column: 7
+    background: true
+    heading:
+      title: 7 modules Hugolify utilisés
+    items:
+      - title: hugolify-theme
+        icon: git
+        cta: 
+          text: Github repositoy
+          blank: true
+          url: https://github.com/Hugolify/hugolify-theme
+      - title: hugolify-theme-persons
+        icon: git
+        cta: 
+          text: Github repositoy
+          blank: true
+          url: https://github.com/Hugolify/hugolify-theme-persons
+      - title: hugolify-theme-persons-statutes
+        icon: git
+        cta: 
+          text: Github repositoy
+          blank: true
+          url: https://github.com/Hugolify/hugolify-theme-persons-statutes
+      - title: hugolify-theme-posts
+        icon: git
+        cta: 
+          text: Github repositoy
+          blank: true
+          url: https://github.com/Hugolify/hugolify-theme-posts
+      - title: hugolify-theme-posts-categories
+        icon: git
+        cta: 
+          text: Github repositoy
+          blank: true
+          url: https://github.com/Hugolify/hugolify-theme-posts-categories
+      - title: hugolify-theme-publications
+        icon: git
+        cta: 
+          text: Github repositoy
+          blank: true
+          url: https://github.com/Hugolify/hugolify-theme-publications
+      - title: hugolify-theme-publications-categories
+        icon: git
+        cta: 
+          text: Github repositoy
+          blank: true
+          url: https://github.com/Hugolify/hugolify-theme-publications-categories
   - type: quote
     quote: « Un cas d’étude qui nous permet de constater qu’avec Hugolify on a un site trois fois plus rapide et jusqu’à onze fois moins énergivore qu’un site “no code”. »
     author:
