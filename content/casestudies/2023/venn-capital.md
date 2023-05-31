@@ -8,38 +8,45 @@ image:
   src: /images/uploads/venn-capital-logo.svg
 hero:
   surtitle: Étude de cas
-  title: "Venn Capital, migration d’un site Wordpress vers Hugolify"
+  title: Venn Capital, migration d’un site Wordpress vers Hugolify
   image:
     src: /images/uploads/venn-capital-logo.svg
 blocks:
   - type: paragraph
     title: Quelques mots sur la société
-    text: >-
-      Venn a été fondée en 2019 afin de développer des stratégies actions innovantes, uniques en Europe à la croisée des mondes entre gestion active et gestion passive.
+    text: Venn a été fondée en 2019 afin de développer des stratégies actions
+      innovantes, uniques en Europe à la croisée des mondes entre gestion active
+      et gestion passive.
     grid: medium
     align: center
     offset: center
   - type: informations
-    heading: 
+    heading:
       title: État des lieux
-      text: >-
-        La précédente version du site a été créée grâce au système de gestion de contenu Wordpress avec un thème acheté sur la marketplace. Ce logiciel écrit en PHP repose sur une base de données MySQL. Cela implique un hébergement sur serveur Apache et une maintenance quotidienne du système, de Wordpress, du thème et de ses plugins.
+      text: La précédente version du site a été créée grâce au système de gestion de
+        contenu Wordpress avec un thème acheté sur la marketplace. Ce logiciel
+        écrit en PHP repose sur une base de données MySQL. Cela implique un
+        hébergement sur serveur Apache et une maintenance quotidienne du
+        système, de Wordpress, du thème et de ses plugins.
     column: 4
     items:
       - title: Sécurité
         icon: shield-slash
-        text: Sans mise à jour de ces solutions, le site web s’expose grandement aux piratages.
+        text: Sans mise à jour de ces solutions, le site web s’expose grandement aux
+          piratages.
       - title: Performance
         icon: exclamation-diamond
-        text: Lenteur importante d’affichage du site Web dû au poids considérable des pages.
+        text: Lenteur importante d’affichage du site Web dû au poids considérable des
+          pages.
       - title: Chronophage
         icon: hourglass
-        text: Maintenance quotidienne du système, de Wordpress, du thème et de ses plugins.
+        text: Maintenance quotidienne du système, de Wordpress, du thème et de ses
+          plugins.
       - title: Espace admin
         icon: kanban
         text: Non personnalisé et parasité par de nombreuses options inutiles.
   - type: quote
-    quote : « 42% des sites Wordpress ont des problèmes de sécurité en 2022 »
+    quote: « 42% des sites Wordpress ont des problèmes de sécurité en 2022 »
     author:
       title: Patchstack
       text: State of WordPress Security In 2022
@@ -48,7 +55,9 @@ blocks:
   - type: datas
     heading:
       title: Analyse de l’ancien site
-      text: Grâce à Google Lighthouse qui est un outil open source permettant de mesurer la qualité des pages Web. Voici, ci-dessous, le test de la page d’accueil sur mobile.
+      text: Grâce à Google Lighthouse qui est un outil open source permettant de
+        mesurer la qualité des pages Web. Voici, ci-dessous, le test de la page
+        d’accueil sur mobile.
     column: 4
     show_color: true
     show_gauge: true
@@ -72,7 +81,8 @@ blocks:
   - type: datas
     heading:
       title: Et son impact environnemental ?
-      text: En se basant sur une année pour 10 000 pages vues par mois (provenant de website carbon calculator).
+      text: En se basant sur une année pour 10 000 pages vues par mois (provenant de
+        website carbon calculator).
     column: 4
     show_color: false
     show_gauge: false
@@ -80,12 +90,12 @@ blocks:
       - title: CO2
         text: autant que l'eau bouillante pour 15 370 tasses de thé
         value: 113.43
-        suffix: "kg"
+        suffix: kg
         limit: 100
       - title: Énergie
         text: soit l’équivalent de 1894km en voiture électrique
         value: 296
-        suffix: "kWh"
+        suffix: kWh
         limit: 100
   - type: informations
     column: 3
@@ -95,7 +105,9 @@ blocks:
     items:
       - icon: people
         title: Pour vos utilisateurs
-        text: "Un site plus léger, c'est une meilleure expérience : les pages se chargent rapidement, même sur mobile et même si le réseau n'est pas très bon."
+        text: "Un site plus léger, c'est une meilleure expérience : les pages se
+          chargent rapidement, même sur mobile et même si le réseau n'est pas
+          très bon."
       - icon: graph-up-arrow
         title: Pour votre activité
         text: Un site web plus rapide, c'est une meilleure performance business. Cela a
@@ -106,7 +118,8 @@ blocks:
           impact environnemental.
   - type: quote
     background: true
-    quote: « La lenteur de notre ancien site ne nous permettait pas d’assurer un message clair en ligne auprès de nos clients »
+    quote: « La lenteur de notre ancien site ne nous permettait pas d’assurer un
+      message clair en ligne auprès de nos clients »
     author:
       title: Pierrick Corbel
       text: Venn Capital
@@ -115,7 +128,7 @@ blocks:
   - type: datas
     heading:
       title: Analyse du nouveau site
-      text: Grâce à Hugolify, tous les voyants sont au vert ! 
+      text: Grâce à Hugolify, tous les voyants sont au vert !
     column: 4
     show_color: true
     show_gauge: true
@@ -140,10 +153,13 @@ blocks:
     grid: medium
     offset: center
     align: center
-    text:  "* Le 100% n'est pas atteint à cause de la couleur orange du texte qui n’est pas assez contrastée. Mais nous avons amélioré nettement d'autres aspects qui sont non quantifiables via une analyse automatique (comme la sémantique HTML, l'ajout d’attribut aria, le respect du RGAA…)."
+    text: "* Le 100% n'est pas atteint à cause de la couleur orange du texte qui
+      n’est pas assez contrastée. Mais nous avons amélioré nettement d'autres
+      aspects qui sont non quantifiables via une analyse automatique (comme la
+      sémantique HTML, l'ajout d’attribut aria, le respect du RGAA…)."
   - type: datas
     heading:
-      title: Et son impact environnemental 
+      title: Et son impact environnemental
       text: Même critère de test que pour l'ancien site
     column: 4
     show_color: false
@@ -153,16 +169,18 @@ blocks:
         text: autant que l'eau bouillante pour 1383 tasses de thé
         limit: 100
         value: 10.21
-        suffix: "kg"
+        suffix: kg
       - title: Énergie
         text: soit l’équivalent de 171km en voiture électrique
         limit: 100
         value: 27
-        suffix: "kWh"
+        suffix: kWh
   - type: images
     heading:
       title: Comparaison des deux sites
-      text: Nous avons profité de la migration pour faire un refonte graphique de la marque et du design du site. Grâce au design soigné de [Solène Le Nail](https://www.behance.net/solenenouailhetas).
+      text: Nous avons profité de la migration pour faire un refonte graphique de la
+        marque et du design du site. Grâce au design soigné de [Solène Le
+        Nail](https://www.behance.net/solenenouailhetas).
     background: true
     images:
       - src: /images/uploads/venn-capital-screenshot-home-wp.png
@@ -174,10 +192,13 @@ blocks:
   - type: title
     heading:
       title: Comparaison technique du front
-      text: Pour sensiblement les mêmes besoins mais un design plus élaboré, voici la comparaison chiffrée des deux sites grâce aux données de Google Lighthouse et Website carbon calculator.
+      text: Pour sensiblement les mêmes besoins mais un design plus élaboré, voici la
+        comparaison chiffrée des deux sites grâce aux données de Google
+        Lighthouse et Website carbon calculator.
   - type: chart
     heading:
-      text: Octets téléchargés (en Ko), à chaque visite de la page d’accueil sur mobile.
+      text: Octets téléchargés (en Ko), à chaque visite de la page d’accueil sur
+        mobile.
     chart:
       type: bar
       data:
@@ -282,7 +303,12 @@ blocks:
   - type: images
     heading:
       title: Comparaison des espaces d’administration
-      text: D’un côté un admin compliqué et parasité par des fonctionnalités inutiles au site web. De l’autre coté un admin dédié et simplifié pour Venn Capital.
+      text: >-
+        D’un côté un admin compliqué et parasité par des fonctionnalités
+        inutiles au site web. 
+
+
+        De l’autre coté un admin dédié et simplifié pour Venn Capital.
     background: true
     images:
       - src: /images/uploads/venn-capital-screenshot-admin-wp.png
@@ -292,7 +318,9 @@ blocks:
         legend: Admin Hugolify dédié à Venn Capital
         half: true
   - type: quote
-    quote: « Un Cinq en nous proposant sa solution Hugolify, nous a permis de simplifier la mise à jour du contenu de notre site Internet grâce à son espace admin dédié »
+    quote: « Un Cinq en nous proposant sa solution Hugolify, nous a permis de
+      simplifier la mise à jour du contenu de notre site Internet grâce à son
+      espace admin dédié »
     background: true
     author:
       title: Dimitri Boismare
@@ -304,10 +332,12 @@ blocks:
     background: false
     heading:
       title: Côté développement
-      text: L’utilisation des modules Hugolify pré-codé permet de limiter le temps passé et les erreurs éventuelles.
+      text: L’utilisation des modules Hugolify pré-codé permet de limiter le temps
+        passé et les erreurs éventuelles.
     items:
       - title: Modules Hugolify
-        text: 7 modules Hugolify ont été utilisé pour concevoir l’architecture de site Web.
+        text: 7 modules Hugolify ont été utilisé pour concevoir l’architecture de site
+          Web.
         icon: git
       - title: Blocs Hugolify
         text: 1 bloc créé pour le site web et 8 blocs Hugolify utilisés.
@@ -320,7 +350,9 @@ blocks:
         icon: filetype-sass
   - type: quote
     background: true
-    quote: « Un cas d’étude qui nous permet de constater qu’avec Hugolify on a un site **trois fois plus rapide** et jusqu’à **onze fois moins énergivore** qu’un Wordpress avec un thème standard. »
+    quote: « Un cas d’étude qui nous permet de constater qu’avec Hugolify on a un
+      site **trois fois plus rapide** et jusqu’à **onze fois moins énergivore**
+      qu’un Wordpress avec un thème standard. »
     author:
       title: Sébastien Moulène
       text: Un Cinq
