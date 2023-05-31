@@ -39,7 +39,7 @@ blocks:
   - type: images
     heading:
       title: Comparaison des sites
-      text: Nous avons profité de la migration pour faire un refonte graphique de la marque et du design du site.
+      text: Nous avons profité de la migration pour faire un refonte graphique de la marque et du design du site. Grâce au design soigné de [Solène Le Nail](https://www.behance.net/solenenouailhetas)
     background: true
     images:
       - src: /images/uploads/venn-capital-screenshot-home-wp.png
@@ -127,10 +127,9 @@ blocks:
         limit: 100
         suffix: "%"
         value: 100
-      - title: Accessibilité
+      - title: Accessibilité *
         value: 98
         suffix: "%"
-        text:  Le 100% n'est pas atteint à cause de la couleur orange du texte qui n’est pas assez contrastée.
         limit: 100
       - title: Meilleures pratiques
         value: 100
@@ -140,6 +139,11 @@ blocks:
         value: 100
         limit: 100
         suffix: "%"
+  - type: paragraph
+    grid: medium
+    offset: center
+    align: center
+    text:  "* Le 100% n'est pas atteint à cause de la couleur orange du texte qui n’est pas assez contrastée. Mais nous avons amélioré nettement d'autres aspects qui sont non quantifiables via une analyse automatique."
   - type: datas
     heading:
       title: Et son impact environnemental 
@@ -239,6 +243,7 @@ blocks:
     grid: medium
   - type: chart
     heading:
+      title: onze fois moins énergivore
       text: Empreinte carbone (sur 1 an, avec 10000 pages vues par mois)
     chart:
       type: bar
@@ -263,6 +268,7 @@ blocks:
     grid: small
   - type: chart
     heading:
+      title: trois fois plus rapide
       text: Vitesse de chargement en seconde
     chart:
       type: bar
@@ -286,55 +292,27 @@ blocks:
           };
     grid: small
   - type: informations
-    column: 7
+    column: 4
     background: true
     heading:
-      title: 7 modules Hugolify utilisés
+      title: Côté développement
+      text: L’utilisation des modules Hugolify pré-codé permet de limiter le temps passé et les erreurs éventuelles.
     items:
-      - title: hugolify-theme
+      - title: Modules Hugolify
+        text: 7 modules Hugolify ont été utilisé pour concevoir l’architecture de site Web
         icon: git
-        cta: 
-          text: Github repositoy
-          blank: true
-          url: https://github.com/Hugolify/hugolify-theme
-      - title: hugolify-theme-persons
-        icon: git
-        cta: 
-          text: Github repositoy
-          blank: true
-          url: https://github.com/Hugolify/hugolify-theme-persons
-      - title: hugolify-theme-persons-statutes
-        icon: git
-        cta: 
-          text: Github repositoy
-          blank: true
-          url: https://github.com/Hugolify/hugolify-theme-persons-statutes
-      - title: hugolify-theme-posts
-        icon: git
-        cta: 
-          text: Github repositoy
-          blank: true
-          url: https://github.com/Hugolify/hugolify-theme-posts
-      - title: hugolify-theme-posts-categories
-        icon: git
-        cta: 
-          text: Github repositoy
-          blank: true
-          url: https://github.com/Hugolify/hugolify-theme-posts-categories
-      - title: hugolify-theme-publications
-        icon: git
-        cta: 
-          text: Github repositoy
-          blank: true
-          url: https://github.com/Hugolify/hugolify-theme-publications
-      - title: hugolify-theme-publications-categories
-        icon: git
-        cta: 
-          text: Github repositoy
-          blank: true
-          url: https://github.com/Hugolify/hugolify-theme-publications-categories
+      - title: Blocs Hugolify
+        text: 1 bloc créé pour le site web et 8 blocs Hugolify utilisés
+        icon: puzzle-fill
+      - title: HTML
+        text: Un cinquantaine de mini partials ont été overridé
+        icon: code-slash
+      - title: SASS
+        text: Un cinquantaine de micro fichiers SASS ont été overridé ou mergé
+        icon: filetype-sass
   - type: quote
-    quote: « Un cas d’étude qui nous permet de constater qu’avec Hugolify on a un site trois fois plus rapide et jusqu’à onze fois moins énergivore qu’un site “no code”. »
+    background: true
+    quote: « Un cas d’étude qui nous permet de constater qu’avec Hugolify on a un site **trois fois plus rapide** et jusqu’à **onze fois moins énergivore** qu’un Wordpress avec un thème standard. »
     author:
       title: Sébastien Moulène
       text: Un Cinq
