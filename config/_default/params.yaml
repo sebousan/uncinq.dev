@@ -1,1 +1,4 @@
 _merge: deep
+image:
+  _merge: deep
+  xsmall: "70x70"

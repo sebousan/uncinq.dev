@@ -8,7 +8,7 @@ image:
   src: /images/uploads/venn-capital-logo.svg
 hero:
   surtitle: Étude de cas
-  title: "Venn Capital, Migration d’un site Wordpress vers Hugolify"
+  title: "Venn Capital, migration d’un site Wordpress vers Hugolify"
   image:
     src: /images/uploads/venn-capital-logo.svg
 blocks:
@@ -19,35 +19,32 @@ blocks:
     grid: medium
     align: center
     offset: center
-  - align: start
-    grid: small
-    text: >-
-      La précédente version du site a été créé grâce au système de gestion de contenu Wordpress avec un thème acheté sur la marketplace. Ce logiciel écrit en PHP repose sur une base de données MySQL. Cela implique un hébergement sur serveur Apache et une maintenance quotidienne du système, de wordpress, du theme et de ses plugins.
-
-
-      Sans mise à jour de ces solutions, Le site web s’expose grandement aux piratages.
-
-
-      Le fait d’utiliser une solution “no-code” comme celle-ci provoque une augmentation considérable du poids des pages et donc une lenteur importante d’affichage du site Web 
-    background: false
-    offset: start
-    title: État des lieux
-    type: editorial
-    image:
-      src: /images/uploads/logo-wordpress.png
-    direction: rtl
-  - type: images
-    heading:
-      title: Comparaison des sites
-      text: Nous avons profité de la migration pour faire un refonte graphique de la marque et du design du site. Grâce au design soigné de [Solène Le Nail](https://www.behance.net/solenenouailhetas)
+  - type: informations
+    heading: 
+      title: État des lieux
+      text: >-
+        La précédente version du site a été créée grâce au système de gestion de contenu Wordpress avec un thème acheté sur la marketplace. Ce logiciel écrit en PHP repose sur une base de données MySQL. Cela implique un hébergement sur serveur Apache et une maintenance quotidienne du système, de Wordpress, du thème et de ses plugins.
+    column: 4
+    items:
+      - title: Sécurité
+        icon: shield-slash
+        text: Sans mise à jour de ces solutions, le site web s’expose grandement aux piratages.
+      - title: Performance
+        icon: exclamation-diamond
+        text: Lenteur importante d’affichage du site Web dû au poids considérable des pages.
+      - title: Chronophage
+        icon: hourglass
+        text: Maintenance quotidienne du système, de Wordpress, du thème et de ses plugins.
+      - title: Espace admin
+        icon: kanban
+        text: Non personnalisé et parasité par de nombreuses options inutiles.
+  - type: quote
+    quote : « 42% des sites Wordpress ont des problèmes de sécurité en 2022 »
+    author:
+      title: Patchstack
+      text: State of WordPress Security In 2022
+      url: https://patchstack.com/whitepaper/wordpress-security-stats-2022/
     background: true
-    images:
-      - src: /images/uploads/venn-capital-screenshot-home-wp.png
-        legend: Ancien site
-        half: true
-      - src: /images/uploads/venn-capital-screenshot-home-hugolify.png
-        legend: Nouveau site
-        half: true
   - type: datas
     heading:
       title: Analyse de l’ancien site
@@ -75,13 +72,13 @@ blocks:
   - type: datas
     heading:
       title: Et son impact environnemental ?
-      text: En se basant sur une année pour 10000 pages vues par mois (provenant de website carbon calculator)
+      text: En se basant sur une année pour 10 000 pages vues par mois (provenant de website carbon calculator).
     column: 4
     show_color: false
     show_gauge: false
     items:
       - title: CO2
-        text: autant que l'eau bouillante pour 15370 tasses de thé
+        text: autant que l'eau bouillante pour 15 370 tasses de thé
         value: 113.43
         suffix: "kg"
         limit: 100
@@ -143,7 +140,7 @@ blocks:
     grid: medium
     offset: center
     align: center
-    text:  "* Le 100% n'est pas atteint à cause de la couleur orange du texte qui n’est pas assez contrastée. Mais nous avons amélioré nettement d'autres aspects qui sont non quantifiables via une analyse automatique."
+    text:  "* Le 100% n'est pas atteint à cause de la couleur orange du texte qui n’est pas assez contrastée. Mais nous avons amélioré nettement d'autres aspects qui sont non quantifiables via une analyse automatique (comme la sémantique HTML, l'ajout d’attribut aria, le respect du RGAA…)."
   - type: datas
     heading:
       title: Et son impact environnemental 
@@ -164,29 +161,20 @@ blocks:
         suffix: "kWh"
   - type: images
     heading:
-      title: Comparaison des espaces d’administration
-      text: D’un côté un admin compliqué et parasité par des fonctionnalités inutiles
-        au site web. De l’autre coté un admin dédié et simplifié pour Venn Capital.
+      title: Comparaison des deux sites
+      text: Nous avons profité de la migration pour faire un refonte graphique de la marque et du design du site. Grâce au design soigné de [Solène Le Nail](https://www.behance.net/solenenouailhetas).
     background: true
     images:
-      - src: /images/uploads/venn-capital-screenshot-admin-wp.png
-        legend: Admin Wordpress de l’ancien site
+      - src: /images/uploads/venn-capital-screenshot-home-wp.png
+        legend: Ancien site
         half: true
-      - src: /images/uploads/venn-capital-screenshot-admin-hugolify.png
-        legend: Admin Hugolify dédié à Venn Capital
+      - src: /images/uploads/venn-capital-screenshot-home-hugolify.png
+        legend: Nouveau site
         half: true
-  - type: quote
-    quote: « Un Cinq en nous proposant sa solution Hugolify, nous a permis de simplifier la mise à jour du contenu de notre site Internet grâce à son espace admin dédié »
-    background: true
-    author:
-      title: Dimitri Boismare
-      text: Venn Capital
-      image:
-        src: /images/uploads/dimitri-boismare.png
   - type: title
     heading:
-      title: Comparaison des deux sites
-      text: Pour sensiblement les mêmes besoins mais un design plus élaboré, voici la comparaison chiffrée des deux sites grâce aux données de Google Lighthouse et Website carbon calculator
+      title: Comparaison technique du front
+      text: Pour sensiblement les mêmes besoins mais un design plus élaboré, voici la comparaison chiffrée des deux sites grâce aux données de Google Lighthouse et Website carbon calculator.
   - type: chart
     heading:
       text: Octets téléchargés (en Ko), à chaque visite de la page d’accueil sur mobile.
@@ -199,8 +187,8 @@ blocks:
             labels: [
               'JS chargé',
               'CSS chargé',
-              'transférés à l’arrivée',
-              'transférés au total'
+              'Transférés à l’arrivée',
+              'Transférés au total'
             ],
             datasets: [{
               label: 'Wordpress',
@@ -225,10 +213,10 @@ blocks:
         json: |-
           {
             labels: [
-              'fichiers JS chargés',
-              'fichiers CSS chargés',
-              'requêtes à l’arrivée',
-              'requêtes au total'
+              'Fichiers JS chargés',
+              'Fichiers CSS chargés',
+              'Requêtes à l’arrivée',
+              'Requêtes au total'
             ],
             datasets: [{
               label: 'Wordpress',
@@ -243,8 +231,8 @@ blocks:
     grid: medium
   - type: chart
     heading:
-      title: onze fois moins énergivore
-      text: Empreinte carbone (sur 1 an, avec 10000 pages vues par mois)
+      title: Onze fois moins énergivore
+      text: Empreinte carbone (sur 1 an, avec 10 000 pages vues par mois).
     chart:
       type: bar
       data:
@@ -268,8 +256,8 @@ blocks:
     grid: small
   - type: chart
     heading:
-      title: trois fois plus rapide
-      text: Vitesse de chargement en seconde
+      title: Trois fois plus rapide
+      text: Vitesse de chargement en seconde.
     chart:
       type: bar
       data:
@@ -291,24 +279,44 @@ blocks:
             }]
           };
     grid: small
+  - type: images
+    heading:
+      title: Comparaison des espaces d’administration
+      text: D’un côté un admin compliqué et parasité par des fonctionnalités inutiles au site web. De l’autre coté un admin dédié et simplifié pour Venn Capital.
+    background: true
+    images:
+      - src: /images/uploads/venn-capital-screenshot-admin-wp.png
+        legend: Admin Wordpress de l’ancien site
+        half: true
+      - src: /images/uploads/venn-capital-screenshot-admin-hugolify.png
+        legend: Admin Hugolify dédié à Venn Capital
+        half: true
+  - type: quote
+    quote: « Un Cinq en nous proposant sa solution Hugolify, nous a permis de simplifier la mise à jour du contenu de notre site Internet grâce à son espace admin dédié »
+    background: true
+    author:
+      title: Dimitri Boismare
+      text: Venn Capital
+      image:
+        src: /images/uploads/dimitri-boismare.png
   - type: informations
     column: 4
-    background: true
+    background: false
     heading:
       title: Côté développement
       text: L’utilisation des modules Hugolify pré-codé permet de limiter le temps passé et les erreurs éventuelles.
     items:
       - title: Modules Hugolify
-        text: 7 modules Hugolify ont été utilisé pour concevoir l’architecture de site Web
+        text: 7 modules Hugolify ont été utilisé pour concevoir l’architecture de site Web.
         icon: git
       - title: Blocs Hugolify
-        text: 1 bloc créé pour le site web et 8 blocs Hugolify utilisés
+        text: 1 bloc créé pour le site web et 8 blocs Hugolify utilisés.
         icon: puzzle-fill
       - title: HTML
-        text: Un cinquantaine de mini partials ont été overridé
+        text: Un cinquantaine de mini partials ont été overridé.
         icon: code-slash
       - title: SASS
-        text: Un cinquantaine de micro fichiers SASS ont été overridé ou mergé
+        text: Un cinquantaine de micro fichiers SASS ont été overridé ou mergé.
         icon: filetype-sass
   - type: quote
     background: true
