@@ -42,6 +42,7 @@
     ],
     "classes": [
       "404-page",
+      "active",
       "average",
       "block-bg",
       "block-chart",
@@ -57,6 +58,7 @@
       "bottom",
       "breadcrumb-wrapper",
       "btn",
+      "btn-menu",
       "btn-primary",
       "card",
       "casestudies",
@@ -109,6 +111,7 @@
       "nav",
       "nav-accessibility",
       "nav-legal",
+      "nav-primary",
       "nav-social",
       "offcanvas",
       "offset-md-2",
@@ -141,6 +144,8 @@
       "hébergement",
       "main",
       "mentions-legales",
+      "navigation",
+      "navigationLabel",
       "pages",
       "toc",
       "tocLabel"
