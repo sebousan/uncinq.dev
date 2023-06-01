@@ -27,12 +27,14 @@ blocks:
         contenu Wordpress avec un thème acheté sur la marketplace. Ce logiciel
         écrit en PHP repose sur une base de données MySQL. Cela implique un
         hébergement sur serveur Apache et une maintenance quotidienne du
-        système, de Wordpress, du thème et de ses plugins.
+        système, de Wordpress, du thème et de ses plugins. \
+        
+        Aucun contenu ne sera gardé.
     column: 4
     items:
       - title: Sécurité
         icon: shield-slash
-        text: Sans mise à jour de ces solutions, le site web s’expose grandement aux
+        text: Sans mise à jour de ces solutions, le site Web s’expose grandement aux
           piratages.
       - title: Performance
         icon: exclamation-diamond
@@ -286,8 +288,8 @@ blocks:
         json: |-
           {
             labels: [
-              'Temps de chargement sur mobile',
-              'Temps de chargement sur desktop'
+              'Mobile',
+              'Desktop'
             ],
             datasets: [{
               label: 'Wordpress',
