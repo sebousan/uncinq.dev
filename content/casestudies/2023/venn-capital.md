@@ -1,7 +1,7 @@
 ---
 isIndex: false
 draft: false
-date: 2023-05-31T08:34:08.410Z
+date: 2023-06-01T08:34:08.410Z
 title: Venn Capital
 description: Migration d’un site Wordpress vers Hugolify
 image:
@@ -180,9 +180,12 @@ blocks:
   - type: images
     heading:
       title: Comparaison des deux sites
-      text: Nous avons profité de la migration pour faire un refonte graphique de la
-        marque et du design du site. Grâce au design soigné de [Solène Le
-        Nail](https://www.behance.net/solenenouailhetas).
+      text: >-
+        Suite à la migration, une refonte graphique de la
+        marque et du design du site a été opérée. \
+        
+        Et ceux grâce au travail soigné de [Solène Le
+        Nail](https://www.behance.net/solenenouailhetas), directrice artistique.
     background: true
     images:
       - src: /images/uploads/venn-capital-screenshot-home-wp.png
