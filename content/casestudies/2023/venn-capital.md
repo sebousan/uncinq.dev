@@ -337,8 +337,9 @@ blocks:
     background: false
     heading:
       title: Côté développement
-      text: L’utilisation des modules Hugolify pré-codé permet de limiter le temps
-        passé et les erreurs éventuelles.
+      text: >-
+        L’utilisation des modules Hugolify pré-codé permet de limiter le temps passé et les erreurs éventuelles.
+        Ainsi que de profiter de la gestion des images (lazy loading, srcset…).
     items:
       - title: Modules Hugolify
         text: 7 modules Hugolify ont été utilisé pour concevoir l’architecture de site
@@ -353,6 +354,13 @@ blocks:
       - title: SASS
         text: Un cinquantaine de micro fichiers SASS ont été overridé ou mergé.
         icon: filetype-sass
+  - type: cta
+    heading:
+      text: Le code est en libre accès, vous pouvez le consulter sur Github.
+    cta:
+      url: https://github.com/sebousan/venn-capital
+      text: Accès au repository
+      blank: true
   - type: quote
     background: true
     quote: « Un cas d’étude qui nous permet de constater qu’avec Hugolify on a un
