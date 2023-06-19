@@ -223,7 +223,7 @@ blocks:
               backgroundColor: '#0675c4'
             }, {
               label: 'Hugolify',
-              data: [31.1, 40.9, 149, 388],
+              data: [31.1, 23.9, 149, 384],
               fill: true,
               backgroundColor: '#A90940'
             }]
