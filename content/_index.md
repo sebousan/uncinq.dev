@@ -2,34 +2,60 @@
 isIndex: true
 title: Accueil
 hero:
-  title: Nous travaillons sur une solution et des produits open-source
-  text: Pour un Web pérenne, plus simple, plus accessible et à faible émission de carbone.
+  title: Nous développons des sites Web pérenne, plus simple, plus accessible à tous et à faible émission de carbone
   image:
-    src: /images/uploads/205.OK.svg
+    src: /images/uploads/181.Nodes.svg
   cta:
     text: Notre solution et nos produits
-    url: "#main"
+    url: "/solutions-et-produits"
   cta_second:
     text: contact@uncinq.dev
     url: "mailto:contact@uncinq.dev"
     blank: true
 blocks:
-  - type: editorial
-    direction: rtl
-    background: true
-    title: Notre solution open-source
-    text: >-
-      Solution Jamstack pour créer facilement un site Web rapide, aussi accessible que possible et à faible émission de carbone. Tout en ayant un espace admin dédié et simplifié.
+  # - type: informations
+  #   column: 4
+  #   heading:
+  #     title: Nos compétences
+  #   items:
+  #     - title: Shopify
+  #       text: L’outil e-commerce le plus moderne au monde.
+  #       image:
+  #         src: /images/uploads/logo-shopify.svg
+  #         isLogo: true
+  #     - title: Hugo
+  #       text: Un des plus populaire générateur de site Web statique open-source.
+  #       image:
+  #         src: /images/uploads/logo-hugo.svg
+  #         isLogo: true
+  #     - title: Bootstrap
+  #       text: The most famous front-end framework for developing responsive and mobile
+  #         first projects.
+  #       image:
+  #         src: /images/uploads/logo-bootstrap-5.svg
+  #         isLogo: true
+  #     - title: Decap CMS (ex Netlify CMS)
+  #       text: Open-source content management for your Git workflow.
+  #       image:
+  #         src: /images/uploads/logo-decap.svg
+  #         isLogo: true
+        
+  # - type: editorial
+  #   direction: rtl
+  #   background: true
+  #   title: Notre solution open-source
+  #   text: >-
+  #     Solution Jamstack pour créer facilement un site Web rapide, aussi accessible que possible et à faible émission de carbone. Tout en ayant un espace admin dédié et simplifié.
     
       
-      8 types et +20 blocs de contenu sont déjà développés et sont conçus de manière atomique pour permettre une personnalisation rapide. 
-    image:
-      src: /images/uploads/github.png
-      alt: Hugolify
-    cta:
-      blank: true
-      url: https://www.hugolify.io
-      text: Découvrir Hugolify
+  #     8 types et +20 blocs de contenu sont déjà développés et sont conçus de manière atomique pour permettre une personnalisation rapide. 
+  #   image:
+  #     src: /images/uploads/github.png
+  #     alt: Hugolify
+  #   cta:
+  #     blank: true
+  #     url: https://www.hugolify.io
+  #     text: Découvrir Hugolify
   - type: informations
     background: true
     column: 4
@@ -58,27 +84,10 @@ blocks:
       - title: Pérenne
         text: Un site Web fait pour durer, intemporel.
         icon: clock-history
-
-  - type: informations
-    heading:
-      title: Nos deux produits disponibles
+  - type: latest
+    section: casestudies
+    show_more: false
     background: false
-    column: 3
-    items:
-      - title: Lawyerify
-        text: Basé sur Hugolify. Solution dédiée aux cabinets d’avocats.
-        cta:
-          blank: true
-          text: En savoir plus sur Lawyerify
-          url: https://www.lawyerify.io
-        image:
-          src: /images/uploads/lawyerify.svg
-      - title: Architectify
-        text: Basé sur Hugolify. Solution dédiée aux cabinets d’architectes.
-        image:
-          src: /images/uploads/architectify.svg
-        cta:
-          blank: true
-          text: En savoir plus sur Architectify
-          url: https://www.architectify.io
+    heading: 
+      title: Nos dernières études de cas
 ---
