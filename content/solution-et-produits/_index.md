@@ -7,7 +7,7 @@ url: solutions-et-produits
 hero:
   title: Nous travaillons sur une solution et des produits open-source
   image:
-    src: /images/uploads/205.OK.svg
+    src: /images/uploads/181.Nodes.svg
   cta:
     text: Notre solution et nos produits
     url: "#main"
@@ -21,6 +21,9 @@ blocks:
     
       
       8 types et +20 blocs de contenu sont déjà développés et sont conçus de manière atomique pour permettre une personnalisation rapide. 
+
+
+      Développé en Hugo et s’appuyant de Bootstrap et de Decap CMS.
     image:
       src: /images/uploads/github.png
       alt: Hugolify

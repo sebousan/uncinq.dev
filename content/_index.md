@@ -2,9 +2,9 @@
 isIndex: true
 title: Accueil
 hero:
-  title: Nous développons des sites Web pérenne, plus simple, plus accessible à tous et à faible émission de carbone
+  title: Nous développons des sites Web pérenne, plus simple, accessible à tous et à faible émission de carbone
   image:
-    src: /images/uploads/181.Nodes.svg
+    src: /images/uploads/205.OK.svg
   cta:
     text: Notre solution et nos produits
     url: "/solutions-et-produits"
@@ -59,6 +59,9 @@ blocks:
   - type: informations
     background: true
     column: 4
+    heading:
+      title: Développement Web depuis 20 ans
+      text: Nous mettons à votre disposition notre savoir-faire grâce à notre solution Hugolify.
     items:
       - title: Performant
         text: Un site Web ultra rapide pour un accès même avec une connexion faible.

@@ -1,7 +1,7 @@
 ---
 isIndex: false
-draft: true
-date: 2023-07-04T08:34:08.410Z
+draft: false
+date: 2023-08-28T08:34:08.410Z
 title: Miriam Lasserre
 description: Migration d’un site Wordpress vers Hugolify
 image:
@@ -15,8 +15,7 @@ blocks:
   - type: paragraph
     title: Quelques mots sur Miram
     text: >-
-      Miriam est une Styliste et Personal Shopper basée à Saint Germain-des-Prés, Paris.
-
+      Miriam est une Styliste et Personal Shopper basée à Saint Germain-des-Prés, Paris. \
 
       Elle a créé son site en 2016 et a voulu le faire évoluer tout en gardant le design de celui-ci.
     grid: medium
@@ -25,9 +24,7 @@ blocks:
   - type: informations
     heading:
       title: État des lieux
-      text: La précédente version du site a été créée grâce au système de gestion de contenu Wordpress avec un thème acheté sur la marketplace. Ce logiciel écrit en PHP repose sur une base de données MySQL. Cela implique un hébergement sur serveur Apache et une maintenance quotidienne du système, de Wordpress, du thème et de ses plugins. \
-        
-        L’intégralité du contenu est gardé hormis la partie blog qui est remplacée par une nouvelle partie Ebooks.
+      text: La précédente version du site a été créée grâce au système de gestion de contenu Wordpress avec un thème acheté sur la marketplace. Ce logiciel écrit en PHP repose sur une base de données MySQL. Cela implique un hébergement sur serveur Apache et une maintenance quotidienne du système, de Wordpress, du thème et de ses plugins.
     column: 4
     items:
       - title: Sécurité
@@ -36,7 +33,7 @@ blocks:
           piratages.
       - title: Performance
         icon: exclamation-diamond
-        text: Lenteur sur mobile dû entre autre à l’utilisation de dépendance (comme jQuery, plugins JS, Google Fonts…).
+        text: Pas d’optimisation des images, du javascript et du CSS.
       - title: Chronophage
         icon: hourglass
         text: Maintenance quotidienne du système, de Wordpress, du thème et de ses
@@ -44,13 +41,6 @@ blocks:
       - title: Espace admin
         icon: kanban
         text: Non personnalisé et parasité par de nombreuses options inutiles.
-  - type: quote
-    quote: « 42% des sites Wordpress ont des problèmes de sécurité en 2022 »
-    author:
-      title: Patchstack
-      text: State of WordPress Security In 2022
-      url: https://patchstack.com/whitepaper/wordpress-security-stats-2022/
-    background: true
   - type: datas
     heading:
       title: Analyse de l’ancien site
@@ -154,14 +144,14 @@ blocks:
     show_gauge: false
     items:
       - title: CO2
-        text: autant que l'eau bouillante pour 1 042 tasses de thé
+        text: autant que l'eau bouillante pour 1 081 tasses de thé
         limit: 100
-        value: 7.7
+        value: 7.97
         suffix: kg
       - title: Énergie
-        text: soit l’équivalent de 129km en voiture électrique
+        text: soit l’équivalent de 133km en voiture électrique
         limit: 100
-        value: 20
+        value: 21
         suffix: kWh
   - type: title
     heading:
@@ -171,8 +161,7 @@ blocks:
         Lighthouse et Website carbon calculator.
   - type: chart
     heading:
-      text: Octets téléchargés (en Ko), à chaque visite de la page d’accueil sur
-        mobile.
+      text: Octets téléchargés (en Ko), à chaque visite de la page d’accueil sur desktop.
     chart:
       type: bar
       data:
@@ -191,7 +180,7 @@ blocks:
               backgroundColor: '#0675c4'
             }, {
               label: 'Hugolify',
-              data: [22.8, 13, 304],
+              data: [23, 14.7, 335],
               fill: true,
               backgroundColor: '#A90940'
             }]
@@ -242,14 +231,14 @@ blocks:
               backgroundColor: '#0675c4'
             }, {
               label: 'Hugolify',
-              data: [7.7,20],
+              data: [7.97,21],
               backgroundColor: '#A90940'
             }]
           };
     grid: small
   - type: chart
     heading:
-      title: Deux fois plus rapide
+      title: Trois fois plus rapide
       text: Vitesse de chargement en seconde.
     chart:
       type: bar
@@ -267,7 +256,7 @@ blocks:
               backgroundColor: '#0675c4'
             }, {
               label: 'Hugolify',
-              data: [2.30,0.70],
+              data: [1.50,0.50],
               backgroundColor: '#A90940'
             }]
           };

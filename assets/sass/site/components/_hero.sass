@@ -4,11 +4,14 @@
             padding-bottom: 0
             padding-top: 0
     &-content
-        @extend .col-xl-6
+        @include media-breakpoint-up(xl)
+            @include make-col(6)
     &-media
-        @extend .col-md-5
-        @extend .col-xl-5
         margin-left: 0
+        @include media-breakpoint-up(md)
+            @include make-col(5)
+        @include media-breakpoint-up(xl)
+            @include make-col(5)
     p
         font-size: px2rem(18)
     a[href^="#"] 
