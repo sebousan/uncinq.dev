@@ -48,11 +48,11 @@ blocks:
         icon: kanban
         text: Non personnalisé et parasité par de nombreuses options inutiles.
   - type: quote
-    quote: « 42% des sites Wordpress ont des problèmes de sécurité en 2022 »
+    quote: « Google intègre les Core Web Vitals dans son algorithme et décide de mettre plus facilement en avant une page qui possède une expérience utilisateur conviviale »
     author:
-      title: Patchstack
-      text: State of WordPress Security In 2022
-      url: https://patchstack.com/whitepaper/wordpress-security-stats-2022/
+      title: Google
+      text: Blog Google Search Central, 2021
+      url: https://developers.google.com/search/blog/2020/11/timing-for-page-experience?hl=fr
     background: true
   - type: datas
     heading:
