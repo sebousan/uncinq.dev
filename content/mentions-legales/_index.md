@@ -39,3 +39,12 @@ https://uncinq.dev
 
 **Solution**\
 Ce site a été conçu avec [Hugolify](https://www.hugolify.io), une solution open-source Jamstack, qui permet de concevoir un site le plus écologique possible et au plus proche des critères d'accessibilité.
+
+## Mesure d’audience
+
+À ce jour, uncinq.dev ne collecte aucune donnée personnelle à travers son site internet (pas de mesure d’audience ni de formulaires).
+
+
+## Cookies
+
+Aucun.
