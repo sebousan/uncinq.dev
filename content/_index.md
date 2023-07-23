@@ -2,7 +2,7 @@
 isIndex: true
 title: Accueil
 hero:
-  title: Nous développons des sites Web pérennes, plus simples, accessibles à tous et à faibles émissions de carbone.
+  title: Nous développons des sites Web pérennes, plus simples, accessibles à tous et à faible émission de carbone.
   image:
     src: /images/uploads/205.OK.svg
   cta:
