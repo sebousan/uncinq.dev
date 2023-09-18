@@ -279,7 +279,7 @@ blocks:
         legend: Admin Hugolify dédié à Miriam Lasserre
         half: true
   - type: quote
-    quote: « Un espace admin simplifié, une maintenance du site Web tout autant, voilà ce qui m’a encouragé à choisir cette solution »
+    quote: « Un espace admin simplifié, une maintenance du site Web tout autant, voilà ce qui m’a encouragée à choisir cette solution »
     background: true
     author:
       title: Miriam Lasserre
