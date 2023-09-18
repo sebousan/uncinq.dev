@@ -1,7 +1,7 @@
 ---
 isIndex: false
 draft: false
-date: 2023-09-28T08:34:08.410Z
+date: 2023-09-18T08:34:08.410Z
 title: Miriam Lasserre
 description: Migration d’un site Wordpress vers Hugolify
 image:
