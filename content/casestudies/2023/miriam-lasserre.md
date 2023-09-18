@@ -1,7 +1,7 @@
 ---
 isIndex: false
 draft: false
-date: 2023-08-28T08:34:08.410Z
+date: 2023-09-28T08:34:08.410Z
 title: Miriam Lasserre
 description: Migration d’un site Wordpress vers Hugolify
 image:
@@ -114,9 +114,9 @@ blocks:
     show_gauge: true
     items:
       - title: Performance
-        limit: 100
-        suffix: "%"
         value: 100
+        suffix: "%"
+        limit: 100
       - title: Accessibilité *
         value: 100
         suffix: "%"
@@ -127,8 +127,8 @@ blocks:
         limit: 100
       - title: Référencement (SE0)
         value: 100
-        limit: 100
         suffix: "%"
+        limit: 100
   - type: paragraph
     grid: medium
     offset: center
@@ -145,14 +145,14 @@ blocks:
     items:
       - title: CO2
         text: autant que l'eau bouillante pour 1 081 tasses de thé
-        limit: 100
         value: 7.97
         suffix: kg
+        limit: 100
       - title: Énergie
         text: soit l’équivalent de 133km en voiture électrique
-        limit: 100
         value: 21
         suffix: kWh
+        limit: 100
   - type: title
     heading:
       title: Comparaison technique du front
@@ -295,10 +295,10 @@ blocks:
         Ainsi que de profiter de la gestion des images (lazy loading, srcset…).
     items:
       - title: Modules Hugolify
-        text: 3 modules Hugolify ont été utilisés pour concevoir l’architecture de site Web.
+        text: 4 modules Hugolify ont été utilisés pour concevoir l’architecture de site Web.
         icon: git
       - title: Blocs Hugolify
-        text: 1 bloc créé pour le site web et 1 bloc Hugolify utilisé.
+        text: 1 bloc créé pour le site web et 2 blocs Hugolify utilisés.
         icon: puzzle-fill
       - title: HTML
         text: Une dizaine de mini partials ont été overridés et une vingtaine créés.
