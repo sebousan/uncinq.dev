@@ -6,12 +6,11 @@ hero:
   image:
     src: /images/uploads/205.OK.svg
   cta:
-    text: Notre solution et nos produits
+    text: Notre solution et nos produits métiers
     url: "/solutions-et-produits"
   cta_second:
-    text: contact@uncinq.dev
-    url: "mailto:contact@uncinq.dev"
-    blank: true
+    text: Contactez-nous
+    url: /contact/
 blocks:
   - type: informations
     background: true

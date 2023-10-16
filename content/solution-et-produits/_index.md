@@ -1,15 +1,15 @@
 ---
 isPage: true
 draft: false
-title: Solution et produits
+title: Solution et produits métiers
 description: Solution et produits, pour un Web pérenne, plus simple, plus accessible et à faible émission de carbone.
 url: solutions-et-produits
 hero:
-  title: Nous travaillons sur une solution et des produits open-source
+  title: Nous travaillons sur une solution et des produits métiers open-source
   image:
     src: /images/uploads/181.Nodes.svg
   cta:
-    text: Notre solution et nos produits
+    text: Notre solution et nos produits métiers
     url: "#main"
 blocks:
   - type: editorial
@@ -33,7 +33,7 @@ blocks:
       text: Découvrir Hugolify
   - type: informations
     heading:
-      title: Nos deux produits disponibles
+      title: Nos deux produits métiers disponibles
       text: Basé sur Hugolify, ces produits ont des fonctionnalités supplémentaires et un espace admin dédié au métier concerné.
     background: false
     column: 3
