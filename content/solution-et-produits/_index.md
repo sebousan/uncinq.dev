@@ -33,8 +33,8 @@ blocks:
       text: Découvrir Hugolify
   - type: informations
     heading:
-      title: Nos deux produits métiers disponibles
-      text: Basé sur Hugolify, ces produits ont des fonctionnalités supplémentaires et un espace admin dédié au métier concerné.
+      title: Nos trois produits métiers disponibles
+      text: Basé sur Hugolify, ces produits ont des fonctionnalités supplémentaires et un espace admin dédié à l’univers du métier concerné.
     background: false
     column: 3
     items:
@@ -54,4 +54,12 @@ blocks:
           blank: true
           text: En savoir plus sur Architectify
           url: https://www.architectify.io
+      - title: Realestatify
+        text: Solution dédiée aux agences immobilières.
+        image:
+          src: /images/uploads/realestatify.svg
+        cta:
+          blank: true
+          text: En savoir plus sur Realestatify
+          url: https://www.realestatify.io
 ---
