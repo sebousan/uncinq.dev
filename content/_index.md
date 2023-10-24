@@ -6,8 +6,8 @@ hero:
   image:
     src: /images/uploads/205.OK.svg
   cta:
-    text: Notre solution et nos produits métiers
-    url: "/solutions-et-produits"
+    text: Découvrir
+    url: "#main"
   cta_second:
     text: Contactez-nous
     url: /contact/
@@ -17,7 +17,7 @@ blocks:
     column: 4
     heading:
       title: Développement Web depuis 20 ans
-      text: Nous mettons à votre disposition notre savoir-faire grâce à notre solution Hugolify.
+      text: Nous mettons à votre disposition notre savoir-faire.
     items:
       - title: Performance
         text: Un site Web ultra rapide pour un accès même avec une connexion faible.
@@ -43,6 +43,23 @@ blocks:
       - title: Pérenne
         text: Un site Web fait pour durer, intemporel.
         icon: clock-history
+  - type: editorial
+    title: Notre approche de la conception d’un site Web
+    text: Voici 6 points essentiels pour garantir la qualité d’un site Web dans le temps.
+    image:
+      src: /images/uploads/264.Teaming-Up.svg
+    cta:
+      text: Découvrir
+      url: "/notre-approche-de-la-conception-d-un-site-web/"
+  - type: editorial
+    direction: rtl
+    title: Notre solution et produits orientés métiers
+    text: Solution et produits, pour un Web pérenne, plus simple, plus accessible et à faible émission de carbone.
+    image:
+      src: /images/uploads/181.Nodes.svg
+    cta:
+      text: Découvrir
+      url: "/notre-solution-et-produits/"
   - type: latest
     section: casestudies
     show_more: false
