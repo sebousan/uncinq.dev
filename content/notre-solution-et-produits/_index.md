@@ -9,7 +9,7 @@ hero:
   image:
     src: /images/uploads/181.Nodes.svg
   cta:
-    text: Notre solution et nos produits métiers
+    text: Découvrir
     url: "#main"
 blocks:
   - type: editorial
@@ -23,7 +23,7 @@ blocks:
       alt: Hugolify
     cta:
       blank: false
-      url: /solution-et-produits/hugolify/
+      url: /notre-solution-et-produits/hugolify/
       text: Découvrir Hugolify
   - type: informations
     heading:
@@ -37,7 +37,7 @@ blocks:
         cta:
           blank: false
           text: En savoir plus sur Lawyerify
-          url: /solution-et-produits/lawyerify/
+          url: /notre-solution-et-produits/lawyerify/
         image:
           src: /images/uploads/lawyerify.svg
       - title: Architectify
@@ -47,7 +47,7 @@ blocks:
         cta:
           blank: false
           text: En savoir plus sur Architectify
-          url: /solution-et-produits/architectify/
+          url: /notre-solution-et-produits/architectify/
       - title: Realestatify
         text: Solution dédiée aux agences immobilières.
         image:
@@ -55,5 +55,5 @@ blocks:
         cta:
           blank: false
           text: En savoir plus sur Realestatify
-          url: /solution-et-produits/realestatify/
+          url: /notre-solution-et-produits/realestatify/
 ---

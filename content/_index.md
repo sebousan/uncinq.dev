@@ -43,6 +43,20 @@ blocks:
       - title: Pérenne
         text: Un site Web fait pour durer, intemporel.
         icon: clock-history
+  - type: informations
+    column: 4
+    heading:
+      title: Nos services
+      text: Développement de sites Web modernes.
+    items:
+      - title: Audit de performance de votre site Web
+        icon: speedometer
+      - title: Développement de site Web statique avec Hugo
+        icon: cloud
+      - title: Développement de site e-commerce avec Shopify
+        icon: bag-heart-fill
+      - title: Développement de site Web dynamique avec Wordpress
+        icon: wordpress
   - type: editorial
     title: Notre approche de la conception d’un site Web
     text: Voici les points essentiels pour garantir la qualité d’un site Web dans le temps et son utilisation par les internautes.
