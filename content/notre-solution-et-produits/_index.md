@@ -1,15 +1,15 @@
 ---
 isPage: true
 draft: false
-title: Solution et produits métiers
-description: Solution et produits, pour un Web pérenne, plus simple, plus accessible et à faible émission de carbone.
-url: solutions-et-produits
+title: Notre solution et produits métiers
+description: Pour un Web pérenne, plus simple, plus accessible et à faible émission de carbone.
+url: notre-solution-et-produits
 hero:
   title: Nous travaillons sur une solution et des produits métiers open-source
   image:
     src: /images/uploads/181.Nodes.svg
   cta:
-    text: Notre solution et nos produits métiers
+    text: Découvrir
     url: "#main"
 blocks:
   - type: editorial
@@ -25,7 +25,7 @@ blocks:
 
       Développé en Hugo et s’appuyant de Bootstrap et de Decap CMS.
     image:
-      src: /images/uploads/github.png
+      src: /images/uploads/hugolify.png
       alt: Hugolify
     cta:
       blank: true

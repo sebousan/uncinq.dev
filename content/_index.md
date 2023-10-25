@@ -2,12 +2,12 @@
 isIndex: true
 title: Accueil
 hero:
-  title: Nous développons des sites Web pérennes, plus simples, accessibles à tous et à faible émission de carbone.
+  title: Nous développons des sites Web pérennes, accessibles à tous et à faible émission de carbone.
   image:
     src: /images/uploads/205.OK.svg
   cta:
-    text: Notre solution et nos produits métiers
-    url: "/solutions-et-produits"
+    text: Découvrir
+    url: "#main"
   cta_second:
     text: Contactez-nous
     url: /contact/
@@ -43,6 +43,37 @@ blocks:
       - title: Pérenne
         text: Un site Web fait pour durer, intemporel.
         icon: clock-history
+  - type: informations
+    column: 4
+    heading:
+      title: Nos services
+      text: Développement de sites Web modernes.
+    items:
+      - title: Audit de performance de votre site Web
+        image: 
+          src: /images/uploads/logo-google-pagespeed-insights.svg
+          isLogo: true
+      - title: Développement de site Web statique avec Hugo
+        image: 
+          src: /images/uploads/logo-hugo.svg
+          isLogo: true
+      - title: Développement de site e-commerce avec Shopify
+        image: 
+          src: /images/uploads/logo-shopify.svg
+          isLogo: true
+      - title: Développement de site Web dynamique avec Wordpress
+        image: 
+          src: /images/uploads/logo-wordpress.png
+          isLogo: true
+  - type: editorial
+    direction: rtl
+    title: Notre solution et produits orientés métiers
+    text: Solution et produits, pour un Web pérenne, plus simple, plus accessible et à faible émission de carbone.
+    image:
+      src: /images/uploads/181.Nodes.svg
+    cta:
+      text: Découvrir
+      url: "/notre-solution-et-produits/"
   - type: latest
     section: casestudies
     show_more: false
