@@ -1,7 +1,7 @@
 github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 h1:GZxx4Hc+yb0/t3/rau1j8XlAxLE4CyXns2fqQbyqWfs=
 github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000/go.mod h1:mFberT6ZtcchrsDtfvJM7aAH2bDKLdOnruUHl0hlapI=
-github.com/hugolify/hugolify-theme v1.7.29 h1:YYjcgfBnvehgLmosSXpneR3bh7yv+wgnzccmvWAs1kQ=
-github.com/hugolify/hugolify-theme v1.7.29/go.mod h1:yDbH6g0BJAqjueFrZ13u2lC9gWsYuKDFjQirn805zvo=
+github.com/hugolify/hugolify-theme v1.7.30 h1:dcrSYoMMu05j4N40EUaLYesulQ7rgElvQWVkqHg/ZA4=
+github.com/hugolify/hugolify-theme v1.7.30/go.mod h1:yDbH6g0BJAqjueFrZ13u2lC9gWsYuKDFjQirn805zvo=
 github.com/hugolify/hugolify-theme-casestudies v1.0.10 h1:JNJUzR6k4DXsfmSH51Z0qjBF1TWq0Pvisw/b5fNUWt0=
 github.com/hugolify/hugolify-theme-casestudies v1.0.10/go.mod h1:qq89c1Emj7lKoWho23RA9X3rPq+8H96mfO8KI5Twr7A=
 github.com/twbs/bootstrap v5.3.2+incompatible h1:tuiO5acc6xnZUR77Sbi5aKWXxjYxbmsSbJwYrhAKoQQ=

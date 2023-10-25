@@ -18,18 +18,12 @@ blocks:
     title: Notre solution open-source
     text: >-
       Solution Jamstack pour créer facilement un site Web rapide, aussi accessible que possible et à faible émission de carbone. Tout en ayant un espace admin dédié et simplifié.
-    
-      
-      8 types et +20 blocs de contenu sont déjà développés et sont conçus de manière atomique pour permettre une personnalisation rapide. 
-
-
-      Développé en Hugo et s’appuyant de Bootstrap et de Decap CMS.
     image:
-      src: /images/uploads/github.png
+      src: /images/uploads/hugolify-2.png
       alt: Hugolify
     cta:
-      blank: true
-      url: https://www.hugolify.io
+      blank: false
+      url: /solution-et-produits/hugolify/
       text: Découvrir Hugolify
   - type: informations
     heading:
@@ -41,9 +35,9 @@ blocks:
       - title: Lawyerify
         text: Solution dédiée aux cabinets d’avocats.
         cta:
-          blank: true
+          blank: false
           text: En savoir plus sur Lawyerify
-          url: https://www.lawyerify.io
+          url: /solution-et-produits/lawyerify/
         image:
           src: /images/uploads/lawyerify.svg
       - title: Architectify
@@ -51,15 +45,15 @@ blocks:
         image:
           src: /images/uploads/architectify.svg
         cta:
-          blank: true
+          blank: false
           text: En savoir plus sur Architectify
-          url: https://www.architectify.io
+          url: /solution-et-produits/architectify/
       - title: Realestatify
         text: Solution dédiée aux agences immobilières.
         image:
           src: /images/uploads/realestatify.svg
         cta:
-          blank: true
+          blank: false
           text: En savoir plus sur Realestatify
-          url: https://www.realestatify.io
+          url: /solution-et-produits/realestatify/
 ---
