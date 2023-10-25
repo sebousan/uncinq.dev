@@ -17,9 +17,6 @@ module.exports = {
                     /^is-/,
                     /^has-/,
                     /^js-/
-                ],
-                deep: [
-                    /^tobii/
                 ]
             },
             defaultExtractor: (content) => {
