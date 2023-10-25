@@ -10,14 +10,24 @@ hero:
   text: Solution dédiée aux agences immobilières.
   image:
     src: /images/uploads/181.Nodes.svg
+  cta:
+    text: Découvrir
+    url: "#main"
 blocks:
   - type: figure
     grid: medium
     offset: center
     figure:
       src: /images/uploads/realestatify.png
-      alt: Lawyerify
-  
+      alt: Realestatify
+  - type: cta
+    heading:
+      title: Basé sur Hugolify et profitant de toutes ses évolutions
+      text: Architectify a des fonctionnalités supplémentaires et un espace admin dédié à l’univers du métier d’agent immobilier.
+    cta:
+      blank: true
+      url: https://www.realestatify.io
+      text: En savoir plus sur Realestatify
   - type: figure
     heading: 
       title: Espace admin dédié et simplifié
@@ -57,9 +67,4 @@ blocks:
           blank: true
           text: Voir le site de Decap CMS
           url: https://decapcms.org
-  - type: cta
-    cta:
-      blank: true
-      url: https://www.realestatify.io
-      text: En savoir plus sur Realestatify
 ---

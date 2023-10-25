@@ -10,6 +10,9 @@ hero:
   text: Solution dédiée aux cabinets d’avocats.
   image:
     src: /images/uploads/181.Nodes.svg
+  cta:
+    text: Découvrir
+    url: "#main"
 blocks:
   - type: figure
     grid: medium
@@ -17,7 +20,14 @@ blocks:
     figure:
       src: /images/uploads/lawyerify.png
       alt: Lawyerify
-  
+  - type: cta
+    heading:
+      title: Basé sur Hugolify et profitant de toutes ses évolutions
+      text: Lawyerify a des fonctionnalités supplémentaires et un espace admin dédié à l’univers du métier d’avocat.
+    cta:
+      blank: true
+      url: https://www.lawyerify.io
+      text: En savoir plus sur Lawyerify
   - type: figure
     heading: 
       title: Espace admin dédié et simplifié
@@ -57,9 +67,13 @@ blocks:
           blank: true
           text: Voir le site de Decap CMS
           url: https://decapcms.org
-  - type: cta
-    cta:
-      blank: true
-      url: https://www.lawyerify.io
-      text: En savoir plus sur Lawyerify
+
+  - type: selected-casestudies
+    section: casestudies
+    show_more: false
+    background: true
+    heading:
+      title: Dernières études de cas sur ce produit
+    items:
+      - 2023/le-52-cabinet-davocats
 ---

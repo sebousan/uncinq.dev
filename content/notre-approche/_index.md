@@ -157,79 +157,12 @@ blocks:
         icon: code-slash
       - title: Modularité du code
         icon: puzzle-fill
-  - type: informations
-    heading:
-      title: Infrastructure
-      text: Pour garantir le succès de tous les précédents points, nous avons optés pour ces solutions et outils.
-    column: 4
-    items: 
-      - title: Bootstrap 
-        text: Framework front open-source le plus utilisé
-        image:
-          src: /images/uploads/logo-bootstrap-5.svg
-          isLogo: true
-        cta:
-          blank: true
-          text: Voir le site de Bootstrap
-          url: https://getbootstrap.com
-      - title: Decap
-        text: Lighter open-source CMS, git-based
-        image:
-          src: /images/uploads/logo-decap.svg
-          isLogo: true
-        cta:
-          blank: true
-          text: Voir le site de Decap CMS
-          url: https://decapcms.org
-      - title: Git
-        text: Git est un système de contrôle de version distribué open source.
-        image:
-          src: /images/uploads/logo-git.svg
-          isLogo: true
-        cta:
-          blank: true
-          text: Voir le site de Decap CMS
-          url: https://decapcms.org
-      - title: Google Lighthous
-        text: Outil open-source automatisé pour améliorer la qualité des pages Web
-        image:
-          src: /images/uploads/logo-google-lighthouse.svg
-          isLogo: true
-      - title: Hugo
-        text: Générateur de site statique
-        image:
-          src: /images/uploads/logo-hugo.svg
-          isLogo: true
-        cta:
-          blank: true
-          text: Voir le site de Hugo
-          url: https://www.gohugo.io
-      - title: Netlify
-        text: Hébergement moderne d’application
-        image:
-          src: /images/uploads/logo-netlify.svg
-          isLogo: true
-        cta:
-          blank: true
-          text: Voir le site de Netlify
-          url: https://www.netlify.com
-      - title: SASS 
-        text: Sass est le langage d’extension CSS de qualité le plus mature, le plus stable et le plus puissant.
-        image:
-          src: /images/uploads/logo-sass.png
-          isLogo: true
-        cta:
-          blank: true
-          text: Voir le site de SASS
-          url: https://sass-lang.com/
-      - title: Shopify
-        text: Solution SAAS e-commerce
-        image:
-          src: /images/uploads/logo-shopify.svg
-          isLogo: true
-        cta:
-          blank: true
-          text: Voir le site de Shopify
-          url: https://www.shopify.com
-  
+  - type: editorial
+    direction: rtl
+    text: >-
+      ### Infrastructure
+
+      Pour garantir le succès de tous les précédents points, il faut choisir correctement les solutions.
+    image:
+      src: /images/uploads/181.Nodes.svg
 ---

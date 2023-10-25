@@ -8,6 +8,9 @@ image:
 hero:
   title: Hugolify
   text: Solution Jamstack open-source pour créer facilement un site Web rapide, aussi accessible que possible et à faible émission de carbone. Tout en ayant un espace admin dédié et simplifié.
+  cta:
+    text: Découvrir
+    url: "#main"
   image:
     src: /images/uploads/181.Nodes.svg
 blocks:
@@ -29,6 +32,11 @@ blocks:
         text: Editorial, citation, données, images…
         value: 20
         prefix: +
+  - type: cta
+    cta:
+      blank: true
+      url: https://www.hugolify.io
+      text: En savoir plus sur Hugolify
   - type: figure
     heading: 
       title: Espace admin dédié et simplifié
@@ -68,9 +76,13 @@ blocks:
           blank: true
           text: Voir le site de Decap CMS
           url: https://decapcms.org
-  - type: cta
-    cta:
-      blank: true
-      url: https://www.hugolify.io
-      text: En savoir plus sur Hugolify
+  - type: selected-casestudies
+    section: casestudies
+    show_more: false
+    background: true
+    heading:
+      title: Dernières études de cas sur cette solution
+    items:
+      - 2023/miriam-lasserre
+      - 2023/venn-capital
 ---

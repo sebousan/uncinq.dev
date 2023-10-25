@@ -1,7 +1,7 @@
 ---
 isPage: true
 draft: false
-title: Solution et produits métiers
+title: Notre solution et produits métiers
 description: Solution et produits, pour un Web pérenne, plus simple, plus accessible et à faible émission de carbone.
 url: notre-solution-et-produits
 hero:

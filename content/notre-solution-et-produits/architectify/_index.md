@@ -10,14 +10,24 @@ hero:
   text: Solution dédiée aux cabinets d’architectes.
   image:
     src: /images/uploads/181.Nodes.svg
+  cta:
+    text: Découvrir
+    url: "#main"
 blocks:
   - type: figure
     grid: medium
     offset: center
     figure:
       src: /images/uploads/architectify.png
-      alt: Lawyerify
-  
+      alt: Architectify
+  - type: cta
+    heading:
+      title: Basé sur Hugolify et profitant de toutes ses évolutions
+      text: Architectify a des fonctionnalités supplémentaires et un espace admin dédié à l’univers du métier d’architecte.
+    cta:
+      blank: true
+      url: https://www.architectify.io
+      text: En savoir plus sur Architectify
   - type: figure
     heading: 
       title: Espace admin dédié et simplifié
@@ -57,9 +67,4 @@ blocks:
           blank: true
           text: Voir le site de Decap CMS
           url: https://decapcms.org
-  - type: cta
-    cta:
-      blank: true
-      url: https://www.architectify.io
-      text: En savoir plus sur Architectify
 ---

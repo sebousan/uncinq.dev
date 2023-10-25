@@ -2,7 +2,7 @@
 isIndex: true
 title: Accueil
 hero:
-  title: Nous développons des sites Web pérennes, plus simples, accessibles à tous et à faible émission de carbone.
+  title: Nous développons des sites Web pérennes, accessibles à tous et à faible émission de carbone.
   image:
     src: /images/uploads/205.OK.svg
   cta:
@@ -50,13 +50,21 @@ blocks:
       text: Développement de sites Web modernes.
     items:
       - title: Audit de performance de votre site Web
-        icon: speedometer
+        image: 
+          src: /images/uploads/logo-google-pagespeed-insights.svg
+          isLogo: true
       - title: Développement de site Web statique avec Hugo
-        icon: cloud
+        image: 
+          src: /images/uploads/logo-hugo.svg
+          isLogo: true
       - title: Développement de site e-commerce avec Shopify
-        icon: bag-heart-fill
+        image: 
+          src: /images/uploads/logo-shopify.svg
+          isLogo: true
       - title: Développement de site Web dynamique avec Wordpress
-        icon: wordpress
+        image: 
+          src: /images/uploads/logo-wordpress.png
+          isLogo: true
   - type: editorial
     title: Notre approche de la conception d’un site Web
     text: Voici les points essentiels pour garantir la qualité d’un site Web dans le temps et son utilisation par les internautes.

@@ -13,6 +13,7 @@ hero:
   title: Venn Capital, migration d’un site Wordpress vers Hugolify
   image:
     src: /images/uploads/venn-capital-logo.svg
+casestudies_services: hugolify
 blocks:
   - type: paragraph
     title: Quelques mots sur la société

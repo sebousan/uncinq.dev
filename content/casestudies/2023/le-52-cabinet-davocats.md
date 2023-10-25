@@ -13,6 +13,7 @@ hero:
   title: Le 52, migration d’un site Wordpress vers Lawyerify
   image:
     src: /images/uploads/le52-logo.svg
+casestudies_services: lawyerify
 blocks:
   - type: paragraph
     title: Quelques mots sur le cabinet

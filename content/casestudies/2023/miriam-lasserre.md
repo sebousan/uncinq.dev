@@ -13,6 +13,7 @@ hero:
   title: Miriam Lasserre, migration d’un site Wordpress vers Hugolify
   image:
     src: /images/uploads/miriamlasserre-logo.svg
+casestudies_services: hugolify
 blocks:
   - type: paragraph
     title: Quelques mots sur Miram
