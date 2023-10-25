@@ -45,7 +45,7 @@ blocks:
         icon: clock-history
   - type: editorial
     title: Notre approche de la conception d’un site Web
-    text: Voici 6 points essentiels pour garantir la qualité d’un site Web dans le temps.
+    text: Voici les points essentiels pour garantir la qualité d’un site Web dans le temps et son utilisation par les internautes.
     image:
       src: /images/uploads/264.Teaming-Up.svg
     cta:

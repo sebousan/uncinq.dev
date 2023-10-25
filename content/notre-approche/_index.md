@@ -3,7 +3,7 @@ isPage: true
 draft: false
 title: Notre approche de la conception d’un site Web
 url: notre-approche-de-la-conception-d-un-site-web
-description: Voici 6 points essentiels pour garantir la qualité d’un site Web dans le temps.
+description: Voici les points essentiels pour garantir la qualité d’un site Web dans le temps et son utilisation par les internautes.
 image: 
   src: /images/uploads/264.Teaming-Up.svg
 hero:
@@ -37,7 +37,7 @@ blocks:
 
       La convivialité, ou l'usabilité, d'un site web est un facteur essentiel pour améliorer l'expérience utilisateur et influencer le classement sur Google. Google accorde de l'importance à la convivialité d'un site, car cela contribue à garantir que les visiteurs trouvent rapidement les informations dont ils ont besoin et bénéficient d'une expérience positive. Cela a un impact direct sur le temps que les visiteurs passent sur un site, ce qui peut influencer le classement dans les résultats de recherche.
     image:
-      src: /images/uploads/213.Modern-Socialization.svg
+      src: /images/uploads/241.Going-To-Work.svg
   - type: editorial
     direction: rtl
     text: >-
