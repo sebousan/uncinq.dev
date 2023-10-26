@@ -93,7 +93,7 @@ blocks:
     show_gauge: false
     items:
       - title: CO2
-        text: autant que l'eau bouillante pour 15 370 tasses de thé
+        text: autant que l’eau bouillante pour 15 370 tasses de thé
         value: 113.43
         suffix: kg
         limit: 100
@@ -111,7 +111,7 @@ blocks:
       - icon: people
         title: Pour vos utilisateurs
         text: "Un site plus léger, c'est une meilleure expérience : les pages se
-          chargent rapidement, même sur mobile et même si le réseau n'est pas
+          chargent rapidement, même sur mobile et même si le réseau n’est pas
           très bon."
       - icon: graph-up-arrow
         title: Pour votre activité
@@ -158,20 +158,20 @@ blocks:
     grid: medium
     offset: center
     align: center
-    text: "* Le 100% n'est pas atteint à cause de la couleur orange du texte qui
-      n’est pas assez contrastée. Mais nous avons amélioré nettement d'autres
+    text: "* Le 100% n’est pas atteint à cause de la couleur orange du texte qui
+      n’est pas assez contrastée. Mais nous avons amélioré nettement d’autres
       aspects qui sont non quantifiables via une analyse automatique (comme la
-      sémantique HTML, l'ajout d’attribut aria, le respect du RGAA…)."
+      sémantique HTML, l’ajout d’attribut aria, le respect du RGAA…)."
   - type: datas
     heading:
       title: Et son impact environnemental
-      text: Même critère de test que pour l'ancien site
+      text: Même critère de test que pour l’ancien site
     column: 4
     show_color: false
     show_gauge: false
     items:
       - title: CO2
-        text: autant que l'eau bouillante pour 1383 tasses de thé
+        text: autant que l’eau bouillante pour 1383 tasses de thé
         limit: 100
         value: 10.21
         suffix: kg
@@ -217,7 +217,7 @@ blocks:
               'JS chargé',
               'CSS chargé',
               'Transférés à l’arrivée',
-              'Transférés au total'
+              'Transférés au total’
             ],
             datasets: [{
               label: 'Wordpress',
@@ -245,7 +245,7 @@ blocks:
               'Fichiers JS chargés',
               'Fichiers CSS chargés',
               'Requêtes à l’arrivée',
-              'Requêtes au total'
+              'Requêtes au total’
             ],
             datasets: [{
               label: 'Wordpress',

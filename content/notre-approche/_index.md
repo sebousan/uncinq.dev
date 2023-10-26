@@ -26,7 +26,7 @@ blocks:
         text: Les pages doivent se charger rapidement pour éviter la frustration des utilisateurs. Un temps de chargement lent peut augmenter le taux de rebond.
       - title: Accessibilité
         icon: universal-access-circle
-        text: Le site doit être accessible à tous, y compris aux personnes handicapées, en offrant une compatibilité avec les lecteurs d'écran et des fonctionnalités de zoom, entre autres.
+        text: Le site doit être accessible à tous, y compris aux personnes handicapées, en offrant une compatibilité avec les lecteurs d’écran et des fonctionnalités de zoom, entre autres.
       - title: Contenu pertinent
         icon: body-text
         text: Fournir du contenu de qualité et pertinent pour les utilisateurs, en tenant compte de leurs besoins et de leurs attentes.
@@ -35,7 +35,11 @@ blocks:
     text: >-
       ### Convivialité
 
-      La convivialité, ou l'usabilité, d'un site web est un facteur essentiel pour améliorer l'expérience utilisateur et influencer le classement sur Google. Google accorde de l'importance à la convivialité d'un site, car cela contribue à garantir que les visiteurs trouvent rapidement les informations dont ils ont besoin et bénéficient d'une expérience positive. Cela a un impact direct sur le temps que les visiteurs passent sur un site, ce qui peut influencer le classement dans les résultats de recherche.
+      La convivialité, ou l’usabilité, d’un site web est un facteur essentiel pour améliorer l’expérience utilisateur et influencer le classement sur Google. Google accorde de l’importance à la convivialité d’un site, car cela contribue à garantir que les visiteurs trouvent rapidement les informations dont ils ont besoin et bénéficient d’une expérience positive. Cela a un impact direct sur le temps que les visiteurs passent sur un site, ce qui peut influencer le classement dans les résultats de recherche.
+
+      * **Navigation Intuitive**
+      
+      * **Optimisation Mobile**
     image:
       src: /images/uploads/241.Going-To-Work.svg
   - type: editorial
@@ -43,9 +47,15 @@ blocks:
     text: >-
       ### Vitesse de chargement
 
-      La vitesse de chargement d'un site web est étroitement liée au taux de rebond, car elle a un impact significatif sur l'expérience utilisateur. Les visiteurs ont tendance à quitter un site si les pages mettent trop de temps à se charger, ce qui augmente le taux de rebond. Une vitesse de chargement rapide est donc cruciale pour maintenir un taux de rebond bas, améliorer la satisfaction des utilisateurs et maximiser l'engagement sur le site.
+      La vitesse de chargement d’un site web est étroitement liée au taux de rebond, car elle a un impact significatif sur l’expérience utilisateur. Les visiteurs ont tendance à quitter un site si les pages mettent trop de temps à se charger, ce qui augmente le taux de rebond. Une vitesse de chargement rapide est donc cruciale pour maintenir un taux de rebond bas, améliorer la satisfaction des utilisateurs et maximiser l’engagement sur le site.
 
       Le taux de rebond sont souvent élevé essentiellement dû à une mauvaise conception.
+
+      * **Optimisation des images et des médias**
+      
+      * **Compression des fichiers**
+      
+      * **Utilisation de la mise en cache**
     image:
       src: /images/uploads/269.Page-Loading-Speed.svg
   - type: editorial
@@ -54,6 +64,13 @@ blocks:
       ### Accessibilité
       
       En France, très peu de sites internet sont accessibles. En effet, 70% du contenu digital est inaccessible aux personnes en situation de handicap. Il peut être, par exemple, difficile d’écouter du contenu audio, de lire ou tout simplement de naviguer facilement sur le site web.
+
+      * **Conformité aux normes WCAG**
+      
+      * **Compatibilité avec les Lecteurs d'écran**
+      
+      * **Clavier et navigation au clavier**
+
     image: 
       src: /images/uploads/150.Cubes.svg
   - type: quote
@@ -62,29 +79,18 @@ blocks:
       title: Nucleus research
       text: The Internet is unavailable
       url: https://nucleusresearch.com/research/single/the-internet-is-unavailable/
-  - type: datas
-    column: 3
-    show_color: false
-    show_gauge: false
-    items:
-      - title: des sites e-commerces
-        value: 2/3
-        limit: 100
-      - title: des sites d’informations
-        value: 8/10
-        limit: 100
-      - title: des sites publics
-        value: 7/10
-        limit: 100
   - type: editorial
     direction: rtl
     text: >-
       ### Contenu Pertinent
   - type: title
+    background: true
     heading:
-      title: Référencement
+      title: Le référencement n’en sera qu’amélioré
+      text: En respectant ces quatres points, vous augmenterez votre visibilité.
   - type: editorial
-    text: Google utilise des signaux d'expérience utilisateur pour évaluer la convivialité d'un site, y compris le taux de rebond, le temps passé sur le site, et d'autres métriques. L'amélioration de la convivialité de votre site est un moyen efficace d'améliorer son classement dans les résultats de recherche de Google.
+    background: true
+    text: Google utilise des signaux d’expérience utilisateur pour évaluer la convivialité d’un site, y compris le taux de rebond, le temps passé sur le site, et d’autres métriques. L'amélioration de la convivialité de votre site est un moyen efficace d’améliorer son classement dans les résultats de recherche de Google.
     image: 
       src: /images/uploads/221.Googling.svg
   - type: informations
@@ -98,7 +104,7 @@ blocks:
         text: Créez un Web respectueux de l’environnement
       - title: Sécurité
         icon: shield-check
-        text: Les pages doivent se charger rapidement pour éviter la frustration des utilisateurs. Un temps de chargement lent peut augmenter le taux de rebond.
+        text: Garantir la mise en ligne d’une application et corriger les vulnérabilités de sécurité
       - title: Maintenabilité
         icon: clock-history
         text: Toutes les productions numériques doivent être maintenu dans le temps.
@@ -111,10 +117,10 @@ blocks:
     text: >-
       ### Éco-conception
 
-      L'éco-conception de site Web est une approche qui intègre des principes de durabilité environnementale dans le processus de conception et de développement des sites internet. Elle vise à réduire l'impact écologique des sites en optimisant l'efficacité énergétique, en minimisant les émissions de carbone et en réduisant la consommation de ressources.
+      L'éco-conception de site Web est une approche qui intègre des principes de durabilité environnementale dans le processus de conception et de développement des sites internet. Elle vise à réduire l’impact écologique des sites en optimisant l’efficacité énergétique, en minimisant les émissions de carbone et en réduisant la consommation de ressources.
 
 
-      Nous avons créé un site Web dédié à l’éco-conception.
+      Pour aller plus loin, nous avons créé un site Web dédié à l’éco-conception.
     cta:
       text: Éco-conception de site Web
       blank: true
@@ -124,9 +130,15 @@ blocks:
     text: >-
       ### Sécurité
 
-      * Certificat SSL : Utiliser un certificat SSL pour sécuriser les connexions entre le navigateur de l'utilisateur et le serveur web, assurant ainsi le chiffrement des données.
+      Mettre à jour régulièrement le logiciel, y compris le CMS (Content Management System) ou tout autre composant, pour corriger les vulnérabilités de sécurité.
 
-      * Mises à jour régulières : Mettre à jour régulièrement le logiciel, y compris le CMS (Content Management System) ou tout autre composant, pour corriger les vulnérabilités de sécurité.
+      
+      Utiliser un certificat SSL pour sécuriser les connexions entre le navigateur de l’utilisateur et le serveur web, assurant ainsi le chiffrement des données.
+
+
+      * **Mises à jour régulières** 
+      
+      * **HTTPS et certificat SSL**
     image: 
       src: /images/uploads/37.Password.svg
   - type: quote
@@ -140,29 +152,31 @@ blocks:
     text: >-
       ### Maintenabilité
 
-      La maintenabilité d'un site web fait référence à sa capacité à être facilement modifié, mis à jour, et réparé au fil du temps. 
+      La maintenabilité d’un site web fait référence à sa capacité à être facilement modifié, mis à jour, et réparé au fil du temps. 
       
       
-      Un site web maintenable est conçu de manière à ce que des changements puissent être apportés sans affecter négativement d'autres parties du site, ce qui réduit les coûts et le temps nécessaires pour les mises à jour et les réparations. Une bonne maintenabilité implique une structure propre, une documentation claire, et l'utilisation de meilleures pratiques de développement pour assurer la flexibilité et la facilité de gestion du site web sur le long terme.
+      Un site web maintenable est conçu de manière à ce que des changements puissent être apportés sans affecter négativement d’autres parties du site, ce qui réduit les coûts et le temps nécessaires pour les mises à jour et les réparations. Une bonne maintenabilité implique une structure propre, une documentation claire, et l’utilisation de meilleures pratiques de développement pour assurer la flexibilité et la facilité de gestion du site web sur le long terme.
+
+      * **Structuration du code**
+      
+      * **Conformité aux normes**
+      
+      * **Modularité du code**
     image:
       src: /images/uploads/103.Scalability.svg
-  - type: informations
-    column: 4
-    items: 
-      - title: Structure claire
-        icon: stars
-      - title: Mise à jour du code
-        icon: arrow-up-right-square-fill
-      - title: Conformité aux normes
-        icon: code-slash
-      - title: Modularité du code
-        icon: puzzle-fill
+  
   - type: editorial
     direction: rtl
     text: >-
       ### Infrastructure
 
-      Pour garantir le succès de tous les précédents points, il faut choisir correctement les solutions.
+      Le choix des outils pour le développement d’un site Web est une étape cruciale, car il peut avoir un impact significatif sur les précédents points.
+
+
+      Pour un site vitrine ou non applicatif, préférez des solutions modernes Jamstack (voir [Hugolify](/notre-solution-et-produits/hugolify/)) plutôt qu’utiliser des CMS comme Wordpress, Drupal ou Joomla.
+
+
+      Pour un site e-commerce, préférez une solution SAAS comme Shopify plutôt que des solutions comme Prestashop, Magento ou WooCommerce.
     image:
       src: /images/uploads/181.Nodes.svg
 ---

@@ -109,7 +109,7 @@ blocks:
     show_gauge: false
     items:
       - title: CO2
-        text: autant que l'eau bouillante pour 2954 tasses de thé
+        text: autant que l’eau bouillante pour 2954 tasses de thé
         limit: 100
         suffix: "kg"
         value: 21.8
@@ -127,7 +127,7 @@ blocks:
       - icon: people
         title: Pour vos utilisateurs
         text: "Un site plus léger, c'est une meilleure expérience : les pages se
-          chargent rapidement, même sur mobile et même si le réseau n'est pas
+          chargent rapidement, même sur mobile et même si le réseau n’est pas
           très bon."
       - icon: graph-up-arrow
         title: Pour votre activité
@@ -164,13 +164,13 @@ blocks:
   - type: datas
     heading:
       title: Et son impact environnemental 
-      text: Même critère de test que pour l'ancien site
+      text: Même critère de test que pour l’ancien site
     column: 4
     show_color: false
     show_gauge: false
     items:
       - title: CO2
-        text: autant que l'eau bouillante pour 1298 tasses de thé
+        text: autant que l’eau bouillante pour 1298 tasses de thé
         limit: 100
         suffix: "kg"
         value: 9.58
@@ -218,7 +218,7 @@ blocks:
               'JS chargé',
               'CSS chargé',
               'transférés à l’arrivée',
-              'transférés au total'
+              'transférés au total’
             ],
             datasets: [{
               label: 'Wordpress',
@@ -246,7 +246,7 @@ blocks:
               'fichiers JS chargés',
               'fichiers CSS chargés',
               'requêtes à l’arrivée',
-              'requêtes au total'
+              'requêtes au total’
             ],
             datasets: [{
               label: 'Wordpress',
