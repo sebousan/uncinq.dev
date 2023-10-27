@@ -2,7 +2,10 @@ module github.com/sebousan/uncinq.dev
 
 go 1.19
 
-replace github.com/hugolify/hugolify-theme-services => ../hugolify-theme-services
+replace (
+	github.com/hugolify/hugolify-theme-services => ../hugolify-theme-services
+	github.com/hugolify/hugolify-theme => ../hugolify-theme
+)
 
 require (
 	github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 // indirect
