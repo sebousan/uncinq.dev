@@ -54,14 +54,6 @@ blocks:
       - site-ecommerce
       - site-web-dynamique
   - type: editorial
-    title: Notre approche de la conception d’un site Web
-    text: Voici les points essentiels pour garantir la qualité d’un site Web dans le temps et son utilisation par les internautes.
-    image:
-      src: /images/uploads/264.Teaming-Up.svg
-    cta:
-      text: Découvrir
-      url: "/notre-approche-de-la-conception-d-un-site-web/"
-  - type: editorial
     direction: rtl
     title: Notre solution et produits orientés métiers
     text: Solution et produits, pour un Web pérenne, plus simple, plus accessible et à faible émission de carbone.
@@ -70,6 +62,15 @@ blocks:
     cta:
       text: Découvrir
       url: "/notre-solution-et-produits/"
+  - type: editorial
+    title: Notre approche de la conception d’un site Web
+    text: Voici les points essentiels pour garantir la qualité d’un site Web dans le temps et son utilisation par les internautes.
+    image:
+      src: /images/uploads/264.Teaming-Up.svg
+    cta:
+      text: Découvrir
+      url: "/notre-approche-de-la-conception-d-un-site-web/"
+  
   - type: latest
     section: casestudies
     show_more: false

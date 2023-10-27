@@ -8,7 +8,7 @@ hero:
     src: /images/uploads/logo-hugo.svg
 blocks:
   - type: paragraph
-    text: Pour concevoir un site Web vitrine, nous préférons le développer grâce au générateur de site comme Jekyll, Middleman ou Hugo.
+    text: Nous développons également avec Jekyll et Middleman. Mais préférons Hugo pour sa grande rapidité de build.
     offset: center
     grid: medium
   - type: editorial
@@ -51,7 +51,7 @@ blocks:
   - type: cta
     background: true
     heading:
-      title: Ayez une présence en ligne dès aujourd’hui
+      title: Ayez un site Web de qualité en ligne dès aujourd’hui
     cta:
       text: Contactez-nous
       url: /contact/

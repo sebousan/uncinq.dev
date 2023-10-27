@@ -40,7 +40,7 @@ blocks:
   - type: cta
     background: true
     heading:
-      title: Ayez une présence en ligne dès aujourd’hui
+      title: Ayez un site Web de qualité en ligne dès aujourd’hui
     cta:
       text: Contactez-nous
       url: /contact/
