@@ -83,6 +83,14 @@ blocks:
     direction: rtl
     text: >-
       ### Contenu Pertinent
+
+      L’un des atouts les plus précieux pour un site Web. Il attire, engage, convertit, et fidélise les visiteurs, améliore le classement dans les moteurs de recherche, et renforce la crédibilité de votre site. Il est essentiel pour réussir en ligne.
+
+      * **Réduit le taux de rebond**
+      
+      * **Améliore le taux de conversion**
+    image: 
+      src: /images/uploads/277.Found-It.svg
   - type: title
     background: true
     heading:
