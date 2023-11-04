@@ -10,7 +10,7 @@ blocks:
   - type: informations
     heading:
       title: Optimisez votre succès en ligne avec un audit de performance
-      text: Dans le monde en constante évolution d'Internet, la performance de votre site web est bien plus qu'une simple question de vitesse de chargement. C'est un facteur déterminant qui peut influencer votre classement dans les moteurs de recherche, fidéliser vos visiteurs et maximiser votre réussite en ligne. C'est là qu'intervient l'audit de performance de site web.
+      text: Dans le monde en constante évolution d'Internet, la performance de votre site Web est bien plus qu'une simple question de vitesse de chargement. C'est un facteur déterminant qui peut influencer votre classement dans les moteurs de recherche, fidéliser vos visiteurs et maximiser votre réussite en ligne. C'est là qu'intervient l'audit de performance de site web.
     column: 4
     items: 
       - title: Audit
@@ -25,7 +25,7 @@ blocks:
   - type: informations
     heading: 
       title: Focus sur les Core Web Vitals
-      text: Les Core Web Vitals (les signaux Web essentiels en français) sont un ensemble de métriques de performance web essentielles définies par Google pour évaluer l'expérience utilisateur sur un site web. Ces métriques se concentrent sur la vitesse de chargement, l'interactivité et la stabilité visuelle d'une page web. Google utilise les Core Web Vitals comme facteurs de classement dans son algorithme de recherche.
+      text: Les Core Web Vitals (les signaux Web essentiels en français) sont un ensemble de métriques de performance Web essentielles définies par Google pour évaluer l'expérience utilisateur sur un site web. Ces métriques se concentrent sur la vitesse de chargement, l'interactivité et la stabilité visuelle d'une page web. Google utilise les Core Web Vitals comme facteurs de classement dans son algorithme de recherche.
       
     items:
       - title: Largest Contentful Paint (LCP)
@@ -49,7 +49,7 @@ blocks:
       Elles visent à garantir que les visiteurs bénéficient d'une expérience fluide, rapide et prévisible lors de la navigation sur un site. Google utilise ces métriques pour classer les pages dans ses résultats de recherche, donnant la priorité aux pages offrant une meilleure expérience utilisateur en termes de performance.
 
       
-      Il est important de surveiller régulièrement ces Core Web Vitals et de les optimiser pour garantir que votre site web offre une expérience utilisateur de qualité et conserve ou améliore son classement dans les résultats de recherche de Google.
+      Il est important de surveiller régulièrement ces Core Web Vitals et de les optimiser pour garantir que votre site Web offre une expérience utilisateur de qualité et conserve ou améliore son classement dans les résultats de recherche de Google.
   - type: informations
     heading:
       title: Nos outils

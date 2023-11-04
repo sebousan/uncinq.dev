@@ -1,5 +1,6 @@
 ---
 title: Développement de site Web dynamique avec Wordpress
+description: Nous concevons entièrement le thème de votre site Web. Il sera compatible avec toutes extentions et conforme aux bonnes pratiques Wordpress.
 image: 
   src: /images/uploads/logo-wordpress.png
 hero:
@@ -8,9 +9,19 @@ hero:
       src: /images/uploads/logo-wordpress.png
 blocks:
   - type: editorial
+    direction: ltr
+    title: La puissance de WordPress
+    text: >-
+      WordPress est la plateforme de gestion de contenu la plus populaire au monde, et ce n'est pas un hasard. Sa flexibilité, sa simplicité d'utilisation et son écosystème riche en font le choix idéal pour un site Web dynamique. Avec une variété de plugins et de thèmes, nous pouvons personnaliser votre site Web pour répondre à vos besoins spécifiques.
+  - type: editorial
     direction: rtl
-    title: Développement du thème sur mesure
-    text: Nous concevons entièrement le thème de votre site Web. Il sera compatible avec toutes extentions et conforme aux bonnes pratiques Wordpress.
+    title: Pourquoi opter pour le dynamique ?
+    text: >-
+      Un site Web dynamique offre une expérience immersive à vos visiteurs. Il peut afficher des informations en temps réel, interagir avec les utilisateurs, personnaliser le contenu en fonction de leurs préférences, et bien plus encore. Cela signifie une meilleure rétention des visiteurs, une augmentation des ventes et une relation plus étroite avec votre public. Notre équipe de développeurs experts peut créer des fonctionnalités dynamiques pour votre site, le rendant plus attrayant que jamais.
+  - type: editorial
+    direction: ltr
+    title: Développement du thème sur mesure
+    text: Nous concevons entièrement le thème de votre site Web. Il sera compatible avec toutes extentions et conforme aux bonnes pratiques Wordpress. Notre thème sur mesure est optimisé pour une vitesse de chargement rapide et une expérience fluide.
     image: 
       src: /images/uploads/screen-wordpress-themes.png
       alt: Écran du choix de thème dans Wordpress
@@ -40,7 +51,7 @@ blocks:
   - type: cta
     background: true
     heading:
-      title: Ayez un site Web de qualité en ligne dès aujourd’hui
+      title: Ayez un site Web dynamique de qualité en ligne dès aujourd’hui
     cta:
       text: Contactez-nous
       url: /contact/

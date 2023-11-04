@@ -131,11 +131,11 @@ blocks:
           très bon."
       - icon: graph-up-arrow
         title: Pour votre activité
-        text: Un site web plus rapide, c'est une meilleure performance business. Cela a
+        text: Un site Web plus rapide, c'est une meilleure performance business. Cela a
           aussi de nombreux autres impacts positifs.
       - title: Pour votre empreinte carbone
         icon: globe-europe-africa
-        text: En ayant un site web non énergivore vous réduirez considérablement votre
+        text: En ayant un site Web non énergivore vous réduirez considérablement votre
           impact environnemental.
   - type: datas
     heading:
@@ -349,7 +349,7 @@ blocks:
     heading:
       title: Bonne visite !
     cta:
-      text: Découvrez le site web du cabinet 52
+      text: Découvrez le site Web du cabinet 52
       url: https://www.le52-avocats.com/
       blank: true
 ---

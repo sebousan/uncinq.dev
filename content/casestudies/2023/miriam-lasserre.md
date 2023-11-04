@@ -102,11 +102,11 @@ blocks:
           très bon."
       - icon: graph-up-arrow
         title: Pour votre activité
-        text: Un site web plus rapide, c'est une meilleure performance business. Cela a
+        text: Un site Web plus rapide, c'est une meilleure performance business. Cela a
           aussi de nombreux autres impacts positifs.
       - title: Pour votre empreinte carbone
         icon: globe-europe-africa
-        text: En ayant un site web non énergivore vous réduirez considérablement votre
+        text: En ayant un site Web non énergivore vous réduirez considérablement votre
           impact environnemental.
   - type: datas
     heading:
@@ -301,7 +301,7 @@ blocks:
         text: 4 modules Hugolify ont été utilisés pour concevoir l’architecture de site Web.
         icon: git
       - title: Blocs Hugolify
-        text: 1 bloc créé pour le site web et 2 blocs Hugolify utilisés.
+        text: 1 bloc créé pour le site Web et 2 blocs Hugolify utilisés.
         icon: puzzle-fill
       - title: HTML
         text: Une dizaine de mini partials ont été overridés et une vingtaine créés.
@@ -328,7 +328,7 @@ blocks:
     heading:
       title: Bonne visite !
     cta:
-      text: Découvrez le site web de Miriam Lasserre
+      text: Découvrez le site Web de Miriam Lasserre
       url: https://www.miriamlasserre.com/
       blank: true
 ---

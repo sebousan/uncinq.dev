@@ -74,7 +74,7 @@ blocks:
   - type: latest
     section: casestudies
     show_more: false
-    background: false
+    background: true
     heading: 
       title: Nos dernières études de cas
 ---

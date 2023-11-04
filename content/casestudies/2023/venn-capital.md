@@ -115,11 +115,11 @@ blocks:
           très bon."
       - icon: graph-up-arrow
         title: Pour votre activité
-        text: Un site web plus rapide, c'est une meilleure performance business. Cela a
+        text: Un site Web plus rapide, c'est une meilleure performance business. Cela a
           aussi de nombreux autres impacts positifs.
       - title: Pour votre empreinte carbone
         icon: globe-europe-africa
-        text: En ayant un site web non énergivore vous réduirez considérablement votre
+        text: En ayant un site Web non énergivore vous réduirez considérablement votre
           impact environnemental.
   - type: quote
     background: true
@@ -349,7 +349,7 @@ blocks:
           Web.
         icon: git
       - title: Blocs Hugolify
-        text: 1 bloc créé pour le site web et 8 blocs Hugolify utilisés.
+        text: 1 bloc créé pour le site Web et 8 blocs Hugolify utilisés.
         icon: puzzle-fill
       - title: HTML
         text: Un cinquantaine de mini partials ont été overridés.
@@ -378,7 +378,7 @@ blocks:
     heading:
       title: Bonne visite !
     cta:
-      text: Découvrez le nouveau site web de Venn Capital
+      text: Découvrez le nouveau site Web de Venn Capital
       url: https://www.venn-capital.com/
       blank: true
 ---

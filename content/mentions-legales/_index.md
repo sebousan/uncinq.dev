@@ -10,7 +10,7 @@ En utilisant ce site, vous reconnaissez avoir pris connaissance des dispositions
 
 ## Editeur
 
-Le site web uncinq.dev est la propriété de :
+Le site Web uncinq.dev est la propriété de :
 
 **Un Cinq** \
 3 rue Lageyre \
@@ -19,7 +19,7 @@ France
 
 ## Hébergement
 
-Le site web uncinq.dev est héberger chez :
+Le site Web uncinq.dev est héberger chez :
 
 **Netlify**\
 2325 3rd Street, \

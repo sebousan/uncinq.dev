@@ -27,7 +27,7 @@ blocks:
     items:
       - title: Types de contenu
         text: Articles, pages, projets, expertises…
-        value: 9
+        value: 10
       - title: Blocs de contenu
         text: Editorial, citation, données, images…
         value: 20

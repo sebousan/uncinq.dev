@@ -35,7 +35,7 @@ blocks:
     text: >-
       ### Convivialité
 
-      La convivialité, ou l’usabilité, d’un site web est un facteur essentiel pour améliorer l’expérience utilisateur et influencer le classement sur Google. Google accorde de l’importance à la convivialité d’un site, car cela contribue à garantir que les visiteurs trouvent rapidement les informations dont ils ont besoin et bénéficient d’une expérience positive. Cela a un impact direct sur le temps que les visiteurs passent sur un site, ce qui peut influencer le classement dans les résultats de recherche.
+      La convivialité, ou l’usabilité, d’un site Web est un facteur essentiel pour améliorer l’expérience utilisateur et influencer le classement sur Google. Google accorde de l’importance à la convivialité d’un site, car cela contribue à garantir que les visiteurs trouvent rapidement les informations dont ils ont besoin et bénéficient d’une expérience positive. Cela a un impact direct sur le temps que les visiteurs passent sur un site, ce qui peut influencer le classement dans les résultats de recherche.
 
       * **Navigation Intuitive**
       
@@ -47,7 +47,7 @@ blocks:
     text: >-
       ### Vitesse de chargement
 
-      La vitesse de chargement d’un site web est étroitement liée au taux de rebond, car elle a un impact significatif sur l’expérience utilisateur. Les visiteurs ont tendance à quitter un site si les pages mettent trop de temps à se charger, ce qui augmente le taux de rebond. Une vitesse de chargement rapide est donc cruciale pour maintenir un taux de rebond bas, améliorer la satisfaction des utilisateurs et maximiser l’engagement sur le site.
+      La vitesse de chargement d’un site Web est étroitement liée au taux de rebond, car elle a un impact significatif sur l’expérience utilisateur. Les visiteurs ont tendance à quitter un site si les pages mettent trop de temps à se charger, ce qui augmente le taux de rebond. Une vitesse de chargement rapide est donc cruciale pour maintenir un taux de rebond bas, améliorer la satisfaction des utilisateurs et maximiser l’engagement sur le site.
 
       Le taux de rebond sont souvent élevé essentiellement dû à une mauvaise conception.
 
@@ -160,10 +160,10 @@ blocks:
     text: >-
       ### Maintenabilité
 
-      La maintenabilité d’un site web fait référence à sa capacité à être facilement modifié, mis à jour, et réparé au fil du temps. 
+      La maintenabilité d’un site Web fait référence à sa capacité à être facilement modifié, mis à jour, et réparé au fil du temps. 
       
       
-      Un site web maintenable est conçu de manière à ce que des changements puissent être apportés sans affecter négativement d’autres parties du site, ce qui réduit les coûts et le temps nécessaires pour les mises à jour et les réparations. Une bonne maintenabilité implique une structure propre, une documentation claire, et l’utilisation de meilleures pratiques de développement pour assurer la flexibilité et la facilité de gestion du site web sur le long terme.
+      Un site Web maintenable est conçu de manière à ce que des changements puissent être apportés sans affecter négativement d’autres parties du site, ce qui réduit les coûts et le temps nécessaires pour les mises à jour et les réparations. Une bonne maintenabilité implique une structure propre, une documentation claire, et l’utilisation de meilleures pratiques de développement pour assurer la flexibilité et la facilité de gestion du site Web sur le long terme.
 
       * **Structuration du code**
       
@@ -187,4 +187,15 @@ blocks:
       Pour un site e-commerce, préférez une solution SAAS comme Shopify plutôt que des solutions comme Prestashop, Magento ou WooCommerce.
     image:
       src: /images/uploads/181.Nodes.svg
+  - type: selected-services
+    section: services
+    show_more: false
+    background: true
+    heading:
+      title: Découvrez nos services
+    items:
+      - audit-performance-site-web
+      - site-web-statique
+      - site-ecommerce
+      - site-web-dynamique
 ---
