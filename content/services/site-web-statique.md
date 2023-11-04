@@ -1,9 +1,11 @@
 ---
 title: Développement de site Web statique avec Hugo
+description: Un site Web statique offre une expérience utilisateur fluide et rapide.
 image: 
   src: /images/uploads/logo-hugo.svg
 hero:
   title: Développement de site Web statique avec Hugo
+  text: Un site Web statique offre une expérience utilisateur fluide et rapide.
   image: 
     src: /images/uploads/logo-hugo.svg
 blocks:
