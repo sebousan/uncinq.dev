@@ -187,15 +187,22 @@ blocks:
       Pour un site e-commerce, préférez une solution SAAS comme Shopify plutôt que des solutions comme Prestashop, Magento ou WooCommerce.
     image:
       src: /images/uploads/181.Nodes.svg
-  - type: selected-services
-    section: services
-    show_more: false
+  # - type: selected-services
+  #   section: services
+  #   show_more: false
+  #   background: true
+  #   heading:
+  #     title: Découvrez nos services
+  #   items:
+  #     - audit-performance-site-web
+  #     - site-web-statique
+  #     - site-ecommerce
+  #     - site-web-dynamique
+  - type: cta
     background: true
     heading:
-      title: Découvrez nos services
-    items:
-      - audit-performance-site-web
-      - site-web-statique
-      - site-ecommerce
-      - site-web-dynamique
+      title: Vous souhaitez plus d’informations ?
+    cta:
+      text: Contactez-nous
+      url: /contact/
 ---

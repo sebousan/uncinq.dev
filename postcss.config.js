@@ -8,7 +8,7 @@ module.exports = {
         '@fullhuman/postcss-purgecss': {
             mode: 'all',
             content: ['./hugo_stats.json'],
-            dynamicAttributes: ['aria-current', 'href', 'role'],
+            dynamicAttributes: ['data-anim', 'aria-current', 'href', 'role'],
             safelist: {
                 standard: [
                     'show',

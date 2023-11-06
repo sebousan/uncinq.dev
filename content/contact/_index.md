@@ -1,10 +1,10 @@
 ---
 isPage: true
 title: Contact
-description: Pour toutes informations ou intérogations concernant la solution.
+description: Pour toutes informations ou intérogations concernant nos services ou nos solutions.
 hero:
   title: Contact
-  text: Pour toutes informations ou intérogations concernant la solution.
+  text: Pour toutes informations ou intérogations concernant nos services ou nos solutions.
   align: center
   cta:
     text: Par e-mail à contact@uncinq.dev
@@ -13,7 +13,7 @@ hero:
   cta_second:
     url: "tel:+33678858604"
     blank: false
-    text: Par téléphone au 06 78 85 86 04
+    text: Par téléphone au +33 6 78 85 86 04
 blocks:
   - type: embed
     heading:
