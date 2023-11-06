@@ -4,6 +4,10 @@ draft: false
 title: Notre solution et produits métiers
 description: Solution et produits, pour un Web pérenne, plus simple, plus accessible et à faible émission de carbone.
 url: notre-solution-et-produits
+image:
+  src: /images/uploads/181.Nodes.svg
+seo:
+  image: /images/uploads/share-solutions.png
 hero:
   title: Nous travaillons sur une solution et des produits métiers open-source
   image:

@@ -183,10 +183,10 @@ blocks:
       Le choix des outils pour le développement d’un site Web est une étape cruciale, car il peut avoir un impact significatif sur les précédents points.
 
 
-      Pour un site vitrine ou non applicatif, préférez des solutions modernes Jamstack (voir [Hugolify](/notre-solution-et-produits/hugolify/)) plutôt qu’utiliser des CMS comme Wordpress, Drupal ou Joomla.
+      Pour un site vitrine ou non applicatif, préférez des solutions modernes Jamstack ([comme notre solution Hugolify](/notre-solution-et-produits/hugolify/)) plutôt qu’utiliser des CMS comme Wordpress, Drupal ou Joomla.
 
 
-      Pour un site e-commerce, préférez une solution SAAS comme Shopify plutôt que des solutions comme Prestashop, Magento ou WooCommerce.
+      Pour un site e-commerce, préférez une solution SAAS comme Shopify plutôt que des solutions comme Prestashop, Magento ou WooCommerce. La maintenance et la sécurité seront dans ce cas déléguées.
     image:
       src: /images/uploads/181.Nodes.svg
   # - type: selected-services
