@@ -174,7 +174,7 @@ blocks:
             labels: [
               'JS chargé',
               'CSS chargé',
-              'Transférés au total’
+              'Transférés au total'
             ],
             datasets: [{
               label: 'Wordpress',
