@@ -6,6 +6,8 @@ url: notre-approche-de-la-conception-d-un-site-web
 description: Voici les points essentiels pour garantir la qualité d’un site Web dans le temps et son utilisation par les internautes.
 image: 
   src: /images/uploads/264.Teaming-Up.svg
+seo:
+  image: /images/uploads/share-approche.png
 hero:
   title: Notre approche de la conception d’un site Web
   text: Voici les points essentiels pour garantir la qualité d’un site Web dans le temps et son utilisation par les internautes.
