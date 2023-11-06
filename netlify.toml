@@ -7,7 +7,7 @@
   GO_VERSION = "1.21.3"
 
 [context.branch-deploy.environment]
-  HUGO_ENV = "production"
+  HUGO_ENV = "staging"
 
 [[plugins]]
   package = "netlify-plugin-hugo-cache-resources"
