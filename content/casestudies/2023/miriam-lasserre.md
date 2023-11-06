@@ -201,7 +201,7 @@ blocks:
             labels: [
               'Fichiers JS chargés',
               'Fichiers CSS chargés',
-              'Requêtes au total’
+              'Requêtes au total'
             ],
             datasets: [{
               label: 'Wordpress',
