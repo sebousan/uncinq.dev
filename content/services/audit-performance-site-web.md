@@ -56,14 +56,17 @@ blocks:
     column: 4
     items:
       - title: PageSpeed Insights
+        text: L’outil de test de performance proposé par Google
         image:
           src: /images/uploads/logo-google-pagespeed-insights.svg
           isLogo: true
       - title: Lighthouse
+        text: Outil automatisé open source permettant de mesurer la qualité des pages Web
         image:
           src: /images/uploads/logo-google-lighthouse.svg
           isLogo: true
       - title: Website Carbon
+        text: Mesure l’empreinte d’un site internet
         image:
           src: /images/uploads/logo-websitecarbon.jpg
           isLogo: true

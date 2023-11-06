@@ -6,8 +6,8 @@ hero:
   image:
     src: /images/uploads/205.OK.svg
   cta:
-    text: Découvrir
-    url: "#main"
+    text: Notre approche
+    url: "/notre-approche-de-la-conception-d-un-site-web/"
   cta_second:
     text: Contactez-nous
     url: /contact/
@@ -43,16 +43,37 @@ blocks:
       - title: Pérenne
         text: Un site Web fait pour durer, intemporel.
         icon: clock-history
-  - type: selected-services
-    section: services
-    show_more: false
+  # - type: selected-services
+  #   section: services
+  #   show_more: false
+  #   heading:
+  #     title: Nos services
+  #   items:
+  #     - audit-performance-site-web
+  #     - site-web-statique-hugo
+  #     - site-ecommerce-shopify
+  #     - site-web-dynamique-wordpress
+  - type: informations
     heading:
       title: Nos services
+    column: 4
     items:
-      - audit-performance-site-web
-      - site-web-statique
-      - site-ecommerce
-      - site-web-dynamique
+      - title: Audit de performance de site Web
+        image: 
+          src: /images/uploads/logo-google-pagespeed-insights.svg
+          isLogo: true
+      - title: Site Web statique avec Hugo
+        image: 
+          src: /images/uploads/logo-hugo.svg
+          isLogo: true
+      - title: Site e-commerce avec shopify
+        image: 
+          src: /images/uploads/logo-shopify.svg
+          isLogo: true
+      - title: Site Web dynamique avec Worpdress
+        image: 
+          src: /images/uploads/logo-wordpress.png
+          isLogo: true
   - type: editorial
     direction: rtl
     title: Notre solution et produits orientés métiers
@@ -70,7 +91,6 @@ blocks:
     cta:
       text: Découvrir
       url: "/notre-approche-de-la-conception-d-un-site-web/"
-  
   - type: latest
     section: casestudies
     show_more: false

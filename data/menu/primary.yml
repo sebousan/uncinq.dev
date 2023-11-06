@@ -1,9 +1,9 @@
 links:
-  - title: Nos services
-    url: /nos-services/
+  # - title: Nos services
+  #   url: /nos-services/
   - title: Notre appoche
     url: /notre-approche-de-la-conception-d-un-site-web/
-  # - title: Étude de cas
-  #   url: /etudes-de-cas/
+  - title: Étude de cas
+    url: /etudes-de-cas/
   - title: Contact
     url: /contact/

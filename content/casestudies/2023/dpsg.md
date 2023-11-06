@@ -1,6 +1,6 @@
 ---
 isIndex: false
-draft: false
+draft: true
 date: 2023-10-23T08:34:08.410Z
 title: DPSG
 description: Audit de performance d’un site Prestashop
