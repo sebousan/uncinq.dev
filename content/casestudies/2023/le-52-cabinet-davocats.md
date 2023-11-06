@@ -246,7 +246,7 @@ blocks:
               'fichiers JS chargés',
               'fichiers CSS chargés',
               'requêtes à l’arrivée',
-              'requêtes au total’
+              'requêtes au total'
             ],
             datasets: [{
               label: 'Wordpress',

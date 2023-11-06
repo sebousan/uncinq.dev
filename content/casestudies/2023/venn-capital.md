@@ -217,7 +217,7 @@ blocks:
               'JS chargé',
               'CSS chargé',
               'Transférés à l’arrivée',
-              'Transférés au total’
+              'Transférés au total'
             ],
             datasets: [{
               label: 'Wordpress',
