@@ -52,6 +52,14 @@ blocks:
           blank: false
           text: En savoir plus sur Architectify
           url: /notre-solution-et-produits/architectify/
+      - title: Medicalify
+        text: Solution dédiée aux professionnels de la santé.
+        image:
+          src: /images/uploads/medicalify.svg
+        cta:
+          blank: false
+          text: En savoir plus sur Medicalify
+          url: /notre-solution-et-produits/medicalify/
       - title: Realestatify
         text: Solution dédiée aux agences immobilières.
         image:

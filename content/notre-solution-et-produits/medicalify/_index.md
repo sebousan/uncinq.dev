@@ -1,13 +1,13 @@
 ---
 isPage: true
 draft: false
-title: Realestatify
-description: Solution dédiée aux agences immobilières.
+title: Medicalify
+description: Solution dédiée aux professionels de santé.
 image:
-  src: /images/uploads/realestatify.png
+  src: /images/uploads/medicalify.png
 hero:
-  title: Realestatify
-  text: Solution dédiée aux agences immobilières.
+  title: Medicalify
+  text: Solution dédiée aux professionels de santé.
   image:
     src: /images/uploads/181.Nodes.svg
   cta:
@@ -18,23 +18,23 @@ blocks:
     grid: medium
     offset: center
     figure:
-      src: /images/uploads/realestatify.png
-      alt: Realestatify
+      src: /images/uploads/medicalify.png
+      alt: Medicalify
   - type: cta
     heading:
       title: Basé sur Hugolify et profitant de toutes ses évolutions
-      text: Realestatify a des fonctionnalités supplémentaires et un espace admin dédié à l’univers du métier d’agent immobilier.
-    cta:
-      blank: true
-      url: https://www.realestatify.io
-      text: En savoir plus sur Realestatify
-  - type: figure
-    heading: 
-      title: Espace admin dédié et simplifié
-    grid: medium
-    offset: center
-    figure:
-      src: /images/uploads/admin-realestatify.png
+      text: Medicalify a des fonctionnalités supplémentaires et un espace admin dédié à l’univers des métiers de la santé.
+    # cta:
+    #   blank: true
+    #   url: https://www.medicalify.io
+    #   text: En savoir plus sur Medicalify
+  # - type: figure
+  #   heading: 
+  #     title: Espace admin dédié et simplifié
+  #   grid: medium
+  #   offset: center
+  #   figure:
+  #     src: /images/uploads/admin-medicalify.png
   - type: informations
     heading:
       title: Développé en Hugo et s’appuyant de Bootstrap et de Decap CMS
