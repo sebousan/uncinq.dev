@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Intégration avec Bootstrap
 description: L’un des frameworks front-end et des projets open source les plus populaires au monde.
 image: 

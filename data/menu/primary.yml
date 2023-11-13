@@ -3,7 +3,9 @@ links:
   #   url: /nos-services/
   - title: Notre appoche
     url: /notre-approche-de-la-conception-d-un-site-web/
-  - title: Étude de cas
-    url: /etudes-de-cas/
+  - title: Notre solution
+    url: /notre-solution-et-produits/
+  # - title: Étude de cas
+  #   url: /etudes-de-cas/
   - title: Contact
     url: /contact/

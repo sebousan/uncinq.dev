@@ -1,12 +1,13 @@
 ---
-title: Intégration site Web bas carbone
+draft: true
+title: Intégration de site Web bas carbone
 image: 
-  src: /images/uploads/tree-fill.svg
+  src: /images/uploads/logo-websitecarbon.svg
 hero:
-  title: Intégration site Web bas carbone
+  title: Intégration de site Web bas carbone
   text: Étroitement lié à la conception de site Web performant.
   image: 
-    src: /images/uploads/tree-fill.svg
+    src: /images/uploads/logo-websitecarbon.svg
 blocks:
   - type: editorial
     direction: rtl

@@ -34,7 +34,7 @@ blocks:
       title: Nos trois produits métiers disponibles
       text: Basé sur Hugolify, ces produits ont des fonctionnalités supplémentaires et un espace admin dédié à l’univers du métier concerné.
     background: false
-    column: 3
+    column: 4
     items:
       - title: Lawyerify
         text: Solution dédiée aux cabinets d’avocats.
