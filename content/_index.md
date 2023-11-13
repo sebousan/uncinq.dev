@@ -6,8 +6,8 @@ hero:
   image:
     src: /images/uploads/205.OK.svg
   cta:
-    text: Découvrir
-    url: "#main"
+    text: Notre approche
+    url: "/notre-approche-de-la-conception-d-un-site-web/"
   cta_second:
     text: Contactez-nous
     url: /contact/
@@ -17,7 +17,7 @@ blocks:
     column: 4
     heading:
       title: Développement Web depuis 20 ans
-      text: Nous mettons à votre disposition notre savoir-faire grâce à notre solution Hugolify.
+      text: Nous mettons à votre disposition notre savoir-faire.
     items:
       - title: Performance
         text: Un site Web ultra rapide pour un accès même avec une connexion faible.
@@ -74,10 +74,18 @@ blocks:
     cta:
       text: Découvrir
       url: "/notre-solution-et-produits/"
+  - type: editorial
+    title: Notre approche de la conception d’un site Web
+    text: Voici les points essentiels pour garantir la qualité d’un site Web dans le temps et son utilisation par les internautes.
+    image:
+      src: /images/uploads/264.Teaming-Up.svg
+    cta:
+      text: Découvrir
+      url: "/notre-approche-de-la-conception-d-un-site-web/"
   - type: latest
     section: casestudies
     show_more: false
-    background: false
+    background: true
     heading: 
       title: Nos dernières études de cas
 ---

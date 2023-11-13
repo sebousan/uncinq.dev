@@ -13,6 +13,7 @@ hero:
   title: Le 52, migration d’un site Wordpress vers Lawyerify
   image:
     src: /images/uploads/le52-logo.svg
+casestudies_services: lawyerify
 blocks:
   - type: paragraph
     title: Quelques mots sur le cabinet
@@ -108,7 +109,7 @@ blocks:
     show_gauge: false
     items:
       - title: CO2
-        text: autant que l'eau bouillante pour 2954 tasses de thé
+        text: autant que l’eau bouillante pour 2954 tasses de thé
         limit: 100
         suffix: "kg"
         value: 21.8
@@ -126,15 +127,15 @@ blocks:
       - icon: people
         title: Pour vos utilisateurs
         text: "Un site plus léger, c'est une meilleure expérience : les pages se
-          chargent rapidement, même sur mobile et même si le réseau n'est pas
+          chargent rapidement, même sur mobile et même si le réseau n’est pas
           très bon."
       - icon: graph-up-arrow
         title: Pour votre activité
-        text: Un site web plus rapide, c'est une meilleure performance business. Cela a
+        text: Un site Web plus rapide, c'est une meilleure performance business. Cela a
           aussi de nombreux autres impacts positifs.
       - title: Pour votre empreinte carbone
         icon: globe-europe-africa
-        text: En ayant un site web non énergivore vous réduirez considérablement votre
+        text: En ayant un site Web non énergivore vous réduirez considérablement votre
           impact environnemental.
   - type: datas
     heading:
@@ -163,13 +164,13 @@ blocks:
   - type: datas
     heading:
       title: Et son impact environnemental 
-      text: Même critère de test que pour l'ancien site
+      text: Même critère de test que pour l’ancien site
     column: 4
     show_color: false
     show_gauge: false
     items:
       - title: CO2
-        text: autant que l'eau bouillante pour 1298 tasses de thé
+        text: autant que l’eau bouillante pour 1298 tasses de thé
         limit: 100
         suffix: "kg"
         value: 9.58
@@ -348,7 +349,7 @@ blocks:
     heading:
       title: Bonne visite !
     cta:
-      text: Découvrez le site web du cabinet 52
+      text: Découvrez le site Web du cabinet 52
       url: https://www.le52-avocats.com/
       blank: true
 ---

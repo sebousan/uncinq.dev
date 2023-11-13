@@ -5,6 +5,8 @@ title: Les études de cas
 url: /etudes-de-cas
 image:
   src: /images/uploads/152.Study-Group.svg
+seo:
+  image: /images/uploads/share-etudes-de-cas.png
 description: Découvrez nos expériences sur les migrations de site Web de nos
   clients. Le passage d’un CMS à notre solution Hugolify.
 hero:

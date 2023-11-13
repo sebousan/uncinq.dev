@@ -1,17 +1,10 @@
-[[headers]]
-  for = "/*"
-  [headers.values]
-    X-Frame-Options = "SAMEORIGIN"
-    X-XSS-Protection = "0"
-    X-Content-Type-Options = "nosniff"
-
 [build]
   command = "yarn build"
   publish = "public"
 
 [build.environment]
-  HUGO_VERSION = "0.114.0"
-  GO_VERSION = "1.20.5"
+  HUGO_VERSION = "0.119.0"
+  GO_VERSION = "1.21.3"
 
 [context.branch-deploy.environment]
   HUGO_ENV = "staging"

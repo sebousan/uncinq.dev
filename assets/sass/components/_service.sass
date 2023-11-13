@@ -1,0 +1,30 @@
+.service
+    --bs-card-spacer-x: .5rem
+    --bs-card-spacer-y: 1.5rem
+    --bs-card-border-width: 0
+    --bs-card-border-radius: 0
+    --bs-card-inner-border-radius: 0
+    --bs-card-bg: transparent
+    --bs-card-cap-bg: transparent
+    @extend .card
+    .media
+        --bs-aspect-ratio: 60%
+        background: $secondary
+        .block-bg &
+            background-color: $black
+        > picture
+            height: 70%
+            left: 15%
+            top: 15%
+            width: 70%
+        img
+            object-fit: contain
+    .metas
+        @extend .card-footer
+    .category
+        &::before
+            content: '—'
+            margin-left: .25rem
+            margin-right: .25rem
+    a
+        @extend .stretched-link

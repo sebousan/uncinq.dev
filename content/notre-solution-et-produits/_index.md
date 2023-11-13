@@ -2,8 +2,12 @@
 isPage: true
 draft: false
 title: Notre solution et produits métiers
-description: Pour un Web pérenne, plus simple, plus accessible et à faible émission de carbone.
+description: Solution et produits, pour un Web pérenne, plus simple, plus accessible et à faible émission de carbone.
 url: notre-solution-et-produits
+image:
+  src: /images/uploads/181.Nodes.svg
+seo:
+  image: /images/uploads/share-solutions.png
 hero:
   title: Nous travaillons sur une solution et des produits métiers open-source
   image:
@@ -18,32 +22,26 @@ blocks:
     title: Notre solution open-source
     text: >-
       Solution Jamstack pour créer facilement un site Web rapide, aussi accessible que possible et à faible émission de carbone. Tout en ayant un espace admin dédié et simplifié.
-    
-      
-      8 types et +20 blocs de contenu sont déjà développés et sont conçus de manière atomique pour permettre une personnalisation rapide. 
-
-
-      Développé en Hugo et s’appuyant de Bootstrap et de Decap CMS.
     image:
-      src: /images/uploads/hugolify.png
+      src: /images/uploads/hugolify-2.png
       alt: Hugolify
     cta:
-      blank: true
-      url: https://www.hugolify.io
+      blank: false
+      url: /notre-solution-et-produits/hugolify/
       text: Découvrir Hugolify
   - type: informations
     heading:
       title: Nos trois produits métiers disponibles
       text: Basé sur Hugolify, ces produits ont des fonctionnalités supplémentaires et un espace admin dédié à l’univers du métier concerné.
     background: false
-    column: 3
+    column: 4
     items:
       - title: Lawyerify
         text: Solution dédiée aux cabinets d’avocats.
         cta:
-          blank: true
+          blank: false
           text: En savoir plus sur Lawyerify
-          url: https://www.lawyerify.io
+          url: /notre-solution-et-produits/lawyerify/
         image:
           src: /images/uploads/lawyerify.svg
       - title: Architectify
@@ -51,15 +49,15 @@ blocks:
         image:
           src: /images/uploads/architectify.svg
         cta:
-          blank: true
+          blank: false
           text: En savoir plus sur Architectify
-          url: https://www.architectify.io
+          url: /notre-solution-et-produits/architectify/
       - title: Realestatify
         text: Solution dédiée aux agences immobilières.
         image:
           src: /images/uploads/realestatify.svg
         cta:
-          blank: true
+          blank: false
           text: En savoir plus sur Realestatify
-          url: https://www.realestatify.io
+          url: /notre-solution-et-produits/realestatify/
 ---

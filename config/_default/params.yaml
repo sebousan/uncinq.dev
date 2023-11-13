@@ -1,4 +1,5 @@
 _merge: deep
+animation: true
 image:
   _merge: deep
   xsmall: "70x70"

@@ -13,6 +13,7 @@ hero:
   title: Venn Capital, migration d’un site Wordpress vers Hugolify
   image:
     src: /images/uploads/venn-capital-logo.svg
+casestudies_services: hugolify
 blocks:
   - type: paragraph
     title: Quelques mots sur la société
@@ -92,7 +93,7 @@ blocks:
     show_gauge: false
     items:
       - title: CO2
-        text: autant que l'eau bouillante pour 15 370 tasses de thé
+        text: autant que l’eau bouillante pour 15 370 tasses de thé
         value: 113.43
         suffix: kg
         limit: 100
@@ -110,15 +111,15 @@ blocks:
       - icon: people
         title: Pour vos utilisateurs
         text: "Un site plus léger, c'est une meilleure expérience : les pages se
-          chargent rapidement, même sur mobile et même si le réseau n'est pas
+          chargent rapidement, même sur mobile et même si le réseau n’est pas
           très bon."
       - icon: graph-up-arrow
         title: Pour votre activité
-        text: Un site web plus rapide, c'est une meilleure performance business. Cela a
+        text: Un site Web plus rapide, c'est une meilleure performance business. Cela a
           aussi de nombreux autres impacts positifs.
       - title: Pour votre empreinte carbone
         icon: globe-europe-africa
-        text: En ayant un site web non énergivore vous réduirez considérablement votre
+        text: En ayant un site Web non énergivore vous réduirez considérablement votre
           impact environnemental.
   - type: quote
     background: true
@@ -157,20 +158,20 @@ blocks:
     grid: medium
     offset: center
     align: center
-    text: "* Le 100% n'est pas atteint à cause de la couleur orange du texte qui
-      n’est pas assez contrastée. Mais nous avons amélioré nettement d'autres
+    text: "* Le 100% n’est pas atteint à cause de la couleur orange du texte qui
+      n’est pas assez contrastée. Mais nous avons amélioré nettement d’autres
       aspects qui sont non quantifiables via une analyse automatique (comme la
-      sémantique HTML, l'ajout d’attribut aria, le respect du RGAA…)."
+      sémantique HTML, l’ajout d’attribut aria, le respect du RGAA…)."
   - type: datas
     heading:
       title: Et son impact environnemental
-      text: Même critère de test que pour l'ancien site
+      text: Même critère de test que pour l’ancien site
     column: 4
     show_color: false
     show_gauge: false
     items:
       - title: CO2
-        text: autant que l'eau bouillante pour 1383 tasses de thé
+        text: autant que l’eau bouillante pour 1383 tasses de thé
         limit: 100
         value: 10.21
         suffix: kg
@@ -348,7 +349,7 @@ blocks:
           Web.
         icon: git
       - title: Blocs Hugolify
-        text: 1 bloc créé pour le site web et 8 blocs Hugolify utilisés.
+        text: 1 bloc créé pour le site Web et 8 blocs Hugolify utilisés.
         icon: puzzle-fill
       - title: HTML
         text: Un cinquantaine de mini partials ont été overridés.
@@ -377,7 +378,7 @@ blocks:
     heading:
       title: Bonne visite !
     cta:
-      text: Découvrez le nouveau site web de Venn Capital
+      text: Découvrez le nouveau site Web de Venn Capital
       url: https://www.venn-capital.com/
       blank: true
 ---
