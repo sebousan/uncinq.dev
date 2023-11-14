@@ -13,9 +13,9 @@ hero:
   text: Voici les points essentiels pour garantir la qualité d’un site Web dans le temps et son utilisation par les internautes.
   image:
     src: /images/uploads/264.Teaming-Up.svg
-  cta:
-    text: Découvrir
-    url: "#main"
+  # cta:
+  #   text: Découvrir
+  #   url: "#main"
 blocks:
   - type: informations
     column: 4
