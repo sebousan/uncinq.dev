@@ -13,12 +13,15 @@ hero:
   text: Voici les points essentiels pour garantir la qualité d’un site Web dans le temps et son utilisation par les internautes.
   image:
     src: /images/uploads/264.Teaming-Up.svg
+  cta:
+    text: Découvrir
+    url: "#main"
 blocks:
   - type: informations
     column: 4
     heading:
       title: L’expérience utilisateur est primordiale
-      text: Pour garantir le succès de votre site Web.
+      text: Pour garantir le succès d’un site Web.
     items: 
       - title: Convivialité
         icon: person-hearts
@@ -28,7 +31,7 @@ blocks:
         text: Les pages doivent se charger rapidement pour éviter la frustration des utilisateurs. Un temps de chargement lent peut augmenter le taux de rebond.
       - title: Accessibilité
         icon: universal-access-circle
-        text: Le site doit être accessible à tous, y compris aux personnes handicapées, en offrant une compatibilité avec les lecteurs d’écran et des fonctionnalités de zoom, entre autres.
+        text: Le site doit être accessible à tous, y compris aux personnes handicapées, en offrant une compatibilité avec les lecteurs d’écran, des fonctionnalités de zoom…
       - title: Contenu pertinent
         icon: body-text
         text: Fournir du contenu de qualité et pertinent pour les utilisateurs, en tenant compte de leurs besoins et de leurs attentes.
@@ -37,7 +40,7 @@ blocks:
     text: >-
       ### Convivialité
 
-      La convivialité, ou l’usabilité, d’un site Web est un facteur essentiel pour améliorer l’expérience utilisateur et influencer le classement sur Google. Google accorde de l’importance à la convivialité d’un site, car cela contribue à garantir que les visiteurs trouvent rapidement les informations dont ils ont besoin et bénéficient d’une expérience positive. Cela a un impact direct sur le temps que les visiteurs passent sur un site, ce qui peut influencer le classement dans les résultats de recherche.
+      La convivialité, ou l’usabilité, d’un site Web est un facteur essentiel pour améliorer l’expérience utilisateur et influencer le classement sur Google. Google accorde de l’importance à la convivialité d’un site, car cela contribue à garantir que les visiteurs trouvent rapidement les informations dont ils ont besoin et bénéficient d’une expérience positive. Cela a un impact direct sur le temps que les visiteurs passent sur un site.
 
       * **Navigation Intuitive**
       
@@ -50,8 +53,6 @@ blocks:
       ### Vitesse de chargement
 
       La vitesse de chargement d’un site Web est étroitement liée au taux de rebond, car elle a un impact significatif sur l’expérience utilisateur. Les visiteurs ont tendance à quitter un site si les pages mettent trop de temps à se charger, ce qui augmente le taux de rebond. Une vitesse de chargement rapide est donc cruciale pour maintenir un taux de rebond bas, améliorer la satisfaction des utilisateurs et maximiser l’engagement sur le site.
-
-      Le taux de rebond sont souvent élevé essentiellement dû à une mauvaise conception.
 
       * **Optimisation des images et des médias**
       
