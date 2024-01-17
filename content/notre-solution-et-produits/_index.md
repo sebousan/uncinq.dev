@@ -21,7 +21,7 @@ blocks:
     background: true
     title: Notre solution open-source
     text: >-
-      Solution Jamstack pour créer facilement un site Web rapide, aussi accessible que possible et à faible émission de carbone. Tout en ayant un espace admin dédié et simplifié.
+      Solution Jamstack pour créer facilement un site Web vitrine de grande qualité et en ayant un espace admin dédié et simplifié.
     image:
       src: /images/uploads/hugolify-2.png
       alt: Hugolify
@@ -31,7 +31,7 @@ blocks:
       text: Découvrir Hugolify
   - type: informations
     heading:
-      title: Nos trois produits métiers disponibles
+      title: Nos quatre produits métiers disponibles
       text: Basé sur Hugolify, ces produits ont des fonctionnalités supplémentaires et un espace admin dédié à l’univers du métier concerné.
     background: false
     column: 4
@@ -39,9 +39,10 @@ blocks:
       - title: Lawyerify
         text: Solution dédiée aux cabinets d’avocats.
         cta:
-          blank: false
+          blank: true
           text: En savoir plus sur Lawyerify
-          url: /notre-solution-et-produits/lawyerify/
+          # url: /notre-solution-et-produits/lawyerify/
+          url: https://www.lawyerify.io
         image:
           src: /images/uploads/lawyerify.svg
       - title: Architectify
@@ -49,23 +50,24 @@ blocks:
         image:
           src: /images/uploads/architectify.svg
         cta:
-          blank: false
+          blank: true
           text: En savoir plus sur Architectify
-          url: /notre-solution-et-produits/architectify/
+          # url: /notre-solution-et-produits/architectify/
+          url: https://www.architectify.io
       - title: Medicalify
         text: Solution dédiée aux professionnels de la santé.
         image:
           src: /images/uploads/medicalify.svg
-        cta:
-          blank: false
-          text: En savoir plus sur Medicalify
-          url: /notre-solution-et-produits/medicalify/
+        # cta:
+        #   blank: false
+        #   text: En savoir plus sur Medicalify
+        #   url: /notre-solution-et-produits/medicalify/
       - title: Realestatify
         text: Solution dédiée aux agences immobilières.
         image:
           src: /images/uploads/realestatify.svg
-        cta:
-          blank: false
-          text: En savoir plus sur Realestatify
-          url: /notre-solution-et-produits/realestatify/
+        # cta:
+        #   blank: false
+        #   text: En savoir plus sur Realestatify
+        #   url: /notre-solution-et-produits/realestatify/
 ---

@@ -2,53 +2,88 @@
 isPage: true
 draft: false
 title: Hugolify
-description: Solution Jamstack open-source pour créer facilement un site Web rapide, aussi accessible que possible et à faible émission de carbone. Tout en ayant un espace admin dédié et simplifié.
+description: Solution Jamstack pour créer facilement un site Web vitrine de grande qualité et en ayant un espace admin dédié et simplifié.
 image:
   src: /images/uploads/hugolify.png
 hero:
   title: Hugolify
-  text: Solution Jamstack open-source pour créer facilement un site Web rapide, aussi accessible que possible et à faible émission de carbone. Tout en ayant un espace admin dédié et simplifié.
+  text: Solution Jamstack pour créer facilement un site Web vitrine de grande qualité et en ayant un espace admin dédié et simplifié.
   cta:
     text: Découvrir
     url: "#main"
   image:
     src: /images/uploads/181.Nodes.svg
 blocks:
-  - type: figure
-    grid: medium
-    offset: center
-    figure:
-      src: /images/uploads/hugolify.png
-      alt: Hugolify
+  - type: informations
+    background: true
+    column: 4
+    heading:
+      title: Le framework Hugolify bénéficie de toutes ces qualités
+      text: Expérience utilisateur grandement améliorée, léger et éthique.
+    items:
+      - title: Performant
+        text: Un site Web ultra rapide pour un accès même avec une connexion faible.
+        icon: speedometer2
+      - title: Sécurisé
+        text: Pas de base de données, de plugins, de spam, de virus…
+        icon: shield-check
+      - title: Accessible à tous
+        text: Rendez votre site Web accessible aux personnes handicapées.
+        icon: universal-access-circle
+      - title: Eco-conçu
+        text: Un site Web conçu pour générer qu’une faible émition de carbone.
+        icon: tree
+      - title: Responsive
+        text: Smartphone, tablet, ordinateur portable ou de bureau…
+        icon: phone
+      - title: RGPD friendly
+        text: Une approche éthique permettant de s’affranchir des outils Google comme Maps, Fonts ou Analytics.
+        icon: heart
+      - title: SEO friendly
+        text: Un code respectueux des standards et de la sémantique pour un réferencement naturel optimisé.
+        icon: search-heart
+      - title: Pérenne
+        text: Un site Web fait pour durer, intemporel.
+        icon: clock-history
+  # - type: figure
+  #   grid: medium
+  #   offset: center
+  #   figure:
+  #     src: /images/uploads/hugolify.png
+  #     alt: Hugolify
   - type: datas
     column: 3
     heading:
-      title: Développé et conçu de manière atomique pour permettre une personnalisation rapide
+      title: Développé et conçu de manière atomique
+      text: Pour permettre une personnalisation rapide et précise en restant robuste.
     items:
       - title: Types de contenu
         text: Articles, pages, projets, expertises…
         value: 10
+        prefix: +
       - title: Blocs de contenu
         text: Editorial, citation, données, images…
         value: 20
         prefix: +
+  - type: figure
+    heading:
+      title: Espace admin dédié et simplifié
+    grid: medium
+    offset: center
+    screenshot: true
+    figure:
+      src: /images/uploads/admin-hugolify.png
+      alt: Capture d’écran de l’espace admin de Hugolify
   - type: cta
     cta:
       blank: true
       url: https://www.hugolify.io
       text: En savoir plus sur Hugolify
-  - type: figure
-    heading: 
-      title: Espace admin dédié et simplifié
-    grid: medium
-    offset: center
-    figure:
-      src: /images/uploads/admin-hugolify.png
   - type: informations
     heading:
       title: Développé en Hugo et s’appuyant de Bootstrap et de Decap CMS
-    column: 3
-    items: 
+    column: 4
+    items:
       - title: Hugo
         text: Générateur de site Web statique open-source le plus rapide du monde.
         image:
@@ -58,7 +93,7 @@ blocks:
           blank: true
           text: Voir le site de Hugo
           url: https://www.gohugo.io
-      - title: Bootstrap 
+      - title: Bootstrap
         text: Framework front open-source le plus utilisé depuis des années.
         image:
           src: /images/uploads/logo-bootstrap-5.svg
@@ -82,6 +117,7 @@ blocks:
     background: true
     heading:
       title: Dernières études de cas sur cette solution
+      text: Pour concrètement mieux mesurer l’intérêt d’Hugolify par rapport à Wordpress, Drupal, Wix…
     items:
       - 2023/miriam-lasserre
       - 2023/venn-capital

@@ -1,6 +1,6 @@
 ---
 isPage: true
-draft: false
+draft: true
 title: Lawyerify
 description: Solution dédiée aux cabinets d’avocats.
 image:
@@ -29,7 +29,7 @@ blocks:
       url: https://www.lawyerify.io
       text: En savoir plus sur Lawyerify
   - type: figure
-    heading: 
+    heading:
       title: Espace admin dédié et simplifié
     grid: medium
     offset: center
@@ -39,7 +39,7 @@ blocks:
     heading:
       title: Développé en Hugo et s’appuyant de Bootstrap et de Decap CMS
     column: 3
-    items: 
+    items:
       - title: Hugo
         text: Générateur de site statique
         image:
@@ -49,7 +49,7 @@ blocks:
           blank: true
           text: Voir le site de Hugo
           url: https://www.gohugo.io
-      - title: Bootstrap 
+      - title: Bootstrap
         text: Framework front open-source le plus utilisé
         image:
           src: /images/uploads/logo-bootstrap-5.svg

@@ -20,29 +20,29 @@ blocks:
       text: Nous mettons à votre disposition notre savoir-faire.
     items:
       - title: Performance
-        text: Un site Web ultra rapide pour un accès même avec une connexion faible.
+        text: Nous mettons tout en œuvre pour rendre le site Web ultra rapide et bas carbone grâce à de nombreux critères de tests.
         icon: speedometer2
       - title: Sécurité
-        text: Pas de base de données, de plugins, de spam, de virus…
+        text: Nous privilégions des sites Web précompilés ou solutions SaaS.
         icon: shield-check
       - title: Accessible à tous
-        text: Rendez votre site Web accessible aux personnes handicapées.
+        text: Grâce à la certification Access42, nos sites Web sont accessibles à tous.
         icon: universal-access-circle
-      - title: Eco-conçu
-        text: Un site Web conçu pour générer qu’une faible émition de carbone.
-        icon: tree
-      - title: Responsive
-        text: Smartphone, tablet, ordinateur portable ou de bureau…
-        icon: phone
-      - title: RGPD
-        text: Une approche éthique permettant de s’affranchir des outils Google comme Maps, Fonts ou Analytics.
-        icon: heart
       - title: SEO friendly
         text: Un code respectueux des standards et de la sémantique pour un réferencement naturel optimisé.
         icon: search-heart
-      - title: Pérenne
-        text: Un site Web fait pour durer, intemporel.
-        icon: clock-history
+      # - title: Responsive
+      #   text: Smartphone, tablet, ordinateur portable ou de bureau…
+      #   icon: phone
+      # - title: RGPD
+      #   text: Une approche éthique permettant de s’affranchir des outils Google comme Maps, Fonts ou Analytics.
+      #   icon: heart
+      # - title: SEO friendly
+      #   text: Un code respectueux des standards et de la sémantique pour un réferencement naturel optimisé.
+      #   icon: search-heart
+      # - title: Pérenne
+      #   text: Un site Web fait pour durer, intemporel.
+      #   icon: clock-history
   - type: informations
     column: 4
     heading:
@@ -50,19 +50,23 @@ blocks:
       text: Développement de sites Web modernes.
     items:
       - title: Audit de performance de votre site Web
-        image: 
+        text: Focus sur les Core Web Vitals de Google
+        image:
           src: /images/uploads/logo-google-pagespeed-insights.svg
           isLogo: true
       - title: Développement de site Web statique avec Hugo
-        image: 
+        text: Grâce à notre framework Hugolify
+        image:
           src: /images/uploads/logo-hugo.svg
           isLogo: true
       - title: Développement de site e-commerce avec Shopify
-        image: 
+        text: Online Store 2.0
+        image:
           src: /images/uploads/logo-shopify.svg
           isLogo: true
       - title: Développement de site Web dynamique avec Wordpress
-        image: 
+        text: Avec le moins de plugin possible
+        image:
           src: /images/uploads/logo-wordpress.png
           isLogo: true
   - type: editorial
@@ -86,6 +90,6 @@ blocks:
     section: casestudies
     show_more: false
     background: true
-    heading: 
+    heading:
       title: Nos dernières études de cas
 ---
