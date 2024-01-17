@@ -67,7 +67,8 @@ blocks:
         prefix: +
   - type: figure
     heading:
-      title: Espace admin dédié et simplifié
+      title: Mise à jour du contenu simplifié
+      text: Espace admin dédié et allégé.
     grid: medium
     offset: center
     screenshot: true
@@ -78,7 +79,7 @@ blocks:
     cta:
       blank: true
       url: https://www.hugolify.io
-      text: En savoir plus sur Hugolify
+      text: Voir le site officiel Hugolify (en anglais)
   - type: informations
     heading:
       title: Développé en Hugo et s’appuyant de Bootstrap et de Decap CMS
@@ -117,7 +118,7 @@ blocks:
     background: true
     heading:
       title: Dernières études de cas sur cette solution
-      text: Pour concrètement mieux mesurer l’intérêt d’Hugolify par rapport à Wordpress, Drupal, Wix…
+      text: Pour mesurer concrètement l’intérêt d’Hugolify par rapport à d’autres solutions comme Wordpress, Drupal, Wix…
     items:
       - 2023/miriam-lasserre
       - 2023/venn-capital

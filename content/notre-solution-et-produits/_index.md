@@ -21,7 +21,10 @@ blocks:
     background: true
     title: Notre solution open-source
     text: >-
-      Solution Jamstack pour créer facilement un site Web vitrine de grande qualité et en ayant un espace admin dédié et simplifié.
+      Solution pour créer facilement un site Web de grande qualité tout en ayant un espace admin dédié et simplifié.
+
+
+      Découvrez en quelques lignes les avantages et les fonctionalités.
     image:
       src: /images/uploads/hugolify-2.png
       alt: Hugolify

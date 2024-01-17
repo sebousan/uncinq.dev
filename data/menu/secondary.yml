@@ -1,6 +1,11 @@
-title: Notre solution
+title: Notre solution et produits
 links:
   - title: Hugolify
+    blank: false
+    url: /notre-solution-et-produits/hugolify/
+  - title: Lawyerify
     blank: true
-    url: https://www.hugolify.io
-  
+    url: https://www.lawyerify.io
+  - title: Architectify
+    blank: true
+    url: https://www.architectify.io
