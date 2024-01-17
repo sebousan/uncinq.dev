@@ -2,12 +2,12 @@
 isPage: true
 draft: false
 title: Hugolify
-description: Solution Jamstack pour créer facilement un site Web vitrine de grande qualité et en ayant un espace admin dédié et simplifié.
+description: Solution pour créer facilement un site Web de grande qualité tout en ayant un espace admin dédié et simplifié.
 image:
   src: /images/uploads/hugolify.png
 hero:
   title: Hugolify
-  text: Solution Jamstack pour créer facilement un site Web vitrine de grande qualité et en ayant un espace admin dédié et simplifié.
+  text: Solution pour créer facilement un site Web de grande qualité tout en ayant un espace admin dédié et simplifié.
   cta:
     text: Découvrir
     url: "#main"
@@ -18,8 +18,8 @@ blocks:
     background: true
     column: 4
     heading:
-      title: Le framework Hugolify bénéficie de toutes ces qualités
-      text: Expérience utilisateur grandement améliorée, léger et éthique.
+      title: Expérience utilisateur grandement améliorée, site Web léger et éthique.
+      text: Le framework Hugolify bénéficie de toutes ces qualités
     items:
       - title: Performant
         text: Un site Web ultra rapide pour un accès même avec une connexion faible.
@@ -54,8 +54,8 @@ blocks:
   - type: datas
     column: 3
     heading:
-      title: Développé et conçu de manière atomique
-      text: Pour permettre une personnalisation rapide et précise en restant robuste.
+      title: Personnalisation rapide, précise et robuste
+      text: Une solution développée et conçue de manière atomique.
     items:
       - title: Types de contenu
         text: Articles, pages, projets, expertises…
