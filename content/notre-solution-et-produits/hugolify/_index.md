@@ -19,7 +19,7 @@ blocks:
     column: 4
     heading:
       title: Expérience utilisateur grandement améliorée, site Web léger et éthique.
-      text: Le framework Hugolify bénéficie de toutes ces qualités
+      text: Le framework Hugolify bénéficie de toutes ces qualités.
     items:
       - title: Performant
         text: Un site Web ultra rapide pour un accès même avec une connexion faible.
