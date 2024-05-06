@@ -17,7 +17,8 @@ casestudies_services: hugolify
 blocks:
   - type: paragraph
     title: Quelques mots sur la société
-    text: Venn a été fondée en 2019 afin de développer des stratégies actions
+    text:
+      Venn Capital a été fondée en 2019 afin de développer des stratégies actions
       innovantes, uniques en Europe à la croisée des mondes entre gestion active
       et gestion passive.
     grid: medium
@@ -26,26 +27,30 @@ blocks:
   - type: informations
     heading:
       title: État des lieux
-      text: La précédente version du site a été créée grâce au système de gestion de
+      text:
+        La précédente version du site a été créée grâce au système de gestion de
         contenu Wordpress avec un thème acheté sur la marketplace. Ce logiciel
         écrit en PHP repose sur une base de données MySQL. Cela implique un
         hébergement sur serveur Apache et une maintenance quotidienne du
         système, de Wordpress, du thème et de ses plugins. \
-        
+
         Aucun contenu ne sera gardé.
     column: 4
     items:
       - title: Sécurité
         icon: shield-slash
-        text: Sans mise à jour de ces solutions, le site Web s’expose grandement aux
+        text:
+          Sans mise à jour de ces solutions, le site Web s’expose grandement aux
           piratages.
       - title: Performance
         icon: exclamation-diamond
-        text: Lenteur importante d’affichage du site Web dû au poids considérable des
+        text:
+          Lenteur importante d’affichage du site Web dû au poids considérable des
           pages.
       - title: Chronophage
         icon: hourglass
-        text: Maintenance quotidienne du système, de Wordpress, du thème et de ses
+        text:
+          Maintenance quotidienne du système, de Wordpress, du thème et de ses
           plugins.
       - title: Espace admin
         icon: kanban
@@ -86,7 +91,8 @@ blocks:
   - type: datas
     heading:
       title: Et son impact environnemental ?
-      text: En se basant sur une année pour 10 000 pages vues par mois (provenant de
+      text:
+        En se basant sur une année pour 10 000 pages vues par mois (provenant de
         website carbon calculator).
     column: 4
     show_color: false
@@ -115,11 +121,13 @@ blocks:
           très bon."
       - icon: graph-up-arrow
         title: Pour votre activité
-        text: Un site Web plus rapide, c'est une meilleure performance business. Cela a
+        text:
+          Un site Web plus rapide, c'est une meilleure performance business. Cela a
           aussi de nombreux autres impacts positifs.
       - title: Pour votre empreinte carbone
         icon: globe-europe-africa
-        text: En ayant un site Web non énergivore vous réduirez considérablement votre
+        text:
+          En ayant un site Web non énergivore vous réduirez considérablement votre
           impact environnemental.
   - type: quote
     background: true
@@ -186,7 +194,7 @@ blocks:
       text: >-
         Suite à la migration, une refonte graphique de la
         marque et du design du site a été opérée. \
-        
+
         Et ceux grâce au travail soigné de [Solène Le
         Nail](https://www.behance.net/solenenouailhetas), directrice artistique.
     background: true
@@ -200,7 +208,8 @@ blocks:
   - type: title
     heading:
       title: Comparaison technique du front
-      text: Pour sensiblement les mêmes besoins mais un design plus élaboré, voici la
+      text:
+        Pour sensiblement les mêmes besoins mais un design plus élaboré, voici la
         comparaison chiffrée des deux sites grâce aux données de Google
         Lighthouse et Website carbon calculator.
   - type: chart
@@ -345,7 +354,8 @@ blocks:
         Ainsi que de profiter de la gestion des images (lazy loading, srcset…).
     items:
       - title: Modules Hugolify
-        text: 7 modules Hugolify ont été utilisés pour concevoir l’architecture de site
+        text:
+          7 modules Hugolify ont été utilisés pour concevoir l’architecture de site
           Web.
         icon: git
       - title: Blocs Hugolify
@@ -366,7 +376,8 @@ blocks:
       blank: true
   - type: quote
     background: true
-    quote: « Un cas d’étude qui nous permet de constater qu’avec Hugolify on a un
+    quote:
+      « Un cas d’étude qui nous permet de constater qu’avec Hugolify on a un
       site **trois fois plus rapide** et jusqu’à **onze fois moins énergivore**
       qu’un Wordpress avec un thème standard. »
     author:
