@@ -31,43 +31,46 @@ blocks:
       - title: SEO friendly
         text: Un code respectueux des standards et de la sémantique pour un réferencement naturel optimisé.
         icon: search-heart
-      # - title: Responsive
-      #   text: Smartphone, tablet, ordinateur portable ou de bureau…
-      #   icon: phone
-      # - title: RGPD
-      #   text: Une approche éthique permettant de s’affranchir des outils Google comme Maps, Fonts ou Analytics.
-      #   icon: heart
-      # - title: SEO friendly
-      #   text: Un code respectueux des standards et de la sémantique pour un réferencement naturel optimisé.
-      #   icon: search-heart
-      # - title: Pérenne
-      #   text: Un site Web fait pour durer, intemporel.
-      #   icon: clock-history
   - type: informations
     column: 4
     heading:
       title: Nos services
-      text: Développement de sites Web modernes.
+      text: Développement de sites Web modernes et pour tous.
     items:
       - title: Audit de performance de votre site Web
-        text: Focus sur les Core Web Vitals de Google
+        text: Focus sur les Core Web Vitals de Google.
         image:
           src: /images/uploads/logo-google-pagespeed-insights.svg
           isLogo: true
       - title: Développement de site Web statique avec Hugo
-        text: Grâce à notre framework Hugolify
+        text: Grâce à notre framework Hugolify.
         image:
           src: /images/uploads/logo-hugo.svg
           isLogo: true
       - title: Développement de site e-commerce avec Shopify
-        text: Online Store 2.0
+        text: Online Store 2.0.
         image:
           src: /images/uploads/logo-shopify.svg
           isLogo: true
       - title: Développement de site Web dynamique avec Wordpress
-        text: Avec le moins de plugin possible
+        text: Avec le moins de plugin possible.
         image:
           src: /images/uploads/logo-wordpress.png
+          isLogo: true
+      - title: Accessibilité Web
+        text: Mise en conformité des sites Web aux référentiels d’accessibilité RGAA / WCAG.
+        image:
+          src: /images/uploads/universal-access-circle.svg
+          isLogo: true
+      - title: Intégration de site Web bas carbone
+        text: Étroitement lié à la conception de site Web performant.
+        image:
+          src: /images/uploads/logo-green.svg
+          isLogo: true
+      - title: Intégration avec Bootstrap
+        text: Version 3, 4 et 5.
+        image:
+          src: /images/uploads/logo-bootstrap-5.svg
           isLogo: true
   - type: editorial
     direction: rtl
@@ -86,6 +89,15 @@ blocks:
     cta:
       text: Découvrir
       url: "/notre-approche-de-la-conception-d-un-site-web/"
+  - type: editorial
+    title: Comprendre les Core Web Vitals de Google
+    text: Les métriques de performance Web définies par Google et annoncés pour la première fois en mai 2020.
+    image:
+      src: /images/uploads/299.Algorithm.svg
+    direction: rtl
+    cta:
+      text: Découvrir
+      url: "/comprendre-core-web-vitals-signaux-web-essentiels/"
   - type: latest
     section: casestudies
     show_more: false
