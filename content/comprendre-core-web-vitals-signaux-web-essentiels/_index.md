@@ -15,7 +15,7 @@ hero:
 blocks:
   - type: informations
     heading:
-      title: Les métriques de performance Web définies par Google
+      title: Les métriques essentielles
       text: Les Core Web Vitals (les signaux Web essentiels en français) sont un ensemble de métriques de performance Web essentielles définies par Google pour évaluer l’expérience utilisateur sur un site Web. Ces métriques se concentrent sur la vitesse de chargement, l’interactivité et la stabilité visuelle d’une page web.
     items:
       - title: Largest Contentful Paint (LCP)
@@ -56,7 +56,18 @@ blocks:
     text: >-
       Elles visent à garantir que les visiteurs bénéficient d'une expérience fluide, rapide et prévisible lors de la navigation sur un site. Google utilise ces métriques pour classer les pages dans ses résultats de recherche, donnant la priorité aux pages offrant une meilleure expérience utilisateur en termes de performance.
     background: true
-
+  - type: informations
+    background: true
+    column: 4
+    items:
+      - title: Meilleure expérience utilisateur
+        icon: person-hearts
+      - title: Classement Google élevé
+        icon: search-heart
+      - title: Améliorer le taux de conversion
+        icon: graph-up-arrow
+      - title: Réduire le taux de rebond
+        icon: graph-down-arrow
   - type: quote
     quote: « Google utilise les Core Web Vitals comme facteurs de classement dans son algorithme de recherche. »
     author:
@@ -93,7 +104,6 @@ blocks:
         text: Extension Google Chrome
         image:
           src: /images/uploads/logo-webvitals.png
-          isLogo: true
         cta:
           text: Télécharger l’extension Chrome
           blank: true
