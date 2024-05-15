@@ -2,12 +2,12 @@
 isPage: true
 draft: false
 title: Comprendre les Core Web Vitals (Signaux Web essentiels)
-description: Les métriques de performance Web définies par Google et annoncés pour la première fois en mai 2020.
+description: Les métriques de performance Web définies par Google et annoncées pour la première fois en mai 2020.
 image:
   src: /images/uploads/299.Algorithm.svg
 hero:
   title: Comprendre les Core Web Vitals de Google
-  text: Les métriques de performance Web définies par Google et annoncés pour la première fois en mai 2020.
+  text: Les métriques de performance Web et annoncés pour la première fois en mai 2020.
   image:
     src: /images/uploads/299.Algorithm.svg
 blocks:
@@ -17,7 +17,7 @@ blocks:
       text: Les Core Web Vitals (les signaux Web essentiels en français) sont un ensemble de métriques de performance Web essentielles définies par Google pour évaluer l’expérience utilisateur sur un site Web. Ces métriques se concentrent sur la vitesse de chargement, l’interactivité et la stabilité visuelle d’une page web.
     items:
       - title: Largest Contentful Paint (LCP)
-        text: Mesure le temps nécessaire pour que le plus grand élément visible de la page (généralement une image ou un bloc de texte) soit complètement chargé. Google recommande que LCP se produise en moins de 2,5 secondes après le début du chargement de la page.
+        text: Mesure le temps nécessaire pour que le plus grand élément visible de la page (généralement une image ou un bloc de texte) soit complètement chargé. Google recommande que LCP se produise en moins de 2.
         image:
           src: /images/uploads/lcp.png
           isLogo: true
@@ -27,7 +27,7 @@ blocks:
           src: /images/uploads/inp.png
           isLogo: true
       - title: Cumulative Layout Shift (CLS)
-        text: Mesure la stabilité visuelle de la page en évaluant le décalage inattendu du contenu lorsque la page se charge. Une CLS inférieure à 0,1 est considérée comme souhaitable.
+        text: Mesure la stabilité visuelle de la page en évaluant le décalage inattendu du contenu lorsque la page se charge. Une CLS inférieure à 0,1 est considérée comme satisfaisante.
         image:
           src: /images/uploads/cls.png
           isLogo: true
@@ -41,9 +41,9 @@ blocks:
       - title: Time to First Byte (TTFB)
         text: Représente le temps entre la demande d’un utilisateur et la première réponse du serveur. Un TTFB rapide est essentiel pour des chargements de page rapides et une meilleure expérience utilisateur. C’est un indicateur clé de la performance web.
       - title: Total Blocking Time (TBT)
-        text: Le Total Blocking Time mesure le temps total pendant lequel la page est bloquée, c’est-à-dire le temps pendant lequel l’utilisateur ne peut pas interagir avec la page parce que le navigateur est occupé à exécuter des tâches. Le TBT est essentiel pour évaluer l’interactivité de la page. Un TBT inférieur à 300 millisecondes est considéré comme bon.
+        text: Le Total Blocking Time mesure le temps total pendant lequel la page est bloquée, c’est-à-dire le temps pendant lequel l’utilisateur ne peut pas interagir. Le TBT est essentiel pour évaluer l’interactivité de la page. Un TBT inférieur à 300 millisecondes est considéré comme bon.
       - title: Speed Index
-        text: Le Speed Index mesure à quelle vitesse le contenu principal d'une page devient visible. Il prend en compte la progression de l’affichage au fil du temps et évalue la rapidité avec laquelle l’utilisateur peut voir et interagir avec le contenu. Un Speed Index bas signifie que le contenu se charge rapidement, ce qui améliore l’expérience utilisateur. Les valeurs plus basses indiquent de meilleures performances.
+        text: Le Speed Index mesure à quelle vitesse le contenu principal d'une page devient visible. Il prend en compte la progression de l’affichage au fil du temps et évalue la rapidité avec laquelle l’utilisateur peut voir et interagir avec le contenu. Un Speed Index bas signifie que le contenu se charge rapidement, ce qui améliore l’expérience utilisateur.
 
   - type: paragraph
     offset: center
