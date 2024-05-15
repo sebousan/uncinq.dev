@@ -5,6 +5,8 @@ title: Comprendre les Core Web Vitals (Signaux Web essentiels)
 description: Les métriques de performance Web définies par Google et annoncées pour la première fois en mai 2020.
 image:
   src: /images/uploads/299.Algorithm.svg
+seo:
+  image: /images/uploads/share-core-web-vitals.png
 hero:
   title: Comprendre les Core Web Vitals de Google
   text: Les métriques de performance Web et annoncés pour la première fois en mai 2020.
