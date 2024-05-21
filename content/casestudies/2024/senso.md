@@ -126,6 +126,9 @@ blocks:
       title: Analyse du site conçu avec Symfony
       text: Grâce à Google Lighthouse qui est un outil open-source permettant de
         mesurer la qualité des pages Web. Voici, ci-dessous, [le résultat](https://pagespeed.web.dev/analysis/https-www-senso-art-fr/t2nnvfep4k?form_factor=mobile) du test des Core Web Vitals de la page d’accueil sur mobile.
+
+
+        [Comprendre les Core Web Vitals](/comprendre-core-web-vitals-signaux-web-essentiels/)
     column: 4
     show_color: true
     show_gauge: true
@@ -167,7 +170,7 @@ blocks:
 
   - type: quote
     background: true
-    quote: « Une collaboration étroite avec 23Prod nous permet d’atteindre le plus haut score des signaux Web essentiels »
+    quote: « Une collaboration étroite avec 23Prod pour permettre d’atteindre le plus haut score des signaux Web essentiels »
     author:
       title: Sébastien Moulène
       text: Un Cinq
