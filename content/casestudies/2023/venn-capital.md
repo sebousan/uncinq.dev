@@ -58,6 +58,8 @@ blocks:
   - type: quote
     quote: « Google intègre les Core Web Vitals dans son algorithme et décide de mettre plus facilement en avant une page qui possède une expérience utilisateur conviviale »
     author:
+      image:
+        src: /images/uploads/logo-google.svg
       title: Google
       text: Blog Google Search Central, 2021
       url: https://developers.google.com/search/blog/2020/11/timing-for-page-experience?hl=fr
@@ -65,7 +67,7 @@ blocks:
   - type: datas
     heading:
       title: Analyse de l’ancien site
-      text: Grâce à Google Lighthouse qui est un outil open source permettant de
+      text: Grâce à Google Lighthouse qui est un outil open-source permettant de
         mesurer la qualité des pages Web. Voici, ci-dessous, le test de la page
         d’accueil sur mobile.
     column: 4

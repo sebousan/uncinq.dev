@@ -29,19 +29,22 @@ blocks:
   - type: informations
     heading:
       title: État des lieux
-      text: La précédente version du site a été créé grâce au système de gestion de contenu Wordpress. 
-      
+      text:
+        La précédente version du site a été créé grâce au système de gestion de contenu Wordpress.
+
 
         Ce logiciel écrit en PHP repose sur une base de données MySQL. Cela implique un hébergement sur serveur Apache et une maintenance quotidienne du système, de wordpress et de ses plugins.
     column: 4
     items:
       - title: Sécurité
         icon: shield-slash
-        text: Sans mise à jour de ces solutions, le site Web s’expose grandement aux
+        text:
+          Sans mise à jour de ces solutions, le site Web s’expose grandement aux
           piratages.
       - title: Chronophage
         icon: hourglass
-        text: Maintenance quotidienne du système, de Wordpress, du thème et de ses
+        text:
+          Maintenance quotidienne du système, de Wordpress, du thème et de ses
           plugins.
       - title: Espace admin
         icon: kanban
@@ -53,7 +56,7 @@ blocks:
       text: State of WordPress Security In 2022
       url: https://patchstack.com/whitepaper/wordpress-security-stats-2022/
     background: true
-  
+
   - align: start
     background: true
     grid: small
@@ -61,7 +64,7 @@ blocks:
       La précédente version du site a été piratée, des données ont été ajoutées sans que les administrateur du site l’autorise.
 
 
-      Ci-contre, une capture d’écran des catégories enregistrées. 
+      Ci-contre, une capture d’écran des catégories enregistrées.
     offset: start
     title: Le wordpress piraté
     type: editorial
@@ -79,7 +82,7 @@ blocks:
   - type: datas
     heading:
       title: Analyse de l’ancien site du cabinet
-      text: Grâce à Google Lighthouse qui est un outil open source permettant de mesurer la qualité des pages Web. Voici, ci-dessous, le test de la page d’accueil sur mobile en connexion 4G lente.
+      text: Grâce à Google Lighthouse qui est un outil open-source permettant de mesurer la qualité des pages Web. Voici, ci-dessous, le test de la page d’accueil sur mobile en connexion 4G lente.
     column: 4
     show_color: true
     show_gauge: true
@@ -131,11 +134,13 @@ blocks:
           très bon."
       - icon: graph-up-arrow
         title: Pour votre activité
-        text: Un site Web plus rapide, c'est une meilleure performance business. Cela a
+        text:
+          Un site Web plus rapide, c'est une meilleure performance business. Cela a
           aussi de nombreux autres impacts positifs.
       - title: Pour votre empreinte carbone
         icon: globe-europe-africa
-        text: En ayant un site Web non énergivore vous réduirez considérablement votre
+        text:
+          En ayant un site Web non énergivore vous réduirez considérablement votre
           impact environnemental.
   - type: datas
     heading:
@@ -163,7 +168,7 @@ blocks:
         suffix: "%"
   - type: datas
     heading:
-      title: Et son impact environnemental 
+      title: Et son impact environnemental
       text: Même critère de test que pour l’ancien site
     column: 4
     show_color: false
@@ -182,7 +187,8 @@ blocks:
   - type: images
     heading:
       title: Comparaison des espaces d’administration
-      text: D’un côté un admin compliqué et parasité par des fonctionnalités inutiles
+      text:
+        D’un côté un admin compliqué et parasité par des fonctionnalités inutiles
         au cabinet. De l’autre coté un admin dédié et simplifié pour le cabinet Le 52.
     background: true
     images:
@@ -193,7 +199,8 @@ blocks:
         legend: Admin Lawyerify dédié au cabinet Le 52
         half: true
   - type: quote
-    quote: « Lawyerify nous a permis de simplifier et de rendre plus agréable la mise
+    quote:
+      « Lawyerify nous a permis de simplifier et de rendre plus agréable la mise
       à jour du contenu de notre site Internet. »
     background: true
     author:
@@ -319,7 +326,8 @@ blocks:
         Ainsi que de profiter de la gestion des images (lazy loading, srcset…).
     items:
       - title: Modules Hugolify
-        text: 6 modules Hugolify et 2 modules Lawyerify ont été utilisés pour concevoir l’architecture de site
+        text:
+          6 modules Hugolify et 2 modules Lawyerify ont été utilisés pour concevoir l’architecture de site
           Web.
         icon: git
       - title: Blocs Hugolify

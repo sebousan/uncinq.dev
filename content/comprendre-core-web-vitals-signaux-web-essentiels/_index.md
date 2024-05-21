@@ -92,7 +92,7 @@ blocks:
           blank: true
           url: https://pagespeed.web.dev/
       - title: Lighthouse
-        text: Outil automatisé open source permettant de mesurer la qualité des pages Web
+        text: Outil automatisé open-source permettant de mesurer la qualité des pages Web
         image:
           src: /images/uploads/logo-google-lighthouse.svg
           isLogo: true

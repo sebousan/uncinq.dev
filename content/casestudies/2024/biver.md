@@ -1,7 +1,7 @@
 ---
 isIndex: false
 draft: true
-date: 2024-05-06T08:34:08.410Z
+date: 2024-06-03T08:34:08.410Z
 casestudies_services: hugolify
 title: Biver
 slug: biver-site-performant-hugolify
@@ -105,6 +105,8 @@ blocks:
   - type: quote
     quote: « Google intègre les Core Web Vitals dans son algorithme et décide de mettre plus facilement en avant une page qui possède une expérience utilisateur conviviale »
     author:
+      image:
+        src: /images/uploads/logo-google.svg
       title: Google
       text: Blog Google Search Central, 2021
       url: https://developers.google.com/search/blog/2020/11/timing-for-page-experience?hl=fr
@@ -187,7 +189,7 @@ blocks:
   - type: datas
     heading:
       title: Analyse du site conçu avec Hugolify
-      text: Grâce à Google Lighthouse qui est un outil open source permettant de
+      text: Grâce à Google Lighthouse qui est un outil open-source permettant de
         mesurer la qualité des pages Web. Voici, ci-dessous, le résultat du test des Core Web Vitals de la page
         d’accueil sur mobile.
     column: 4

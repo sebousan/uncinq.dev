@@ -11,7 +11,7 @@ blocks:
   - type: datas
     heading:
       title: Analyse de l’ancien site
-      text: Grâce à Google Lighthouse qui est un outil open source permettant de
+      text: Grâce à Google Lighthouse qui est un outil open-source permettant de
         mesurer la qualité des pages Web. Voici, ci-dessous, le test de la page
         d’accueil sur mobile.
     column: 4

@@ -32,14 +32,16 @@ blocks:
     items:
       - title: Sécurité
         icon: shield-slash
-        text: Sans mise à jour de ces solutions, le site Web s’expose grandement aux
+        text:
+          Sans mise à jour de ces solutions, le site Web s’expose grandement aux
           piratages.
       - title: Performance
         icon: exclamation-diamond
         text: Pas d’optimisation des images, du javascript et du CSS.
       - title: Chronophage
         icon: hourglass
-        text: Maintenance quotidienne du système, de Wordpress, du thème et de ses
+        text:
+          Maintenance quotidienne du système, de Wordpress, du thème et de ses
           plugins.
       - title: Espace admin
         icon: kanban
@@ -47,7 +49,7 @@ blocks:
   - type: datas
     heading:
       title: Analyse de l’ancien site
-      text: Grâce à Google Lighthouse qui est un outil open source permettant de
+      text: Grâce à Google Lighthouse qui est un outil open-source permettant de
         mesurer la qualité des pages Web. Voici, ci-dessous, le test de la page
         d’accueil sur mobile.
     column: 4
@@ -73,7 +75,8 @@ blocks:
   - type: datas
     heading:
       title: Et son impact environnemental ?
-      text: En se basant sur une année pour 10 000 pages vues par mois (provenant de
+      text:
+        En se basant sur une année pour 10 000 pages vues par mois (provenant de
         website carbon calculator).
     column: 4
     show_color: false
@@ -102,11 +105,13 @@ blocks:
           très bon."
       - icon: graph-up-arrow
         title: Pour votre activité
-        text: Un site Web plus rapide, c'est une meilleure performance business. Cela a
+        text:
+          Un site Web plus rapide, c'est une meilleure performance business. Cela a
           aussi de nombreux autres impacts positifs.
       - title: Pour votre empreinte carbone
         icon: globe-europe-africa
-        text: En ayant un site Web non énergivore vous réduirez considérablement votre
+        text:
+          En ayant un site Web non énergivore vous réduirez considérablement votre
           impact environnemental.
   - type: datas
     heading:
@@ -159,7 +164,8 @@ blocks:
   - type: title
     heading:
       title: Comparaison technique du front
-      text: Pour sensiblement les mêmes besoins mais un design plus élaboré, voici la
+      text:
+        Pour sensiblement les mêmes besoins mais un design plus élaboré, voici la
         comparaison chiffrée des deux sites grâce aux données de Google
         Lighthouse et Website carbon calculator.
   - type: chart
