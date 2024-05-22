@@ -33,6 +33,15 @@ blocks:
         image:
           src: /images/uploads/cls.png
           isLogo: true
+
+  - type: quote
+    quote: « Avec l’introduction récente de INP, il devient beaucoup plus difficile d’avoir un bon score. L’indicateur analyse pas seulement au chargement initial mais pendant toute la navigation ce qui rend l’impact des scripts tiers beaucoup plus important. »
+    author:
+      title: Sébastien Moulène
+      text: Un Cinq
+      image:
+        src: /images/uploads/sebastien-moulene.jpg
+
   - type: informations
     column: 4
     heading:
