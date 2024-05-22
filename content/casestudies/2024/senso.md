@@ -18,7 +18,7 @@ blocks:
   - type: figure
     heading:
       title: Quelques mots sur la société
-      text: Senso regroupe une famille d'agences spécialisées en gestion de talents mettant en relation des talents avec des marques et des agences.
+      text: Senso regroupe une famille d’agences (Creasenso, Sensology, Senso Art…) spécialisées en gestion de talents issue de l’art visuel ou bien du digital, les mettant en relation avec des marques et des agences.
     grid: medium
     align: center
     offset: center
@@ -28,7 +28,7 @@ blocks:
       credit: © Senso
 
   - type: informations
-    column: 4
+    column: 3
     background: true
     heading:
       title: Pourquoi concevoir un site Web performant ?
@@ -45,12 +45,7 @@ blocks:
           aussi de nombreux autres impacts positifs.
       - icon: search-heart
         title: Pour votre référencement
-        text: Un site Web très bien conçu est l’assurance d’être bien traité par Google
-      - title: Pour votre empreinte carbone
-        icon: globe-europe-africa
-        text:
-          En ayant un site Web non énergivore vous réduirez considérablement votre
-          impact environnemental.
+        text: Un site Web très bien conçu est l’assurance d’être mis en avant par Google.
   - type: quote
     quote: « Google intègre les Core Web Vitals dans son algorithme et décide de mettre plus facilement en avant une page qui possède une expérience utilisateur conviviale »
     author:
@@ -76,7 +71,7 @@ blocks:
   - type: informations
     heading:
       title: Une application Symfony pour 3 sites Web
-      text: L’équipe de [23Prod](https://www.23prod.com/) a développé un back-end avec le framework PHP Symfony, le contenu est lui appelé via une API qui en fonction de l’environnement envoie les données adéquates.
+      text: L’équipe de {{<  blank_link text=`23Prod` link=`https://www.23prod.com/` >}} a développé un back-end avec le framework PHP Symfony, le contenu est lui appelé via une API qui en fonction de l’environnement envoie les données adéquates. À l’avenir d’autres sites Web peuvent voir le jour en ayant juste à ajouter des environnements.
     column: 3
     items:
       - title: Senso Art
@@ -125,7 +120,7 @@ blocks:
     heading:
       title: Analyse du site conçu avec Symfony
       text: Grâce à Google Lighthouse qui est un outil open-source permettant de
-        mesurer la qualité des pages Web. Voici, ci-dessous, [le résultat](https://pagespeed.web.dev/analysis/https-www-senso-art-fr/t2nnvfep4k?form_factor=mobile) du test des Core Web Vitals de la page d’accueil sur mobile.
+        mesurer la qualité des pages Web. Voici, ci-dessous, {{<  blank_link text=`le résultat sur Google PageSpeed` link=`https://pagespeed.web.dev/analysis/https-www-senso-art-fr/t2nnvfep4k?form_factor=mobile` >}} du test des Core Web Vitals de la page d’accueil sur mobile.
 
 
         [Comprendre les Core Web Vitals](/comprendre-core-web-vitals-signaux-web-essentiels/)
@@ -153,7 +148,7 @@ blocks:
   - type: datas
     background: true
     heading:
-      title: Fichiers concaténés, minifiés et purgés
+      title: Fichiers front concaténés, minifiés et purgés
       text: Pour une performance optimale, le fichier CSS est appelé en priorité haute alors que les fichiers javascript sont eux en defer.
     column: 4
     show_color: false
@@ -170,7 +165,7 @@ blocks:
 
   - type: quote
     background: true
-    quote: « Une collaboration étroite avec 23Prod pour permettre d’atteindre le plus haut score des signaux Web essentiels »
+    quote: « Une collaboration étroite avec les développeurs back-end de 23Prod pour permettre d’atteindre le plus haut score des signaux Web essentiels »
     author:
       title: Sébastien Moulène
       text: Un Cinq

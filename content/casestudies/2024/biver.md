@@ -96,7 +96,7 @@ blocks:
           aussi de nombreux autres impacts positifs.
       - icon: search-heart
         title: Pour votre référencement
-        text: Un site Web très bien conçu est l’assurance d’être bien traité par Google
+        text: Un site Web très bien conçu est l’assurance d’être mis en avant par Google
       - title: Pour votre empreinte carbone
         icon: globe-europe-africa
         text:
