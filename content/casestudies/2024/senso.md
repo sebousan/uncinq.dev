@@ -171,17 +171,9 @@ blocks:
       text: Un Cinq
       image:
         src: /images/uploads/sebastien-moulene.jpg
-  - type: figure
+  - type: cta
     heading:
       title: Bonne visite !
-    background: false
-    grid: medium
-    align: center
-    offset: center
-    figure:
-      src: /images/uploads/senso-website.png
-      screenshot: true
-  - type: cta
     cta:
       text: Découvrez le nouveau site Web de Senso Art
       url: https://www.senso.art/
