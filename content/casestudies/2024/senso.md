@@ -59,7 +59,11 @@ blocks:
   - type: figure
     heading:
       title: Un design système pour un eco-système
-      text: Senso a conçu le design sytème sur Figma. Header, Footer et autres composants sont identiques pour l'ensemble des sites Web de l’éco-système.
+      text:
+        Senso a conçu ce design sytème pour factoriser et homogénéiser son identité.
+
+
+        Header, Footer et autres composants sont identiques à l’ensemble des sites Web de l’éco-système.
     background: false
     grid: medium
     align: center
@@ -70,28 +74,45 @@ blocks:
 
   - type: informations
     heading:
-      title: Une application Symfony pour 3 sites Web
-      text: L’équipe de {{<  blank_link text=`23Prod` link=`https://www.23prod.com/` >}} a développé un back-end avec le framework PHP Symfony, le contenu est lui appelé via une API qui en fonction de l’environnement envoie les données adéquates. À l’avenir d’autres sites Web peuvent voir le jour en ayant juste à ajouter des environnements.
+      title: Une seule application Symfony pour 3 sites Web
+      text: L’équipe de {{<  blank_link text=`23Prod` link=`https://www.23prod.com/` >}} a développé un back-end avec le framework PHP {{<  blank_link text=`Symfony` link=`https://symfony.com/` >}}, le contenu est lui appelé via une API qui en fonction de l’environnement envoie les données adéquates. À l’avenir d’autres sites Web peuvent voir le jour en ayant juste à ajouter des environnements.
     column: 3
     items:
       - title: Senso Art
-        text: Agent d’illustrateurs
+        text: Agent d’illustrateurs.
         cta:
-          text: Site Web
-          target: blank
+          text: www.senso.art
+          blank: true
           url: https://www.senso.art/
+        image:
+          src: /images/uploads/senso-sensoart.png
+          isLogo: true
       - title: Senso Photo
-        text: Agent de photographes
+        text: Agent de photographes.
         cta:
-          text: Site Web
-          target: blank
+          text: www.senso.photo
+          blank: true
           url: https://www.senso.photo/
+        image:
+          src: /images/uploads/senso-sensophoto.png
+          isLogo: true
       - title: Senso Films
-        text: Agence de production de films d’animation
+        text: Agence de production de films d’animation.
         cta:
-          text: Site Web
-          target: blank
+          text: www.sensofilms.com
+          blank: true
           url: https://www.sensofilms.com/
+        image:
+          src: /images/uploads/senso-sensofilms.png
+          isLogo: true
+  - type: quote
+    background: false
+    quote: « Une collaboration étroite avec les développeurs back-end de 23Prod pour permettre d’atteindre le plus haut score des signaux Web essentiels »
+    author:
+      title: Sébastien Moulène
+      text: Un Cinq
+      image:
+        src: /images/uploads/sebastien-moulene.jpg
   - type: informations
     column: 5
     background: false
@@ -114,6 +135,10 @@ blocks:
       - title: Cloudimage
         image:
           src: /images/uploads/logo-cloudimage.png
+          isLogo: true
+      - title: Kubernetes
+        image:
+          src: /images/uploads/logo-kubernetes.svg
           isLogo: true
 
   - type: datas
@@ -165,12 +190,13 @@ blocks:
 
   - type: quote
     background: true
-    quote: « Une collaboration étroite avec les développeurs back-end de 23Prod pour permettre d’atteindre le plus haut score des signaux Web essentiels »
+    quote: « Atteindre un score de 100% sur les signaux Web essentiels nous semblait un défi difficile à atteindre étant donnée notre activité basée sur l’image et la vidéo. Pourtant Un Cinq et 23Prod sont parvenus proposer une expérience riche et fluide tout en optimisant la sobriété des ressources. Bravo ! »
     author:
-      title: Sébastien Moulène
-      text: Un Cinq
+      title: Cédric Borderie
+      text: Fondateur, Senso
       image:
-        src: /images/uploads/sebastien-moulene.jpg
+        src: /images/uploads/cedric-borderie.jpg
+
   - type: cta
     heading:
       title: Bonne visite !
