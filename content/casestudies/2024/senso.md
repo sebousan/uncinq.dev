@@ -148,7 +148,7 @@ blocks:
   - type: datas
     background: true
     heading:
-      title: Fichiers front concaténés, minifiés et purgés
+      title: Fichiers front-end concaténés, minifiés et purgés
       text: Pour une performance optimale, le fichier CSS est appelé en priorité haute alors que les fichiers javascript sont eux en defer.
     column: 4
     show_color: false
