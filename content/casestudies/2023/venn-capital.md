@@ -3,7 +3,7 @@ isIndex: false
 draft: false
 date: 2023-06-01T08:34:08.410Z
 title: Venn Capital
-description: Migration d’un site Wordpress vers Hugolify
+description: Migration d’un site Wordpress vers Hugolify.
 seo:
   image: /images/uploads/venn-capital-share.png
 image:

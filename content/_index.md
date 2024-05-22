@@ -61,6 +61,7 @@ blocks:
         text: Intégrer et développer en respectant les bonnes pratiques.
         image:
           src: /images/uploads/logo-webvitals.png
+          isLogo: true
       - title: Accessibilité Web
         text: Mise en conformité des sites Web aux référentiels d’accessibilité RGAA / WCAG.
         image:

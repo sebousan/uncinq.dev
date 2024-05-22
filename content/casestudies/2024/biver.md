@@ -5,7 +5,7 @@ date: 2024-06-03T08:34:08.410Z
 casestudies_services: hugolify
 title: Biver
 slug: biver-site-performant-hugolify
-description: Mise en place d’un site performant avec Hugolify
+description: Mise en place d’un site performant avec Hugolify.
 seo:
   image: /images/uploads/biver-share.png
 image:

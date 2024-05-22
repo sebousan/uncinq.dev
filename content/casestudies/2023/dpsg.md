@@ -3,7 +3,7 @@ isIndex: false
 draft: true
 date: 2023-10-23T08:34:08.410Z
 title: DPSG
-description: Audit de performance d’un site Prestashop
+description: Audit de performance d’un site Prestashop.
 hero:
   surtitle: Étude de cas
   title: DPSG, audit de performance d’un site Prestashop

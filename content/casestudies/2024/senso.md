@@ -4,7 +4,7 @@ draft: false
 date: 2024-05-20T08:34:08.410Z
 title: Senso
 slug: senso-site-web-performant-symfony
-description: Mise en place d’un site Web performant avec Symfony
+description: Mise en place d’un site Web performant avec Symfony.
 seo:
   image: /images/uploads/senso-share.png
 image:
