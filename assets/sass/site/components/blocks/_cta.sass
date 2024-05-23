@@ -1,4 +1,9 @@
 .block-cta
+    .btn
+        @if variable-exists(icons-map)
+            &::before
+                @include icon("arrow-right")
+                margin-right: .5rem
     .btn:first-of-type
         --bs-btn-hover-bg: #F0F0F0
     &:last-of-type
@@ -16,8 +21,14 @@
                 background-color: $light
                 color: white
         .btn
-            --bs-btn-border-radius: .5rem
             --bs-btn-color: white
             --bs-btn-bg: black
-            @extend .stretched-link
             border: 0
+            &::before
+                bottom: 0
+                content: ''
+                left: 0
+                position: absolute
+                right: 0
+                top: 0
+                z-index: 1
