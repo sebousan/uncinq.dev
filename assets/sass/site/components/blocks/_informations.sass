@@ -1,4 +1,7 @@
 .block-informations
+    @include media-breakpoint-down(lg)
+        .items:not(.items-1)
+            overflow-y: hidden
     .item
         --bs-card-bg: transparent
         --bs-card-spacer-x: .5rem
