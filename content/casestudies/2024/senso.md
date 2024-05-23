@@ -179,7 +179,7 @@ blocks:
     background: true
     heading:
       title: Comment atteindre au plus près ce score ?
-      text: Les bonnes pratiques à adopter en matière de développement front et back.
+      text: Voici quelques bonnes pratiques à adopter en matière de développement front et back pour permettre un affiche le plus rapide.
     items:
       - title: CSS, Fonts et JS hébergés sur le même serveur
         text: Pour éviter un second appel serveur, les assets sont sur le même serveur que le site.
