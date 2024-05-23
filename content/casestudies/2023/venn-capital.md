@@ -2,6 +2,7 @@
 isIndex: false
 draft: false
 date: 2023-06-01T08:34:08.410Z
+slug: venn-capital-migration-wordpress-hugo
 title: Venn Capital
 description: Migration d’un site Wordpress vers Hugolify.
 seo:

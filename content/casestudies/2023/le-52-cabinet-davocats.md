@@ -2,6 +2,7 @@
 isIndex: false
 draft: false
 date: 2023-07-04T10:34:08.410Z
+slug: le-52-cabinet-davocats-migration-wordpress-hugo
 title: Le 52, cabinet d’avocats
 description: Migration d’un site Wordpress vers Lawyerify.
 seo:

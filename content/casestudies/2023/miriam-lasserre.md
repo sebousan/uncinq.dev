@@ -2,6 +2,7 @@
 isIndex: false
 draft: false
 date: 2023-09-18T08:34:08.410Z
+slug: miriam-lasserre-migration-wordpress-hugo
 title: Miriam Lasserre
 description: Migration d’un site Wordpress vers Hugolify.
 seo:
