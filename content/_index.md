@@ -32,10 +32,11 @@ blocks:
         text: Un code respectueux des standards et de la sémantique pour un réferencement naturel optimisé.
         icon: search-heart
   - type: informations
+    background: true
     column: 4
     heading:
       title: Nos services
-      text: Développement de sites Web modernes et pour tous.
+      text: Une approche low code pour garantir une qualité optimale.
     items:
       - title: Audit de performance de votre site Web
         text: Focus sur les Core Web Vitals de Google.
@@ -58,7 +59,7 @@ blocks:
           src: /images/uploads/logo-wordpress.png
           isLogo: true
       - title: Optimisation des Core Web Vitals
-        text: Intégrer et développer en respectant les bonnes pratiques.
+        text: Intégration et développement pour atteindre le score le plus élevé.
         image:
           src: /images/uploads/logo-webvitals.png
           isLogo: true
