@@ -16,7 +16,7 @@ blocks:
   - type: informations
     heading:
       title: Les métriques essentielles
-      text: Les Core Web Vitals (les signaux Web essentiels en français) sont un ensemble de métriques de performance Web essentielles définies par Google pour évaluer l’expérience utilisateur sur un site Web. Ces métriques se concentrent sur la vitesse de chargement, l’interactivité et la stabilité visuelle d’une page web.
+      text: Les Core Web Vitals (les signaux Web essentiels en français) sont un ensemble de métriques de performance Web essentielles définies par Google pour évaluer l’expérience utilisateur sur un site Web. Ces métriques se concentrent sur la vitesse de chargement, l’interactivité et la stabilité visuelle d’une page Web.
     items:
       - title: Largest Contentful Paint (LCP)
         text: Mesure le temps nécessaire pour que le plus grand élément visible de la page (généralement une image ou un bloc de texte) soit complètement chargé. Google recommande que LCP se produise en moins de 2.
@@ -24,7 +24,7 @@ blocks:
           src: /images/uploads/lcp.png
           isLogo: true
       - title: Interaction to Next Paint (INP)
-        text: Mesure le temps écoulé entre l’interaction d’un utilisateur sur un site web (comme un clic sur un bouton) et le moment où la page affiche la prochaine mise à jour significative à l’écran. Un INP rapide garantit une interactivité réactive et une expérience utilisateur fluide. Il remplace en 2024 le FID (First Input Delay).
+        text: Mesure le temps écoulé entre l’interaction d’un utilisateur sur un site Web (comme un clic sur un bouton) et le moment où la page affiche la prochaine mise à jour significative à l’écran. Un INP rapide garantit une interactivité réactive et une expérience utilisateur fluide. Il remplace en 2024 le FID (First Input Delay).
         image:
           src: /images/uploads/inp.png
           isLogo: true
@@ -35,7 +35,7 @@ blocks:
           isLogo: true
 
   - type: quote
-    quote: « Avec l’introduction récente de INP, il devient beaucoup plus difficile d’avoir un bon score. L’indicateur analyse pas seulement au chargement initial mais pendant toute la navigation ce qui rend l’impact des scripts tiers beaucoup plus important. »
+    quote: « Avec l’introduction récente de l’INP, il devient beaucoup plus difficile d’avoir un score élevé. L’indicateur n’analyse pas seulement au chargement initial mais pendant toute la durée de navigation ce qui rend l’impact des scripts tiers beaucoup plus important. »
     author:
       title: Sébastien Moulène
       text: Un Cinq
@@ -48,7 +48,7 @@ blocks:
       title: Les autres indicateurs
     items:
       - title: First Contentful Paint (FCP)
-        text: Il mesure le moment où le premier élément visuel du contenu (comme du texte ou une image) apparaît à l’écran lors du chargement d’une page web. Il indique à l’utilisateur que la page se charge et devient visible. Un FCP rapide améliore l’impression de rapidité et d’interactivité du site. Google recommande un FCP de moins de 1,2 seconde pour une expérience utilisateur optimale.
+        text: Il mesure le moment où le premier élément visuel du contenu (comme du texte ou une image) apparaît à l’écran lors du chargement d’une page Web. Il indique à l’utilisateur que la page se charge et devient visible. Un FCP rapide améliore l’impression de rapidité et d’interactivité du site. Google recommande un FCP de moins de 1,2 seconde pour une expérience utilisateur optimale.
       - title: Time to First Byte (TTFB)
         text: Représente le temps entre la demande d’un utilisateur et la première réponse du serveur. Un TTFB rapide est essentiel pour des chargements de page rapides et une meilleure expérience utilisateur. C’est un indicateur clé de la performance web.
       - title: Total Blocking Time (TBT)
@@ -113,6 +113,7 @@ blocks:
         text: Extension Google Chrome
         image:
           src: /images/uploads/logo-webvitals.png
+          isLogo: true
         cta:
           text: Télécharger l’extension Chrome
           blank: true

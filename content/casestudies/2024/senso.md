@@ -63,6 +63,9 @@ blocks:
         Senso a conçu ce design sytème pour factoriser et homogénéiser son identité.
 
 
+        Le fait d’avoir un design global permet d’alléger plusieurs choses comme le temps de développement, les risques de bugs, le poids des assets (CSS, JS…). Par contre cela augmente le temps de conception UX/UI.
+
+
         Header, Footer et autres composants sont identiques à l’ensemble des sites Web de l’éco-système.
     background: false
     grid: medium
@@ -148,7 +151,7 @@ blocks:
         mesurer la qualité des pages Web. Voici, ci-dessous, {{<  blank_link text=`le résultat sur Google PageSpeed` link=`https://pagespeed.web.dev/analysis/https-www-senso-art-fr/t2nnvfep4k?form_factor=mobile` >}} du test des Core Web Vitals de la page d’accueil sur mobile.
 
 
-        [Comprendre les Core Web Vitals](/comprendre-core-web-vitals-signaux-web-essentiels/)
+        [Comprendre les Core Web Vitals](/comprendre-core-web-vitals-signaux-web-essentiels/).
     column: 4
     show_color: true
     show_gauge: true
@@ -170,6 +173,27 @@ blocks:
         limit: 100
         suffix: "%"
     background: true
+
+  - type: informations
+    column: 4
+    background: true
+    heading:
+      title: Comment atteindre au plus près ce score ?
+      text: Les bonnes pratiques à adopter en matière de développement front et back.
+    items:
+      - title: CSS, Fonts et JS hébergés sur le même serveur
+        text: Pour éviter un second appel serveur, les assets sont sur le même serveur que le site.
+        icon: files
+      - title: Loading diféré des éléments non critique
+        text: Les javascripts et fonts sont loadés en defer, la CSS est elle loadée en premier.
+        icon: clock-history
+      - title: Images responsives et format WebP
+        text: Utilisation des srcset pour rendre disponible une multitude de format d’image.
+        icon: images
+      - title: Cache et compression adéquates
+        icon: file-zip
+        text: Compression GZIP du HTML, CSS et JS ainsi qu’un cache suffisament long des assets.
+
   - type: datas
     background: true
     heading:
@@ -189,8 +213,8 @@ blocks:
         limit: 100
 
   - type: quote
-    background: true
-    quote: « Atteindre un score de 100% sur les signaux Web essentiels nous semblait un défi difficile à atteindre étant donnée notre activité basée sur l’image et la vidéo. Pourtant Un Cinq et 23Prod sont parvenus proposer une expérience riche et fluide tout en optimisant la sobriété des ressources. Bravo ! »
+    background: false
+    quote: « Atteindre un score de 100% sur les signaux Web essentiels nous semblait un défi difficile à atteindre étant donnée notre activité basée sur l’image et la vidéo. Pourtant Un Cinq et 23Prod sont parvenus à proposer une expérience riche et fluide tout en optimisant la sobriété des ressources. Bravo ! »
     author:
       title: Cédric Borderie
       text: Fondateur, Senso
