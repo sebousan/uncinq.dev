@@ -97,7 +97,7 @@ blocks:
       url: "/notre-approche-de-la-conception-d-un-site-web/"
   - type: editorial
     title: Comprendre les Core Web Vitals de Google
-    text: Les métriques de performance Web définies par Google et annoncés pour la première fois en mai 2020.
+    text: Les métriques de performance Web définies par Google et annoncées pour la première fois en mai 2020.
     image:
       src: /images/uploads/299.Algorithm.svg
     direction: rtl
