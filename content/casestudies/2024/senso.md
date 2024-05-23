@@ -47,7 +47,7 @@ blocks:
         title: Pour votre référencement
         text: Un site Web très bien conçu est l’assurance d’être mis en avant par Google.
   - type: quote
-    quote: « Google intègre les Core Web Vitals* dans son algorithme et décide de mettre plus facilement en avant une page qui possède une expérience utilisateur conviviale »
+    quote: « Google intègre les Core Web Vitals* dans son algorithme et décide de mettre plus facilement en avant une page qui possède une expérience utilisateur conviviale »
     author:
       image:
         src: /images/uploads/logo-google.svg
@@ -61,7 +61,7 @@ blocks:
       text: "*Les métriques de performance Web définies par Google et annoncées pour la première fois en mai 2020."
     cta:
       url: /comprendre-core-web-vitals-signaux-web-essentiels/
-      text: Mieux comprendre les Core Web Vitals
+      text: Mieux comprendre les Core Web Vitals
 
   - type: figure
     heading:
@@ -155,7 +155,7 @@ blocks:
     heading:
       title: Analyse du site conçu avec Symfony
       text: Grâce à Google Lighthouse qui est un outil open-source permettant de
-        mesurer la qualité des pages Web. Voici, ci-dessous, {{<  blank_link text=`le résultat sur Google PageSpeed` link=`https://pagespeed.web.dev/analysis/https-www-senso-art-fr/t2nnvfep4k?form_factor=mobile` >}} du test des Core Web Vitals de la page d’accueil sur mobile.
+        mesurer la qualité des pages Web. Voici, ci-dessous, {{<  blank_link text=`le résultat sur Google PageSpeed` link=`https://pagespeed.web.dev/analysis/https-www-senso-art-fr/t2nnvfep4k?form_factor=mobile` >}} du test des Core Web Vitals de la page d’accueil sur mobile.
     column: 4
     show_color: true
     show_gauge: true
