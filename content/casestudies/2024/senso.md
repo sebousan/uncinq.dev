@@ -18,7 +18,7 @@ blocks:
   - type: figure
     heading:
       title: Quelques mots sur la société
-      text: Senso regroupe une famille d’agences (Creasenso, Sensology, Senso Art…) spécialisées en gestion de talents issue de l’art visuel ou bien du digital, les mettant en relation avec des marques et des agences.
+      text: Senso regroupe une famille d’agences (Creasenso, Sensology, Senso Art…) spécialisées en gestion de talents issues de l’art visuel ou bien du digital, les mettant en relation avec des marques et des agences.
     grid: medium
     align: center
     offset: center
@@ -47,7 +47,7 @@ blocks:
         title: Pour votre référencement
         text: Un site Web très bien conçu est l’assurance d’être mis en avant par Google.
   - type: quote
-    quote: « Google intègre les Core Web Vitals* dans son algorithme et décide de mettre plus facilement en avant une page qui possède une expérience utilisateur conviviale »
+    quote: « Google intègre les Core Web Vitals* dans son algorithme et décide de mettre plus facilement en avant une page qui possède une expérience utilisateur conviviale. »
     author:
       image:
         src: /images/uploads/logo-google.svg
@@ -67,7 +67,7 @@ blocks:
     heading:
       title: Un design système pour un eco-système
       text:
-        Senso a conçu ce design sytème pour factoriser et homogénéiser son identité.
+        Senso a conçu ce design système pour factoriser et homogénéiser son identité.
 
 
         Le fait d’avoir un design global permet d’alléger plusieurs choses comme le temps de développement, les risques de bugs, le poids des assets (CSS, JS…). Par contre cela augmente le temps de conception UX/UI.
@@ -192,7 +192,7 @@ blocks:
         text: Les javascripts et fonts sont loadés en defer, la CSS est elle loadée en premier.
         icon: clock-history
       - title: Images responsives et format WebP
-        text: Utilisation des srcset pour rendre disponible une multitude de format d’image.
+        text: Utilisation des srcset pour rendre disponible une multitude de formats d’image.
         icon: images
       - title: Cache et compression adéquates
         icon: file-zip
@@ -218,7 +218,7 @@ blocks:
 
   - type: quote
     background: false
-    quote: « Atteindre un score de 100% sur les signaux Web essentiels nous semblait un défi difficile à atteindre étant donnée notre activité basée sur l’image et la vidéo. Pourtant Un Cinq et 23Prod sont parvenus à proposer une expérience riche et fluide tout en optimisant la sobriété des ressources. Bravo ! »
+    quote: « Atteindre un score de 100% sur les signaux Web essentiels nous semblait un défi difficile à atteindre étant donné notre activité basée sur l’image et la vidéo. Pourtant Un Cinq et 23Prod sont parvenus à proposer une expérience riche et fluide tout en optimisant la sobriété des ressources. Bravo ! »
     author:
       title: Cédric Borderie
       text: Fondateur, Senso

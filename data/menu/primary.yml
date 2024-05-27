@@ -1,11 +1,11 @@
 links:
   # - title: Nos services
   #   url: /nos-services/
-  - title: Notre appoche
+  - title: Notre approche
     url: /notre-approche-de-la-conception-d-un-site-web/
   - title: Notre solution
     url: /notre-solution-et-produits/
-  # - title: Étude de cas
-  #   url: /etudes-de-cas/
+  - title: Étude de cas
+    url: /etudes-de-cas/
   - title: Contact
     url: /contact/
