@@ -65,7 +65,7 @@ blocks:
 
   - type: figure
     heading:
-      title: Un design système pour un eco-système
+      title: Un design système pour un écosystème
       text:
         Senso a conçu ce design système pour factoriser et homogénéiser son identité.
 
@@ -73,7 +73,7 @@ blocks:
         Le fait d’avoir un design global permet d’alléger plusieurs choses comme le temps de développement, les risques de bugs, le poids des assets (CSS, JS…). Par contre cela augmente le temps de conception UX/UI.
 
 
-        Header, Footer et autres composants sont identiques à l’ensemble des sites Web de l’éco-système.
+        Header, Footer et autres composants sont identiques à l’ensemble des sites Web de l’écosystème.
     background: false
     grid: medium
     align: center
