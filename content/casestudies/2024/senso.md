@@ -188,7 +188,7 @@ blocks:
       - title: CSS, Fonts et JS hébergés sur le même serveur
         text: Pour éviter un second appel serveur, les assets sont sur le même serveur que le site.
         icon: files
-      - title: Loading diféré des éléments non critique
+      - title: Loading différé des éléments non critique
         text: Les javascripts et fonts sont loadés en defer, la CSS est elle loadée en premier.
         icon: clock-history
       - title: Images responsives et format WebP
