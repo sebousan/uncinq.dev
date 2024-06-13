@@ -45,12 +45,7 @@ blocks:
       - title: Pérenne
         text: Un site Web fait pour durer, intemporel.
         icon: clock-history
-  # - type: figure
-  #   grid: medium
-  #   offset: center
-  #   figure:
-  #     src: /images/uploads/hugolify.png
-  #     alt: Hugolify
+
   - type: datas
     column: 3
     heading:
@@ -71,8 +66,8 @@ blocks:
       text: Espace admin dédié et allégé.
     grid: medium
     offset: center
-    screenshot: true
     figure:
+      screenshot: true
       src: /images/uploads/admin-hugolify.png
       alt: Capture d’écran de l’espace admin de Hugolify
   - type: cta
