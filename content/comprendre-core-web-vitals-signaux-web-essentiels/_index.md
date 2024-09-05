@@ -19,7 +19,7 @@ blocks:
       text: Les Core Web Vitals (les signaux Web essentiels en français) sont un ensemble de métriques de performance Web essentielles définies par Google pour évaluer l’expérience utilisateur sur un site Web. Ces métriques se concentrent sur la vitesse de chargement, l’interactivité et la stabilité visuelle d’une page Web.
     items:
       - title: Largest Contentful Paint (LCP)
-        text: Mesure le temps nécessaire pour que le plus grand élément visible de la page (généralement une image ou un bloc de texte) soit complètement chargé. Google recommande que LCP se produise en moins de 2.
+        text: Mesure le temps nécessaire pour que le plus grand élément visible de la page (généralement une image ou un bloc de texte) soit complètement chargé. Google recommande que LCP se produise en moins de 2,5s.
         image:
           src: /images/uploads/lcp.png
           isLogo: true
@@ -29,13 +29,13 @@ blocks:
           src: /images/uploads/inp.png
           isLogo: true
       - title: Cumulative Layout Shift (CLS)
-        text: Mesure la stabilité visuelle de la page en évaluant le décalage inattendu du contenu lorsque la page se charge. Une CLS inférieure à 0,1 est considérée comme satisfaisante.
+        text: Mesure la stabilité visuelle de la page en évaluant le décalage inattendu du contenu lorsque la page se charge. Une CLS inférieure à 0,1s est considérée comme satisfaisante.
         image:
           src: /images/uploads/cls.png
           isLogo: true
 
   - type: quote
-    quote: « Avec l’introduction récente de l’INP, il devient beaucoup plus difficile d’avoir un score élevé. L’indicateur n’analyse pas seulement au chargement initial mais pendant toute la durée de navigation ce qui rend l’impact des scripts tiers beaucoup plus important. »
+    quote: « Avec l’introduction récente de l’INP, il devient plus difficile d’avoir un score élevé. L’indicateur n’analyse pas seulement au chargement initial mais pendant toute la durée de navigation ce qui rend l’impact des scripts tiers beaucoup plus important. »
     author:
       title: Sébastien Moulène
       text: Un Cinq
