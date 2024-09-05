@@ -29,7 +29,7 @@ blocks:
           src: /images/uploads/inp.png
           isLogo: true
       - title: Cumulative Layout Shift (CLS)
-        text: Mesure la stabilité visuelle de la page en évaluant le décalage inattendu du contenu lorsque la page se charge. Une CLS inférieure à 0,1s est considérée comme satisfaisante.
+        text: Mesure la stabilité visuelle de la page en évaluant le décalage inattendu du contenu lorsque la page se charge. Une CLS inférieure à 0,1 est considérée comme satisfaisante.
         image:
           src: /images/uploads/cls.png
           isLogo: true
@@ -48,11 +48,11 @@ blocks:
       title: Les autres indicateurs
     items:
       - title: First Contentful Paint (FCP)
-        text: Il mesure le moment où le premier élément visuel du contenu (comme du texte ou une image) apparaît à l’écran lors du chargement d’une page Web. Il indique à l’utilisateur que la page se charge et devient visible. Un FCP rapide améliore l’impression de rapidité et d’interactivité du site. Google recommande un FCP de moins de 1,2 seconde pour une expérience utilisateur optimale.
+        text: Il mesure le moment où le premier élément visuel du contenu (comme du texte ou une image) apparaît à l’écran lors du chargement d’une page Web. Il indique à l’utilisateur que la page se charge et devient visible. Un FCP rapide améliore l’impression de rapidité et d’interactivité du site. Google recommande un FCP de moins de 1,2s pour une expérience utilisateur optimale.
       - title: Time to First Byte (TTFB)
         text: Représente le temps entre la demande d’un utilisateur et la première réponse du serveur. Un TTFB rapide est essentiel pour des chargements de page rapides et une meilleure expérience utilisateur. C’est un indicateur clé de la performance web.
       - title: Total Blocking Time (TBT)
-        text: Le Total Blocking Time mesure le temps total pendant lequel la page est bloquée, c’est-à-dire le temps pendant lequel l’utilisateur ne peut pas interagir. Le TBT est essentiel pour évaluer l’interactivité de la page. Un TBT inférieur à 300 millisecondes est considéré comme bon.
+        text: Le Total Blocking Time mesure le temps total pendant lequel la page est bloquée, c’est-à-dire le temps pendant lequel l’utilisateur ne peut pas interagir. Le TBT est essentiel pour évaluer l’interactivité de la page. Un TBT inférieur à 300ms est considéré comme bon.
       - title: Speed Index
         text: Le Speed Index mesure à quelle vitesse le contenu principal d'une page devient visible. Il prend en compte la progression de l’affichage au fil du temps et évalue la rapidité avec laquelle l’utilisateur peut voir et interagir avec le contenu. Un Speed Index bas signifie que le contenu se charge rapidement, ce qui améliore l’expérience utilisateur.
 
