@@ -2,12 +2,12 @@ github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20200 h1:SmpwwN3DNzJWbV+
 github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20200/go.mod h1:kx8MBj9T7SFR8ZClWvKZPmmUxBaltkoXvnWlZZcSnYA=
 github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 h1:GZxx4Hc+yb0/t3/rau1j8XlAxLE4CyXns2fqQbyqWfs=
 github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000/go.mod h1:mFberT6ZtcchrsDtfvJM7aAH2bDKLdOnruUHl0hlapI=
-github.com/hugolify/hugolify-theme v1.13.0 h1:MMEWT5+vYH1RL9wEzK3K5VXP56sH9d311+SmzrgYpI4=
-github.com/hugolify/hugolify-theme v1.13.0/go.mod h1:yDbH6g0BJAqjueFrZ13u2lC9gWsYuKDFjQirn805zvo=
+github.com/hugolify/hugolify-theme v1.16.6 h1:qERpeIbaJHGFdkmbjruX7/jyhFPYeknO2JjjI2dQPlk=
+github.com/hugolify/hugolify-theme v1.16.6/go.mod h1:yDbH6g0BJAqjueFrZ13u2lC9gWsYuKDFjQirn805zvo=
 github.com/hugolify/hugolify-theme-casestudies v1.0.11 h1:LMUqECCVWQI5J5JxhlMaOr702wFacJWndkS2+P8h1y0=
 github.com/hugolify/hugolify-theme-casestudies v1.0.11/go.mod h1:qq89c1Emj7lKoWho23RA9X3rPq+8H96mfO8KI5Twr7A=
-github.com/hugolify/hugolify-theme-services v1.0.1 h1:oQGrmO+VIqTKor6SgnsDySrY2nCUjXEA2uuaUx0XzGA=
-github.com/hugolify/hugolify-theme-services v1.0.1/go.mod h1:NO0MKshZ6qtf8NIfwARu9Tdg2UWtYB3f3y8bw2t2wZc=
+github.com/hugolify/hugolify-theme-services v1.0.2 h1:dawH0fjG+nNZmyECJDSI+QIQADalyl11gEgx2JiRps4=
+github.com/hugolify/hugolify-theme-services v1.0.2/go.mod h1:NO0MKshZ6qtf8NIfwARu9Tdg2UWtYB3f3y8bw2t2wZc=
 github.com/midzer/tobii v2.5.0+incompatible h1:Gg3r5Zp0M6shS70NVGHALUgfw0sPtk3YHRjfYHbOUbo=
 github.com/midzer/tobii v2.5.0+incompatible/go.mod h1:ByXFkVm8ja2+TXT7L+lfkdEIeHW4IdWdsQO8zJ5mEqA=
 github.com/twbs/bootstrap v5.3.2+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
