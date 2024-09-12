@@ -1,7 +1,7 @@
 ---
 isIndex: false
-draft: true
-date: 2024-06-03T08:34:08.410Z
+draft: false
+date: 2024-09-03T08:34:08.410Z
 casestudies_services: hugolify
 title: Biver
 slug: biver-site-performant-hugolify
@@ -115,13 +115,14 @@ blocks:
   - type: figure
     heading:
       title: Un design responsive réussi.
-      text: Le studio [Bonhomme](https://www.bonhommeparis.com/fr/) nous a fait confiance pour gérer l’entièreté du développement et intégration. de leur côté ils ont réalisé un UX/UI modulaire.
+      text: Le studio {{<  blank_link text=`Bonhomme` link=`https://www.bonhommeparis.com/fr/` >}} nous a fait confiance pour gérer l’entièreté du développement et intégration. De leur côté ils ont réalisé un UX/UI modulaire.
     background: true
     grid: medium
     align: center
     offset: center
     figure:
       src: /images/uploads/biver-home.png
+      legend: Page d’accueil du nouveau site Biver
       screenshot: true
 
   - type: quote
@@ -172,17 +173,17 @@ blocks:
   - type: datas
     heading:
       title: Fichiers concaténés, minifiés et purgés
-      text: Pour une performance optimale, le fichier CSS est appelé en priorité haute alors que le fichier javascript est lui en defer.
+      text: Pour une performance optimale, le fichier CSS est appelé en priorité haute alors que le fichier javascript est lui appelé en defer.
     column: 4
     show_color: false
     show_gauge: false
     items:
       - title: 1 seul CSS chargé
-        value: 24.2
+        value: 26.4
         suffix: Ko
         limit: 100
       - title: 1 seul JS chargé
-        value: 23.6
+        value: 23.7
         suffix: Ko
         limit: 100
 
@@ -190,8 +191,7 @@ blocks:
     heading:
       title: Analyse du site conçu avec Hugolify
       text: Grâce à Google Lighthouse qui est un outil open-source permettant de
-        mesurer la qualité des pages Web. Voici, ci-dessous, le résultat du test des Core Web Vitals de la page
-        d’accueil sur mobile.
+        mesurer la qualité des pages Web. Voici, ci-dessous, {{<  blank_link text=`le résultat sur Google PageSpeed` link=`https://pagespeed.web.dev/analysis/https-jcbiver-com/ol265bow4q?form_factor=mobile` >}} du test des Core Web Vitals de la page d’accueil sur mobile.
     column: 4
     show_color: true
     show_gauge: true
@@ -216,7 +216,7 @@ blocks:
 
   - type: quote
     background: true
-    quote: « Le choix d’Hugolify permet d’avoir une site Web robuste, rapide, accessible à tous et évolutif rapidement. Tout en étant pérenne et low-code »
+    quote: « Le choix d’Hugolify permet d’avoir une site Web robuste, rapide, accessible à tous et évolutif rapidement. Tout en ayant une approche low-code »
     author:
       title: Sébastien Moulène
       text: Un Cinq
