@@ -10,6 +10,10 @@ github.com/hugolify/hugolify-theme-services v1.0.2 h1:dawH0fjG+nNZmyECJDSI+QIQAD
 github.com/hugolify/hugolify-theme-services v1.0.2/go.mod h1:NO0MKshZ6qtf8NIfwARu9Tdg2UWtYB3f3y8bw2t2wZc=
 github.com/midzer/tobii v2.5.0+incompatible h1:Gg3r5Zp0M6shS70NVGHALUgfw0sPtk3YHRjfYHbOUbo=
 github.com/midzer/tobii v2.5.0+incompatible/go.mod h1:ByXFkVm8ja2+TXT7L+lfkdEIeHW4IdWdsQO8zJ5mEqA=
+github.com/sebousan/hugolify-theme-uncinqify v0.0.0-20240912093158-19fef9dc2cf4 h1:xkYsFgH70xjTMb7dfM5EofpDO1FGw8oflzp+ieTrgQ0=
+github.com/sebousan/hugolify-theme-uncinqify v0.0.0-20240912093158-19fef9dc2cf4/go.mod h1:yUc+GkvQkafMqFMGqXWLTutcRJ5+MIoP3uCoWUixQXg=
+github.com/sebousan/hugolify-theme-uncinqify v0.0.0-20240912120526-112a3ec90fc9 h1:DEAoMlI/GCsLEUu6PBiLVjoi2vFLNhyq02fqDJyMDO4=
+github.com/sebousan/hugolify-theme-uncinqify v0.0.0-20240912120526-112a3ec90fc9/go.mod h1:yUc+GkvQkafMqFMGqXWLTutcRJ5+MIoP3uCoWUixQXg=
 github.com/twbs/bootstrap v5.3.2+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/bootstrap v5.3.3+incompatible h1:goFoqinzdHfkeegpFP7pvhbd0g+A3O2hbU3XCjuNrEQ=
 github.com/twbs/bootstrap v5.3.3+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=

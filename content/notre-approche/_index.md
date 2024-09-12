@@ -4,7 +4,7 @@ draft: false
 title: Notre approche de la conception d’un site Web
 url: notre-approche-de-la-conception-d-un-site-web
 description: Voici les points essentiels pour garantir la qualité d’un site Web dans le temps et son utilisation par les internautes.
-image: 
+image:
   src: /images/uploads/264.Teaming-Up.svg
 seo:
   image: /images/uploads/share-approche.png
@@ -22,7 +22,7 @@ blocks:
     heading:
       title: L’expérience utilisateur est primordiale
       text: Pour garantir le succès d’un site Web.
-    items: 
+    items:
       - title: Convivialité
         icon: person-hearts
         text: Le site doit être intuitif et facile à utiliser, avec une navigation claire et des éléments interactifs bien conçus.
@@ -43,7 +43,7 @@ blocks:
       La convivialité, ou l’usabilité, d’un site Web est un facteur essentiel pour améliorer l’expérience utilisateur et influencer le classement sur Google. Google accorde de l’importance à la convivialité d’un site, car cela contribue à garantir que les visiteurs trouvent rapidement les informations dont ils ont besoin et bénéficient d’une expérience positive. Cela a un impact direct sur le temps que les visiteurs passent sur un site.
 
       * **Navigation Intuitive**
-      
+
       * **Optimisation Mobile**
     image:
       src: /images/uploads/241.Going-To-Work.svg
@@ -55,9 +55,9 @@ blocks:
       La vitesse de chargement d’un site Web est étroitement liée au taux de rebond, car elle a un impact significatif sur l’expérience utilisateur. Les visiteurs ont tendance à quitter un site si les pages mettent trop de temps à se charger, ce qui augmente le taux de rebond. Une vitesse de chargement rapide est donc cruciale pour maintenir un taux de rebond bas, améliorer la satisfaction des utilisateurs et maximiser l’engagement sur le site.
 
       * **Optimisation des images et des médias**
-      
+
       * **Compression des fichiers**
-      
+
       * **Utilisation de la mise en cache**
     image:
       src: /images/uploads/269.Page-Loading-Speed.svg
@@ -65,16 +65,16 @@ blocks:
     direction: ltr
     text: >-
       ### Accessibilité
-      
+
       En France, très peu de sites internet sont accessibles. En effet, 70% du contenu digital est inaccessible aux personnes en situation de handicap. Il peut être, par exemple, difficile d’écouter du contenu audio, de lire ou tout simplement de naviguer facilement sur le site web.
 
       * **Conformité aux normes WCAG**
-      
+
       * **Compatibilité avec les Lecteurs d'écran**
-      
+
       * **Clavier et navigation au clavier**
 
-    image: 
+    image:
       src: /images/uploads/150.Cubes.svg
   - type: quote
     quote: « 70% des sites Web ne sont pas accessibles »
@@ -90,9 +90,9 @@ blocks:
       L’un des atouts les plus précieux pour un site Web. Il attire, engage, convertit, et fidélise les visiteurs, améliore le classement dans les moteurs de recherche, et renforce la crédibilité de votre site. Il est essentiel pour réussir en ligne.
 
       * **Réduit le taux de rebond**
-      
+
       * **Améliore le taux de conversion**
-    image: 
+    image:
       src: /images/uploads/277.Found-It.svg
   - type: title
     background: true
@@ -102,14 +102,14 @@ blocks:
   - type: editorial
     background: true
     text: Google utilise des signaux d’expérience utilisateur pour évaluer la convivialité d’un site, y compris le taux de rebond, le temps passé sur le site, et d’autres métriques. L'amélioration de la convivialité de votre site est un moyen efficace d’améliorer son classement dans les résultats de recherche de Google.
-    image: 
+    image:
       src: /images/uploads/221.Googling.svg
   - type: informations
     column: 4
     heading:
       title: Les enjeux techniques
       text: Essentiels pour assurer le bon fonctionnement et la durabilité de votre site Web.
-    items: 
+    items:
       - title: Éco-conception
         icon: tree
         text: Créez un Web respectueux de l’environnement
@@ -143,14 +143,14 @@ blocks:
 
       Mettre à jour régulièrement le logiciel, y compris le CMS (Content Management System) ou tout autre composant, pour corriger les vulnérabilités de sécurité.
 
-      
+
       Utiliser un certificat SSL pour sécuriser les connexions entre le navigateur de l’utilisateur et le serveur web, assurant ainsi le chiffrement des données.
 
 
       * **Mises à jour régulières** 
-      
+
       * **HTTPS et certificat SSL**
-    image: 
+    image:
       src: /images/uploads/37.Password.svg
   - type: quote
     quote: « 42% des sites Wordpress ont des problèmes de sécurité en 2022 »
@@ -158,24 +158,24 @@ blocks:
       title: Patchstack
       text: State of WordPress Security In 2022
       url: https://patchstack.com/whitepaper/wordpress-security-stats-2022/
-    
+
   - type: editorial
     text: >-
       ### Maintenabilité
 
       La maintenabilité d’un site Web fait référence à sa capacité à être facilement modifié, mis à jour, et réparé au fil du temps. 
-      
-      
+
+
       Un site Web maintenable est conçu de manière à ce que des changements puissent être apportés sans affecter négativement d’autres parties du site, ce qui réduit les coûts et le temps nécessaires pour les mises à jour et les réparations. Une bonne maintenabilité implique une structure propre, une documentation claire, et l’utilisation de meilleures pratiques de développement pour assurer la flexibilité et la facilité de gestion du site Web sur le long terme.
 
       * **Structuration du code**
-      
+
       * **Conformité aux normes**
-      
+
       * **Modularité du code**
     image:
       src: /images/uploads/103.Scalability.svg
-  
+
   - type: editorial
     direction: rtl
     text: >-
@@ -205,7 +205,7 @@ blocks:
     background: true
     heading:
       title: Vous souhaitez plus d’informations ?
-    cta:
-      text: Contactez-nous
-      url: /contact/
+    ctas:
+      - text: Contactez-nous
+        url: /contact/
 ---

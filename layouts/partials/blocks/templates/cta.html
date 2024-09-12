@@ -3,7 +3,12 @@
     <div class="container">
       <div>
         {{ partial "blocks/heading.html" . }}
-        {{ partial "commons/cta-group.html" (dict "cta" .cta "cta_second" .cta_second) }}
+        {{- with .ctas }}
+          {{ partial "commons/cta-group.html" (dict "ctas" .) }}
+        {{- else -}}
+          {{/*  Deprecated  */}}
+          {{ partial "commons/cta-group.html" (dict "cta" .cta "cta_second" .cta_second) }}
+        {{ end -}}
       </div>
     </div>
   </section>

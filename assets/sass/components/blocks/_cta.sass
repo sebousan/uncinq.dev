@@ -1,16 +1,18 @@
 .block-cta
+    text-align: center
     .btn
         @if variable-exists(icons-map)
             &::before
                 @include icon("arrow-right")
                 margin-right: .5rem
-    .btn:first-of-type
-        --bs-btn-hover-bg: #F0F0F0
+    // .btn:first-of-type
+    //     --bs-btn-hover-bg: #F0F0F0
     &:last-of-type
         @include margin-top($global-spacing)
         background-color: transparent
         padding: 0
         .container > div
+            --bs-heading-color: initial
             @include padding($global-spacing)
             background-color: $gray-100
             border-radius: .5rem
@@ -24,7 +26,7 @@
             --bs-btn-color: white
             --bs-btn-bg: black
             border: 0
-            &::before
+            &::after
                 bottom: 0
                 content: ''
                 left: 0

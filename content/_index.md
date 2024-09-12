@@ -5,12 +5,11 @@ hero:
   title: Nous développons des sites Web pérennes, accessibles à tous et à faible émission de carbone.
   image:
     src: /images/uploads/205.OK.svg
-  cta:
-    text: Notre approche
-    url: "/notre-approche-de-la-conception-d-un-site-web/"
-  cta_second:
-    text: Contactez-nous
-    url: /contact/
+  ctas:
+    - text: Notre approche
+      url: "/notre-approche-de-la-conception-d-un-site-web/"
+    - text: Contactez-nous
+      url: /contact/
 blocks:
   - type: informations
     background: true
