@@ -50,6 +50,16 @@ blocks:
         icon: kanban
         text: Dédié et simplifié grâce à Decap CMS.
     background: true
+
+  - type: quote
+    background: true
+    quote: « Le choix d’Hugolify permet d’avoir une site Web robuste, rapide, accessible à tous et évolutif rapidement. Tout en ayant une approche low-code »
+    author:
+      title: Sébastien Moulène
+      text: Un Cinq
+      image:
+        src: /images/uploads/sebastien-moulene.jpg
+
   - type: informations
     column: 5
     background: true
@@ -115,7 +125,7 @@ blocks:
   - type: figure
     heading:
       title: Un design responsive réussi.
-      text: Le studio {{<  blank_link text=`Bonhomme` link=`https://www.bonhommeparis.com/fr/` >}} nous a fait confiance pour gérer l’entièreté du développement et intégration. De leur côté ils ont réalisé un UX/UI modulaire.
+      text: Le studio de design {{<  blank_link text=`Bonhomme` link=`https://www.bonhommeparis.com/fr/` >}} nous a fait confiance pour gérer l’entièreté du développement et intégration. De leur côté ils ont réalisé un UX/UI modulaire.
     background: true
     grid: medium
     align: center
@@ -190,8 +200,7 @@ blocks:
   - type: datas
     heading:
       title: Analyse du site conçu avec Hugolify
-      text: Grâce à Google Lighthouse qui est un outil open-source permettant de
-        mesurer la qualité des pages Web. Voici, ci-dessous, {{<  blank_link text=`le résultat sur Google PageSpeed` link=`https://pagespeed.web.dev/analysis/https-jcbiver-com/ol265bow4q?form_factor=mobile` >}} du test des Core Web Vitals de la page d’accueil sur mobile.
+      text: Grâce à Google Lighthouse qui est un outil open-source permettant de mesurer la qualité des pages Web. Voici, ci-dessous, {{<  blank_link text=`le résultat sur Google PageSpeed` link=`https://pagespeed.web.dev/analysis/https-jcbiver-com/ol265bow4q?form_factor=mobile` >}} du test des Core Web Vitals de la page d’accueil sur mobile.
     column: 4
     show_color: true
     show_gauge: true
@@ -216,12 +225,13 @@ blocks:
 
   - type: quote
     background: true
-    quote: « Le choix d’Hugolify permet d’avoir une site Web robuste, rapide, accessible à tous et évolutif rapidement. Tout en ayant une approche low-code »
+    quote: « Une nouvelle collaboration très fructueuse sur ce beau projet. L'implication dans les problématiques contemporaines d'eco-conception et d'accessibilité fait de Un Cinq un partenaire remarquable. »
     author:
-      title: Sébastien Moulène
-      text: Un Cinq
+      title: Emmanuel Cruellas
+      text: Bonhomme
       image:
-        src: /images/uploads/sebastien-moulene.jpg
+        src: /images/uploads/emmanuel-cruellas.jpg
+
   - type: cta
     heading:
       title: Bonne visite !

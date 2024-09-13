@@ -358,7 +358,7 @@ blocks:
     heading:
       title: Bonne visite !
     cta:
-      text: Découvrez le site Web du cabinet 52
+      text: Découvrez le nouveau site Web du cabinet 52
       url: https://www.le52-avocats.com/
       blank: true
 ---
