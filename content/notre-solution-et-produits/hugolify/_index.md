@@ -46,6 +46,15 @@ blocks:
         text: Un site Web fait pour durer, intemporel.
         icon: clock-history
 
+  - type: figure
+    background: true
+    grid: medium
+    offset: center
+    figure:
+      screenshot: true
+      src: /images/uploads/hugolify-screenshot.png
+      alt: Capture d’écran du site Hugolify
+
   - type: cta
     background: true
     cta:

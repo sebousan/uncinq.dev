@@ -32,6 +32,7 @@ blocks:
       blank: false
       url: /notre-solution-et-produits/hugolify/
       text: Découvrir Hugolify
+
   - type: informations
     heading:
       title: Nos quatre produits métiers disponibles
