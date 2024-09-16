@@ -2,6 +2,7 @@
 isIndex: false
 draft: true
 date: 2023-10-23T08:34:08.410Z
+casestudies_services: audit-performance-site-web
 title: DPSG
 slug: dpsg-audit-performant-prestashop
 description: Audit de performance d’un site Prestashop.

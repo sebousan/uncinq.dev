@@ -19,7 +19,7 @@ blocks:
     column: 4
     heading:
       title: Expérience utilisateur grandement améliorée, site Web léger et éthique.
-      text: Le framework Hugolify bénéficie de toutes ces qualités.
+      text: Le framework Hugolify bénéficie d’une approche moderne et low-code pour permettre de développer n’importe quel site statique rapidement.
     items:
       - title: Performant
         text: Un site Web ultra rapide pour un accès même avec une connexion faible.
@@ -49,7 +49,7 @@ blocks:
   - type: datas
     column: 3
     heading:
-      title: Personnalisation rapide, précise et robuste
+      title: Personnalisation rapide, précise et robuste.
       text: Une solution développée et conçue de manière atomique.
     items:
       - title: Types de contenu
@@ -62,7 +62,7 @@ blocks:
         prefix: +
   - type: figure
     heading:
-      title: Mise à jour du contenu simplifié
+      title: Mise à jour du contenu simplifié.
       text: Espace admin dédié et allégé.
     grid: medium
     offset: center
@@ -115,6 +115,7 @@ blocks:
       title: Dernières études de cas sur cette solution
       text: Pour mesurer concrètement l’intérêt d’Hugolify par rapport à d’autres solutions comme Wordpress, Drupal, Wix…
     items:
+      - 2024/biver
       - 2023/miriam-lasserre
       - 2023/venn-capital
 ---

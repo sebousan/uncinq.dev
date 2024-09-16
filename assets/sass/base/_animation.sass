@@ -124,6 +124,17 @@
                 opacity: 1
                 transform: translateY(0)
 
+        &.block-cta
+            .btn
+                opacity: 0
+                transition-delay: $transition-delay
+                transition-duration: $transition-duration
+                transition-property: opacity
+                transition-timing-function: $transition-effect
+            &[data-anim-show]
+                .btn
+                    opacity: 1
+
         &.block-editorial
             .surtitle,
             h2,
@@ -154,3 +165,20 @@
                 picture
                     opacity: 1
                     transform: translateY(0)
+
+        .item,
+        .items > li
+            opacity: 0
+            transform: translateY(2rem)
+            transition-delay: $transition-delay
+            transition-duration: $transition-duration
+            transition-timing-function: $transition-effect
+            transition-property: opacity, transform
+            @include media-breakpoint-down(lg)
+                transform: none
+        &[data-anim-show]
+            .item,
+            .items > li
+                opacity: 1
+                transform: translateY(0)
+

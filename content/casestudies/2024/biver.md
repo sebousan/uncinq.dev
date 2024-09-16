@@ -228,7 +228,7 @@ blocks:
     quote: « Une nouvelle collaboration très fructueuse sur ce beau projet. L'implication dans les problématiques contemporaines d'eco-conception et d'accessibilité fait de Un Cinq un partenaire remarquable. »
     author:
       title: Emmanuel Cruellas
-      text: Bonhomme
+      text: Co-fondateur, Bonhomme
       image:
         src: /images/uploads/emmanuel-cruellas.jpg
 

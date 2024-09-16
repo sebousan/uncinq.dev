@@ -2,6 +2,7 @@
 isIndex: false
 draft: true
 date: 2024-09-13T08:34:08.410Z
+casestudies_services: audit-performance-site-web
 title: Les Petits Culottés
 slug: lpc-audit-performant-prestashop
 description: Audit de performance d’un site Prestashop.
