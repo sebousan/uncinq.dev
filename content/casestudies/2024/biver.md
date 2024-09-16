@@ -31,7 +31,7 @@ blocks:
   - type: informations
     heading:
       title: Pourquoi la solution Hugolify ?
-      text: Le choix de développer le site vitrine avec [Hugolify](/notre-solution-et-produits/hugolify/) permet de simplifier la conception et sa maintenabilité contrairement à un site conçu avec Wordpress ou Drupal par exemple.
+      text: Le choix de développer le site vitrine avec [Hugolify](/notre-solution-et-produits/hugolify/) permet de simplifier la conception et sa maintenabilité contrairement à d’autres solutions plus lourdes.
     column: 5
     items:
       - title: Sécurité
