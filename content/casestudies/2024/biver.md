@@ -1,7 +1,7 @@
 ---
 isIndex: false
 draft: false
-date: 2024-09-03T08:34:08.410Z
+date: 2024-09-10T18:34:08.410Z
 casestudies_services: hugolify
 title: Biver
 slug: biver-site-performant-hugolify
@@ -31,7 +31,7 @@ blocks:
   - type: informations
     heading:
       title: Pourquoi la solution Hugolify ?
-      text: Le choix de développer le site vitrine avec Hugolify permet de simplifier la conception et sa maintenabilité contrairement à un site conçu avec Wordpress, Drupal par exemple.
+      text: Le choix de développer le site vitrine avec [Hugolify](/notre-solution-et-produits/hugolify/) permet de simplifier la conception et sa maintenabilité contrairement à un site conçu avec Wordpress ou Drupal par exemple.
     column: 5
     items:
       - title: Sécurité
@@ -53,7 +53,7 @@ blocks:
 
   - type: quote
     background: true
-    quote: « Le choix d’Hugolify permet d’avoir une site Web robuste, rapide, accessible à tous et évolutif rapidement. Tout en ayant une approche low-code »
+    quote: « Le choix de Hugolify permet d’avoir une site Web robuste, rapide, accessible à tous et évolutif rapidement. Tout en ayant une approche low-code »
     author:
       title: Sébastien Moulène
       text: Un Cinq
@@ -64,7 +64,7 @@ blocks:
     column: 5
     background: true
     heading:
-      title: Stack technique de Hugolify
+      title: Stack technique du projet
       text: Frameworks et hébergements.
     items:
       - title: Hugo
@@ -124,8 +124,8 @@ blocks:
 
   - type: figure
     heading:
-      title: Un design responsive réussi.
-      text: Le studio de design {{<  blank_link text=`Bonhomme` link=`https://www.bonhommeparis.com/fr/` >}} nous a fait confiance pour gérer l’entièreté du développement et intégration. De leur côté ils ont réalisé un UX/UI modulaire.
+      title: Un design modulaire très réussi !
+      text: Le studio de design {{<  blank_link text=`Bonhomme` link=`https://www.bonhommeparis.com/fr/` >}} nous a fait confiance pour gérer l’entièreté du développement et intégration. De leur côté ils ont réalisé un UX/UI.
     background: true
     grid: medium
     align: center
@@ -137,7 +137,7 @@ blocks:
 
   - type: quote
     background: true
-    quote: « Un design modulaire et atomique permet de tirer le meilleur d’Hugolify. »
+    quote: « Un design modulaire et atomique permet de tirer le meilleur de Hugolify. »
     author:
       title: Sébastien Moulène
       text: Un Cinq
@@ -164,7 +164,7 @@ blocks:
     heading:
       title: Côté développement
       text: >-
-        L’utilisation des modules Hugolify pré-codé permet de limiter le temps passé et les erreurs éventuelles.
+        L’utilisation des modules [Hugolify](/notre-solution-et-produits/hugolify/) pré-codé permet de limiter le temps passé et les erreurs éventuelles.
         Ainsi que de profiter de la gestion des images (lazy loading, srcset…).
     items:
       - title: Modules Hugolify

@@ -46,6 +46,13 @@ blocks:
         text: Un site Web fait pour durer, intemporel.
         icon: clock-history
 
+  - type: cta
+    background: true
+    cta:
+      blank: true
+      url: https://www.hugolify.io
+      text: Voir le site officiel Hugolify (en anglais)
+
   - type: datas
     column: 3
     heading:
@@ -60,6 +67,7 @@ blocks:
         text: Editorial, citation, données, images…
         value: 20
         prefix: +
+
   - type: figure
     heading:
       title: Mise à jour du contenu simplifié.
@@ -70,14 +78,11 @@ blocks:
       screenshot: true
       src: /images/uploads/admin-hugolify.png
       alt: Capture d’écran de l’espace admin de Hugolify
-  - type: cta
-    cta:
-      blank: true
-      url: https://www.hugolify.io
-      text: Voir le site officiel Hugolify (en anglais)
+      legend: Exemple d’espace admin de Hugolify
+
   - type: informations
     heading:
-      title: Développé en Hugo et s’appuyant de Bootstrap et de Decap CMS
+      title: Développé en Hugo et s’appuyant de Bootstrap et de Decap CMS.
     column: 4
     items:
       - title: Hugo
@@ -107,13 +112,14 @@ blocks:
           blank: true
           text: Voir le site de Decap CMS
           url: https://decapcms.org
+
   - type: selected-casestudies
     section: casestudies
     show_more: false
     background: true
     heading:
-      title: Dernières études de cas sur cette solution
-      text: Pour mesurer concrètement l’intérêt d’Hugolify par rapport à d’autres solutions comme Wordpress, Drupal, Wix…
+      title: Dernières études de cas sur cette solution.
+      text: Pour mesurer concrètement l’intérêt de Hugolify par rapport à d’autres solutions comme Wordpress, Drupal, Wix…
     items:
       - 2024/biver
       - 2023/miriam-lasserre

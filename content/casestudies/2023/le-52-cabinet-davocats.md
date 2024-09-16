@@ -323,7 +323,7 @@ blocks:
     heading:
       title: Côté développement
       text: >-
-        L’utilisation des modules Hugolify pré-codé permet de limiter le temps passé et les erreurs éventuelles.
+        L’utilisation des modules [Hugolify](/notre-solution-et-produits/hugolify/) pré-codé permet de limiter le temps passé et les erreurs éventuelles.
         Ainsi que de profiter de la gestion des images (lazy loading, srcset…).
     items:
       - title: Modules Hugolify

@@ -358,7 +358,7 @@ blocks:
     items:
       - title: Modules Hugolify
         text:
-          7 modules Hugolify ont été utilisés pour concevoir l’architecture de site
+          7 modules [Hugolify](/notre-solution-et-produits/hugolify/) ont été utilisés pour concevoir l’architecture de site
           Web.
         icon: git
       - title: Blocs Hugolify

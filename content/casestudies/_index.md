@@ -7,12 +7,10 @@ image:
   src: /images/uploads/152.Study-Group.svg
 seo:
   image: /images/uploads/share-etudes-de-cas.png
-description: Découvrez nos expériences sur les migrations de site Web de nos
-  clients. Le passage d’un CMS à notre solution Hugolify.
+description: Découvrez nos expériences sur la création de sites Web performants. Que ce soit lors d’une migration ou d’une mise en place.
 hero:
   title: Les études de cas
-  text: Découvrez nos expériences sur les migrations de site Web de nos clients.
-    Le passage d’un CMS à notre solution Hugolify.
+  text: Découvrez nos expériences sur la création de sites Web performants. Que ce soit lors d’une migration ou d’une mise en place.
   image:
     src: /images/uploads/152.Study-Group.svg
 ---
