@@ -166,6 +166,7 @@
                     opacity: 1
                     transform: translateY(0)
 
+        .quote,
         .item,
         .items > li
             opacity: 0
@@ -177,6 +178,7 @@
             @include media-breakpoint-down(lg)
                 transform: none
         &[data-anim-show]
+            .quote,
             .item,
             .items > li
                 opacity: 1
