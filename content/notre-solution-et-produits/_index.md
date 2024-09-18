@@ -26,8 +26,9 @@ blocks:
 
       Découvrez en quelques lignes les avantages et les fonctionalités.
     image:
-      src: /images/uploads/hugolify-2.png
-      alt: Hugolify
+      src: /images/uploads/hugolify-screenshot.png
+      alt: Capture d’écran du site Hugolify
+      screenshot: true
     cta:
       blank: false
       url: /notre-solution-et-produits/hugolify/
