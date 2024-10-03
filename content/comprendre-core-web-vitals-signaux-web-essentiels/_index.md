@@ -119,7 +119,7 @@ blocks:
           blank: true
           url: https://chromewebstore.google.com/detail/web-vitals/ahfhijdlegdabablpippeagghigmibma
   - type: quote
-    quote: « Il est important de surveiller régulièrement ces Core Web Vitals et de les optimiser pour garantir que votre site Web offre une expérience utilisateur de qualité et conserve ou améliore son classement dans les résultats de recherche de Google. »
+    quote: « Il est important de surveiller régulièrement les Core Web Vitals et de les optimiser pour garantir que votre site Web offre une expérience utilisateur de qualité et conserve ou améliore son classement dans les résultats de recherche de Google. »
     author:
       title: Sébastien Moulène
       text: Un Cinq
