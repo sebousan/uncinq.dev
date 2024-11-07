@@ -1,6 +1,6 @@
 ---
 isIndex: true
-draft: true
+draft: false
 title: Nos services
 url: nos-services
 image:

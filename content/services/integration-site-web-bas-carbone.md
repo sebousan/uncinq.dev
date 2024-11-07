@@ -1,15 +1,17 @@
 ---
-draft: true
+draft: false
+weight: 7
 title: Intégration de site Web bas carbone
-image: 
+description: Étroitement lié à la conception de site Web performant.
+image:
   src: /images/uploads/logo-websitecarbon.svg
 hero:
   title: Intégration de site Web bas carbone
-  text: Étroitement lié à la conception de site Web performant.
-  image: 
+  image:
     src: /images/uploads/logo-websitecarbon.svg
 blocks:
   - type: editorial
+    # background: true
     direction: rtl
     image:
       src: /images/uploads/179.Planet.svg
@@ -24,7 +26,6 @@ blocks:
       text: Éco-conception de site Web
       blank: true
       url: https://www.eco-conception-site-web.com/
-
 
   - type: cta
     background: true

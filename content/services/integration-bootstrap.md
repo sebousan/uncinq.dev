@@ -1,12 +1,12 @@
 ---
-draft: true
+draft: false
+weight: 8
 title: Intégration avec Bootstrap
 description: L’un des frameworks front-end et des projets open-source les plus populaires au monde.
 image:
   src: /images/uploads/logo-bootstrap-5.svg
 hero:
-  title: Intégration avec Bootstrap
-  text: Créé à l’origine par un designer et un développeur de Twitter, Bootstrap est devenu l’un des frameworks front-end et des projets open-source les plus populaires au monde.
+  title: Intégration avec Bootstrap 3, 4 et 5
   image:
     src: /images/uploads/logo-bootstrap-5.svg
 blocks:

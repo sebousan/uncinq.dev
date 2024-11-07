@@ -31,53 +31,21 @@ blocks:
       - title: SEO friendly
         text: Un code respectueux des standards et de la sémantique pour un réferencement naturel optimisé.
         icon: search-heart
-  - type: informations
+  - type: selected-services
+    section: services
     background: true
-    column: 4
     heading:
       title: Nos services
       text: Une approche low code pour garantir une qualité optimale.
     items:
-      - title: Audit de performance de votre site Web
-        text: Focus sur les Core Web Vitals de Google.
-        image:
-          src: /images/uploads/logo-google-pagespeed-insights.svg
-          isLogo: true
-      - title: Développement de site Web statique avec Hugo
-        text: Grâce à notre framework Hugolify.
-        image:
-          src: /images/uploads/logo-hugo.svg
-          isLogo: true
-      - title: Développement de site e-commerce avec Shopify
-        text: Online Store 2.0.
-        image:
-          src: /images/uploads/logo-shopify.svg
-          isLogo: true
-      - title: Développement de site Web dynamique avec Wordpress
-        text: Avec le moins de plugin possible.
-        image:
-          src: /images/uploads/logo-wordpress.png
-          isLogo: true
-      - title: Optimisation des Core Web Vitals
-        text: Intégration et développement pour atteindre le score le plus élevé.
-        image:
-          src: /images/uploads/logo-webvitals.png
-          isLogo: true
-      - title: Accessibilité Web
-        text: Mise en conformité des sites Web aux référentiels d’accessibilité RGAA / WCAG.
-        image:
-          src: /images/uploads/universal-access-circle.svg
-          isLogo: true
-      - title: Intégration de site Web bas carbone
-        text: Étroitement lié à la conception de site Web performant.
-        image:
-          src: /images/uploads/logo-green.svg
-          isLogo: true
-      - title: Intégration avec Bootstrap
-        text: Version 3, 4 et 5.
-        image:
-          src: /images/uploads/logo-bootstrap-5.svg
-          isLogo: true
+      - Audit de performance de votre site Web
+      - Développement de site Web statique avec Hugo
+      - Développement de site e-commerce avec Shopify
+      - Développement de site Web dynamique avec Wordpress
+      - Optimisation des Core Web Vitals
+      - Accessibilité Web
+      - Intégration de site Web bas carbone
+      - Intégration avec Bootstrap
   - type: editorial
     direction: rtl
     title: Notre solution et produits orientés métiers
