@@ -12,4 +12,14 @@ hero:
   text: Nous intégrons et développons des sites Web modernes et performants.
   image:
     src: /images/uploads/259.To-Do-List.svg
+blocks:
+  - type: editorial
+    direction: rtl
+    title: Notre solution et produits orientés métiers
+    text: Solution et produits, pour un Web pérenne, plus simple, plus accessible et à faible émission de carbone.
+    image:
+      src: /images/uploads/181.Nodes.svg
+    cta:
+      text: Découvrir
+      url: "/notre-solution-et-produits/"
 ---
