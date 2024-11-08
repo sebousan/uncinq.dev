@@ -27,5 +27,6 @@
         "clean": "hugo mod clean",
         "tidy": "hugo mod tidy",
         "cms": "npx netlify-cms-proxy-server"
-    }
+    },
+    "dependencies": {}
 }
