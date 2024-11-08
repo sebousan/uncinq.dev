@@ -14,6 +14,7 @@ hero:
     src: /images/uploads/259.To-Do-List.svg
 blocks:
   - type: editorial
+    background: true
     direction: rtl
     title: Notre solution et produits orientés métiers
     text: Solution et produits, pour un Web pérenne, plus simple, plus accessible et à faible émission de carbone.
