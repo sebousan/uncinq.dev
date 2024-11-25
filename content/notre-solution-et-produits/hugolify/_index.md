@@ -8,9 +8,11 @@ image:
 hero:
   title: Hugolify
   text: Solution pour créer facilement un site Web de grande qualité tout en ayant un espace admin dédié et simplifié.
-  cta:
-    text: Découvrir
-    url: "#main"
+  ctas:
+    - text: Découvrir
+      url: "#main"
+    - text: Tarification transparente
+      url: "forfaits"
   image:
     src: /images/uploads/181.Nodes.svg
 blocks:
