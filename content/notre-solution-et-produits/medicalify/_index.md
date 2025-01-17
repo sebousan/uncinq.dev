@@ -3,6 +3,9 @@ isPage: true
 draft: true
 title: Medicalify
 description: Solution dédiée aux professionels de santé.
+url: medicalify-creation-site-web-cabinet-santé
+aliases:
+  - medicalify
 image:
   src: /images/uploads/medicalify.png
 hero:

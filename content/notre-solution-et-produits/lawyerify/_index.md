@@ -3,6 +3,9 @@ isPage: true
 draft: true
 title: Lawyerify
 description: Solution dédiée aux cabinets d’avocats.
+url: lawyerify-creation-site-web-cabinet-avocat
+aliases:
+  - lawyerify
 image:
   src: /images/uploads/lawyerify.png
 hero:
