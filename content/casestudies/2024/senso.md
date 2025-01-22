@@ -84,12 +84,12 @@ blocks:
 
   - type: informations
     heading:
-      title: Une seule application Symfony pour 3 sites Web
+      title: Une seule application Symfony pour 4 sites Web
       text: L’équipe de {{<  blank_link text=`23Prod` link=`https://www.23prod.com/` >}} a développé un back-end avec le framework PHP {{<  blank_link text=`Symfony` link=`https://symfony.com/` >}}, le contenu est lui appelé via une API qui en fonction de l’environnement envoie les données adéquates. À l’avenir d’autres sites Web peuvent voir le jour en ayant juste à ajouter des environnements.
-    column: 3
+    column: 4
     items:
       - title: Senso Art
-        text: Agent d’illustrateurs.
+        text: Agent d’illustrateurs
         cta:
           text: www.senso.art
           blank: true
@@ -98,7 +98,7 @@ blocks:
           src: /images/uploads/senso-sensoart.png
           isLogo: true
       - title: Senso Photo
-        text: Agent de photographes.
+        text: Agent de photographes
         cta:
           text: www.senso.photo
           blank: true
@@ -107,7 +107,7 @@ blocks:
           src: /images/uploads/senso-sensophoto.png
           isLogo: true
       - title: Senso Films
-        text: Agence de production de films d’animation.
+        text: Agence de production de films d’animation
         cta:
           text: www.sensofilms.com
           blank: true
@@ -115,6 +115,16 @@ blocks:
         image:
           src: /images/uploads/senso-sensofilms.png
           isLogo: true
+      - title: Senso AI
+        text: Agence de production IA
+        cta:
+          text: www.senso-ai.com
+          blank: true
+          url: https://senso-ai.com/
+        image:
+          src: /images/uploads/senso-sensoai.png
+          isLogo: true
+
   - type: quote
     background: false
     quote: « Une collaboration étroite avec les développeurs back-end de 23Prod pour permettre d’atteindre le plus haut score des signaux Web essentiels »
