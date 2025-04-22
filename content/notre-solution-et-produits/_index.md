@@ -39,42 +39,41 @@ blocks:
       title: Nos quatre produits métiers disponibles
       text: Basé sur Hugolify, ces produits ont des fonctionnalités supplémentaires et un espace admin dédié à l’univers du métier concerné.
     background: false
-    column: 4
+    column: 3
     items:
-      - title: Lawyerify
-        text: Solution dédiée aux cabinets d’avocats.
-        cta:
-          blank: true
-          text: En savoir plus sur Lawyerify
-          # url: /notre-solution-et-produits/lawyerify/
-          url: https://www.lawyerify.io
-        image:
-          src: /images/uploads/lawyerify.svg
       - title: Architectify
         text: Solution dédiée aux cabinets d’architectes.
         image:
           src: /images/uploads/architectify.svg
         cta:
-          blank: true
           text: En savoir plus sur Architectify
-          # url: /notre-solution-et-produits/architectify/
-          url: https://www.architectify.io
+          url: /notre-solution-et-produits/architectify/
+      - title: Capitalify
+        text: Solution dédiée aux cabinets financier.
+        cta:
+          text: En savoir plus sur Capitalify
+          url: /notre-solution-et-produits/capitalify-creation-site-web-cabinet-financier/
+        image:
+          src: /images/uploads/capitalify.svg
+      - title: Lawyerify
+        text: Solution dédiée aux cabinets d’avocats.
+        cta:
+          text: En savoir plus sur Lawyerify
+          url: /notre-solution-et-produits/lawyerify-creation-site-web-cabinet-avocat/
+        image:
+          src: /images/uploads/lawyerify.svg
       - title: Medicalify
         text: Solution dédiée aux professionnels de la santé.
         image:
           src: /images/uploads/medicalify.svg
         cta:
-          blank: false
           text: En savoir plus sur Medicalify
-          url: https://www.medicalify.io
-          # url: /notre-solution-et-produits/medicalify/
+          url: /notre-solution-et-produits/medicalify-creation-site-web-cabinet-sante/
       - title: Realestatify
         text: Solution dédiée aux agences immobilières.
         image:
           src: /images/uploads/realestatify.svg
         cta:
-          blank: false
           text: En savoir plus sur Realestatify
-          url: https://www.realestatify.io
-          # url: /notre-solution-et-produits/realestatify/
+          url: /notre-solution-et-produits/realestatify-creation-site-web-agence-immobiliere/
 ---

@@ -1,16 +1,14 @@
 ---
 isPage: true
 draft: false
-title: Architectify
-description: Solution dédiée aux cabinets d’architectes.
-url: notre-solution-et-produits/architectify-creation-site-web-cabinet-architecte
-aliases:
-  - architectify
+title: Capitalify
+description: Solution dédiée aux professionels de la finance et du patrimoine.
+url: notre-solution-et-produits/capitalify-creation-site-web-cabinet-financier
 image:
-  src: /images/uploads/architectify.png
+  src: /images/uploads/capitalify.png
 hero:
-  title: Architectify
-  text: Solution dédiée aux cabinets d’architectes.
+  title: Capitalify
+  text: Solution dédiée aux professionels de la finance et du patrimoine.
   image:
     src: /images/uploads/181.Nodes.svg
   cta:
@@ -21,23 +19,23 @@ blocks:
     grid: medium
     offset: center
     figure:
-      src: /images/uploads/architectify.png
-      alt: Architectify
+      src: /images/uploads/capitalify.png
+      alt: Capitalify
   - type: cta
     heading:
       title: Basé sur Hugolify et profitant de toutes ses évolutions
-      text: Architectify a des fonctionnalités supplémentaires et un espace admin dédié à l’univers du métier d’architecte.
+      text: Capitalify a des fonctionnalités supplémentaires et un espace admin dédié à l’univers des métiers de la finance.
     cta:
       blank: true
-      url: https://www.architectify.io
-      text: En savoir plus sur Architectify
-  - type: figure
-    heading:
-      title: Espace admin dédié et simplifié
-    grid: medium
-    offset: center
-    figure:
-      src: /images/uploads/admin-architectify.png
+      url: https://www.capitalify.io
+      text: En savoir plus sur Capitalify
+  # - type: figure
+  #   heading:
+  #     title: Espace admin dédié et simplifié
+  #   grid: medium
+  #   offset: center
+  #   figure:
+  #     src: /images/uploads/admin-capitalify.png
   - type: informations
     heading:
       title: Développé en Hugo et s’appuyant de Bootstrap et de Decap CMS
@@ -70,4 +68,13 @@ blocks:
           blank: true
           text: Voir le site de Decap CMS
           url: https://decapcms.org
+
+  - type: selected-casestudies
+    section: casestudies
+    show_more: false
+    background: true
+    heading:
+      title: Dernières études de cas sur ce produit
+    items:
+      - 2023/venn-capital
 ---

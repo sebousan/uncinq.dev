@@ -1,9 +1,9 @@
 ---
 isPage: true
-draft: true
+draft: false
 title: Realestatify
 description: Solution dédiée aux agences immobilières.
-url: realestatify-creation-site-web-agence-immobiliere
+url: notre-solution-et-produits/realestatify-creation-site-web-agence-immobiliere
 aliases:
   - realestify
 image:

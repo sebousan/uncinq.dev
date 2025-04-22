@@ -1,9 +1,9 @@
 ---
 isPage: true
-draft: true
+draft: false
 title: Medicalify
 description: Solution dédiée aux professionels de santé.
-url: medicalify-creation-site-web-cabinet-santé
+url: notre-solution-et-produits/medicalify-creation-site-web-cabinet-sante
 aliases:
   - medicalify
 image:
@@ -27,10 +27,10 @@ blocks:
     heading:
       title: Basé sur Hugolify et profitant de toutes ses évolutions
       text: Medicalify a des fonctionnalités supplémentaires et un espace admin dédié à l’univers des métiers de la santé.
-    # cta:
-    #   blank: true
-    #   url: https://www.medicalify.io
-    #   text: En savoir plus sur Medicalify
+    cta:
+      blank: true
+      url: https://www.medicalify.io
+      text: En savoir plus sur Medicalify
   # - type: figure
   #   heading:
   #     title: Espace admin dédié et simplifié
