@@ -49,7 +49,7 @@ blocks:
       - title: Pack Premium
         text: Pour les sites Web complets.
         offer:
-          price: 49
+          price: 69
           frequency: /mois
           text: Facturé chaque mois via Stripe ou via facture annuelle.
         arguments:
@@ -82,7 +82,7 @@ blocks:
       - title: Pack Exclusive
         text: Pour les sites Web complexes.
         offer:
-          price: 59
+          price: 99
           frequency: /mois
           text: Facturé chaque mois via Stripe ou via facture annuelle.
         arguments:
