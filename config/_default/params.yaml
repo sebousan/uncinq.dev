@@ -1,5 +1,23 @@
 _merge: deep
+
+# Website
 animation: true
+bootstrap:
+  alert: false
+  carousel: false
+  collapse: false
+  dropdown: false
+  modal: false
+  offcanvas: true
+  popover: false
+  scrollspy: false
+  tab: false
+  toast: false
+  tooltip: false
+chart:
+  color: white
+
+# Images
 image:
   _merge: deep
   xsmall: "70x70"
