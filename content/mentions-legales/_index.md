@@ -45,6 +45,10 @@ Ce site a été conçu avec [Hugolify](https://www.hugolify.io), une solution op
 À ce jour, uncinq.dev ne collecte aucune donnée personnelle à travers son site internet (pas de mesure d’audience ni de formulaires).
 
 
+## Liens hypertextes
+
+Le site https://uncinq.dev contient des liens hypertextes vers d’autres sites et dégage toute responsabilité à propos de ces liens externes ou des liens créés par d’autres sites vers https://uncinq.dev.
+
 ## Cookies
 
 Aucun.
