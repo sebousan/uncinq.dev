@@ -1,12 +1,10 @@
-# UN CINQ
+# Un Cinq
 
 ## Live
 https://www.uncinq.dev
 
-## Installation 
-```
-git clone git@github.com:sebousan/uncinq.dev.git
-```
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5c694265-5a55-43db-8321-8376b37e3916/deploy-status)](https://app.netlify.com/projects/uncinq/deploys)
 
 ## Documentation
-[https://github.com/sebousan/hugolify-template/wiki](https://github.com/sebousan/hugolify-template/wiki)
+
+https://www.hugolify.io/docs/

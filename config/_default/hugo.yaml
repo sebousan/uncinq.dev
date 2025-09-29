@@ -1,16 +1,19 @@
 ## LANGUAGE
 defaultContentLanguage: fr
-languageCode: fr
 
 ## ADVANCED
 build:
-  writeStats: true
+  buildStats:
+    disableClasses: false
+    disableIDs: true
+    disableTags: false
+    enable: true
 enableRobotsTXT: true
 imaging:
   quality: 90
 markup:
   tableOfContents:
     ordered: true
-pagination.pagerSize: 20
+pagination:
+  pagerSize: 20
 removePathAccents: true
-disableHugoGeneratorInject: true

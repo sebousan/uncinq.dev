@@ -6,15 +6,15 @@ slug: venn-capital-migration-wordpress-hugo
 title: Venn Capital
 description: Migration d’un site Wordpress vers Hugolify.
 seo:
-  image: /images/uploads/venn-capital-share.png
+  image: https://res.cloudinary.com/uncinq/image/upload/v1759153177/venn-capital-share_a9ssvj.png
 image:
-  src: /images/uploads/venn-capital-logo.svg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1759153177/venn-capital-logo_zm6o67.svg
 hero:
   surtitle: Étude de cas
   title: Venn Capital, migration d’un site Wordpress vers Hugolify
   image:
-    src: /images/uploads/venn-capital-logo.svg
-casestudies_services: hugolify
+    src: https://res.cloudinary.com/uncinq/image/upload/v1759153177/venn-capital-logo_zm6o67.svg
+casestudies_services: capitalify
 blocks:
   - type: paragraph
     title: Quelques mots sur la société
@@ -60,7 +60,7 @@ blocks:
     quote: « Google intègre les Core Web Vitals dans son algorithme et décide de mettre plus facilement en avant une page qui possède une expérience utilisateur conviviale »
     author:
       image:
-        src: /images/uploads/logo-google.svg
+        src: https://res.cloudinary.com/uncinq/image/upload/v1759146561/logo-google_ychfbh.svg
       title: Google
       text: Blog Google Search Central, 2021
       url: https://developers.google.com/search/blog/2020/11/timing-for-page-experience?hl=fr
@@ -140,7 +140,7 @@ blocks:
       title: Pierrick Corbel
       text: Venn Capital
       image:
-        src: /images/uploads/pierrick-corbel.png
+        src: https://res.cloudinary.com/uncinq/image/upload/v1759153178/pierrick-corbel_rsuwb6.png
   - type: datas
     heading:
       title: Analyse du nouveau site
@@ -202,10 +202,10 @@ blocks:
         Nail](https://www.behance.net/solenenouailhetas), directrice artistique.
     background: true
     images:
-      - src: /images/uploads/venn-capital-screenshot-home-wp.png
+      - src: https://res.cloudinary.com/uncinq/image/upload/v1759153177/venn-capital-screenshot-home-wp_npchwa.png
         legend: Ancien site
         half: true
-      - src: /images/uploads/venn-capital-screenshot-home-hugolify.png
+      - src: https://res.cloudinary.com/uncinq/image/upload/v1759153178/venn-capital-screenshot-home-hugolify_mkxnxu.png
         legend: Nouveau site
         half: true
   - type: title
@@ -331,10 +331,10 @@ blocks:
         De l’autre coté un admin dédié et simplifié pour Venn Capital.
     background: true
     images:
-      - src: /images/uploads/venn-capital-screenshot-admin-wp.png
+      - src: https://res.cloudinary.com/uncinq/image/upload/v1759153178/venn-capital-screenshot-admin-wp_xr81rf.png
         legend: Admin Wordpress de l’ancien site
         half: true
-      - src: /images/uploads/venn-capital-screenshot-admin-hugolify.png
+      - src: https://res.cloudinary.com/uncinq/image/upload/v1759153177/venn-capital-screenshot-admin-hugolify_b7miho.png
         legend: Admin Hugolify dédié à Venn Capital
         half: true
   - type: quote
@@ -346,7 +346,7 @@ blocks:
       title: Dimitri Boismare
       text: Venn Capital
       image:
-        src: /images/uploads/dimitri-boismare.png
+        src: https://res.cloudinary.com/uncinq/image/upload/v1759153178/dimitri-boismare_v0h85h.png
   - type: informations
     column: 4
     background: false
@@ -358,7 +358,7 @@ blocks:
     items:
       - title: Modules Hugolify
         text:
-          7 modules Hugolify ont été utilisés pour concevoir l’architecture de site
+          7 modules [Hugolify](/notre-solution-et-produits/hugolify/) ont été utilisés pour concevoir l’architecture de site
           Web.
         icon: git
       - title: Blocs Hugolify
@@ -372,11 +372,12 @@ blocks:
         icon: filetype-sass
   - type: cta
     heading:
+      title: Open-source
       text: Le code est en libre accès, vous pouvez le consulter sur Github.
-    cta:
-      url: https://github.com/sebousan/venn-capital
-      text: Accès au repository
-      blank: true
+    ctas:
+      - url: https://github.com/sebousan/venn-capital
+        text: Accès au repository
+        blank: true
   - type: quote
     background: true
     quote:
@@ -387,12 +388,13 @@ blocks:
       title: Sébastien Moulène
       text: Un Cinq
       image:
-        src: /images/uploads/sebastien-moulene.jpg
+        src: https://res.cloudinary.com/uncinq/image/upload/v1758205367/sebastien-moulene_ft0yg7.jpg
   - type: cta
+    background: true
     heading:
       title: Bonne visite !
-    cta:
-      text: Découvrez le nouveau site Web de Venn Capital
-      url: https://www.venn-capital.com/
-      blank: true
+    ctas:
+      - text: Découvrez le nouveau site Web de Venn Capital
+        url: https://www.venn-capital.com/
+        blank: true
 ---

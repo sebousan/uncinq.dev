@@ -4,22 +4,25 @@ draft: false
 title: Hugolify
 description: Solution pour créer facilement un site Web de grande qualité tout en ayant un espace admin dédié et simplifié.
 image:
-  src: /images/uploads/hugolify.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1759160426/banner-hugolify_yo2ezo.png
 hero:
+  surtitle: Developpement Web
   title: Hugolify
   text: Solution pour créer facilement un site Web de grande qualité tout en ayant un espace admin dédié et simplifié.
-  cta:
-    text: Découvrir
-    url: "#main"
+  ctas:
+    - text: Découvrir
+      url: "#main"
+    - text: Tarification transparente
+      url: "forfaits"
   image:
-    src: /images/uploads/181.Nodes.svg
+    src: https://res.cloudinary.com/uncinq/image/upload/v1758116598/181.Nodes_vgmgrr.svg
 blocks:
   - type: informations
     background: true
     column: 4
     heading:
       title: Expérience utilisateur grandement améliorée, site Web léger et éthique.
-      text: Le framework Hugolify bénéficie de toutes ces qualités.
+      text: Le framework Hugolify bénéficie d’une approche moderne et low-code pour permettre de développer n’importe quel site statique rapidement.
     items:
       - title: Performant
         text: Un site Web ultra rapide pour un accès même avec une connexion faible.
@@ -46,10 +49,25 @@ blocks:
         text: Un site Web fait pour durer, intemporel.
         icon: clock-history
 
+  - type: figure
+    background: true
+    grid: medium
+    offset: center
+    figure:
+      screenshot: true
+      src: https://res.cloudinary.com/uncinq/image/upload/v1759154195/hugolify-screenshot_ycim2y.png
+      alt: Capture d’écran du site Hugolify
+    footing:
+      ctas:
+        - blank: true
+          url: https://www.hugolify.io
+          text: Voir le site officiel Hugolify
+          hreflang: en
+
   - type: datas
     column: 3
     heading:
-      title: Personnalisation rapide, précise et robuste
+      title: Personnalisation rapide, précise et robuste.
       text: Une solution développée et conçue de manière atomique.
     items:
       - title: Types de contenu
@@ -60,30 +78,28 @@ blocks:
         text: Editorial, citation, données, images…
         value: 20
         prefix: +
+
   - type: figure
     heading:
-      title: Mise à jour du contenu simplifié
+      title: Mise à jour du contenu simplifié.
       text: Espace admin dédié et allégé.
     grid: medium
     offset: center
     figure:
       screenshot: true
-      src: /images/uploads/admin-hugolify.png
+      src: https://res.cloudinary.com/uncinq/image/upload/v1758126305/screenshot-hugolify-decapcms-home_ynatqv.png
       alt: Capture d’écran de l’espace admin de Hugolify
-  - type: cta
-    cta:
-      blank: true
-      url: https://www.hugolify.io
-      text: Voir le site officiel Hugolify (en anglais)
+      legend: Exemple d’espace admin de Hugolify
+
   - type: informations
     heading:
-      title: Développé en Hugo et s’appuyant de Bootstrap et de Decap CMS
+      title: Développé en Hugo et s’appuyant de Bootstrap et de Decap CMS.
     column: 4
     items:
       - title: Hugo
         text: Générateur de site Web statique open-source le plus rapide du monde.
         image:
-          src: /images/uploads/logo-hugo.svg
+          src: https://res.cloudinary.com/uncinq/image/upload/v1759139728/logo-hugo_mpfc7g.svg
           isLogo: true
         cta:
           blank: true
@@ -92,7 +108,7 @@ blocks:
       - title: Bootstrap
         text: Framework front open-source le plus utilisé depuis des années.
         image:
-          src: /images/uploads/logo-bootstrap-5.svg
+          src: https://res.cloudinary.com/uncinq/image/upload/v1758128591/logo-bootstrap-5_h3gtgt.svg
           isLogo: true
         cta:
           blank: true
@@ -101,20 +117,22 @@ blocks:
       - title: Decap
         text: CMS open-source très léger et ne nécessitant pas d’installation.
         image:
-          src: /images/uploads/logo-decap.svg
+          src: https://res.cloudinary.com/uncinq/image/upload/v1758125974/logo-decap-cms_s1xnvt.svg
           isLogo: true
         cta:
           blank: true
           text: Voir le site de Decap CMS
           url: https://decapcms.org
+
   - type: selected-casestudies
     section: casestudies
     show_more: false
     background: true
     heading:
-      title: Dernières études de cas sur cette solution
-      text: Pour mesurer concrètement l’intérêt d’Hugolify par rapport à d’autres solutions comme Wordpress, Drupal, Wix…
+      title: Dernières études de cas sur cette solution.
+      text: Pour mesurer concrètement l’intérêt de Hugolify par rapport à d’autres solutions comme Wordpress, Drupal, Wix…
     items:
+      - 2024/biver
       - 2023/miriam-lasserre
       - 2023/venn-capital
 ---

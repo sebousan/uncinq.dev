@@ -4,10 +4,10 @@ title: Accueil
 hero:
   title: Nous développons des sites Web pérennes, accessibles à tous et à faible émission de carbone.
   image:
-    src: /images/uploads/205.OK.svg
+    src: https://res.cloudinary.com/uncinq/image/upload/v1758116615/205.OK_zdg2ue.svg
   ctas:
     - text: Notre approche
-      url: "/notre-approche-de-la-conception-d-un-site-web/"
+      url: "/nos-articles/notre-approche-de-la-conception-d-un-site-web/"
     - text: Contactez-nous
       url: /contact/
 blocks:
@@ -15,8 +15,8 @@ blocks:
     background: true
     column: 4
     heading:
-      title: Développement Web depuis 20 ans
-      text: Nous mettons à votre disposition notre savoir-faire.
+      surtitle: Développement Web depuis 20 ans
+      title: L’expertise au service de sites Web performants et durables.
     items:
       - title: Performance
         text: Nous mettons tout en œuvre pour rendre le site Web ultra rapide et bas carbone grâce à de nombreux critères de tests.
@@ -30,83 +30,56 @@ blocks:
       - title: SEO friendly
         text: Un code respectueux des standards et de la sémantique pour un réferencement naturel optimisé.
         icon: search-heart
-  - type: informations
+  - type: selected-services
+    section: services
     background: true
-    column: 4
     heading:
-      title: Nos services
-      text: Une approche low code pour garantir une qualité optimale.
+      surtitle: Un Cinq
+      surtitle: Nos services
+      title: Une approche low-code pour garantir une qualité et une longévité optimales.
     items:
-      - title: Audit de performance de votre site Web
-        text: Focus sur les Core Web Vitals de Google.
-        image:
-          src: /images/uploads/logo-google-pagespeed-insights.svg
-          isLogo: true
-      - title: Développement de site Web statique avec Hugo
-        text: Grâce à notre framework Hugolify.
-        image:
-          src: /images/uploads/logo-hugo.svg
-          isLogo: true
-      - title: Développement de site e-commerce avec Shopify
-        text: Online Store 2.0.
-        image:
-          src: /images/uploads/logo-shopify.svg
-          isLogo: true
-      - title: Développement de site Web dynamique avec Wordpress
-        text: Avec le moins de plugin possible.
-        image:
-          src: /images/uploads/logo-wordpress.png
-          isLogo: true
-      - title: Optimisation des Core Web Vitals
-        text: Intégration et développement pour atteindre le score le plus élevé.
-        image:
-          src: /images/uploads/logo-webvitals.png
-          isLogo: true
-      - title: Accessibilité Web
-        text: Mise en conformité des sites Web aux référentiels d’accessibilité RGAA / WCAG.
-        image:
-          src: /images/uploads/universal-access-circle.svg
-          isLogo: true
-      - title: Intégration de site Web bas carbone
-        text: Étroitement lié à la conception de site Web performant.
-        image:
-          src: /images/uploads/logo-green.svg
-          isLogo: true
-      - title: Intégration avec Bootstrap
-        text: Version 3, 4 et 5.
-        image:
-          src: /images/uploads/logo-bootstrap-5.svg
-          isLogo: true
+      - Audit de performance de votre site Web
+      - Développement de site Web statique avec Hugo
+      - Développement de site e-commerce avec Shopify
+      - Développement de site Web dynamique avec Wordpress
+      - Optimisation des Core Web Vitals
+      - Accessibilité Web
+      - Intégration de site Web bas carbone
+      - Intégration avec Bootstrap
   - type: editorial
     direction: rtl
+    surtitle: Developpement Web
     title: Notre solution et produits orientés métiers
     text: Solution et produits, pour un Web pérenne, plus simple, plus accessible et à faible émission de carbone.
     image:
-      src: /images/uploads/181.Nodes.svg
+      src: https://res.cloudinary.com/uncinq/image/upload/v1758116598/181.Nodes_vgmgrr.svg
     cta:
       text: Découvrir
       url: "/notre-solution-et-produits/"
   - type: editorial
+    surtitle: Article
     title: Notre approche de la conception d’un site Web
     text: Voici les points essentiels pour garantir la qualité d’un site Web dans le temps et son utilisation par les internautes.
     image:
-      src: /images/uploads/264.Teaming-Up.svg
+      src: https://res.cloudinary.com/uncinq/image/upload/v1758116671/264.Teaming-Up_tqtwat.svg
     cta:
       text: Découvrir
-      url: "/notre-approche-de-la-conception-d-un-site-web/"
+      url: "/nos-articles/notre-approche-de-la-conception-d-un-site-web/"
   - type: editorial
+    surtitle: Article
     title: Comprendre les Core Web Vitals de Google
     text: Les métriques de performance Web définies par Google et annoncées pour la première fois en mai 2020.
     image:
-      src: /images/uploads/299.Algorithm.svg
+      src: https://res.cloudinary.com/uncinq/image/upload/v1758116853/299.Algorithm_uu3kn0.svg
     direction: rtl
     cta:
       text: Découvrir
-      url: "/comprendre-core-web-vitals-signaux-web-essentiels/"
+      url: "/nos-articles/comprendre-les-core-web-vitals-signaux-web-essentiels-de-google/"
   - type: latest
     section: casestudies
     show_more: false
     background: true
     heading:
+      surtitle: Analyse
       title: Nos dernières études de cas
 ---

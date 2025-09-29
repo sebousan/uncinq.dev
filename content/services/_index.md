@@ -1,15 +1,26 @@
 ---
 isIndex: true
-draft: true
+draft: false
 title: Nos services
-url: nos-services
 image:
-  src: /images/uploads/259.To-Do-List.svg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758116644/259.To-Do-List_sef18i.svg
 seo:
-  image: /images/uploads/share-services.png
+  image: https://res.cloudinary.com/uncinq/image/upload/v1759149566/share-services.png
 hero:
+  surtitle: Un Cinq
   title: Nos services
   text: Nous intégrons et développons des sites Web modernes et performants.
   image:
-    src: /images/uploads/259.To-Do-List.svg
+    src: https://res.cloudinary.com/uncinq/image/upload/v1758116644/259.To-Do-List_sef18i.svg
+blocks:
+  - type: editorial
+    background: true
+    direction: rtl
+    title: Notre solution et produits orientés métiers
+    text: Solution et produits, pour un Web pérenne, plus simple, plus accessible et à faible émission de carbone.
+    image:
+      src: https://res.cloudinary.com/uncinq/image/upload/v1758116598/181.Nodes_vgmgrr.svg
+    cta:
+      text: Découvrir
+      url: "/notre-solution-et-produits/"
 ---

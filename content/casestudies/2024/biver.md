@@ -1,20 +1,20 @@
 ---
 isIndex: false
-draft: true
-date: 2024-06-03T08:34:08.410Z
+draft: false
+date: 2024-09-10T18:34:08.410Z
 casestudies_services: hugolify
 title: Biver
 slug: biver-site-performant-hugolify
 description: Mise en place d’un site performant avec Hugolify.
 seo:
-  image: /images/uploads/biver-share.png
+  image: https://res.cloudinary.com/uncinq/image/upload/v1759149715/biver-share.png
 image:
-  src: /images/uploads/biver-logo.svg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1759149715/biver-logo.svg
 hero:
   surtitle: Étude de cas
   title: Biver, mise en place d’un site performant avec Hugolify
   image:
-    src: /images/uploads/biver-logo.svg
+    src: https://res.cloudinary.com/uncinq/image/upload/v1759149715/biver-logo.svg
 blocks:
   - type: figure
     heading:
@@ -24,14 +24,14 @@ blocks:
     align: center
     offset: center
     figure:
-      src: /images/uploads/biver-famille.jpg
+      src: https://res.cloudinary.com/uncinq/image/upload/v1759149717/biver-famille.jpg
       legend: Jean-Claude et Pierre Biver
       credit: © Biver
 
   - type: informations
     heading:
       title: Pourquoi la solution Hugolify ?
-      text: Le choix de développer le site vitrine avec Hugolify permet de simplifier la conception et sa maintenabilité contrairement à un site conçu avec Wordpress, Drupal par exemple.
+      text: Le choix de développer le site vitrine avec [Hugolify](/notre-solution-et-produits/hugolify/) permet de simplifier la conception et sa maintenabilité contrairement à d’autres solutions plus lourdes.
     column: 5
     items:
       - title: Sécurité
@@ -50,32 +50,42 @@ blocks:
         icon: kanban
         text: Dédié et simplifié grâce à Decap CMS.
     background: true
+
+  - type: quote
+    background: true
+    quote: « Le choix de Hugolify permet d’avoir une site Web robuste, rapide, accessible à tous et évolutif rapidement. Tout en ayant une approche low-code »
+    author:
+      title: Sébastien Moulène
+      text: Un Cinq
+      image:
+        src: https://res.cloudinary.com/uncinq/image/upload/v1758205367/sebastien-moulene_ft0yg7.jpg
+
   - type: informations
     column: 5
     background: true
     heading:
-      title: Stack technique de Hugolify
+      title: Stack technique du projet
       text: Frameworks et hébergements.
     items:
       - title: Hugo
         image:
-          src: /images/uploads/logo-hugo.svg
+          src: https://res.cloudinary.com/uncinq/image/upload/v1759139728/logo-hugo_mpfc7g.svg
           isLogo: true
       - title: Decap CMS
         image:
-          src: /images/uploads/logo-decap.svg
+          src: https://res.cloudinary.com/uncinq/image/upload/v1758125974/logo-decap-cms_s1xnvt.svg
           isLogo: true
       - title: Bootstrap
         image:
-          src: /images/uploads/logo-bootstrap-5.svg
+          src: https://res.cloudinary.com/uncinq/image/upload/v1758128591/logo-bootstrap-5_h3gtgt.svg
           isLogo: true
       - title: Github
         image:
-          src: /images/uploads/logo-github.svg
+          src: https://res.cloudinary.com/uncinq/image/upload/v1759141102/logo-github-white_wjzqsw.svg
           isLogo: true
       - title: Netlify
         image:
-          src: /images/uploads/logo-netlify.svg
+          src: https://res.cloudinary.com/uncinq/image/upload/v1759141001/logo-netlify-white_z99tjm.svg
           isLogo: true
 
   - type: informations
@@ -83,7 +93,7 @@ blocks:
     background: false
     heading:
       title: Pourquoi concevoir un site performant ?
-    items:
+    items:  
       - icon: people
         title: Pour vos utilisateurs
         text: "Un site plus léger, c'est une meilleure expérience : les pages se
@@ -102,36 +112,51 @@ blocks:
         text:
           En ayant un site Web non énergivore vous réduirez considérablement votre
           impact environnemental.
+  
   - type: quote
-    quote: « Google intègre les Core Web Vitals dans son algorithme et décide de mettre plus facilement en avant une page qui possède une expérience utilisateur conviviale »
+    quote: « Google intègre les Core Web Vitals* dans son algorithme et décide de mettre plus facilement en avant une page qui possède une expérience utilisateur conviviale »
     author:
       image:
-        src: /images/uploads/logo-google.svg
+        src: https://res.cloudinary.com/uncinq/image/upload/v1759146561/logo-google_ychfbh.svg
       title: Google
       text: Blog Google Search Central, 2021
       url: https://developers.google.com/search/blog/2020/11/timing-for-page-experience?hl=fr
     background: false
+  
+  - type: editorial
+    background: false
+    surtitle: article
+    title: >
+      *Comprendre les Core Web Vitals de Google
+    text: Les métriques de performance Web définies par Google et annoncées pour la première fois en mai 2020.
+    image:
+      src: https://res.cloudinary.com/uncinq/image/upload/v1758116853/299.Algorithm_uu3kn0.svg
+    direction: rtl
+    cta:
+      text: Découvrir
+      url: "/nos-articles/comprendre-les-core-web-vitals-signaux-web-essentiels-de-google/"
 
   - type: figure
     heading:
-      title: Un design responsive réussi.
-      text: Le studio [Bonhomme](https://www.bonhommeparis.com/fr/) nous a fait confiance pour gérer l’entièreté du développement et intégration. de leur côté ils ont réalisé un UX/UI modulaire.
+      title: Un design modulaire très réussi !
+      text: Le studio de design {{<  blank_link text=`Bonhomme` link=`https://www.bonhommeparis.com/fr/` >}} nous a fait confiance pour gérer l’entièreté du développement et intégration. De leur côté ils ont réalisé un UX/UI.
     background: true
     grid: medium
     align: center
     offset: center
     figure:
-      src: /images/uploads/biver-home.png
+      src: https://res.cloudinary.com/uncinq/image/upload/v1759149717/biver-home.png
+      legend: Page d’accueil du nouveau site Biver
       screenshot: true
 
   - type: quote
     background: true
-    quote: « Un design modulaire et atomique permet de tirer le meilleur d’Hugolify. »
+    quote: « Un design modulaire et atomique permet de tirer le meilleur de Hugolify. »
     author:
       title: Sébastien Moulène
       text: Un Cinq
       image:
-        src: /images/uploads/sebastien-moulene.jpg
+        src: https://res.cloudinary.com/uncinq/image/upload/v1758205367/sebastien-moulene_ft0yg7.jpg
 
   - type: figure
     heading:
@@ -143,7 +168,7 @@ blocks:
     align: center
     offset: center
     figure:
-      src: /images/uploads/biver-admin-hugolify.png
+      src: https://res.cloudinary.com/uncinq/image/upload/v1759149716/biver-admin-hugolify.png
       legend: Admin Hugolify dédié à Biver
       screenshot: true
 
@@ -153,7 +178,7 @@ blocks:
     heading:
       title: Côté développement
       text: >-
-        L’utilisation des modules Hugolify pré-codé permet de limiter le temps passé et les erreurs éventuelles.
+        L’utilisation des modules [Hugolify](/notre-solution-et-produits/hugolify/) pré-codé permet de limiter le temps passé et les erreurs éventuelles.
         Ainsi que de profiter de la gestion des images (lazy loading, srcset…).
     items:
       - title: Modules Hugolify
@@ -172,26 +197,24 @@ blocks:
   - type: datas
     heading:
       title: Fichiers concaténés, minifiés et purgés
-      text: Pour une performance optimale, le fichier CSS est appelé en priorité haute alors que le fichier javascript est lui en defer.
+      text: Pour une performance optimale, le fichier CSS est appelé en priorité haute alors que le fichier javascript est lui appelé en defer.
     column: 4
     show_color: false
     show_gauge: false
     items:
       - title: 1 seul CSS chargé
-        value: 24.2
+        value: 26.4
         suffix: Ko
         limit: 100
       - title: 1 seul JS chargé
-        value: 23.6
+        value: 23.7
         suffix: Ko
         limit: 100
 
   - type: datas
     heading:
       title: Analyse du site conçu avec Hugolify
-      text: Grâce à Google Lighthouse qui est un outil open-source permettant de
-        mesurer la qualité des pages Web. Voici, ci-dessous, le résultat du test des Core Web Vitals de la page
-        d’accueil sur mobile.
+      text: Grâce à Google Lighthouse qui est un outil open-source permettant de mesurer la qualité des pages Web. Voici, ci-dessous, {{<  blank_link text=`le résultat sur Google PageSpeed` link=`https://pagespeed.web.dev/analysis/https-jcbiver-com/ol265bow4q?form_factor=mobile` >}} du test des Core Web Vitals de la page d’accueil sur mobile.
     column: 4
     show_color: true
     show_gauge: true
@@ -216,17 +239,19 @@ blocks:
 
   - type: quote
     background: true
-    quote: « Le choix d’Hugolify permet d’avoir une site Web robuste, rapide, accessible à tous et évolutif rapidement. Tout en étant pérenne et low-code »
+    quote: « Une nouvelle collaboration très fructueuse sur ce beau projet. L'implication dans les problématiques contemporaines d'eco-conception et d'accessibilité fait de Un Cinq un partenaire remarquable. »
     author:
-      title: Sébastien Moulène
-      text: Un Cinq
+      title: Emmanuel Cruellas
+      text: Co-fondateur, Bonhomme
       image:
-        src: /images/uploads/sebastien-moulene.jpg
+        src: https://res.cloudinary.com/uncinq/image/upload/v1759149716/emmanuel-cruellas.jpg
+
   - type: cta
+    background: true
     heading:
       title: Bonne visite !
-    cta:
-      text: Découvrez le nouveau site Web de Biver
-      url: https://www.jcbiver.com/
-      blank: true
+    ctas:
+      - text: Découvrez le nouveau site Web de Biver
+        url: https://www.jcbiver.com/
+        blank: true
 ---

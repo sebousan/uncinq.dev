@@ -1,7 +1,1 @@
 _merge: deep
-headers:
-- for: /*
-  values:
-    X-Content-Type-Options: nosniff
-    X-Frame-Options: SAMEORIGIN
-    X-XSS-Protection: 0

@@ -1,15 +1,19 @@
 ---
 isPage: true
-draft: true
+draft: false
 title: Medicalify
 description: Solution dédiée aux professionels de santé.
+url: notre-solution-et-produits/medicalify-creation-site-web-cabinet-sante
+aliases:
+  - medicalify
 image:
-  src: /images/uploads/medicalify.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1759158261/banner-medicalify_kz5des.png
 hero:
+  surtitle: Developpement Web
   title: Medicalify
   text: Solution dédiée aux professionels de santé.
   image:
-    src: /images/uploads/181.Nodes.svg
+    src: https://res.cloudinary.com/uncinq/image/upload/v1758116598/181.Nodes_vgmgrr.svg
   cta:
     text: Découvrir
     url: "#main"
@@ -18,23 +22,17 @@ blocks:
     grid: medium
     offset: center
     figure:
-      src: /images/uploads/medicalify.png
+      src: https://res.cloudinary.com/uncinq/image/upload/v1759158261/banner-medicalify_kz5des.png
       alt: Medicalify
   - type: cta
     heading:
       title: Basé sur Hugolify et profitant de toutes ses évolutions
       text: Medicalify a des fonctionnalités supplémentaires et un espace admin dédié à l’univers des métiers de la santé.
-    # cta:
-    #   blank: true
-    #   url: https://www.medicalify.io
-    #   text: En savoir plus sur Medicalify
-  # - type: figure
-  #   heading:
-  #     title: Espace admin dédié et simplifié
-  #   grid: medium
-  #   offset: center
-  #   figure:
-  #     src: /images/uploads/admin-medicalify.png
+    ctas:
+      - blank: true
+        url: https://www.medicalify.io
+        text: En savoir plus sur Medicalify
+  
   - type: informations
     heading:
       title: Développé en Hugo et s’appuyant de Bootstrap et de Decap CMS
@@ -43,7 +41,7 @@ blocks:
       - title: Hugo
         text: Générateur de site statique
         image:
-          src: /images/uploads/logo-hugo.svg
+          src: https://res.cloudinary.com/uncinq/image/upload/v1759139728/logo-hugo_mpfc7g.svg
           isLogo: true
         cta:
           blank: true
@@ -52,7 +50,7 @@ blocks:
       - title: Bootstrap
         text: Framework front open-source le plus utilisé
         image:
-          src: /images/uploads/logo-bootstrap-5.svg
+          src: https://res.cloudinary.com/uncinq/image/upload/v1758128591/logo-bootstrap-5_h3gtgt.svg
           isLogo: true
         cta:
           blank: true
@@ -61,10 +59,29 @@ blocks:
       - title: Decap
         text: CMS open-source très léger, git-based
         image:
-          src: /images/uploads/logo-decap.svg
+          src: https://res.cloudinary.com/uncinq/image/upload/v1758125974/logo-decap-cms_s1xnvt.svg
           isLogo: true
         cta:
           blank: true
           text: Voir le site de Decap CMS
           url: https://decapcms.org
+
+  - type: figure
+    heading:
+      title: Exemple d’un site conçu avec Medicalify
+    grid: medium
+    offset: center
+    figure:
+      src: https://res.cloudinary.com/uncinq/image/upload/v1759160069/lechaban_if91jd.png
+      screenshot: true
+      alt: Capture d’écran de la page d’accueil du site Le Chaban
+    footing:
+      ctas:
+        - blank: true
+          title: Le Chaban — Cabinet dentaire
+          text: Voir le site
+          url: https://www.lechaban.fr
+
+
+          
 ---

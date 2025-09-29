@@ -3,9 +3,18 @@ links:
   - title: Hugolify
     blank: false
     url: /notre-solution-et-produits/hugolify/
-  - title: Lawyerify
-    blank: true
-    url: https://www.lawyerify.io
   - title: Architectify
     blank: true
     url: https://www.architectify.io
+  - title: Capitalify
+    blank: true
+    url: https://www.capitalify.io
+  - title: Lawyerify
+    blank: true
+    url: https://www.lawyerify.io
+  - title: Medicalify
+    blank: true
+    url: https://www.medicalify.io
+  - title: Realestatify
+    blank: true
+    url: https://www.realestatify.io

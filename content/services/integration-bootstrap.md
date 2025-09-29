@@ -1,20 +1,21 @@
 ---
-draft: true
+draft: false
+weight: 8
 title: Intégration avec Bootstrap
 description: L’un des frameworks front-end et des projets open-source les plus populaires au monde.
 image:
-  src: /images/uploads/logo-bootstrap-5.svg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758128591/logo-bootstrap-5_h3gtgt.svg
 hero:
-  title: Intégration avec Bootstrap
-  text: Créé à l’origine par un designer et un développeur de Twitter, Bootstrap est devenu l’un des frameworks front-end et des projets open-source les plus populaires au monde.
+  surtitle: Un Cinq
+  title: Intégration avec Bootstrap 3, 4 et 5
   image:
-    src: /images/uploads/logo-bootstrap-5.svg
+    src: https://res.cloudinary.com/uncinq/image/upload/v1758128591/logo-bootstrap-5_h3gtgt.svg
 blocks:
   - type: editorial
     direction: rtl
     title: Un design robuste avec Bootstrap
     image:
-      src: /images/uploads/241.Going-To-Work.svg
+      src: https://res.cloudinary.com/uncinq/image/upload/v1758116635/241.Going-To-Work_lg67w1.svg
     text: >-
       **Expérience Uniforme :** Bootstrap offre une expérience utilisateur cohérente sur différents appareils et navigateurs, garantissant que les visiteurs reçoivent un contenu bien affiché, qu'ils consultent le site depuis un ordinateur de bureau, une tablette ou un smartphone.
 
@@ -30,7 +31,7 @@ blocks:
   - type: editorial
     direction: ltr
     image:
-      src: /images/uploads/240.Tower-Of-Cards.svg
+      src: https://res.cloudinary.com/uncinq/image/upload/v1758116634/240.Tower-Of-Cards_tid63g.svg
     title: Maintenance et flexibilité du projet
     text: >-
       **Facilité de Maintenance :** Bootstrap utilise un code HTML et CSS bien structuré, ce qui facilite la maintenance du site. Les développeurs peuvent rapidement repérer et corriger les problèmes, ajouter de nouvelles fonctionnalités et effectuer des mises à jour.
@@ -49,7 +50,7 @@ blocks:
     heading:
       title: Besoin d’une intégration avec Bootstrap ?
       text: Nous développons sur ce framework front-end depuis la version 3
-    cta:
-      text: Contactez-nous
-      url: /contact/
+    ctas:
+      - text: Contactez-nous
+        url: /contact/
 ---

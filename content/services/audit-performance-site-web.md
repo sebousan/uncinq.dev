@@ -1,11 +1,16 @@
 ---
 title: Audit de performance de votre site Web
+description: Focus sur les Core Web Vitals de Google.
+weight: 1
+slug: audit-performance-site-Web-core-web-vitals
 image:
-  src: /images/uploads/logo-google-pagespeed-insights.svg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1759146493/logo-google-pagespeed-insights_xzawon.svg
 hero:
+  surtitle: Un Cinq
   title: Audit de performance de votre site Web
+  text: Focus sur les Core Web Vitals de Google.
   image:
-    src: /images/uploads/logo-google-pagespeed-insights.svg
+    src: https://res.cloudinary.com/uncinq/image/upload/v1759146493/logo-google-pagespeed-insights_xzawon.svg
 blocks:
   - type: informations
     heading:
@@ -22,49 +27,23 @@ blocks:
       - title: Intervention
         icon: code-slash
         text: Nous pouvons également intervenir directement pour effectuer les modifications.
-  - type: cta
-    heading:
-      title: Focus sur les Core Web Vitals
-      text: Les Core Web Vitals (les signaux Web essentiels en français) sont un ensemble de métriques de performance Web essentielles définies par Google pour évaluer l’expérience utilisateur sur un site web. Ces métriques se concentrent sur la vitesse de chargement, l’interactivité et la stabilité visuelle d’une page Web.
+
+  - type: editorial
+    background: true
+    title: Focus sur les Core Web Vitals
+    text: Elles visent à garantir que les visiteurs bénéficient d'une expérience fluide, rapide et prévisible lors de la navigation sur un site.
+    image:
+      src: https://res.cloudinary.com/uncinq/image/upload/v1758116853/299.Algorithm_uu3kn0.svg
+    direction: rtl
     cta:
-      text: Comprendre les Core Web Vitals de Google
-      url: "/comprendre-core-web-vitals-signaux-web-essentiels/"
+      text: Comprendre les Core Web Vitals
+      url: "/nos-articles/comprendre-les-core-web-vitals-signaux-web-essentiels-de-google/"
 
-  - type: paragraph
-    offset: center
-    align: center
-    grid: medium
-    title: Cruciales pour évaluer la performance
-    text: >-
-      Elles visent à garantir que les visiteurs bénéficient d'une expérience fluide, rapide et prévisible lors de la navigation sur un site. Google utilise ces métriques pour classer les pages dans ses résultats de recherche, donnant la priorité aux pages offrant une meilleure expérience utilisateur en termes de performance.
-
-
-      Il est important de surveiller régulièrement ces Core Web Vitals et de les optimiser pour garantir que votre site Web offre une expérience utilisateur de qualité et conserve ou améliore son classement dans les résultats de recherche de Google.
-  - type: informations
-    heading:
-      title: Nos outils
-    column: 4
-    items:
-      - title: PageSpeed Insights
-        text: L’outil de test de performance proposé par Google
-        image:
-          src: /images/uploads/logo-google-pagespeed-insights.svg
-          isLogo: true
-      - title: Lighthouse
-        text: Outil automatisé open-source permettant de mesurer la qualité des pages Web
-        image:
-          src: /images/uploads/logo-google-lighthouse.svg
-          isLogo: true
-      - title: Website Carbon
-        text: Mesure l’empreinte d’un site internet
-        image:
-          src: /images/uploads/logo-websitecarbon.jpg
-          isLogo: true
   - type: cta
     background: true
     heading:
       title: Optimisez votre site Web dès aujourd’hui
-    cta:
-      text: Contactez-nous
-      url: /contact/
+    ctas:
+      - text: Contactez-nous
+        url: /contact/
 ---
