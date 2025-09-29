@@ -6,14 +6,13 @@ hero:
   title: Contact
   text: Pour toutes informations ou intérogations concernant nos services ou nos solutions.
   align: center
-  cta:
-    text: Par e-mail à contact@uncinq.dev
-    url: mailto:contact@uncinq.dev
-    blank: false
-  cta_second:
-    url: "tel:+33678858604"
-    blank: false
-    text: Par téléphone au +33 6 78 85 86 04
+  ctas:
+    - text: Par e-mail à contact@uncinq.dev
+      url: mailto:contact@uncinq.dev
+      blank: false
+    - url: "tel:+33678858604"
+      blank: false
+      text: Par téléphone au +33 6 78 85 86 04
 blocks:
   # - type: embed
   #   heading:

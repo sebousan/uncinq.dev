@@ -4,12 +4,13 @@ weight: 6
 title: Accessibilité Web
 description: Mise en conformité des sites Web aux référentiels d’accessibilité RGAA / WCAG
 image:
-  src: /images/uploads/universal-access-circle.svg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1759161875/a11y_fv7pyf.svg
 hero:
+  surtitle: Un Cinq
   title: Accessibilité Web
-  text: Mise en conformité des sites Web aux référentiels d’accessibilité RGAA / WCAG
+  text: Mise en conformité des sites Web aux référentiels d’accessibilité RGAA / WCAG.
   image:
-    src: /images/uploads/universal-access-circle.svg
+    src: https://res.cloudinary.com/uncinq/image/upload/v1759161875/a11y_fv7pyf.svg
 blocks:
   - type: informations
     heading:
@@ -32,7 +33,7 @@ blocks:
     background: true
     direction: rtl
     image:
-      src: /images/uploads/267.Graduating.svg
+      src: https://res.cloudinary.com/uncinq/image/upload/v1758116668/267.Graduating_qiqwxp.svg
     text: >-
       ### Certifié « Développer des sites Web accessibles » par Acces42
 
@@ -41,8 +42,8 @@ blocks:
   - type: cta
     background: true
     heading:
-      title: Rendez votre site Web accessible à tous
-    cta:
-      text: Contactez-nous
-      url: /contact/
+      title: Rendez votre site Web accessible à tous dès aujourd’hui
+    ctas:
+      - text: Contactez-nous
+        url: /contact/
 ---

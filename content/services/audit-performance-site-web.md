@@ -4,12 +4,13 @@ description: Focus sur les Core Web Vitals de Google.
 weight: 1
 slug: audit-performance-site-Web-core-web-vitals
 image:
-  src: /images/uploads/logo-google-pagespeed-insights.svg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1759146493/logo-google-pagespeed-insights_xzawon.svg
 hero:
+  surtitle: Un Cinq
   title: Audit de performance de votre site Web
   text: Focus sur les Core Web Vitals de Google.
   image:
-    src: /images/uploads/logo-google-pagespeed-insights.svg
+    src: https://res.cloudinary.com/uncinq/image/upload/v1759146493/logo-google-pagespeed-insights_xzawon.svg
 blocks:
   - type: informations
     heading:
@@ -32,17 +33,17 @@ blocks:
     title: Focus sur les Core Web Vitals
     text: Elles visent à garantir que les visiteurs bénéficient d'une expérience fluide, rapide et prévisible lors de la navigation sur un site.
     image:
-      src: /images/uploads/299.Algorithm.svg
+      src: https://res.cloudinary.com/uncinq/image/upload/v1758116853/299.Algorithm_uu3kn0.svg
     direction: rtl
     cta:
       text: Comprendre les Core Web Vitals
-      url: "/comprendre-core-web-vitals-signaux-web-essentiels/"
+      url: "/nos-articles/comprendre-les-core-web-vitals-signaux-web-essentiels-de-google/"
 
   - type: cta
     background: true
     heading:
       title: Optimisez votre site Web dès aujourd’hui
-    cta:
-      text: Contactez-nous
-      url: /contact/
+    ctas:
+      - text: Contactez-nous
+        url: /contact/
 ---

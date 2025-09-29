@@ -4,8 +4,9 @@ draft: false
 title: Hugolify
 description: Solution pour créer facilement un site Web de grande qualité tout en ayant un espace admin dédié et simplifié.
 image:
-  src: /images/uploads/hugolify.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1759160426/banner-hugolify_yo2ezo.png
 hero:
+  surtitle: Developpement Web
   title: Hugolify
   text: Solution pour créer facilement un site Web de grande qualité tout en ayant un espace admin dédié et simplifié.
   ctas:
@@ -14,7 +15,7 @@ hero:
     - text: Tarification transparente
       url: "forfaits"
   image:
-    src: /images/uploads/181.Nodes.svg
+    src: https://res.cloudinary.com/uncinq/image/upload/v1758116598/181.Nodes_vgmgrr.svg
 blocks:
   - type: informations
     background: true
@@ -54,15 +55,14 @@ blocks:
     offset: center
     figure:
       screenshot: true
-      src: /images/uploads/hugolify-screenshot.png
+      src: https://res.cloudinary.com/uncinq/image/upload/v1759154195/hugolify-screenshot_ycim2y.png
       alt: Capture d’écran du site Hugolify
-
-  - type: cta
-    background: true
-    cta:
-      blank: true
-      url: https://www.hugolify.io
-      text: Voir le site officiel Hugolify (en anglais)
+    footing:
+      ctas:
+        - blank: true
+          url: https://www.hugolify.io
+          text: Voir le site officiel Hugolify
+          hreflang: en
 
   - type: datas
     column: 3
@@ -87,7 +87,7 @@ blocks:
     offset: center
     figure:
       screenshot: true
-      src: /images/uploads/admin-hugolify.png
+      src: https://res.cloudinary.com/uncinq/image/upload/v1758126305/screenshot-hugolify-decapcms-home_ynatqv.png
       alt: Capture d’écran de l’espace admin de Hugolify
       legend: Exemple d’espace admin de Hugolify
 
@@ -99,7 +99,7 @@ blocks:
       - title: Hugo
         text: Générateur de site Web statique open-source le plus rapide du monde.
         image:
-          src: /images/uploads/logo-hugo.svg
+          src: https://res.cloudinary.com/uncinq/image/upload/v1759139728/logo-hugo_mpfc7g.svg
           isLogo: true
         cta:
           blank: true
@@ -108,7 +108,7 @@ blocks:
       - title: Bootstrap
         text: Framework front open-source le plus utilisé depuis des années.
         image:
-          src: /images/uploads/logo-bootstrap-5.svg
+          src: https://res.cloudinary.com/uncinq/image/upload/v1758128591/logo-bootstrap-5_h3gtgt.svg
           isLogo: true
         cta:
           blank: true
@@ -117,7 +117,7 @@ blocks:
       - title: Decap
         text: CMS open-source très léger et ne nécessitant pas d’installation.
         image:
-          src: /images/uploads/logo-decap.svg
+          src: https://res.cloudinary.com/uncinq/image/upload/v1758125974/logo-decap-cms_s1xnvt.svg
           isLogo: true
         cta:
           blank: true

@@ -4,12 +4,13 @@ draft: false
 title: Forfaits
 description: Pour héberger, maintenir et sécuriser votre site Web tout au long de sa vie, et ce, en fonction des besoins de votre activité.
 image:
-  src: /images/uploads/398.Make-It-Rain.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758116894/398.Make-It-Rain_cad0hn.svg
 hero:
+  surtitle: Developpement Web
   title: Forfaits Hugolify
   text: Pour héberger, maintenir et sécuriser votre site Web tout au long de sa vie, et ce, en fonction des besoins de votre activité.
   image:
-    src: /images/uploads/398.Make-It-Rain.svg
+    src: https://res.cloudinary.com/uncinq/image/upload/v1758116894/398.Make-It-Rain_cad0hn.svg
 blocks:
   - type: comparison
     column: 3
@@ -115,7 +116,7 @@ blocks:
     background: true
     heading:
       title: Contactez-nous pour en savoir plus
-    cta:
-      text: Contactez-nous
-      url: /contact/
+    ctas:
+      - text: Contactez-nous
+        url: /contact/
 ---

@@ -1,31 +1,28 @@
 ---
 isIndex: false
-draft: false
-date: 2024-05-20T08:34:08.410Z
-title: Senso
-slug: senso-site-web-performant-symfony
-description: Mise en place d’un site Web performant avec Symfony.
-seo:
-  image: https://res.cloudinary.com/uncinq/image/upload/v1759148237/senso-share_zexz18.png
+draft: true
+date: 2025-06-11T08:34:08.410Z
+title: Groupe Neys
+slug: groupe-neys-site-multisite-web-performant-hugolify
+description: Mise en place d’un multisite performant avec Hugolify.
 image:
-  src: https://res.cloudinary.com/uncinq/image/upload/v1759147854/senso-logo_it60lm.svg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1759153705/groupeneys-logo-groupe-neys_y5qxta.svg
 hero:
   surtitle: Étude de cas
-  title: Senso, mise en place d’un site Web performant avec Symfony
+  title: Groupe Neys, mise en place d’un multisite performant avec Hugolify
   image:
-    src: https://res.cloudinary.com/uncinq/image/upload/v1759147854/senso-logo_it60lm.svg
+    src: https://res.cloudinary.com/uncinq/image/upload/v1759153705/groupeneys-logo-groupe-neys_y5qxta.svg
 blocks:
   - type: figure
     heading:
       title: Quelques mots sur la société
-      text: Senso regroupe une famille d’agences (Creasenso, Sensology, Senso Art…) spécialisées en gestion de talents issues de l’art visuel ou bien du digital, les mettant en relation avec des marques et des agences.
+      text: Depuis sa création, le Groupe Neys privilégie l’innovation et développe son expertise pour répondre aux besoins de qualité et de proximité de ses clients. Initialement basé au Pays Basque, il s’est étendu à l’ensemble du territoire national.
     grid: medium
     align: center
     offset: center
     figure:
-      src: https://res.cloudinary.com/uncinq/image/upload/v1759148256/senso-family_dhratc.jpg
-      legend: L’équipe de Senso
-      credit: © Senso
+      src: https://res.cloudinary.com/uncinq/image/upload/v1759153528/groupeneys-intro_fner35.jpg
+      credit: © Groupe Neys
 
   - type: informations
     column: 3
@@ -73,103 +70,128 @@ blocks:
     heading:
       title: Un design système pour un écosystème
       text:
-        Senso a conçu ce design système pour factoriser et homogénéiser son identité.
-
-
-        Le fait d’avoir un design global permet d’alléger plusieurs choses comme le temps de développement, les risques de bugs, le poids des assets (CSS, JS…). Par contre cela augmente le temps de conception UX/UI.
-
-
-        Header, Footer et autres composants sont identiques à l’ensemble des sites Web de l’écosystème.
+        Conçu de manière atomique, ce design système permet de factoriser et homogénéiser l’identité du groupe sur l’ensemble des sites.
     background: false
-    grid: medium
+    grid: large
     align: center
     offset: center
     figure:
-      src: https://res.cloudinary.com/uncinq/image/upload/v1759148250/senso-da-home_mjkmxk.png
-      screenshot: true
+      src: https://res.cloudinary.com/uncinq/image/upload/v1759153529/groupeneys-figma_z3ovn2.png
+      alt: Capture d’écran du Figma du projet
+      filter: linear
+      legend: Figma du projet 
+      credit: Solène Le Nail
 
   - type: informations
     heading:
-      title: Une seule application Symfony pour 4 sites Web
-      text: L’équipe de {{<  blank_link text=`23Prod` link=`https://www.23prod.com/` >}} a développé un back-end avec le framework PHP {{<  blank_link text=`Symfony` link=`https://symfony.com/` >}}, le contenu est lui appelé via une API qui en fonction de l’environnement envoie les données adéquates. À l’avenir d’autres sites Web peuvent voir le jour en ayant juste à ajouter des environnements.
+      title: Une seule instance Hugo et un seul espace admin pour 7 sites Web
+      text: Certains contenu sont communs et d'autres spécifique à un site. Différents builds permettent de  
     column: 4
     items:
-      - title: Senso Art
-        text: Agent d’illustrateurs
+      - title: Groupe Neys
+        text: Site du groupe
         cta:
-          text: www.senso.art
+          text: www.groupeneys.fr
           blank: true
-          url: https://www.senso.art/
+          url: https://www.groupeneys.fr/
         image:
-          src: https://res.cloudinary.com/uncinq/image/upload/v1759148232/senso-sensoart_er1v8n.png
+          src: https://res.cloudinary.com/uncinq/image/upload/v1759153705/groupeneys-logo-groupe-neys_y5qxta.svg
           isLogo: true
-      - title: Senso Photo
-        text: Agent de photographes
+      - title: ETPM
+        text: Site spécifique de l’entreprise
         cta:
-          text: www.senso.photo
+          text: www.etpm.fr
           blank: true
-          url: https://www.senso.photo/
+          url: https://www.etpm.fr/
         image:
-          src: https://res.cloudinary.com/uncinq/image/upload/v1759148235/senso-sensophoto_prd2mn.png
+          src: https://res.cloudinary.com/uncinq/image/upload/v1759153704/groupeneys-logo-etpm_umwecp.svg
           isLogo: true
-      - title: Senso Films
-        text: Agence de production de films d’animation
+      - title: FCTP
+        text: Site spécifique de l’entreprise
         cta:
-          text: www.sensofilms.com
+          text: www.fctp.fr
           blank: true
-          url: https://www.sensofilms.com/
+          url: https://www.fctp.fr/
         image:
-          src: https://res.cloudinary.com/uncinq/image/upload/v1759148239/senso-sensofilms_z2b577.png
+          src: https://res.cloudinary.com/uncinq/image/upload/v1759153707/groupeneys-logo-fctp_ctmmy9.svg
           isLogo: true
-      - title: Senso AI
-        text: Agence de production IA
+      - title: E2R
+        text: Site spécifique de l’entreprise
         cta:
-          text: www.senso-ai.com
+          text: www.e2r.re
           blank: true
-          url: https://senso-ai.com/
+          url: https://www.e2r.re/
         image:
-          src: https://res.cloudinary.com/uncinq/image/upload/v1759148230/senso-sensoai_hyb6bi.png
+          src: https://res.cloudinary.com/uncinq/image/upload/v1759153704/groupeneys-logo-e2r_hixgng.svg
+          isLogo: true
+      - title: CAUM
+        text: Site spécifique de l’entreprise
+        cta:
+          text: www.caum.fr
+          blank: true
+          url: https://www.caum.fr/
+        image:
+          src: https://res.cloudinary.com/uncinq/image/upload/v1759153703/groupeneys-logo-caum_i6lohn.svg
+          isLogo: true
+      - title: HP Elec
+        text: Site spécifique de l’entreprise
+        cta:
+          text: www.hpelec.fr
+          blank: true
+          url: https://www.hpelec.fr/
+        image:
+          src: https://res.cloudinary.com/uncinq/image/upload/v1759153705/groupeneys-logo-hpelec_ob1goa.svg
+          isLogo: true
+      - title: Roquebert
+        text: Site spécifique de l’entreprise
+        cta:
+          text: www.roquebert.fr
+          blank: true
+          url: https://www.roquebert.fr/
+        image:
+          src: https://res.cloudinary.com/uncinq/image/upload/v1759153706/groupeneys-logo-roquebert_jwqgdo.svg
           isLogo: true
 
   - type: quote
     background: false
-    quote: « Une collaboration étroite avec les développeurs back-end de 23Prod pour permettre d’atteindre le plus haut score des signaux Web essentiels »
+    quote: « Un script Node.js permet de gérer les différents builds pour ne pas à avoir tout reconstruire à chaque modification »
     author:
       title: Sébastien Moulène
       text: Un Cinq
       image:
         src: https://res.cloudinary.com/uncinq/image/upload/v1758205367/sebastien-moulene_ft0yg7.jpg
+  
   - type: informations
     column: 5
-    background: false
+    background: true
     heading:
       title: Stack technique du projet
       text: Frameworks et hébergements.
     items:
-      - title: Symfony
+      - title: Hugo
         image:
-          src: https://res.cloudinary.com/uncinq/image/upload/v1759139799/logo-symfony_p1kkrp.svg
+          src: https://res.cloudinary.com/uncinq/image/upload/v1759139728/logo-hugo_mpfc7g.svg
+          isLogo: true
+      - title: Decap CMS
+        image:
+          src: https://res.cloudinary.com/uncinq/image/upload/v1758125974/logo-decap-cms_s1xnvt.svg
           isLogo: true
       - title: Bootstrap
         image:
           src: https://res.cloudinary.com/uncinq/image/upload/v1758128591/logo-bootstrap-5_h3gtgt.svg
           isLogo: true
-      - title: Gitlab
+      - title: Github
         image:
-          src: https://res.cloudinary.com/uncinq/image/upload/v1759140347/logo-gitlab_yjezbh.svg
+          src: https://res.cloudinary.com/uncinq/image/upload/v1759141102/logo-github-white_wjzqsw.svg
           isLogo: true
-      - title: Cloudimage
+      - title: Netlify
         image:
-          src: https://res.cloudinary.com/uncinq/image/upload/v1759140301/logo-cloudimage_lcuuly.svg
-          isLogo: true
-      - title: Kubernetes
-        image:
-          src: https://res.cloudinary.com/uncinq/image/upload/v1759139797/logo-kubernetes_d2uhy2.svg
+          src: https://res.cloudinary.com/uncinq/image/upload/v1759141001/logo-netlify-white_z99tjm.svg
           isLogo: true
 
   - type: datas
     heading:
-      title: Analyse du site conçu avec Symfony
+      title: Analyse du site conçu avec Hugolify
       text: Grâce à Google Lighthouse qui est un outil open-source permettant de
         mesurer la qualité des pages Web. Voici, ci-dessous, {{<  blank_link text=`le résultat sur Google PageSpeed` link=`https://pagespeed.web.dev/analysis/https-www-senso-art-fr/t2nnvfep4k?form_factor=mobile` >}} du test des Core Web Vitals de la page d’accueil sur mobile.
     column: 4
@@ -224,7 +246,7 @@ blocks:
     show_gauge: false
     items:
       - title: 1 seul CSS chargé
-        value: 13.0
+        value: 19.0
         suffix: Ko
         limit: 100
       - title: 2 fichiers JS chargés
@@ -232,21 +254,12 @@ blocks:
         suffix: Ko
         limit: 100
 
-  - type: quote
-    background: false
-    quote: « Atteindre un score de 100% sur les signaux Web essentiels nous semblait un défi difficile à atteindre étant donné notre activité basée sur l’image et la vidéo. Pourtant Un Cinq et 23Prod sont parvenus à proposer une expérience riche et fluide tout en optimisant la sobriété des ressources. Bravo ! »
-    author:
-      title: Cédric Borderie
-      text: Fondateur, Senso
-      image:
-        src: https://res.cloudinary.com/uncinq/image/upload/v1759149510/senso-cedric-borderie.jpg
-
   - type: cta
     background: true
     heading:
       title: Bonne visite !
     ctas:
-      - text: Découvrez le nouveau site Web de Senso Art
-        url: https://www.senso.art/
+      - text: Découvrez le nouveau site Web du Groupe Neys
+        url: https://groupeneys.fr/
         blank: true
 ---

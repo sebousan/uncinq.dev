@@ -3,11 +3,12 @@ title: Développement de site Web statique avec Hugo
 weight: 2
 description: Grâce à notre framework open-source Hugolify.
 image:
-  src: /images/uploads/logo-hugo.svg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1759139728/logo-hugo_mpfc7g.svg
 hero:
+  surtitle: Un Cinq
   title: Développement de site Web statique avec Hugo
   image:
-    src: /images/uploads/logo-hugo.svg
+    src: https://res.cloudinary.com/uncinq/image/upload/v1759139728/logo-hugo_mpfc7g.svg
 blocks:
   - type: informations
     heading:
@@ -37,7 +38,7 @@ blocks:
     text: >-
       Il permet de garantir une grande qualité de code et de développer plus rapidement.
     image:
-      src: /images/uploads/181.Nodes.svg
+      src: https://res.cloudinary.com/uncinq/image/upload/v1758116598/181.Nodes_vgmgrr.svg
       alt: Hugolify
     cta:
       blank: false
@@ -48,7 +49,7 @@ blocks:
     background: true
     heading:
       title: Ayez un site Web statique de qualité en ligne dès aujourd’hui
-    cta:
-      text: Contactez-nous
-      url: /contact/
+    ctas:
+      - text: Contactez-nous
+        url: /contact/
 ---

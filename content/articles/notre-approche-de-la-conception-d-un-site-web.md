@@ -2,17 +2,18 @@
 isPage: true
 draft: false
 title: Notre approche de la conception d’un site Web
-url: notre-approche-de-la-conception-d-un-site-web
+slug: notre-approche-de-la-conception-d-un-site-web
 description: Voici les points essentiels pour garantir la qualité d’un site Web dans le temps et son utilisation par les internautes.
 image: 
-  src: /images/uploads/264.Teaming-Up.svg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758116671/264.Teaming-Up_tqtwat.svg
 seo:
-  image: /images/uploads/share-approche.png
+  image: https://res.cloudinary.com/uncinq/image/upload/v1759149565/share-approche.png
 hero:
+  surtitle: Article
   title: Notre approche de la conception d’un site Web
   text: Voici les points essentiels pour garantir la qualité d’un site Web dans le temps et son utilisation par les internautes.
   image:
-    src: /images/uploads/264.Teaming-Up.svg
+    src: https://res.cloudinary.com/uncinq/image/upload/v1758116671/264.Teaming-Up_tqtwat.svg
   # cta:
   #   text: Découvrir
   #   url: "#main"
@@ -46,7 +47,7 @@ blocks:
       
       * **Optimisation Mobile**
     image:
-      src: /images/uploads/241.Going-To-Work.svg
+      src: https://res.cloudinary.com/uncinq/image/upload/v1758116635/241.Going-To-Work_lg67w1.svg
   - type: editorial
     direction: rtl
     text: >-
@@ -60,7 +61,7 @@ blocks:
       
       * **Utilisation de la mise en cache**
     image:
-      src: /images/uploads/269.Page-Loading-Speed.svg
+      src: https://res.cloudinary.com/uncinq/image/upload/v1758116646/269.Page-Loading-Speed_cueaqj.svg
   - type: editorial
     direction: ltr
     text: >-
@@ -75,7 +76,7 @@ blocks:
       * **Clavier et navigation au clavier**
 
     image: 
-      src: /images/uploads/150.Cubes.svg
+      src: https://res.cloudinary.com/uncinq/image/upload/v1758116481/150.Cubes_llpfto.svg
   - type: quote
     quote: « 70% des sites Web ne sont pas accessibles »
     author:
@@ -93,7 +94,7 @@ blocks:
       
       * **Améliore le taux de conversion**
     image: 
-      src: /images/uploads/277.Found-It.svg
+      src: https://res.cloudinary.com/uncinq/image/upload/v1758116649/277.Found-It_saeb2e.svg
   - type: title
     background: true
     heading:
@@ -103,7 +104,7 @@ blocks:
     background: true
     text: Google utilise des signaux d’expérience utilisateur pour évaluer la convivialité d’un site, y compris le taux de rebond, le temps passé sur le site, et d’autres métriques. L'amélioration de la convivialité de votre site est un moyen efficace d’améliorer son classement dans les résultats de recherche de Google.
     image: 
-      src: /images/uploads/221.Googling.svg
+      src: https://res.cloudinary.com/uncinq/image/upload/v1758116624/221.Googling_nfpd8k.svg
   - type: informations
     column: 4
     heading:
@@ -124,7 +125,7 @@ blocks:
         text: Déterminant pour la bonne faisabilité des trois points précédents.
   - type: editorial
     image:
-      src: /images/uploads/179.Planet.svg
+      src: https://res.cloudinary.com/uncinq/image/upload/v1758116598/179.Planet_kydicb.svg
     text: >-
       ### Éco-conception
 
@@ -151,7 +152,7 @@ blocks:
       
       * **HTTPS et certificat SSL**
     image: 
-      src: /images/uploads/37.Password.svg
+      src: https://res.cloudinary.com/uncinq/image/upload/v1758116279/37.Password_hpkt9h.svg
   - type: quote
     quote: « 42% des sites Wordpress ont des problèmes de sécurité en 2022 »
     author:
@@ -174,7 +175,7 @@ blocks:
       
       * **Modularité du code**
     image:
-      src: /images/uploads/103.Scalability.svg
+      src: https://res.cloudinary.com/uncinq/image/upload/v1758116443/103.Scalability_e7hsum.svg
   
   - type: editorial
     direction: rtl
@@ -189,7 +190,7 @@ blocks:
 
       Pour un site e-commerce, préférez une solution SAAS comme Shopify plutôt que des solutions comme Prestashop, Magento ou WooCommerce. La maintenance et la sécurité seront dans ce cas déléguées.
     image:
-      src: /images/uploads/181.Nodes.svg
+      src: https://res.cloudinary.com/uncinq/image/upload/v1758116598/181.Nodes_vgmgrr.svg
   # - type: selected-services
   #   section: services
   #   show_more: false
@@ -205,7 +206,7 @@ blocks:
     background: true
     heading:
       title: Vous souhaitez plus d’informations ?
-    cta:
-      text: Contactez-nous
-      url: /contact/
+    ctas:
+      - text: Contactez-nous
+        url: /contact/
 ---

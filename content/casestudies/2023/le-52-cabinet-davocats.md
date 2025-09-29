@@ -6,14 +6,14 @@ slug: le-52-cabinet-davocats-migration-wordpress-hugo
 title: Le 52, cabinet d’avocats
 description: Migration d’un site Wordpress vers Lawyerify.
 seo:
-  image: /images/uploads/le52-share.png
+  image: https://res.cloudinary.com/uncinq/image/upload/v1759149333/le52-share.png
 image:
-  src: /images/uploads/le52-logo.svg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1759149332/le52-logo.svg
 hero:
   surtitle: Étude de cas
   title: Le 52, migration d’un site Wordpress vers Lawyerify
   image:
-    src: /images/uploads/le52-logo.svg
+    src: https://res.cloudinary.com/uncinq/image/upload/v1759149332/le52-logo.svg
 casestudies_services: lawyerify
 blocks:
   - type: paragraph
@@ -70,7 +70,7 @@ blocks:
     title: Le wordpress piraté
     type: editorial
     image:
-      src: /images/uploads/le52-screenshot-category-wordpress.png
+      src: https://res.cloudinary.com/uncinq/image/upload/v1759149333/le52-screenshot-category-wordpress.png
     direction: ltr
   - type: quote
     background: true
@@ -79,7 +79,7 @@ blocks:
       title: Me Sophie Rey-Gascon
       text: Cabinet d’avocats Le 52
       image:
-        src: /images/uploads/le52-sophie-rey-gascon.jpg
+        src: https://res.cloudinary.com/uncinq/image/upload/v1759149333/le52-sophie-rey-gascon.jpg
   - type: datas
     heading:
       title: Analyse de l’ancien site du cabinet
@@ -193,10 +193,10 @@ blocks:
         au cabinet. De l’autre coté un admin dédié et simplifié pour le cabinet Le 52.
     background: true
     images:
-      - src: /images/uploads/le52-screenshot-home-wordpress.png
+      - src: https://res.cloudinary.com/uncinq/image/upload/v1759149333/le52-screenshot-home-wordpress.png
         legend: Admin Wordpress de l’ancien site
         half: true
-      - src: /images/uploads/le52-screenshot-home-lawyerify.png
+      - src: https://res.cloudinary.com/uncinq/image/upload/v1759149333/le52-screenshot-home-lawyerify.png
         legend: Admin Lawyerify dédié au cabinet Le 52
         half: true
   - type: quote
@@ -208,7 +208,7 @@ blocks:
       title: Me Joseph Hazan
       text: Cabinet d’avocats Le 52
       image:
-        src: /images/uploads/le52-joseph-hazan.jpg
+        src: https://res.cloudinary.com/uncinq/image/upload/v1759149333/le52-joseph-hazan.jpg
   - type: title
     heading:
       title: Comparaison technique des deux sites
@@ -342,23 +342,25 @@ blocks:
         icon: filetype-sass
   - type: cta
     heading:
+      title: Open-source
       text: Le code est en libre accès, vous pouvez le consulter sur Github.
-    cta:
-      url: https://github.com/sebousan/le52-avocats
-      text: Accès au repository
-      blank: true
+    ctas:
+      - url: https://github.com/sebousan/le52-avocats
+        text: Accès au repository
+        blank: true
   - type: quote
     quote: « Un cas d’étude simple qui nous permet de constater qu'avec Lawyerify on a un site **deux fois plus rapide** et **deux fois moins énergivore** tout en gardant le même design et contenu »
     author:
       title: Sébastien Moulène
       text: Un Cinq
       image:
-        src: /images/uploads/sebastien-moulene.jpg
+        src: https://res.cloudinary.com/uncinq/image/upload/v1758205367/sebastien-moulene_ft0yg7.jpg
   - type: cta
+    background: true
     heading:
       title: Bonne visite !
-    cta:
-      text: Découvrez le nouveau site Web du cabinet 52
-      url: https://www.le52-avocats.com/
-      blank: true
+    ctas:
+      - text: Découvrez le nouveau site Web du cabinet 52
+        url: https://www.le52-avocats.com/
+        blank: true
 ---

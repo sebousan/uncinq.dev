@@ -4,17 +4,45 @@ weight: 7
 title: Intégration de site Web bas carbone
 description: Étroitement lié à la conception de site Web performant.
 image:
-  src: /images/uploads/logo-websitecarbon.svg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1759164448/logo-websitecarbon-white_fmsjj5.svg
 hero:
+  surtitle: Un Cinq
   title: Intégration de site Web bas carbone
   image:
-    src: /images/uploads/logo-websitecarbon.svg
+    src: https://res.cloudinary.com/uncinq/image/upload/v1759164448/logo-websitecarbon-white_fmsjj5.svg
 blocks:
+  - type: informations
+    column: 4
+    heading:
+      surtitle: optimisation
+      title: Travail sur les assets
+    items:
+      - title: CSS
+        icon: css
+        text: Optimisation des feuilles de style, suppression du code inutilisé avec PurgeCSS.
+      - title: Javascript
+        icon: javascript
+        text: Chargement conditionnel des scripts, réduction des dépendances et optimisation du rendu.
+      - title: Images
+        icon: images
+        text: Compression optimisée, formats modernes (WebP, AVIF), médias adaptatifs et lazy loading.
+      - title: Fonts
+        icon: file-font-fill
+        text: Utilisation de polices systèmes ou variables, chargement asynchrone, sous-ensembles adaptés pour réduire le poids.
+  
+  - type: paragraph
+    grid: medium
+    title: Conçu selon le RGESN, pour un web responsable
+    text: >-
+      Le Référentiel général d’écoconception des services numériques (RGESN, version 2024) est une norme française exigeante qui structure les bonnes pratiques de conception numérique durable.
+
+      Nous intégrons ce référentiel dans nos projets pour garantir transparence, performance, et réduction de l’empreinte numérique.
+
   - type: editorial
-    # background: true
+    background: true
     direction: rtl
     image:
-      src: /images/uploads/179.Planet.svg
+      src: https://res.cloudinary.com/uncinq/image/upload/v1758116598/179.Planet_kydicb.svg
     text: >-
       ### Éco-conception
 
@@ -25,13 +53,13 @@ blocks:
     cta:
       text: Éco-conception de site Web
       blank: true
-      url: https://www.eco-conception-site-web.com/
+      url: https://www.eco-conception-site-web.fr/
 
   - type: cta
     background: true
     heading:
-      title: Besoin d’une intégration bas carbone ?
-    cta:
-      text: Contactez-nous
-      url: /contact/
+      title: Réduisez l’empreinte environnementale de votre site Web dès aujourd’hui
+    ctas:
+      - text: Contactez-nous
+        url: /contact/
 ---

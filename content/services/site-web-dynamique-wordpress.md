@@ -3,11 +3,12 @@ title: Développement de site Web dynamique avec Wordpress
 weight: 4
 description: Nous concevons entièrement le thème de votre site Web.
 image:
-  src: /images/uploads/logo-wordpress.svg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1759139800/logo-wordpress_ysry5z.svg
 hero:
+  surtitle: Un Cinq
   title: Développement de site Web dynamique avec Wordpress
   image:
-    src: /images/uploads/logo-wordpress.png
+    src: https://res.cloudinary.com/uncinq/image/upload/v1759139800/logo-wordpress_ysry5z.svg
 blocks:
   - type: informations
     heading:
@@ -35,14 +36,14 @@ blocks:
     title: Développement du thème sur mesure
     text: Nous concevons entièrement le thème de votre site Web. Il sera compatible avec toutes extentions et conforme aux bonnes pratiques Wordpress. Notre thème sur mesure est optimisé pour une vitesse de chargement rapide et une expérience fluide.
     image:
-      src: /images/uploads/screen-wordpress-themes.png
+      src: https://res.cloudinary.com/uncinq/image/upload/v1759161097/screen-wordpress-themes_rpyoju.png
       alt: Écran du choix de thème dans Wordpress
 
   - type: cta
     background: true
     heading:
       title: Ayez un site Web dynamique de qualité en ligne dès aujourd’hui
-    cta:
-      text: Contactez-nous
-      url: /contact/
+    ctas:
+      - text: Contactez-nous
+        url: /contact/
 ---

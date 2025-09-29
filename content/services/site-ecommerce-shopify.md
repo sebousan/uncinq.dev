@@ -3,11 +3,12 @@ title: Développement de site e-commerce avec Shopify
 weight: 3
 description: Accompagnement, configuration et développement.
 image:
-  src: /images/uploads/logo-shopify.svg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1759139798/logo-shopify_f8iihq.svg
 hero:
+  surtitle: Un Cinq
   title: Développement de site e-commerce avec Shopify
   image:
-    src: /images/uploads/logo-shopify.svg
+    src: https://res.cloudinary.com/uncinq/image/upload/v1759139798/logo-shopify_f8iihq.svg
 blocks:
   - type: informations
     heading:
@@ -31,13 +32,14 @@ blocks:
     title: Développement du thème sur mesure
     text: Nous concevons entièrement le thème de votre site e-commerce. Il sera compatible avec toutes extentions et conforme aux bonnes pratiques Shopify.
     image:
-      src: /images/uploads/screen-shopify-products.png
+      src: https://res.cloudinary.com/uncinq/image/upload/v1759161093/screen-shopify-products_gvtzui.png
+      alt: Capture d’écran du module d’édition de Shopify
 
   - type: cta
     background: true
     heading:
       title: Commencez à vendre avec Shopify dès aujourd’hui
-    cta:
-      text: Contactez-nous
-      url: /contact/
+    ctas:
+      - text: Contactez-nous
+        url: /contact/
 ---

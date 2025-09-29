@@ -7,14 +7,14 @@ title: Biver
 slug: biver-site-performant-hugolify
 description: Mise en place d’un site performant avec Hugolify.
 seo:
-  image: /images/uploads/biver-share.png
+  image: https://res.cloudinary.com/uncinq/image/upload/v1759149715/biver-share.png
 image:
-  src: /images/uploads/biver-logo.svg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1759149715/biver-logo.svg
 hero:
   surtitle: Étude de cas
   title: Biver, mise en place d’un site performant avec Hugolify
   image:
-    src: /images/uploads/biver-logo.svg
+    src: https://res.cloudinary.com/uncinq/image/upload/v1759149715/biver-logo.svg
 blocks:
   - type: figure
     heading:
@@ -24,7 +24,7 @@ blocks:
     align: center
     offset: center
     figure:
-      src: /images/uploads/biver-famille.jpg
+      src: https://res.cloudinary.com/uncinq/image/upload/v1759149717/biver-famille.jpg
       legend: Jean-Claude et Pierre Biver
       credit: © Biver
 
@@ -58,7 +58,7 @@ blocks:
       title: Sébastien Moulène
       text: Un Cinq
       image:
-        src: /images/uploads/sebastien-moulene.jpg
+        src: https://res.cloudinary.com/uncinq/image/upload/v1758205367/sebastien-moulene_ft0yg7.jpg
 
   - type: informations
     column: 5
@@ -69,23 +69,23 @@ blocks:
     items:
       - title: Hugo
         image:
-          src: /images/uploads/logo-hugo.svg
+          src: https://res.cloudinary.com/uncinq/image/upload/v1759139728/logo-hugo_mpfc7g.svg
           isLogo: true
       - title: Decap CMS
         image:
-          src: /images/uploads/logo-decap.svg
+          src: https://res.cloudinary.com/uncinq/image/upload/v1758125974/logo-decap-cms_s1xnvt.svg
           isLogo: true
       - title: Bootstrap
         image:
-          src: /images/uploads/logo-bootstrap-5.svg
+          src: https://res.cloudinary.com/uncinq/image/upload/v1758128591/logo-bootstrap-5_h3gtgt.svg
           isLogo: true
       - title: Github
         image:
-          src: /images/uploads/logo-github.svg
+          src: https://res.cloudinary.com/uncinq/image/upload/v1759141102/logo-github-white_wjzqsw.svg
           isLogo: true
       - title: Netlify
         image:
-          src: /images/uploads/logo-netlify.svg
+          src: https://res.cloudinary.com/uncinq/image/upload/v1759141001/logo-netlify-white_z99tjm.svg
           isLogo: true
 
   - type: informations
@@ -93,7 +93,7 @@ blocks:
     background: false
     heading:
       title: Pourquoi concevoir un site performant ?
-    items:
+    items:  
       - icon: people
         title: Pour vos utilisateurs
         text: "Un site plus léger, c'est une meilleure expérience : les pages se
@@ -112,15 +112,29 @@ blocks:
         text:
           En ayant un site Web non énergivore vous réduirez considérablement votre
           impact environnemental.
+  
   - type: quote
-    quote: « Google intègre les Core Web Vitals dans son algorithme et décide de mettre plus facilement en avant une page qui possède une expérience utilisateur conviviale »
+    quote: « Google intègre les Core Web Vitals* dans son algorithme et décide de mettre plus facilement en avant une page qui possède une expérience utilisateur conviviale »
     author:
       image:
-        src: /images/uploads/logo-google.svg
+        src: https://res.cloudinary.com/uncinq/image/upload/v1759146561/logo-google_ychfbh.svg
       title: Google
       text: Blog Google Search Central, 2021
       url: https://developers.google.com/search/blog/2020/11/timing-for-page-experience?hl=fr
     background: false
+  
+  - type: editorial
+    background: false
+    surtitle: article
+    title: >
+      *Comprendre les Core Web Vitals de Google
+    text: Les métriques de performance Web définies par Google et annoncées pour la première fois en mai 2020.
+    image:
+      src: https://res.cloudinary.com/uncinq/image/upload/v1758116853/299.Algorithm_uu3kn0.svg
+    direction: rtl
+    cta:
+      text: Découvrir
+      url: "/nos-articles/comprendre-les-core-web-vitals-signaux-web-essentiels-de-google/"
 
   - type: figure
     heading:
@@ -131,7 +145,7 @@ blocks:
     align: center
     offset: center
     figure:
-      src: /images/uploads/biver-home.png
+      src: https://res.cloudinary.com/uncinq/image/upload/v1759149717/biver-home.png
       legend: Page d’accueil du nouveau site Biver
       screenshot: true
 
@@ -142,7 +156,7 @@ blocks:
       title: Sébastien Moulène
       text: Un Cinq
       image:
-        src: /images/uploads/sebastien-moulene.jpg
+        src: https://res.cloudinary.com/uncinq/image/upload/v1758205367/sebastien-moulene_ft0yg7.jpg
 
   - type: figure
     heading:
@@ -154,7 +168,7 @@ blocks:
     align: center
     offset: center
     figure:
-      src: /images/uploads/biver-admin-hugolify.png
+      src: https://res.cloudinary.com/uncinq/image/upload/v1759149716/biver-admin-hugolify.png
       legend: Admin Hugolify dédié à Biver
       screenshot: true
 
@@ -230,13 +244,14 @@ blocks:
       title: Emmanuel Cruellas
       text: Co-fondateur, Bonhomme
       image:
-        src: /images/uploads/emmanuel-cruellas.jpg
+        src: https://res.cloudinary.com/uncinq/image/upload/v1759149716/emmanuel-cruellas.jpg
 
   - type: cta
+    background: true
     heading:
       title: Bonne visite !
-    cta:
-      text: Découvrez le nouveau site Web de Biver
-      url: https://www.jcbiver.com/
-      blank: true
+    ctas:
+      - text: Découvrez le nouveau site Web de Biver
+        url: https://www.jcbiver.com/
+        blank: true
 ---

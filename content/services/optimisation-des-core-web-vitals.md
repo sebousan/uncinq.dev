@@ -3,11 +3,12 @@ title: Optimisation des Core Web Vitals
 description: Intégration et développement pour atteindre le score le plus élevé.
 weight: 5
 image:
-  src: /images/uploads/logo-webvitals.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1759146433/logo-webvitals_r0mveg.png
 hero:
+  surtitle: Un Cinq
   title: Optimisation des Core Web Vitals
   image:
-    src: /images/uploads/logo-webvitals.png
+    src: https://res.cloudinary.com/uncinq/image/upload/v1759146433/logo-webvitals_r0mveg.png
 blocks:
   - type: informations
     heading:
@@ -30,17 +31,17 @@ blocks:
     title: Focus sur les Core Web Vitals
     text: Elles visent à garantir que les visiteurs bénéficient d'une expérience fluide, rapide et prévisible lors de la navigation sur un site.
     image:
-      src: /images/uploads/299.Algorithm.svg
+      src: https://res.cloudinary.com/uncinq/image/upload/v1758116853/299.Algorithm_uu3kn0.svg
     direction: rtl
     cta:
       text: Comprendre les Core Web Vitals
-      url: "/comprendre-core-web-vitals-signaux-web-essentiels/"
+      url: "/nos-articles/comprendre-les-core-web-vitals-signaux-web-essentiels-de-google/"
 
   - type: cta
     background: true
     heading:
       title: Optimisez votre site Web dès aujourd’hui
-    cta:
-      text: Contactez-nous
-      url: /contact/
+    ctas:
+      - text: Contactez-nous
+        url: /contact/
 ---

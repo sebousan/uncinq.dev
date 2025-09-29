@@ -4,20 +4,19 @@ title: Accueil
 hero:
   title: Nous développons des sites Web pérennes, accessibles à tous et à faible émission de carbone.
   image:
-    src: /images/uploads/205.OK.svg
-  cta:
-    text: Notre approche
-    url: "/notre-approche-de-la-conception-d-un-site-web/"
-  cta_second:
-    text: Contactez-nous
-    url: /contact/
+    src: https://res.cloudinary.com/uncinq/image/upload/v1758116615/205.OK_zdg2ue.svg
+  ctas:
+    - text: Notre approche
+      url: "/nos-articles/notre-approche-de-la-conception-d-un-site-web/"
+    - text: Contactez-nous
+      url: /contact/
 blocks:
   - type: informations
     background: true
     column: 4
     heading:
-      title: Développement Web depuis 20 ans
-      text: Nous mettons à votre disposition notre savoir-faire.
+      surtitle: Développement Web depuis 20 ans
+      title: L’expertise au service de sites Web performants et durables.
     items:
       - title: Performance
         text: Nous mettons tout en œuvre pour rendre le site Web ultra rapide et bas carbone grâce à de nombreux critères de tests.
@@ -35,8 +34,9 @@ blocks:
     section: services
     background: true
     heading:
-      title: Nos services
-      text: Une approche low code pour garantir une qualité optimale.
+      surtitle: Un Cinq
+      surtitle: Nos services
+      title: Une approche low-code pour garantir une qualité et une longévité optimales.
     items:
       - Audit de performance de votre site Web
       - Développement de site Web statique avec Hugo
@@ -48,34 +48,38 @@ blocks:
       - Intégration avec Bootstrap
   - type: editorial
     direction: rtl
+    surtitle: Developpement Web
     title: Notre solution et produits orientés métiers
     text: Solution et produits, pour un Web pérenne, plus simple, plus accessible et à faible émission de carbone.
     image:
-      src: /images/uploads/181.Nodes.svg
+      src: https://res.cloudinary.com/uncinq/image/upload/v1758116598/181.Nodes_vgmgrr.svg
     cta:
       text: Découvrir
       url: "/notre-solution-et-produits/"
   - type: editorial
+    surtitle: Article
     title: Notre approche de la conception d’un site Web
     text: Voici les points essentiels pour garantir la qualité d’un site Web dans le temps et son utilisation par les internautes.
     image:
-      src: /images/uploads/264.Teaming-Up.svg
+      src: https://res.cloudinary.com/uncinq/image/upload/v1758116671/264.Teaming-Up_tqtwat.svg
     cta:
       text: Découvrir
-      url: "/notre-approche-de-la-conception-d-un-site-web/"
+      url: "/nos-articles/notre-approche-de-la-conception-d-un-site-web/"
   - type: editorial
+    surtitle: Article
     title: Comprendre les Core Web Vitals de Google
     text: Les métriques de performance Web définies par Google et annoncées pour la première fois en mai 2020.
     image:
-      src: /images/uploads/299.Algorithm.svg
+      src: https://res.cloudinary.com/uncinq/image/upload/v1758116853/299.Algorithm_uu3kn0.svg
     direction: rtl
     cta:
       text: Découvrir
-      url: "/comprendre-core-web-vitals-signaux-web-essentiels/"
+      url: "/nos-articles/comprendre-les-core-web-vitals-signaux-web-essentiels-de-google/"
   - type: latest
     section: casestudies
     show_more: false
     background: true
     heading:
+      surtitle: Analyse
       title: Nos dernières études de cas
 ---

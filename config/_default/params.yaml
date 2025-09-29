@@ -21,3 +21,5 @@ chart:
 image:
   _merge: deep
   xsmall: "70x70"
+  retina:
+    desktop: true

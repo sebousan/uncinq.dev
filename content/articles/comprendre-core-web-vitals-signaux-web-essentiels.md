@@ -4,14 +4,15 @@ draft: false
 title: Comprendre les Core Web Vitals (Signaux Web essentiels) de Google
 description: Les métriques de performance Web annoncées pour la première fois en mai 2020.
 image:
-  src: /images/uploads/299.Algorithm.svg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758116853/299.Algorithm_uu3kn0.svg
 seo:
-  image: /images/uploads/share-core-web-vitals.png
+  image: https://res.cloudinary.com/uncinq/image/upload/v1759149566/share-core-web-vitals.png
 hero:
+  surtitle: Article
   title: Comprendre les Core Web Vitals de Google
   text: Les métriques de performance Web annoncées pour la première fois en mai 2020.
   image:
-    src: /images/uploads/299.Algorithm.svg
+    src: https://res.cloudinary.com/uncinq/image/upload/v1758116853/299.Algorithm_uu3kn0.svg
 blocks:
   - type: informations
     heading:
@@ -21,17 +22,17 @@ blocks:
       - title: Largest Contentful Paint (LCP)
         text: Mesure le temps nécessaire pour que le plus grand élément visible de la page (généralement une image ou un bloc de texte) soit complètement chargé. Google recommande que LCP se produise en moins de 2,5s.
         image:
-          src: /images/uploads/lcp.png
+          src: https://res.cloudinary.com/uncinq/image/upload/v1759146700/lcp_h6kmv8.png
           isLogo: true
       - title: Interaction to Next Paint (INP)
         text: Mesure le temps écoulé entre l’interaction d’un utilisateur sur un site Web (comme un clic sur un bouton) et le moment où la page affiche la prochaine mise à jour significative à l’écran. Un INP rapide garantit une interactivité réactive et une expérience utilisateur fluide. Il remplace en 2024 le FID (First Input Delay).
         image:
-          src: /images/uploads/inp.png
+          src: https://res.cloudinary.com/uncinq/image/upload/v1759146697/inp_wd31yp.png
           isLogo: true
       - title: Cumulative Layout Shift (CLS)
         text: Mesure la stabilité visuelle de la page en évaluant le décalage inattendu du contenu lorsque la page se charge. Une CLS inférieure à 0,1 est considérée comme satisfaisante.
         image:
-          src: /images/uploads/cls.png
+          src: https://res.cloudinary.com/uncinq/image/upload/v1759146695/cls_ku9onv.png
           isLogo: true
 
   - type: quote
@@ -40,7 +41,7 @@ blocks:
       title: Sébastien Moulène
       text: Un Cinq
       image:
-        src: /images/uploads/sebastien-moulene.jpg
+        src: https://res.cloudinary.com/uncinq/image/upload/v1758205367/sebastien-moulene_ft0yg7.jpg
 
   - type: informations
     column: 4
@@ -83,7 +84,7 @@ blocks:
       title: Sébastien Moulène
       text: Un Cinq
       image:
-        src: /images/uploads/sebastien-moulene.jpg
+        src: https://res.cloudinary.com/uncinq/image/upload/v1758205367/sebastien-moulene_ft0yg7.jpg
     background: true
   - type: informations
     heading:
@@ -94,7 +95,7 @@ blocks:
       - title: PageSpeed Insights
         text: L’outil de test de performance proposé par Google
         image:
-          src: /images/uploads/logo-google-pagespeed-insights.svg
+          src: https://res.cloudinary.com/uncinq/image/upload/v1759146493/logo-google-pagespeed-insights_xzawon.svg
           isLogo: true
         cta:
           text: Tester PageSpeed
@@ -103,7 +104,7 @@ blocks:
       - title: Lighthouse
         text: Outil automatisé open-source permettant de mesurer la qualité des pages Web
         image:
-          src: /images/uploads/logo-google-lighthouse.svg
+          src: https://res.cloudinary.com/uncinq/image/upload/v1759146474/logo-google-lighthouse_paumtn.svg
           isLogo: true
         cta:
           text: Github de Lighthouse
@@ -112,7 +113,7 @@ blocks:
       - title: Web Vitals
         text: Extension Google Chrome
         image:
-          src: /images/uploads/logo-webvitals.png
+          src: https://res.cloudinary.com/uncinq/image/upload/v1759146433/logo-webvitals_r0mveg.png
           isLogo: true
         cta:
           text: Télécharger l’extension Chrome
@@ -124,13 +125,13 @@ blocks:
       title: Sébastien Moulène
       text: Un Cinq
       image:
-        src: /images/uploads/sebastien-moulene.jpg
+        src: https://res.cloudinary.com/uncinq/image/upload/v1758205367/sebastien-moulene_ft0yg7.jpg
   - type: cta
     background: true
     heading:
       title: Optimisez votre site Web dès aujourd’hui
       text: Nous auditons et appliquons les optimisations.
-    cta:
-      text: Contactez-nous
-      url: /contact/
+    ctas:
+      - text: Contactez-nous
+        url: /contact/
 ---

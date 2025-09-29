@@ -1,10 +1,14 @@
-{{ with .}}
-  <section class="block-cta{{ with .background }} block-bg{{ end }}"{{ partial "func/SetAnim" (dict "element" "block") }}>
-    <div class="container">
-      <div>
-        {{ partial "blocks/heading.html" . }}
-        {{ partial "commons/cta-group.html" (dict "cta" .cta "cta_second" .cta_second) }}
-      </div>
+<section class="block-cta {{- with .background }} block-cta-bg{{ end}}" {{- partial "func/SetAnim" (dict "element" "block") }}>
+  <div class="container">
+    {{- with .background }}
+    <div class="wrapper">
+    {{ end }}
+      {{ partial "blocks/templates/cta/header.html" (dict "heading" .heading "container" false) }}
+      {{- with .ctas }}
+        {{ partial "commons/cta-group.html" (dict "ctas" .) }}
+      {{ end -}}
+    {{- with .background }}
     </div>
-  </section>
-{{ end }}
+    {{ end }}
+  </div>
+</section>

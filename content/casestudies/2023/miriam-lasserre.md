@@ -6,14 +6,14 @@ slug: miriam-lasserre-migration-wordpress-hugo
 title: Miriam Lasserre
 description: Migration d’un site Wordpress vers Hugolify.
 seo:
-  image: /images/uploads/miriamlasserre-share.png
+  image: https://res.cloudinary.com/uncinq/image/upload/v1759153329/miriamlasserre-share_mpidru.png
 image:
-  src: /images/uploads/miriamlasserre-logo.svg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1759153328/miriamlasserre-logo_m66blj.svg
 hero:
   surtitle: Étude de cas
   title: Miriam Lasserre, migration d’un site Wordpress vers Hugolify
   image:
-    src: /images/uploads/miriamlasserre-logo.svg
+    src: https://res.cloudinary.com/uncinq/image/upload/v1759153328/miriamlasserre-logo_m66blj.svg
 casestudies_services: hugolify
 blocks:
   - type: paragraph
@@ -282,10 +282,10 @@ blocks:
         De l’autre coté un admin dédié et simplifié pour Miriam Lasserre.
     background: true
     images:
-      - src: /images/uploads/miriamlasserre-screenshot-admin-wp.png
+      - src: https://res.cloudinary.com/uncinq/image/upload/v1759153329/miriamlasserre-screenshot-admin-wp_p5ztcg.png
         legend: Admin Wordpress de l’ancien site
         half: true
-      - src: /images/uploads/miriamlasserre-screenshot-admin-hugolify.png
+      - src: https://res.cloudinary.com/uncinq/image/upload/v1759153328/miriamlasserre-screenshot-admin-hugolify_jrpukg.png
         legend: Admin Hugolify dédié à Miriam Lasserre
         half: true
   - type: quote
@@ -294,7 +294,7 @@ blocks:
     author:
       title: Miriam Lasserre
       image:
-        src: /images/uploads/miriam-lasserre.jpg
+        src: https://res.cloudinary.com/uncinq/image/upload/v1759153328/miriam-lasserre_xuvpr1.jpg
   - type: informations
     column: 4
     background: false
@@ -318,11 +318,12 @@ blocks:
         icon: filetype-sass
   - type: cta
     heading:
+      title: Open-source
       text: Le code est en libre accès, vous pouvez le consulter sur Github.
-    cta:
-      url: https://github.com/sebousan/miriamlasserre
-      text: Accès au repository
-      blank: true
+    ctas:
+      - url: https://github.com/sebousan/miriamlasserre
+        text: Accès au repository
+        blank: true
   - type: quote
     background: true
     quote: « Même avec un thème Wordpress dédié nous arrivons à avoir un site Web **deux fois plus rapide** et jusqu’à **deux fois moins énergivore**. »
@@ -330,12 +331,13 @@ blocks:
       title: Sébastien Moulène
       text: Un Cinq
       image:
-        src: /images/uploads/sebastien-moulene.jpg
+        src: https://res.cloudinary.com/uncinq/image/upload/v1758205367/sebastien-moulene_ft0yg7.jpg
   - type: cta
+    background: true
     heading:
       title: Bonne visite !
-    cta:
-      text: Découvrez le site Web de Miriam Lasserre
-      url: https://www.miriamlasserre.com/
-      blank: true
+    ctas:
+      - text: Découvrez le site Web de Miriam Lasserre
+        url: https://www.miriamlasserre.com/
+        blank: true
 ---

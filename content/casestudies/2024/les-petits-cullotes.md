@@ -7,12 +7,12 @@ title: Les Petits Culottés
 slug: lpc-audit-performant-prestashop
 description: Audit de performance d’un site Prestashop.
 image:
-  src: /images/uploads/lpc-logo.svg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1759153457/lpc-logo_oqudly.svg
 hero:
   surtitle: Étude de cas
   title: Les Petits Culottés, audit de performance d’un site Prestashop
   image:
-    src: /images/uploads/lpc-logo.svg
+    src: https://res.cloudinary.com/uncinq/image/upload/v1759153457/lpc-logo_oqudly.svg
 blocks:
   - type: figure
     heading:
@@ -76,10 +76,11 @@ blocks:
     background: true
 
   - type: cta
+    background: true
     heading:
       title: Bonne visite !
-    cta:
-      text: Découvrez le nouveau site Web des Petits Culottés
-      url: https://www.lespetitsculottes.com/fr/
-      blank: true
+    ctas:
+      - text: Découvrez le nouveau site Web des Petits Culottés
+        url: https://www.lespetitsculottes.com/fr/
+        blank: true
 ---
