@@ -1,32 +1,33 @@
 {
-    "name": "uncinq",
-    "version": "1.1.2",
-    "homepage": "https://uncinq.dev",
-    "repository": "https://github.com/sebousan/uncinq.dev",
-    "bugs": {
-        "url": "https://github.com/sebousan/uncinq.dev/issues"
-    },
-    "author": {
-        "name": "Sébastien Moulène",
-        "url": "https://www.sebastienmoulene.com/"
-    },
-    "license": "MIT",
-    "devDependencies": {
-        "@fullhuman/postcss-purgecss": "^5.0.0",
-        "autoprefixer": "^10.4.13",
-        "cssnano": "^5.1.14",
-        "netlify-plugin-hugo-cache-resources": "^0.2.1",
-        "postcss": "^8.4.21",
-        "postcss-cli": "^10.1.0",
-        "postcss-sass": "^0.5.0"
-    },
-    "scripts": {
-        "watch": "hugo server",
-        "build": "hugo --gc --minify",
-        "update": "hugo mod get -u",
-        "clean": "hugo mod clean",
-        "tidy": "hugo mod tidy",
-        "cms": "npx netlify-cms-proxy-server"
-    },
-    "dependencies": {}
+  "name": "uncinq",
+  "version": "1.1.2",
+  "homepage": "https://uncinq.dev",
+  "repository": "https://github.com/sebousan/uncinq.dev",
+  "bugs": {
+    "url": "https://github.com/sebousan/uncinq.dev/issues"
+  },
+  "author": {
+    "name": "Sébastien Moulène",
+    "url": "https://www.sebastienmoulene.com/"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "autoprefixer": "^10.4.13",
+    "bootstrap-icons": "^1.13.1",
+    "cssnano": "^5.1.14",
+    "netlify-plugin-hugo-cache-resources": "^0.2.1",
+    "postcss": "^8.4.21",
+    "postcss-cli": "^10.1.0",
+    "postcss-sass": "^0.5.0",
+    "subset-font": "^2.4.0"
+  },
+  "scripts": {
+    "watch": "hugo server",
+    "build": "hugo --gc --minify",
+    "update": "hugo mod get -u",
+    "clean": "hugo mod clean",
+    "tidy": "hugo mod tidy",
+    "build:icons:bootstrap": "node scripts/build-icons-bootstrap.js"
+  }
 }
