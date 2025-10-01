@@ -5,6 +5,8 @@ hero:
   title: Nous développons des sites Web pérennes, accessibles à tous et à faible émission de carbone.
   image:
     src: https://res.cloudinary.com/uncinq/image/upload/v1758116615/205.OK_zdg2ue.svg
+  image_2:
+    src: https://res.cloudinary.com/uncinq/image/upload/v1759305747/website_fyqtjp.png
   ctas:
     - text: Notre approche
       url: "/nos-articles/notre-approche-de-la-conception-d-un-site-web/"

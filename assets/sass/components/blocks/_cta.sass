@@ -8,15 +8,22 @@
             @include padding($global-spacing)
             background-color: $gray-100
             border-radius: .5rem
-            color: $black
             position: relative
             transition: background .3s ease, color .3s ease
             &:hover
                 background-color: $light
-                color: white
+                h2
+                    color: white
+        h2
+            color: $black
+        .cta
+            @include media-breakpoint-up(lg)
+                justify-content: center
         .btn:first-of-type
             --bs-btn-color: white
             --bs-btn-bg: black
+            --bs-btn-hover-color: black
+            --bs-btn-hover-bg: white
             border: 0
             &::after
                 bottom: 0

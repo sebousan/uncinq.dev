@@ -9,3 +9,4 @@ links:
     url: /etudes-de-cas/
   - title: Contact
     url: /contact/
+    is_highlighted: true

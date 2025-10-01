@@ -1,18 +1,6 @@
 .hero
-    @include media-breakpoint-up(lg)
-        .container
-            padding-bottom: 0
-            padding-top: 0
-    &-content
-        @include media-breakpoint-up(xl)
-            @include make-col(6)
+    img[src$="svg"]
+        filter: invert(1)
     &-media
-        margin-left: 0
-        @include media-breakpoint-up(md)
-            @include make-col(5)
-        @include media-breakpoint-up(xl)
-            @include make-col(5)
-        img
-            filter: invert(1)
-
+        z-index: 1
 
