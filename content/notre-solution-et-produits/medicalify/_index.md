@@ -9,11 +9,11 @@ aliases:
 image:
   src: https://res.cloudinary.com/uncinq/image/upload/v1759158261/banner-medicalify_kz5des.png
 hero:
-  surtitle: Developpement Web
-  title: Medicalify
-  text: Solution dédiée aux professionels de santé.
+  surtitle: Medicalify
+  title: Solution dédiée aux professionels de santé
+  text: Création de site Web dédié, sécurisé et ultra rapide.
   image:
-    src: https://res.cloudinary.com/uncinq/image/upload/v1758116598/181.Nodes_vgmgrr.svg
+    src: https://res.cloudinary.com/uncinq/image/upload/v1758117383/549.Medical-Check-up_aeuhol.svg
   cta:
     text: Découvrir
     url: "#main"

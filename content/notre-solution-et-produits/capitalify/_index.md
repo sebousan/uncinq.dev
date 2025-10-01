@@ -7,11 +7,11 @@ url: notre-solution-et-produits/capitalify-creation-site-web-cabinet-financier
 image:
   src: https://res.cloudinary.com/uncinq/image/upload/v1759158438/banner-capitalify_owadmj.png
 hero:
-  surtitle: Developpement Web
-  title: Capitalify
-  text: Solution dédiée aux professionels de la finance et du patrimoine.
+  surtitle: Capitalify
+  title: Solution dédiée aux professionels de la finance et du patrimoine
+  text: Création de site Web dédié, sécurisé et ultra rapide.
   image:
-    src: https://res.cloudinary.com/uncinq/image/upload/v1758116598/181.Nodes_vgmgrr.svg
+    src: https://res.cloudinary.com/uncinq/image/upload/v1758116916/416.Data-Analyst_rriqqc.svg
   cta:
     text: Découvrir
     url: "#main"

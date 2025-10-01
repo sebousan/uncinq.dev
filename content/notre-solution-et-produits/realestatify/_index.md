@@ -9,11 +9,11 @@ aliases:
 image:
   src: https://res.cloudinary.com/uncinq/image/upload/v1759155525/banner-realestatify_uzqqfh.png
 hero:
-  surtitle: Developpement Web
-  title: Realestatify
-  text: Solution dédiée aux agences immobilières.
+  surtitle: Realestatify
+  title: Solution dédiée aux agences immobilières
+  text: Création de site Web dédié, sécurisé et ultra rapide.
   image:
-    src: https://res.cloudinary.com/uncinq/image/upload/v1758116598/181.Nodes_vgmgrr.svg
+    src: https://res.cloudinary.com/uncinq/image/upload/v1758116863/323.Real-Estate-Agent_k1joqv.svg
   cta:
     text: Découvrir
     url: "#main"

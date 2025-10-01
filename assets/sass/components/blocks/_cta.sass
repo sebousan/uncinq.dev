@@ -1,5 +1,12 @@
 .block-cta
 
+    .cta
+        @include media-breakpoint-up(lg)
+            justify-content: center
+    
+    .btn
+        @include button-variant($primary,$primary)
+
     &-bg
         @include margin-bottom($global-spacing)
         @include margin-top($global-spacing)
@@ -16,9 +23,6 @@
                     color: white
         h2
             color: $black
-        .cta
-            @include media-breakpoint-up(lg)
-                justify-content: center
         .btn:first-of-type
             --bs-btn-color: white
             --bs-btn-bg: black

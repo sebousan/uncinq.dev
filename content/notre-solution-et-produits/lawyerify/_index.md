@@ -9,11 +9,11 @@ aliases:
 image:
   src: https://res.cloudinary.com/uncinq/image/upload/v1759155525/banner-lawyerify_okamda.png
 hero:
-  surtitle: Developpement Web
-  title: Lawyerify
-  text: Solution dédiée aux cabinets d’avocats.
+  surtitle: Lawyerify
+  title: Solution dédiée aux cabinets d’avocats
+  text: Création de site Web dédié, sécurisé et ultra rapide.
   image:
-    src: https://res.cloudinary.com/uncinq/image/upload/v1758116598/181.Nodes_vgmgrr.svg
+    src: https://res.cloudinary.com/uncinq/image/upload/v1758116906/403.Lawyer_h8jf76.svg
   cta:
     text: Découvrir
     url: "#main"

@@ -9,11 +9,11 @@ aliases:
 image:
   src: https://res.cloudinary.com/uncinq/image/upload/v1759155525/banner-architectify_tqimqa.png
 hero:
-  surtitle: Developpement Web
-  title: Architectify
-  text: Solution dédiée aux cabinets d’architectes.
+  surtitle: Architectify
+  title: Solution dédiée aux cabinets d’architectes
+  text: Création de site Web dédié, sécurisé et ultra rapide.
   image:
-    src: https://res.cloudinary.com/uncinq/image/upload/v1758116598/181.Nodes_vgmgrr.svg
+    src: https://res.cloudinary.com/uncinq/image/upload/v1758116656/306.Architect_c31h7v.svg
   ctas:
     - text: Découvrir
       url: "#main"

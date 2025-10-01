@@ -4,17 +4,12 @@ links:
     blank: false
     url: /notre-solution-et-produits/hugolify/
   - title: Architectify
-    blank: true
-    url: https://www.architectify.io
+    url: /notre-solution-et-produits/architectify-creation-site-web-cabinet-architecte/
   - title: Capitalify
-    blank: true
-    url: https://www.capitalify.io
+    url: /notre-solution-et-produits/capitalify-creation-site-web-cabinet-financier/
   - title: Lawyerify
-    blank: true
-    url: https://www.lawyerify.io
+    url: /notre-solution-et-produits/lawyerify-creation-site-web-cabinet-avocat/
   - title: Medicalify
-    blank: true
-    url: https://www.medicalify.io
+    url: /notre-solution-et-produits/medicalify-creation-site-web-cabinet-sante/
   - title: Realestatify
-    blank: true
-    url: https://www.realestatify.io
+    url: /notre-solution-et-produits/realestatify-creation-site-web-agence-immobiliere/

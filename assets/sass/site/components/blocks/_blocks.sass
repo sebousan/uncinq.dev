@@ -1,12 +1,15 @@
-.block-bg
-    @include padding-bottom($global-spacing-double)
-.block-bg + .block-bg
-    padding-top: 0
-section:not(.block-bg) + .block-bg
-    @include margin-top($global-spacing)
-    @include padding-top($global-spacing-double)
-.block-bg + section:not(.block-bg)
-    @include padding-top($global-spacing-double)
+// .block-bg
+//     @include padding-bottom($global-spacing-double)
+// .block-bg + .block-bg
+//     padding-top: 0
+// section:not(.block-bg) + .block-bg
+//     @include margin-top($global-spacing)
+//     @include padding-top($global-spacing-double)
+// .block-bg + section:not(.block-bg)
+//     @include padding-top($global-spacing-double)
+
+/*! purgecss start ignore */
 .footing
     .btn
         @include button-variant($primary,$primary)
+/*! purgecss end ignore */
