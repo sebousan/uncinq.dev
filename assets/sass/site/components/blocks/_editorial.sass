@@ -1,8 +1,9 @@
 .block-editorial
-    .media:has(.screenshot)
-        @include media-breakpoint-up(lg)
-            margin-bottom: $global-spacing
-            margin-top: $global-spacing
+    @include padding-bottom($global-spacing !important)
+    @include padding-top($global-spacing !important)
+    &:has(img[src$="svg"])
+        padding-bottom: 0 !important
+        padding-top: 0 !important
     
     img[src$="svg"]
         filter: invert(1)
