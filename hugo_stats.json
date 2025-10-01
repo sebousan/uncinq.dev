@@ -87,6 +87,9 @@
       "credit",
       "cta",
       "description",
+      "dropdown",
+      "dropdown-menu",
+      "dropdown-toggle",
       "footer-title",
       "footing",
       "gauge",
@@ -214,6 +217,7 @@
       "top",
       "twitter",
       "value",
+      "visually-hidden",
       "wrapper"
     ],
     "ids": null
