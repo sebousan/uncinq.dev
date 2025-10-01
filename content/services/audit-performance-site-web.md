@@ -6,7 +6,7 @@ slug: audit-performance-site-Web-core-web-vitals
 image:
   src: https://res.cloudinary.com/uncinq/image/upload/v1759146493/logo-google-pagespeed-insights_xzawon.svg
 hero:
-  surtitle: Un Cinq
+  surtitle: Nos services
   title: Audit de performance de votre site Web
   text: Focus sur les Core Web Vitals de Google.
   image:

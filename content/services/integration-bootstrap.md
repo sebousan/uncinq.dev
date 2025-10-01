@@ -6,7 +6,7 @@ description: L’un des frameworks front-end et des projets open-source les plus
 image:
   src: https://res.cloudinary.com/uncinq/image/upload/v1758128591/logo-bootstrap-5_h3gtgt.svg
 hero:
-  surtitle: Un Cinq
+  surtitle: Nos services
   title: Intégration avec Bootstrap 3, 4 et 5
   image:
     src: https://res.cloudinary.com/uncinq/image/upload/v1758128591/logo-bootstrap-5_h3gtgt.svg

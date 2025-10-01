@@ -5,7 +5,7 @@ weight: 5
 image:
   src: https://res.cloudinary.com/uncinq/image/upload/v1759146433/logo-webvitals_r0mveg.png
 hero:
-  surtitle: Un Cinq
+  surtitle: Nos services
   title: Optimisation des Core Web Vitals
   image:
     src: https://res.cloudinary.com/uncinq/image/upload/v1759146433/logo-webvitals_r0mveg.png

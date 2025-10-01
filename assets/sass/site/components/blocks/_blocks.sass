@@ -9,6 +9,8 @@
 //     @include padding-top($global-spacing-double)
 
 /*! purgecss start ignore */
+.container + [class*="block-"]
+    @include margin-top($global-spacing)
 .footing
     .btn
         @include button-variant($primary,$primary)

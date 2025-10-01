@@ -8,13 +8,10 @@ image:
 seo:
   image: https://res.cloudinary.com/uncinq/image/upload/v1759149566/share-solutions.png
 hero:
-  surtitle: Developpement Web
+  surtitle: Nos solutions
   title: Nous travaillons sur une solution et des produits métiers open-source
   image:
     src: https://res.cloudinary.com/uncinq/image/upload/v1758116598/181.Nodes_vgmgrr.svg
-  cta:
-    text: Découvrir
-    url: "#main"
 blocks:
   - type: editorial
     direction: rtl
@@ -81,4 +78,12 @@ blocks:
           title: En savoir plus sur Realestatify
           text: Découvrir
           url: /notre-solution-et-produits/realestatify-creation-site-web-agence-immobiliere/
+
+  - type: cta
+    background: true
+    heading:
+      title: Vous souhaitez plus d’informations ?
+    ctas:
+      - text: Contactez-nous
+        url: /contact/
 ---

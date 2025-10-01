@@ -5,7 +5,7 @@ description: Nous concevons entièrement le thème de votre site Web.
 image:
   src: https://res.cloudinary.com/uncinq/image/upload/v1759139800/logo-wordpress_ysry5z.svg
 hero:
-  surtitle: Un Cinq
+  surtitle: Nos services
   title: Développement de site Web dynamique avec Wordpress
   image:
     src: https://res.cloudinary.com/uncinq/image/upload/v1759139800/logo-wordpress_ysry5z.svg

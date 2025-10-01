@@ -5,7 +5,7 @@ description: Accompagnement, configuration et développement.
 image:
   src: https://res.cloudinary.com/uncinq/image/upload/v1759139798/logo-shopify_f8iihq.svg
 hero:
-  surtitle: Un Cinq
+  surtitle: Nos services
   title: Développement de site e-commerce avec Shopify
   image:
     src: https://res.cloudinary.com/uncinq/image/upload/v1759139798/logo-shopify_f8iihq.svg

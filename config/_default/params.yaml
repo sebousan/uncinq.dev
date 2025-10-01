@@ -23,3 +23,8 @@ image:
   xsmall: "70x70"
   retina:
     desktop: true
+services:
+  thumbnail:
+    desktop: x129 
+    mobile: x149
+    scrollsnap: x118

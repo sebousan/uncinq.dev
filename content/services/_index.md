@@ -7,9 +7,8 @@ image:
 seo:
   image: https://res.cloudinary.com/uncinq/image/upload/v1759149566/share-services.png
 hero:
-  surtitle: Un Cinq
-  title: Nos services
-  text: Nous intégrons et développons des sites Web modernes et performants.
+  surtitle: Nos services
+  title: Nous intégrons et développons des sites Web modernes et performants.
   image:
     src: https://res.cloudinary.com/uncinq/image/upload/v1758116644/259.To-Do-List_sef18i.svg
 blocks:
