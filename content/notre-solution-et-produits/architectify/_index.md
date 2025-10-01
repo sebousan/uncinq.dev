@@ -26,8 +26,8 @@ blocks:
       alt: Architectify
   - type: cta
     heading:
-      title: Basé sur Hugolify
-      text: Architectify a des fonctionnalités supplémentaires et un espace admin dédié à l’univers du métier d’architecte.
+      title: Basé sur Hugolify et profitant de toutes ses évolutions
+      text: Architectify a des fonctionnalités supplémentaires et un espace admin dédié à l’univers des métiers de l’architecture.
     ctas:
       - blank: true
         url: https://www.architectify.io
@@ -90,4 +90,13 @@ blocks:
           title: Tdesign Architecture
           text: Voir le site
           url: https://www.tdesignarchitecture.com/
+
+  - type: selected-casestudies
+    section: casestudies
+    show_more: false
+    background: true
+    heading:
+      title: Dernières études de cas sur ce produit
+    items:
+      - 2023/t-design
 ---

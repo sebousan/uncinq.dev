@@ -32,6 +32,7 @@ blocks:
       - blank: true
         url: https://www.realestatify.io
         text: En savoir plus sur Realestatify
+  
   - type: figure
     heading:
       title: Espace admin dédié et simplifié

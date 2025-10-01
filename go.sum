@@ -6,8 +6,8 @@ github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20400 h1:L6+F22i76xmeWWw
 github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20400/go.mod h1:uekq1D4ebeXgduLj8VIZy8TgfTjrLdSl6nPtVczso78=
 github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 h1:GZxx4Hc+yb0/t3/rau1j8XlAxLE4CyXns2fqQbyqWfs=
 github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000/go.mod h1:mFberT6ZtcchrsDtfvJM7aAH2bDKLdOnruUHl0hlapI=
-github.com/hugolify/hugolify-theme v1.26.7 h1:B/yWC+BrDK0lJRaVY5WVVqv05tOqKo0UTUYGE0OoJ2Q=
-github.com/hugolify/hugolify-theme v1.26.7/go.mod h1:Rc64eJSSIWGeU6eHfSzUISNfL9UrJmy3Xs3H05Gz9rQ=
+github.com/hugolify/hugolify-theme v1.26.8 h1:y1NvSXMdvLaXbS/OLt2ZYA+H+QUZsHEoQj7tj7YFTlc=
+github.com/hugolify/hugolify-theme v1.26.8/go.mod h1:Rc64eJSSIWGeU6eHfSzUISNfL9UrJmy3Xs3H05Gz9rQ=
 github.com/hugolify/hugolify-theme-casestudies v1.0.17 h1:v4Bd4AkCqV7ulzgUZlGRqCHaIoTk1sXhXaNtVnlhDQI=
 github.com/hugolify/hugolify-theme-casestudies v1.0.17/go.mod h1:onu4oRPTkQh3Up05X3V0urIaN0JyAx9NFijp6G3gs+M=
 github.com/hugolify/hugolify-theme-services v1.0.6 h1:QKMqmG0K7sZs/pnBCy8YciKMHBj5pBvgrlrLcwYFwI4=

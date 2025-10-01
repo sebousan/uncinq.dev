@@ -22,6 +22,7 @@ blocks:
     figure:
       src: https://res.cloudinary.com/uncinq/image/upload/v1759158438/banner-capitalify_owadmj.png
       alt: Capitalify
+  
   - type: cta
     heading:
       title: Basé sur Hugolify et profitant de toutes ses évolutions
@@ -30,7 +31,17 @@ blocks:
       - blank: true
         url: https://www.capitalify.io
         text: En savoir plus sur Capitalify
-  
+
+  - type: figure
+    heading:
+      title: Espace admin dédié et simplifié
+    grid: medium
+    offset: center
+    figure:
+      src: https://res.cloudinary.com/uncinq/image/upload/v1759306691/screenshot-capitalify-decapcms-home_g0pcfg.png
+      screenshot: true
+      alt: Capture d’écran de l’espace admin de Capitalify
+      legend: Exemple d’espace admin de Capitalify
   - type: informations
     heading:
       title: Développé en Hugo et s’appuyant de Bootstrap et de Decap CMS
