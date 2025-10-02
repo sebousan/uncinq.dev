@@ -9,6 +9,9 @@ hero:
   title: Développement de site Web dynamique avec Wordpress
   image:
     src: https://res.cloudinary.com/uncinq/image/upload/v1759139800/logo-wordpress_ysry5z.svg
+  cta:
+    text: Découvrir
+    url: "#main"
 blocks:
   - type: informations
     heading:

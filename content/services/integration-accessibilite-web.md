@@ -11,6 +11,9 @@ hero:
   text: Mise en conformité des sites Web aux référentiels d’accessibilité RGAA / WCAG.
   image:
     src: https://res.cloudinary.com/uncinq/image/upload/v1759161875/a11y_fv7pyf.svg
+  cta:
+    text: Découvrir
+    url: "#main"
 blocks:
   - type: informations
     heading:

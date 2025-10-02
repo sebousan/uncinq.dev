@@ -10,6 +10,9 @@ hero:
   title: Intégration de site Web bas carbone
   image:
     src: https://res.cloudinary.com/uncinq/image/upload/v1759164448/logo-websitecarbon-white_fmsjj5.svg
+  cta:
+    text: Découvrir
+    url: "#main"
 blocks:
   - type: informations
     column: 4

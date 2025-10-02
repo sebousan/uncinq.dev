@@ -11,6 +11,9 @@ hero:
   text: Focus sur les Core Web Vitals de Google.
   image:
     src: https://res.cloudinary.com/uncinq/image/upload/v1759146493/logo-google-pagespeed-insights_xzawon.svg
+  cta:
+    text: Découvrir
+    url: "#main"
 blocks:
   - type: informations
     heading:

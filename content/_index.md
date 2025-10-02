@@ -51,6 +51,7 @@ blocks:
   - type: editorial
     direction: rtl
     surtitle: Developpement Web
+    surtitle: open-source
     title: Notre solution et produits orientés métiers
     text: Solution et produits, pour un Web pérenne, plus simple, plus accessible et à faible émission de carbone.
     image:

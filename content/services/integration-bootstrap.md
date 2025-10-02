@@ -10,6 +10,9 @@ hero:
   title: Intégration avec Bootstrap 3, 4 et 5
   image:
     src: https://res.cloudinary.com/uncinq/image/upload/v1758128591/logo-bootstrap-5_h3gtgt.svg
+  cta:
+    text: Découvrir
+    url: "#main"
 blocks:
   - type: editorial
     direction: rtl

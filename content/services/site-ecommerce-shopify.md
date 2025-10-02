@@ -9,6 +9,9 @@ hero:
   title: Développement de site e-commerce avec Shopify
   image:
     src: https://res.cloudinary.com/uncinq/image/upload/v1759139798/logo-shopify_f8iihq.svg
+  cta:
+    text: Découvrir
+    url: "#main"
 blocks:
   - type: informations
     heading:

@@ -9,6 +9,9 @@ hero:
   title: Développement de site Web statique avec Hugo
   image:
     src: https://res.cloudinary.com/uncinq/image/upload/v1759139728/logo-hugo_mpfc7g.svg
+  cta:
+    text: Découvrir
+    url: "#main"
 blocks:
   - type: informations
     heading:
