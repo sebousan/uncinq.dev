@@ -26,14 +26,16 @@ blocks:
       alt: Lawyerify
   - type: cta
     heading:
+      surtitle: open-source
       title: Basé sur Hugolify et profitant de toutes ses évolutions
       text: Lawyerify a des fonctionnalités supplémentaires et un espace admin dédié à l’univers du métier d’avocat.
     ctas:
       - blank: true
         url: https://www.lawyerify.io
-        text: En savoir plus sur Lawyerify
+        text: Voir le site officiel de Lawyerify
   - type: figure
     heading:
+      surtitle: cms
       title: Espace admin dédié et simplifié
     grid: medium
     offset: center
@@ -44,6 +46,7 @@ blocks:
       legend: Exemple d’espace admin de Lawyerify
   - type: informations
     heading:
+      surtitle: stack
       title: Développé en Hugo et s’appuyant de Bootstrap et de Decap CMS
     column: 3
     items:
@@ -77,18 +80,20 @@ blocks:
 
   - type: figure
     heading:
+      surtitle: en production
       title: Exemple d’un site conçu avec Lawyerify
-    grid: medium
+    grid: large
     offset: center
     figure:
       src: https://res.cloudinary.com/uncinq/image/upload/v1758214373/le52-avocats_fgw5on.png
       screenshot: true
       alt: Capture d’écran de la page d’accueil du site Le 52
+      legend: Site Web du cabinet Le 52
     footing:
       ctas:
         - blank: true
           title: Le 52 – cabinet d’avocats
-          text: Voir le site
+          text: Visiter le site
           url: https://www.le52-avocats.com/
 
   - type: selected-casestudies
@@ -96,6 +101,7 @@ blocks:
     show_more: false
     background: true
     heading:
+      surtitle: analyse
       title: Dernières études de cas sur ce produit
     items:
       - 2023/le-52-cabinet-davocats

@@ -6,7 +6,7 @@ description: Solution pour créer facilement un site Web de grande qualité tout
 image:
   src: https://res.cloudinary.com/uncinq/image/upload/v1759160426/banner-hugolify_yo2ezo.png
 hero:
-  surtitle: Developpement Web
+  surtitle: Nos solutions
   title: Hugolify
   text: Solution pour créer facilement un site Web de grande qualité tout en ayant un espace admin dédié et simplifié.
   ctas:
@@ -21,6 +21,7 @@ blocks:
     background: true
     column: 4
     heading:
+      surtitle: Hugolify
       title: Expérience utilisateur grandement améliorée, site Web léger et éthique.
       text: Le framework Hugolify bénéficie d’une approche moderne et low-code pour permettre de développer n’importe quel site statique rapidement.
     items:
@@ -57,6 +58,7 @@ blocks:
       screenshot: true
       src: https://res.cloudinary.com/uncinq/image/upload/v1759154195/hugolify-screenshot_ycim2y.png
       alt: Capture d’écran du site Hugolify
+      legend: Site Web de Hugolify
     footing:
       ctas:
         - blank: true
@@ -81,6 +83,7 @@ blocks:
 
   - type: figure
     heading:
+      surtitle: cms
       title: Mise à jour du contenu simplifié.
       text: Espace admin dédié et allégé.
     grid: medium
@@ -93,6 +96,7 @@ blocks:
 
   - type: informations
     heading:
+      surtitle: stack
       title: Développé en Hugo et s’appuyant de Bootstrap et de Decap CMS.
     column: 4
     items:
@@ -129,6 +133,7 @@ blocks:
     show_more: false
     background: true
     heading:
+      surtitle: analyse
       title: Dernières études de cas sur cette solution.
       text: Pour mesurer concrètement l’intérêt de Hugolify par rapport à d’autres solutions comme Wordpress, Drupal, Wix…
     items:

@@ -26,15 +26,17 @@ blocks:
       alt: Medicalify
   - type: cta
     heading:
+      surtitle: open-source
       title: Basé sur Hugolify et profitant de toutes ses évolutions
       text: Medicalify a des fonctionnalités supplémentaires et un espace admin dédié à l’univers des métiers de la santé.
     ctas:
       - blank: true
         url: https://www.medicalify.io
-        text: En savoir plus sur Medicalify
+        text: Voir le site officiel de Medicalify
   
   - type: informations
     heading:
+      surtitle: stack
       title: Développé en Hugo et s’appuyant de Bootstrap et de Decap CMS
     column: 3
     items:
@@ -68,20 +70,19 @@ blocks:
 
   - type: figure
     heading:
+      surtitle: en production
       title: Exemple d’un site conçu avec Medicalify
-    grid: medium
+    grid: large
     offset: center
     figure:
       src: https://res.cloudinary.com/uncinq/image/upload/v1759160069/lechaban_if91jd.png
       screenshot: true
       alt: Capture d’écran de la page d’accueil du site Le Chaban
+      legend: Site Web du cabinet Le Chaban
     footing:
       ctas:
         - blank: true
           title: Le Chaban — Cabinet dentaire
-          text: Voir le site
+          text: Visiter le site
           url: https://www.lechaban.fr
-
-
-          
 ---

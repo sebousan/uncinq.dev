@@ -25,15 +25,17 @@ blocks:
   
   - type: cta
     heading:
+      surtitle: open-source
       title: Basé sur Hugolify et profitant de toutes ses évolutions
       text: Capitalify a des fonctionnalités supplémentaires et un espace admin dédié à l’univers des métiers de la finance.
     ctas:
       - blank: true
         url: https://www.capitalify.io
-        text: En savoir plus sur Capitalify
+        text: Voir le site officiel de Capitalify
 
   - type: figure
     heading:
+      surtitle: cms
       title: Espace admin dédié et simplifié
     grid: medium
     offset: center
@@ -42,8 +44,10 @@ blocks:
       screenshot: true
       alt: Capture d’écran de l’espace admin de Capitalify
       legend: Exemple d’espace admin de Capitalify
+  
   - type: informations
     heading:
+      surtitle: stack
       title: Développé en Hugo et s’appuyant de Bootstrap et de Decap CMS
     column: 3
     items:
@@ -77,8 +81,9 @@ blocks:
 
   - type: figure
     heading:
+      surtitle: en production
       title: Exemple d’un site conçu avec Capitalify
-    grid: medium
+    grid: large
     offset: center
     figure:
       src: https://res.cloudinary.com/uncinq/image/upload/v1758214336/venn-capital_yoby2j.png
@@ -88,7 +93,7 @@ blocks:
       ctas:
         - blank: true
           title: Venn Capital
-          text: Voir le site
+          text: Visiter le site
           url: https://www.venn-capital.com/
 
   - type: selected-casestudies
@@ -96,6 +101,7 @@ blocks:
     show_more: false
     background: true
     heading:
+      surtitle: analyse
       title: Dernières études de cas sur ce produit
     items:
       - 2023/venn-capital

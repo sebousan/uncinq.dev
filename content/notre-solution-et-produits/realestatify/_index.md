@@ -24,17 +24,20 @@ blocks:
     figure:
       src: https://res.cloudinary.com/uncinq/image/upload/v1759155525/banner-realestatify_uzqqfh.png
       alt: Realestatify
+  
   - type: cta
     heading:
+      surtitle: open-source
       title: Basé sur Hugolify et profitant de toutes ses évolutions
       text: Realestatify a des fonctionnalités supplémentaires et un espace admin dédié à l’univers du métier d’agent immobilier.
     ctas:
       - blank: true
         url: https://www.realestatify.io
-        text: En savoir plus sur Realestatify
+        text: Voir le site officiel de Realestatify
   
   - type: figure
     heading:
+      surtitle: cms
       title: Espace admin dédié et simplifié
     grid: medium
     offset: center
@@ -43,8 +46,10 @@ blocks:
       screenshot: true
       alt: Capture d’écran de l’espace admin de Realestatify
       legend: Exemple d’espace admin de Realestatify
+  
   - type: informations
     heading:
+      surtitle: stack
       title: Développé en Hugo et s’appuyant de Bootstrap et de Decap CMS
     column: 3
     items:
@@ -78,17 +83,19 @@ blocks:
 
   - type: figure
     heading:
+      surtitle: analyse
       title: Exemple d’un site conçu avec Realestatify
-    grid: medium
+    grid: large
     offset: center
     figure:
       src: https://res.cloudinary.com/uncinq/image/upload/v1758214344/nicolasgaillot_qlcigg.png
       screenshot: true
       alt: Capture d’écran de la page d’accueil du site Nicolas Gaillot
+      legend: Site Web de Nicolas Gaillot, relations immobilières
     footing:
       ctas:
         - blank: true
           title: Nicolas Gaillot — Relations immobilières
-          text: Voir le site
+          text: Visiter le site
           url: https://www.nicolasgaillot.fr
 ---

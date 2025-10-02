@@ -26,14 +26,16 @@ blocks:
       alt: Architectify
   - type: cta
     heading:
+      surtitle: open-source
       title: Basé sur Hugolify et profitant de toutes ses évolutions
       text: Architectify a des fonctionnalités supplémentaires et un espace admin dédié à l’univers des métiers de l’architecture.
     ctas:
       - blank: true
         url: https://www.architectify.io
-        text: En savoir plus sur Architectify
+        text: Voir le site officiel d’Architectify
   - type: figure
     heading:
+      surtitle: cms
       title: Espace admin dédié et simplifié
     grid: medium
     offset: center
@@ -44,6 +46,7 @@ blocks:
       legend: Exemple d’espace admin d’Architectify
   - type: informations
     heading:
+      surtitle: stack
       title: Développé en Hugo et s’appuyant de Bootstrap et de Decap CMS
     column: 3
     items:
@@ -77,18 +80,20 @@ blocks:
 
   - type: figure
     heading:
+      surtitle: en production
       title: Exemple d’un site conçu avec Architectify
-    grid: medium
+    grid: large
     offset: center
     figure:
       src: https://res.cloudinary.com/uncinq/image/upload/v1758214805/tdesign_ctqfz1.png
       screenshot: true
-      alt: Capture d’écran de la page d’accueil du site Tdesign Architecture
+      alt: Capture d’écran de la page d’accueil du site T design Architecture
+      legend: Site Web de T design Architecture
     footing:
       ctas:
         - blank: true
-          title: Tdesign Architecture
-          text: Voir le site
+          title: T design Architecture
+          text: Visiter le site
           url: https://www.tdesignarchitecture.com/
 
   - type: selected-casestudies
@@ -96,6 +101,7 @@ blocks:
     show_more: false
     background: true
     heading:
+      surtitle: analyse
       title: Dernières études de cas sur ce produit
     items:
       - 2023/t-design
