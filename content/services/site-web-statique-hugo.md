@@ -37,7 +37,7 @@ blocks:
   - type: editorial
     background: true
     direction: rtl
-    title: Nous avons développé un framework Hugo utilisant Bootstrap et Decap CMS
+    title: Nous avons développé un framework Hugo utilisant Bootstrap et qui intègre plusieurs Headless CMS. 
     text: >-
       Il permet de garantir une grande qualité de code et de développer plus rapidement.
     image:
