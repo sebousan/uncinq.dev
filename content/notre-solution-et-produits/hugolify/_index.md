@@ -91,13 +91,13 @@ blocks:
     figure:
       screenshot: true
       src: https://res.cloudinary.com/uncinq/image/upload/v1758126305/screenshot-hugolify-decapcms-home_ynatqv.png
-      alt: Capture d’écran de l’espace admin de Hugolify
-      legend: Exemple d’espace admin de Hugolify
+      alt: Capture d’écran de l’espace admin de Hugolify avec Decap CMS
+      legend: Exemple d’espace admin de Hugolify avec Decap CMS
 
   - type: informations
     heading:
       surtitle: stack
-      title: Développé en Hugo et s’appuyant de Bootstrap et de Decap CMS.
+      title: Développé avec Hugo, il s’appuie sur Bootstrap et intègre plusieurs Headless CMS.
     column: 4
     items:
       - title: Hugo
@@ -118,7 +118,7 @@ blocks:
           blank: true
           text: Voir le site de Bootstrap
           url: https://getbootstrap.com
-      - title: Decap
+      - title: Decap CMS
         text: CMS open-source très léger et ne nécessitant pas d’installation.
         image:
           src: https://res.cloudinary.com/uncinq/image/upload/v1758125974/logo-decap-cms_s1xnvt.svg
