@@ -61,7 +61,7 @@ blocks:
           text: Découvrir
           url: /notre-solution-et-produits/handify-creation-site-web-entreprise-batiment/
         image:
-          src: https://res.cloudinary.com/uncinq/image/upload/v1762949521/picto-handify_kldir5.svg
+          src: https://res.cloudinary.com/uncinq/image/upload/v1762964147/picto-handify_skpeqq.svg
       - title: Lawyerify
         text: Solution dédiée aux cabinets d’avocats.
         cta:
