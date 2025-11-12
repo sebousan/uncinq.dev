@@ -36,7 +36,7 @@ blocks:
       title: Nos cinq produits métiers disponibles
       text: Basé sur Hugolify, ces produits ont des fonctionnalités supplémentaires et un espace admin dédié à l’univers du métier concerné.
     background: false
-    column: 5
+    column: 6
     items:
       - title: Architectify
         text: Solution dédiée aux cabinets d’architectes.
@@ -54,6 +54,14 @@ blocks:
           url: /notre-solution-et-produits/capitalify-creation-site-web-cabinet-financier/
         image:
           src: https://res.cloudinary.com/uncinq/image/upload/v1759154400/picto-capitalify_gq0ioo.svg
+      - title: Handify
+        text: Solution dédiée aux entreprises du bâtiment.
+        cta:
+          title: En savoir plus sur Handify
+          text: Découvrir
+          url: /notre-solution-et-produits/handify-creation-site-web-entreprise-batiment/
+        image:
+          src: https://res.cloudinary.com/uncinq/image/upload/v1762949521/picto-handify_kldir5.svg
       - title: Lawyerify
         text: Solution dédiée aux cabinets d’avocats.
         cta:
