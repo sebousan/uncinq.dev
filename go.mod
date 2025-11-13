@@ -12,7 +12,7 @@ require (
 	github.com/hugolify/hugolify-theme-services v1.0.6 // indirect
 	github.com/midzer/tobii v3.0.0+incompatible // indirect
 	github.com/orestbida/cookieconsent v3.1.0+incompatible // indirect
-	github.com/sebousan/hugolify-theme-uncinqify v0.0.0-20251113092358-1866206064ce // indirect
+	github.com/sebousan/hugolify-theme-uncinqify v0.0.0-20251113105823-09d942b0a387 // indirect
 	github.com/twbs/bootstrap v5.3.8+incompatible // indirect
 	github.com/twbs/icons v1.13.1 // indirect
 )
