@@ -1,12 +1,11 @@
-title: Notre solution et produits
+title: Nos produits
 links:
-  - title: Hugolify
-    blank: false
-    url: /notre-solution-et-produits/hugolify/
   - title: Architectify
     url: /notre-solution-et-produits/architectify-creation-site-web-cabinet-architecte/
   - title: Capitalify
     url: /notre-solution-et-produits/capitalify-creation-site-web-cabinet-financier/
+  - title: Handify
+    url: /notre-solution-et-produits/handify-creation-site-web-entreprise-batiment/
   - title: Lawyerify
     url: /notre-solution-et-produits/lawyerify-creation-site-web-cabinet-avocat/
   - title: Medicalify

@@ -1,2 +1,7 @@
-title: Certifications
-text: Opquast et Access42
+title: Hugolify
+text: Le framework Hugo embarquant plusieurs headless CMS.
+cta:
+  title: En savoir plus sur Hugolify
+  text: En savoir plus
+  blank: false
+  url: /notre-solution-et-produits/hugolify/
