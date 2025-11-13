@@ -2,16 +2,19 @@
 isPage: true
 draft: false
 title: Architectify
-description: Solution dédiée aux cabinets d’architectes.
+description: Solution Web dédiée aux cabinets d’architecture.
 url: notre-solution-et-produits/architectify-creation-site-web-cabinet-architecte
 aliases:
   - architectify
 image:
-  src: https://res.cloudinary.com/uncinq/image/upload/v1759155525/banner-architectify_tqimqa.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1759154400/picto-architectify_mcb3cu.svg
+seo:
+  description: Solution dédiée aux cabinets d’architecture pour la création d’un site Web simple et rapide.
+  image: https://res.cloudinary.com/uncinq/image/upload/v1759155525/banner-architectify_tqimqa.png
 hero:
   surtitle: Architectify
-  title: Solution dédiée aux cabinets d’architectes
-  text: Création de site Web dédié, sécurisé et ultra rapide.
+  title: Solution dédiée aux cabinets d’architecture
+  text: Création de site Web dédié, simple, pérenne, sécurisé et ultra rapide.
   image:
     src: https://res.cloudinary.com/uncinq/image/upload/v1758116656/306.Architect_c31h7v.svg
   ctas:

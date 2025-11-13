@@ -2,16 +2,19 @@
 isPage: true
 draft: false
 title: Realestatify
-description: Solution dédiée aux agences immobilières.
+description: Solution Web dédiée aux agences immobilières.
 url: notre-solution-et-produits/realestatify-creation-site-web-agence-immobiliere
 aliases:
   - realestify
 image:
-  src: https://res.cloudinary.com/uncinq/image/upload/v1759155525/banner-realestatify_uzqqfh.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1759154400/picto-realestatify_ijjp3v.svg
+seo:
+  description: Solution dédiée aux agences immobilières pour la création d’un site Web simple et rapide.
+  image: https://res.cloudinary.com/uncinq/image/upload/v1759155525/banner-realestatify_uzqqfh.png
 hero:
   surtitle: Realestatify
   title: Solution dédiée aux agences immobilières
-  text: Création de site Web dédié, sécurisé et ultra rapide.
+  text: Création de site Web dédié, simple, pérenne, sécurisé et ultra rapide.
   image:
     src: https://res.cloudinary.com/uncinq/image/upload/v1758116863/323.Real-Estate-Agent_k1joqv.svg
   cta:

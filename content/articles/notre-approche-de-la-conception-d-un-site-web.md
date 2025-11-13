@@ -13,6 +13,7 @@ hero:
   title: Notre approche de la conception d’un site Web
   text: Voici les points essentiels pour garantir la qualité d’un site Web dans le temps et son utilisation par les internautes.
   image:
+    class: filter
     src: https://res.cloudinary.com/uncinq/image/upload/v1758116671/264.Teaming-Up_tqtwat.svg
   # cta:
   #   text: Découvrir
@@ -36,6 +37,7 @@ blocks:
       - title: Contenu pertinent
         icon: body-text
         text: Fournir du contenu de qualité et pertinent pour les utilisateurs, en tenant compte de leurs besoins et de leurs attentes.
+  
   - type: editorial
     direction: ltr
     text: >-
@@ -47,7 +49,9 @@ blocks:
 
       * **Optimisation Mobile**
     image:
+      class: filter
       src: https://res.cloudinary.com/uncinq/image/upload/v1758116635/241.Going-To-Work_lg67w1.svg
+  
   - type: editorial
     direction: rtl
     text: >-
@@ -61,7 +65,9 @@ blocks:
 
       * **Utilisation de la mise en cache**
     image:
+      class: filter
       src: https://res.cloudinary.com/uncinq/image/upload/v1758116646/269.Page-Loading-Speed_cueaqj.svg
+  
   - type: editorial
     direction: ltr
     text: >-
@@ -76,13 +82,16 @@ blocks:
       * **Clavier et navigation au clavier**
 
     image: 
+      class: filter
       src: https://res.cloudinary.com/uncinq/image/upload/v1758116481/150.Cubes_llpfto.svg
+  
   - type: quote
     quote: « 70% des sites Web ne sont pas accessibles »
     author:
       title: Nucleus research
       text: The Internet is unavailable
       url: https://nucleusresearch.com/research/single/the-internet-is-unavailable/
+  
   - type: editorial
     direction: rtl
     text: >-
@@ -94,17 +103,22 @@ blocks:
 
       * **Améliore le taux de conversion**
     image: 
+      class: filter
       src: https://res.cloudinary.com/uncinq/image/upload/v1758116649/277.Found-It_saeb2e.svg
+  
   - type: title
     background: true
     heading:
       title: Le référencement n’en sera qu’amélioré
       text: En respectant ces quatres points, vous augmenterez votre visibilité.
+  
   - type: editorial
     background: true
     text: Google utilise des signaux d’expérience utilisateur pour évaluer la convivialité d’un site, y compris le taux de rebond, le temps passé sur le site, et d’autres métriques. L'amélioration de la convivialité de votre site est un moyen efficace d’améliorer son classement dans les résultats de recherche de Google.
     image: 
+      class: filter
       src: https://res.cloudinary.com/uncinq/image/upload/v1758116624/221.Googling_nfpd8k.svg
+  
   - type: informations
     column: 4
     heading:
@@ -123,8 +137,10 @@ blocks:
       - title: Infrastructure
         icon: ui-checks
         text: Déterminant pour la bonne faisabilité des trois points précédents.
+  
   - type: editorial
     image:
+      class: filter
       src: https://res.cloudinary.com/uncinq/image/upload/v1758116598/179.Planet_kydicb.svg
     text: >-
       ### Éco-conception
@@ -137,6 +153,7 @@ blocks:
       text: Éco-conception de site Web
       blank: true
       url: https://www.eco-conception-site-web.com/
+  
   - type: editorial
     direction: rtl
     text: >-
@@ -152,7 +169,9 @@ blocks:
 
       * **HTTPS et certificat SSL**
     image: 
+      class: filter
       src: https://res.cloudinary.com/uncinq/image/upload/v1758116279/37.Password_hpkt9h.svg
+  
   - type: quote
     quote: « 42% des sites Wordpress ont des problèmes de sécurité en 2022 »
     author:
@@ -175,6 +194,7 @@ blocks:
 
       * **Modularité du code**
     image:
+      class: filter
       src: https://res.cloudinary.com/uncinq/image/upload/v1758116443/103.Scalability_e7hsum.svg
   
   - type: editorial
@@ -190,7 +210,9 @@ blocks:
 
       Pour un site e-commerce, préférez une solution SAAS comme Shopify plutôt que des solutions comme Prestashop, Magento ou WooCommerce. La maintenance et la sécurité seront dans ce cas déléguées.
     image:
+      class: filter
       src: https://res.cloudinary.com/uncinq/image/upload/v1758116598/181.Nodes_vgmgrr.svg
+  
   # - type: selected-services
   #   section: services
   #   show_more: false
@@ -202,6 +224,7 @@ blocks:
   #     - site-web-statique
   #     - site-ecommerce
   #     - site-web-dynamique
+  
   - type: cta
     background: true
     heading:

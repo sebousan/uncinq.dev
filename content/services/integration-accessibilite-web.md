@@ -36,6 +36,7 @@ blocks:
     background: true
     direction: rtl
     image:
+      class: filter
       src: https://res.cloudinary.com/uncinq/image/upload/v1758116668/267.Graduating_qiqwxp.svg
     text: >-
       ### Certifié « Développer des sites Web accessibles » par Acces42

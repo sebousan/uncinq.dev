@@ -2,16 +2,19 @@
 isPage: true
 draft: false
 title: Lawyerify
-description: Solution dédiée aux cabinets d’avocats.
+description: Solution Web dédiée aux cabinets d’avocats.
 url: notre-solution-et-produits/lawyerify-creation-site-web-cabinet-avocat
 aliases:
   - lawyerify
 image:
-  src: https://res.cloudinary.com/uncinq/image/upload/v1759155525/banner-lawyerify_okamda.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1759154400/picto-lawyerify_vhwpsc.svg
+seo:
+  description: Solution dédiée aux cabinets d’avocats pour la création d’un site Web simple et rapide.
+  image: https://res.cloudinary.com/uncinq/image/upload/v1759155525/banner-lawyerify_okamda.png
 hero:
   surtitle: Lawyerify
   title: Solution dédiée aux cabinets d’avocats
-  text: Création de site Web dédié, sécurisé et ultra rapide.
+  text: Création de site Web dédié, simple, pérenne, sécurisé et ultra rapide.
   image:
     src: https://res.cloudinary.com/uncinq/image/upload/v1758116906/403.Lawyer_h8jf76.svg
   cta:

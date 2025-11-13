@@ -2,14 +2,17 @@
 isPage: true
 draft: false
 title: Capitalify
-description: Solution dédiée aux professionels de la finance et du patrimoine.
+description: Solution Web dédiée aux professionels de la finance et du patrimoine.
 url: notre-solution-et-produits/capitalify-creation-site-web-cabinet-financier
 image:
-  src: https://res.cloudinary.com/uncinq/image/upload/v1759158438/banner-capitalify_owadmj.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1759154400/picto-capitalify_gq0ioo.svg
+seo:
+  description: Solution dédiée aux professionels de la finance et du patrimoine pour la création d’un site Web simple et rapide.
+  image: https://res.cloudinary.com/uncinq/image/upload/v1759158438/banner-capitalify_owadmj.png
 hero:
   surtitle: Capitalify
   title: Solution dédiée aux professionels de la finance et du patrimoine
-  text: Création de site Web dédié, sécurisé et ultra rapide.
+  text: Création de site Web dédié, simple, pérenne, sécurisé et ultra rapide.
   image:
     src: https://res.cloudinary.com/uncinq/image/upload/v1758116916/416.Data-Analyst_rriqqc.svg
   cta:

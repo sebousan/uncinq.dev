@@ -2,16 +2,19 @@
 isPage: true
 draft: false
 title: Handify
-description: Solution dédiée aux professionels du bâtiment et de l’artisanat.
+description: Solution Web dédiée aux professionels du bâtiment et de l’artisanat.
 url: notre-solution-et-produits/handify-creation-site-web-entreprise-batiment
 aliases:
   - handify
 image:
-  src: https://res.cloudinary.com/uncinq/image/upload/v1762949535/banner-handify_qembwp.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1762964147/picto-handify_skpeqq.svg
+seo:
+  description: Solution dédiée aux professionels du bâtiment et de l’artisanat pour la création d’un site Web simple et rapide.
+  image: https://res.cloudinary.com/uncinq/image/upload/v1762949535/banner-handify_qembwp.png
 hero:
   surtitle: Handify
   title: Solution dédiée aux professionels du bâtiment et de l’artisanat
-  text: Création de site Web dédié, sécurisé et ultra rapide.
+  text: Création de site Web dédié, simple, pérenne, sécurisé et ultra rapide.
   image:
     src: https://res.cloudinary.com/uncinq/image/upload/v1758117316/529.Fixing_tp5hem.svg
   cta:

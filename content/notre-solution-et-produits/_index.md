@@ -11,6 +11,7 @@ hero:
   surtitle: Nos solutions
   title: Nous travaillons sur une solution et des produits métiers open-source
   image:
+    class: filter
     src: https://res.cloudinary.com/uncinq/image/upload/v1758116598/181.Nodes_vgmgrr.svg
 blocks:
   - type: editorial
@@ -31,61 +32,18 @@ blocks:
       url: /notre-solution-et-produits/hugolify/
       text: Découvrir Hugolify
 
-  - type: informations
+  - type: selected
+    section: pages
     heading:
-      title: Nos cinq produits métiers disponibles
+      title: Nos six produits métiers disponibles
       text: Basé sur Hugolify, ces produits ont des fonctionnalités supplémentaires et un espace admin dédié à l’univers du métier concerné.
-    background: false
-    column: 6
     items:
-      - title: Architectify
-        text: Solution dédiée aux cabinets d’architectes.
-        image:
-          src: https://res.cloudinary.com/uncinq/image/upload/v1759154400/picto-architectify_mcb3cu.svg
-        cta:
-          title: En savoir plus sur Architectify
-          text: Découvrir
-          url: /notre-solution-et-produits/architectify/
-      - title: Capitalify
-        text: Solution dédiée aux cabinets financier.
-        cta:
-          title: En savoir plus sur Capitalify
-          text: Découvrir
-          url: /notre-solution-et-produits/capitalify-creation-site-web-cabinet-financier/
-        image:
-          src: https://res.cloudinary.com/uncinq/image/upload/v1759154400/picto-capitalify_gq0ioo.svg
-      - title: Handify
-        text: Solution dédiée aux entreprises du bâtiment.
-        cta:
-          title: En savoir plus sur Handify
-          text: Découvrir
-          url: /notre-solution-et-produits/handify-creation-site-web-entreprise-batiment/
-        image:
-          src: https://res.cloudinary.com/uncinq/image/upload/v1762964147/picto-handify_skpeqq.svg
-      - title: Lawyerify
-        text: Solution dédiée aux cabinets d’avocats.
-        cta:
-          title: En savoir plus sur Lawyerify
-          text: Découvrir
-          url: /notre-solution-et-produits/lawyerify-creation-site-web-cabinet-avocat/
-        image:
-          src: https://res.cloudinary.com/uncinq/image/upload/v1759154400/picto-lawyerify_vhwpsc.svg
-      - title: Medicalify
-        text: Solution dédiée aux professionnels de la santé.
-        image:
-          src: https://res.cloudinary.com/uncinq/image/upload/v1759154494/picto-medicalify_arymdh.svg
-        cta:
-          title: En savoir plus sur Medicalify
-          text: Découvrir
-          url: /notre-solution-et-produits/medicalify-creation-site-web-cabinet-sante/
-      - title: Realestatify
-        text: Solution dédiée aux agences immobilières.
-        image:
-          src: https://res.cloudinary.com/uncinq/image/upload/v1759154400/picto-realestatify_ijjp3v.svg
-        cta:
-          title: En savoir plus sur Realestatify
-          text: Découvrir
-          url: /notre-solution-et-produits/realestatify-creation-site-web-agence-immobiliere/
+      - architectify
+      - capitalify
+      - handify
+      - lawyerify
+      - medicalify
+      - realestatify
 
   - type: cta
     background: true

@@ -34,6 +34,7 @@ blocks:
     title: Focus sur les Core Web Vitals
     text: Elles visent à garantir que les visiteurs bénéficient d'une expérience fluide, rapide et prévisible lors de la navigation sur un site.
     image:
+      class: filter
       src: https://res.cloudinary.com/uncinq/image/upload/v1758116853/299.Algorithm_uu3kn0.svg
     direction: rtl
     cta:

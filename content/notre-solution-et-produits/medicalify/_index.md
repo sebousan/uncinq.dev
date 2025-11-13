@@ -2,16 +2,19 @@
 isPage: true
 draft: false
 title: Medicalify
-description: Solution dédiée aux professionels de santé.
+description: Solution Web dédiée aux professionels de santé.
 url: notre-solution-et-produits/medicalify-creation-site-web-cabinet-sante
 aliases:
   - medicalify
 image:
-  src: https://res.cloudinary.com/uncinq/image/upload/v1759158261/banner-medicalify_kz5des.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1759154494/picto-medicalify_arymdh.svg
+seo:
+  description: Solution dédiée aux professionels de santé pour la création d’un site Web simple et rapide.
+  image: https://res.cloudinary.com/uncinq/image/upload/v1759158261/banner-medicalify_kz5des.png
 hero:
   surtitle: Medicalify
   title: Solution dédiée aux professionels de santé
-  text: Création de site Web dédié, sécurisé et ultra rapide.
+  text: Création de site Web dédié, simple, pérenne, sécurisé et ultra rapide.
   image:
     src: https://res.cloudinary.com/uncinq/image/upload/v1758117383/549.Medical-Check-up_aeuhol.svg
   cta:

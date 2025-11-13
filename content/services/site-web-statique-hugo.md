@@ -41,6 +41,7 @@ blocks:
     text: >-
       Il permet de garantir une grande qualité de code et de développer plus rapidement.
     image:
+      class: filter
       src: https://res.cloudinary.com/uncinq/image/upload/v1758116598/181.Nodes_vgmgrr.svg
       alt: Hugolify
     cta:

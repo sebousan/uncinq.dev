@@ -12,7 +12,9 @@ hero:
   title: Comprendre les Core Web Vitals de Google
   text: Les métriques de performance Web annoncées pour la première fois en mai 2020.
   image:
+    class: filter
     src: https://res.cloudinary.com/uncinq/image/upload/v1758116853/299.Algorithm_uu3kn0.svg
+
 blocks:
   - type: informations
     heading:

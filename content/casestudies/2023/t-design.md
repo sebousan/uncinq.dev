@@ -3,7 +3,6 @@ isIndex: false
 draft: false
 date: 2023-01-02T19:34:08.410Z
 title: Tdesign
-slug: tdeisgn-site-performant-hugolify
 slug: tdeisgn-architecture-migration-php-hugo
 description: Migration d’un site PHP vers Architectify.
 casestudies_services: architectify
