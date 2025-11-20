@@ -17,6 +17,7 @@ hero:
   text: Création de site Web dédié, simple, pérenne, sécurisé et ultra rapide.
   image:
     src: https://res.cloudinary.com/uncinq/image/upload/v1758117316/529.Fixing_tp5hem.svg
+    class: filter
   cta:
     text: Découvrir
     url: "#main"

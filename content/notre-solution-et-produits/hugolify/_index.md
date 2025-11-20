@@ -16,6 +16,7 @@ hero:
       url: "forfaits"
   image:
     src: https://res.cloudinary.com/uncinq/image/upload/v1758116598/181.Nodes_vgmgrr.svg
+    class: filter
 blocks:
   - type: informations
     background: true

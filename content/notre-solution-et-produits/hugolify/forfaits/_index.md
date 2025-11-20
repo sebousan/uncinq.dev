@@ -11,6 +11,7 @@ hero:
   text: Pour héberger, maintenir et sécuriser votre site Web tout au long de sa vie, et ce, en fonction des besoins de votre activité.
   image:
     src: https://res.cloudinary.com/uncinq/image/upload/v1758116894/398.Make-It-Rain_cad0hn.svg
+    class: filter
 blocks:
   - type: comparison
     column: 3
