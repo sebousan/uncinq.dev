@@ -1,10 +1,10 @@
 ---
 isPage: true
 title: Contact
-description: Pour toutes informations ou intérogations concernant nos services ou nos solutions.
+description: Pour toutes informations ou intérogations concernant nos expertises ou nos solutions.
 hero:
   title: Contact
-  text: Pour toutes informations ou intérogations concernant nos services ou nos solutions.
+  text: Pour toutes informations ou intérogations concernant nos expertises ou nos solutions.
   align: center
   ctas:
     - text: Par e-mail à contact@uncinq.dev

@@ -37,7 +37,7 @@ blocks:
     section: services
     background: true
     heading:
-      surtitle: Nos services
+      surtitle: Nos expertises
       title: Une approche low-code pour garantir une qualité et une longévité optimales.
     items:
       - Audit de performance de votre site Web

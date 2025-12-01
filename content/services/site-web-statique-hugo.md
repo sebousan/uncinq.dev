@@ -5,7 +5,7 @@ description: Grâce à notre framework open-source Hugolify.
 image:
   src: https://res.cloudinary.com/uncinq/image/upload/v1759139728/logo-hugo_mpfc7g.svg
 hero:
-  surtitle: Nos services
+  surtitle: Nos expertises
   title: Développement de site Web statique avec Hugo
   image:
     src: https://res.cloudinary.com/uncinq/image/upload/v1759139728/logo-hugo_mpfc7g.svg

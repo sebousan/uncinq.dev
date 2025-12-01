@@ -6,7 +6,7 @@ description: Mise en conformité des sites Web aux référentiels d’accessibil
 image:
   src: https://res.cloudinary.com/uncinq/image/upload/v1759161875/a11y_fv7pyf.svg
 hero:
-  surtitle: Nos services
+  surtitle: Nos expertises
   title: Accessibilité Web
   text: Mise en conformité des sites Web aux référentiels d’accessibilité RGAA / WCAG.
   image:

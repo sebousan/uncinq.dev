@@ -1,13 +1,13 @@
 ---
 isIndex: true
 draft: false
-title: Nos services
+title: Nos expertises
 image:
   src: https://res.cloudinary.com/uncinq/image/upload/v1758116644/259.To-Do-List_sef18i.svg
 seo:
   image: https://res.cloudinary.com/uncinq/image/upload/v1759149566/share-services.png
 hero:
-  surtitle: Nos services
+  surtitle: Nos expertises
   title: Nous intégrons et développons des sites Web modernes et performants.
   image:
     class: filter

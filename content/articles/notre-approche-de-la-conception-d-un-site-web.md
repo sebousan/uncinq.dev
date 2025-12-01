@@ -218,7 +218,7 @@ blocks:
   #   show_more: false
   #   background: true
   #   heading:
-  #     title: Découvrez nos services
+  #     title: Découvrez nos expertises
   #   items:
   #     - audit-performance-site-web
   #     - site-web-statique
