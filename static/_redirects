@@ -1,11 +1,10 @@
 
 # better SEO
-/etudes-de-cas/venn-capital/            /etudes-de-cas/venn-capital-migration-wordpress-hugo/
-/etudes-de-cas/miriam-lasserre/         /etudes-de-cas/miriam-lasserre-migration-wordpress-hugo/
-/etudes-de-cas/le-52-cabinet-davocats/  /etudes-de-cas/le-52-cabinet-davocats-migration-wordpress-hugo/
-/comprendre-core-web-vitals-signaux-web-essentiels/     /nos-articles/comprendre-les-core-web-vitals-signaux-web-essentiels-de-google/
-/notre-approche-de-la-conception-d-un-site-web/         /nos-articles/notre-approche-de-la-conception-d-un-site-web/
+/etudes-de-cas/venn-capital/                                /etudes-de-cas/venn-capital-migration-wordpress-hugo/                               301
+/etudes-de-cas/miriam-lasserre/                             /etudes-de-cas/miriam-lasserre-migration-wordpress-hugo/                            301
+/etudes-de-cas/le-52-cabinet-davocats/                      /etudes-de-cas/le-52-cabinet-davocats-migration-wordpress-hugo/                     301
+/comprendre-core-web-vitals-signaux-web-essentiels/         /nos-articles/comprendre-les-core-web-vitals-signaux-web-essentiels-de-google/      301
+/notre-approche-de-la-conception-d-un-site-web/             /nos-articles/notre-approche-de-la-conception-d-un-site-web/                        301
 
 # Redirects for /services to /expertises
-/nos-services/                          /nos-expertises/
-/nos-services/*                         /nos-expertises/:splat
+/nos-services/*                         /nos-expertises/:splat      301
