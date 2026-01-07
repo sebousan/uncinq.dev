@@ -66,7 +66,9 @@ blocks:
     title: Créateur de Hugolify, le framework Hugo embarquant plusieurs headless CMS
     text: Solution pour un Web pérenne, plus simple, plus accessible et à faible émission de carbone.
     image:
-      src: https://res.cloudinary.com/uncinq/image/upload/v1758204585/logo-hugolify-picto_i6dlrq.svg
+      src: https://res.cloudinary.com/uncinq/image/upload/v1759154195/hugolify-screenshot_ycim2y.png
+      alt: Capture d’écran du site Hugolify
+      screenshot: true
     cta:
       text: Découvrir
       url: "/notre-solution-et-produits/hugolify/"

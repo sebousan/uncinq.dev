@@ -20,10 +20,10 @@ blocks:
         text: Pour les sites Web très simples.
         offer:
           price: 39
-          frequency: /mois
-          text: Facturé chaque mois via Stripe ou via facture annuelle.
+          frequency: HT /mois
+          text: Facturé chaque mois via Stripe (ou 468 € HT à chaque début d’année).
         arguments:
-          - text: Licence Hugolify
+          - text: Hugolify
             icon: patch-check
           - text: Hébergement du site Web
             icon: database-check
@@ -52,10 +52,10 @@ blocks:
         text: Pour les sites Web complets.
         offer:
           price: 69
-          frequency: /mois
-          text: Facturé chaque mois via Stripe ou via facture annuelle.
+          frequency: HT /mois
+          text: Facturé chaque mois via Stripe (ou 828 € HT à chaque début d’année).
         arguments:
-          - text: Licence Hugolify
+          - text: Hugolify
             icon: patch-check
           - text: Hébergement du site Web
             icon: database-check
@@ -85,10 +85,10 @@ blocks:
         text: Pour les sites Web complexes.
         offer:
           price: 99
-          frequency: /mois
-          text: Facturé chaque mois via Stripe ou via facture annuelle.
+          frequency: HT /mois
+          text: Facturé chaque mois via Stripe (ou 1188 € HT à chaque début d’année).
         arguments:
-          - text: Licence Hugolify
+          - text: Hugolify
             icon: patch-check
           - text: Hébergement du site Web
             icon: database-check
@@ -112,6 +112,20 @@ blocks:
             icon: collection
           - icon: puzzle
             text: +20 blocs de contenu
+  
+  - type: informations
+    heading:
+      surtitle: Options
+      title: Ajout de fonctionnalités
+      text: Toutes les options sont facturées **10€/mois** HT.
+    column: 3
+    items:
+      - icon: cloud-arrow-up
+        title: Images
+        text: Hébergement des images sur un CDN garantissant un chargement ultra-rapide et un espace de stockage considérablement étendu.
+      - icon: globe
+        title: Multilingue
+        text: Site Web en plusieurs langues.
 
   - type: cta
     background: true
