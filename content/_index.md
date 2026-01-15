@@ -40,14 +40,14 @@ blocks:
       surtitle: Nos expertises
       title: Une approche low-code pour garantir une qualité et une longévité optimales.
     items:
-      - Audit de performance de votre site Web
-      - Développement de site Web statique avec Hugo
-      - Développement de site e-commerce avec Shopify
-      - Développement de site Web dynamique avec Wordpress
-      - Optimisation des Core Web Vitals
-      - Accessibilité Web
-      - Intégration de site Web bas carbone
-      - Intégration avec Bootstrap
+      - audit-performance-site-web
+      - site-web-statique-hugo
+      - site-ecommerce-shopify
+      - site-web-dynamique-wordpress
+      - optimisation-des-core-web-vitals
+      - integration-accessibilite-web
+      - integration-site-web-bas-carbone
+      - integration-bootstrap
   
   - type: editorial
     surtitle: Manifeste
