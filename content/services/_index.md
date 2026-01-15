@@ -16,7 +16,7 @@ blocks:
   - type: editorial
     background: true
     direction: rtl
-    surtitle: open-source
+    surtitle: open source
     title: Notre solution et produits orientés métiers
     text: Solution et produits, pour un Web pérenne, plus simple, plus accessible et à faible émission de carbone.
     image:

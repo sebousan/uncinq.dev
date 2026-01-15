@@ -62,8 +62,8 @@ blocks:
   
   - type: editorial
     direction: rtl
-    surtitle: open-source
-    title: Créateur de Hugolify, le framework Hugo embarquant plusieurs headless CMS
+    surtitle: solution
+    title: Créateur de Hugolify, le framework Hugo open source embarquant plusieurs headless CMS
     text: Solution pour un Web pérenne, plus simple, plus accessible et à faible émission de carbone.
     image:
       src: https://res.cloudinary.com/uncinq/image/upload/v1759154195/hugolify-screenshot_ycim2y.png
@@ -76,8 +76,9 @@ blocks:
   - type: selected
     section: pages
     heading:
+      surtitle: Produits
       title: Nos six produits métiers disponibles
-      text: Basé sur Hugolify, ces produits ont des fonctionnalités supplémentaires et un espace admin dédié à l’univers du métier concerné.
+      text: Construits sur Hugolify, ces produits ont des fonctionnalités supplémentaires et un espace admin dédié à l’univers du métier concerné.
     items:
       - architectify
       - capitalify

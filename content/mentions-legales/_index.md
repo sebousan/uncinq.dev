@@ -38,7 +38,7 @@ https://uncinq.dev
 
 
 **Solution**\
-Ce site a été conçu avec [Hugolify](https://www.hugolify.io), une solution open-source Jamstack, qui permet de concevoir un site le plus écologique possible et au plus proche des critères d’accessibilité.
+Ce site a été conçu avec [Hugolify](https://www.hugolify.io), une solution open source Jamstack, qui permet de concevoir un site le plus écologique possible et au plus proche des critères d’accessibilité.
 
 ## Mesure d’audience
 

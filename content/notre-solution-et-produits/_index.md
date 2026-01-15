@@ -9,7 +9,7 @@ seo:
   image: https://res.cloudinary.com/uncinq/image/upload/v1759149566/share-solutions.png
 hero:
   surtitle: Nos solutions
-  title: Nous travaillons sur une solution et des produits métiers open-source
+  title: Nous travaillons sur une solution et des produits métiers open source
   image:
     class: filter
     src: https://res.cloudinary.com/uncinq/image/upload/v1758116598/181.Nodes_vgmgrr.svg
@@ -17,7 +17,7 @@ blocks:
   - type: editorial
     direction: rtl
     background: true
-    title: Notre solution open-source
+    title: Notre solution open source
     text: >-
       Solution pour créer facilement un site Web de grande qualité tout en ayant un espace admin dédié et simplifié.
 
@@ -35,8 +35,9 @@ blocks:
   - type: selected
     section: pages
     heading:
+      surtitle: Produits
       title: Nos six produits métiers disponibles
-      text: Basé sur Hugolify, ces produits ont des fonctionnalités supplémentaires et un espace admin dédié à l’univers du métier concerné.
+      text: Construits sur Hugolify, ces produits ont des fonctionnalités supplémentaires et un espace admin dédié à l’univers du métier concerné.
     items:
       - architectify
       - capitalify

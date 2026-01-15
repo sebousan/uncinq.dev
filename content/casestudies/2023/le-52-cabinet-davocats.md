@@ -83,7 +83,7 @@ blocks:
   - type: datas
     heading:
       title: Analyse de l’ancien site du cabinet
-      text: Grâce à Google Lighthouse qui est un outil open-source permettant de mesurer la qualité des pages Web. Voici, ci-dessous, le test de la page d’accueil sur mobile en connexion 4G lente.
+      text: Grâce à Google Lighthouse qui est un outil open source permettant de mesurer la qualité des pages Web. Voici, ci-dessous, le test de la page d’accueil sur mobile en connexion 4G lente.
     column: 4
     show_color: true
     show_gauge: true

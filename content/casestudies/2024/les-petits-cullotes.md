@@ -25,7 +25,7 @@ blocks:
   - type: datas
     heading:
       title: Analyse de l’ancien site
-      text: Grâce à Google Lighthouse qui est un outil open-source permettant de
+      text: Grâce à Google Lighthouse qui est un outil open source permettant de
         mesurer la qualité des pages Web. Voici, ci-dessous, le test de la page
         d’accueil sur mobile.
     column: 4
@@ -52,7 +52,7 @@ blocks:
   - type: datas
     heading:
       title: Analyse du site après notre intervention
-      text: Grâce à Google Lighthouse qui est un outil open-source permettant de mesurer la qualité des pages Web. Voici, ci-dessous, {{<  blank_link text=`le résultat sur Google PageSpeed` link=`https://pagespeed.web.dev/analysis/https-les-petits-culottes-perf-23prod-dev-fr/u1scdmongm?form_factor=mobile` >}} du test des Core Web Vitals de la page d’accueil sur mobile.
+      text: Grâce à Google Lighthouse qui est un outil open source permettant de mesurer la qualité des pages Web. Voici, ci-dessous, {{<  blank_link text=`le résultat sur Google PageSpeed` link=`https://pagespeed.web.dev/analysis/https-les-petits-culottes-perf-23prod-dev-fr/u1scdmongm?form_factor=mobile` >}} du test des Core Web Vitals de la page d’accueil sur mobile.
     column: 4
     show_color: true
     show_gauge: true
