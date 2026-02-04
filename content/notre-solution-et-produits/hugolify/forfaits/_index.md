@@ -130,8 +130,8 @@ blocks:
   - type: cta
     background: true
     heading:
-      title: Contactez-nous pour en savoir plus
+      title: Nous contacter pour en savoir plus
     ctas:
-      - text: Contactez-nous
+      - text: Nous contacter
         url: /contact/
 ---

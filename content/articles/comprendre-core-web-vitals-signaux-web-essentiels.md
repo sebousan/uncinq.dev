@@ -134,6 +134,6 @@ blocks:
       title: Optimisez votre site Web dès aujourd’hui
       text: Nous auditons et appliquons les optimisations.
     ctas:
-      - text: Contactez-nous
+      - text: Nous contacter
         url: /contact/
 ---

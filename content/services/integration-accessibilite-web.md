@@ -48,6 +48,6 @@ blocks:
     heading:
       title: Rendez votre site Web accessible à tous dès aujourd’hui
     ctas:
-      - text: Contactez-nous
+      - text: Nous contacter
         url: /contact/
 ---

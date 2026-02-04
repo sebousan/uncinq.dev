@@ -54,6 +54,6 @@ blocks:
       title: Besoin d’une intégration avec Bootstrap ?
       text: Nous développons sur ce framework front-end depuis la version 3
     ctas:
-      - text: Contactez-nous
+      - text: Nous contacter
         url: /contact/
 ---

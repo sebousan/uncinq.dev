@@ -230,6 +230,6 @@ blocks:
     heading:
       title: Vous souhaitez plus d’informations ?
     ctas:
-      - text: Contactez-nous
+      - text: Nous contacter
         url: /contact/
 ---

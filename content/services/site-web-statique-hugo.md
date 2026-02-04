@@ -54,6 +54,6 @@ blocks:
     heading:
       title: Ayez un site Web statique de qualité en ligne dès aujourd’hui
     ctas:
-      - text: Contactez-nous
+      - text: Nous contacter
         url: /contact/
 ---

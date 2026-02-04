@@ -3,16 +3,11 @@ isIndex: true
 title: Accueil
 hero:
   title: Nous développons des sites Web pérennes, accessibles à tous et à faible émission de carbone.
-  image:
-    class: filter
-    src: https://res.cloudinary.com/uncinq/image/upload/v1758116615/205.OK_zdg2ue.svg
-  image_2:
-    src: https://res.cloudinary.com/uncinq/image/upload/v1759305747/website_fyqtjp.png
   ctas:
+    - text: Nos expertises
+      url: /nos-expertises/
     - text: Notre approche
       url: "/nos-articles/notre-approche-de-la-conception-d-un-site-web/"
-    - text: Contactez-nous
-      url: /contact/
 blocks:
   - type: informations
     background: true
@@ -57,7 +52,7 @@ blocks:
       class: filter
       src: https://res.cloudinary.com/uncinq/image/upload/v1758116671/264.Teaming-Up_tqtwat.svg
     cta:
-      text: Découvrir
+      text: Découvrir notre approche
       url: "/nos-articles/notre-approche-de-la-conception-d-un-site-web/"
   
   - type: editorial
@@ -70,7 +65,7 @@ blocks:
       alt: Capture d’écran du site Hugolify
       screenshot: true
     cta:
-      text: Découvrir
+      text: Découvrir Hugolify
       url: "/notre-solution-et-produits/hugolify/"
   
   - type: selected
@@ -96,7 +91,7 @@ blocks:
       src: https://res.cloudinary.com/uncinq/image/upload/v1758116853/299.Algorithm_uu3kn0.svg
     direction: rtl
     cta:
-      text: Découvrir
+      text: Comprendre les Core Web Vitals
       url: "/nos-articles/comprendre-les-core-web-vitals-signaux-web-essentiels-de-google/"
   
   - type: latest

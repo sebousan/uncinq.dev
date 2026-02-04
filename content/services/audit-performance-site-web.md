@@ -48,6 +48,6 @@ blocks:
     heading:
       title: Optimisez votre site Web dès aujourd’hui
     ctas:
-      - text: Contactez-nous
+      - text: Nous contacter
         url: /contact/
 ---

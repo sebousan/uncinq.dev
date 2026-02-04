@@ -75,7 +75,7 @@ blocks:
   - type: figure
     heading:
       surtitle: en production
-      title: Exemple d’un site conçu avec Handify
+      title: Exemples de sites conçus avec Handify
     grid: large
     offset: center
     figure:
@@ -89,4 +89,21 @@ blocks:
           title: FJ Habitat
           text: Visiter le site
           url: https://www.fj-habitat.com/
+
+  - type: figure
+    grid: large
+    offset: center
+    figure:
+      src: https://res.cloudinary.com/uncinq/image/upload/v1770220065/etablissementleonard_tzcaly.png
+      screenshot: true
+      alt: Capture d’écran de la page d’accueil du site Etablissement Leonard
+      legend: Site Web de Etablissement Leonard
+    footing:
+      ctas:
+        - blank: true
+          title: Etablissement Leonard
+          text: Visiter le site
+          url: https://www.etablissementleonard.com/
+
+          
 ---
