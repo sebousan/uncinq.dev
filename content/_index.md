@@ -2,6 +2,7 @@
 isIndex: true
 title: Accueil
 hero:
+  surtitle: Engagements
   title: Nous développons des sites Web pérennes, accessibles à tous et à faible émission de carbone.
   ctas:
     - text: Nos expertises
@@ -13,7 +14,7 @@ blocks:
     background: true
     column: 4
     heading:
-      surtitle: Développement Web depuis 20 ans
+      surtitle: Développement Web depuis +20 ans
       title: L’expertise au service de sites Web performants et durables.
     items:
       - title: Performance
