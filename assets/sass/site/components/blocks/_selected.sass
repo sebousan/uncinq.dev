@@ -9,3 +9,41 @@
             display: none
     .description
         margin-bottom: 0
+    &-list
+        .items
+            a
+                background: $tertiary
+                border-radius: 1rem
+                color: $text-muted
+                display: block
+                font-size: .875rem
+                padding: 1rem
+                text-decoration: none
+                @media (prefers-reduced-motion: no-preference)
+                    transition: background .3s ease
+                @media (hover: hover) and (pointer: fine)
+                    &:hover
+                        background: $secondary
+
+            strong
+                color: $body-color
+                font-size: 1rem
+                margin-right: .5rem
+                @include media-breakpoint-down(lg)
+                    display: block
+
+        @include media-breakpoint-up(md)
+            .heading
+                grid-row: 1
+            .items
+                grid-row: 1 / span 3
+            .footing
+                grid-column: 1
+                grid-row: 2
+                margin: 0
+                .cta
+                    justify-content: flex-start
+        @include media-breakpoint-up(xl)
+            .items
+                a
+                    @include link-arrow

@@ -71,6 +71,7 @@ blocks:
   
   - type: selected
     section: pages
+    layout: list
     heading:
       surtitle: Produits
       title: Nos six produits métiers disponibles
@@ -82,6 +83,10 @@ blocks:
       - lawyerify
       - medicalify
       - realestatify
+    footing:
+      ctas:
+        - text: Découvrir nos produits
+          url: "/notre-solution-et-produits/#nos-six-produits-métiers-disponibles"
   
   - type: editorial
     surtitle: Article

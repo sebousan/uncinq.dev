@@ -1,0 +1,11 @@
+{{ with .items }}
+<ol class="items">
+  {{ range . }}
+  <li>
+    <a href="{{ .Permalink }}">
+      <strong>{{ partial "func/PrepareHTML.html" .Title }}</strong> {{ partial "func/PrepareHTML.html" .Description -}}
+    </a>
+  </li>
+  {{ end }}
+</ol>
+{{ end }}
