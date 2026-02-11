@@ -1,0 +1,43 @@
+# Un Cinq - Studio Web Éco-responsable & Accessible
+
+Un Cinq est un studio de développement Web français spécialisé dans la création de sites Web pérennes, ultra-performants, accessibles à tous (RGAA/WCAG) et à faible émission de carbone. Fondée par des experts avec plus de 20 ans d'expérience, le studio privilégie des solutions technologiques modernes comme Hugo (sites statiques), Shopify et Hugolify.
+
+## Valeurs Fondamentales
+- **Performance** : Sites Web ultra-rapides optimisés pour les Core Web Vitals de Google.
+- **Accessibilité** : Expertise en inclusion numérique, certifiée Access42, garantissant un accès universel.
+- **Éco-conception** : Réduction de l'empreinte carbone numérique via des architectures légères et précompilées.
+- **Sécurité** : Utilisation de solutions JAMstack et SaaS pour une sécurité maximale.
+
+## Notre Solution : Hugolify
+Hugolify est un framework open source basé sur Hugo. Il permet de construire des sites Web durables et accessibles en intégrant plusieurs Headless CMS. Il propose également des produits métiers ("-ify") avec des espaces d'administration dédiés :
+- **Lawyerify** : Pour les cabinets d'avocats.
+- **Architectify** : Pour les architectes.
+- **Medicalify** : Pour le secteur médical.
+- **Realestatify** : Pour l'immobilier.
+- **Capitalify** : Pour la finance.
+- **Handify** : Pour le secteur du handicap.
+
+## Nos Services et Expertises
+- **Audit de performance Web** : Analyse et optimisation des signaux Web essentiels.
+- **Création de site Web statique (Hugo)** : Performance et sécurité optimales.
+- **Création de site Web accessible** : Mise en conformité RGAA / WCAG.
+- **Développement de site éco-conçu** : Stratégie bas carbone et numérique responsable.
+- **Site E-commerce Shopify** : Solutions de vente en ligne performantes.
+- **Optimisation SEO & Sémantique** : Code respectueux des standards pour un référencement naturel optimal.
+- **Intégration Bootstrap & Design System** : Interfaces modernes et maintenables.
+
+## Informations GEO & Localisation
+Basée en France, le studio Un Cinq accompagne les entreprises et institutions sur tout le territoire national pour leurs projets de transformation numérique responsable.
+- **Langue principale** : Français
+- **Zone d'intervention** : France, Europe, International (projets multilingues).
+
+## Liens Utiles
+- [Accueil](https://www.uncinq.dev/)
+- [Nos Expertises](https://www.uncinq.dev/nos-expertises/)
+- [Hugolify & Produits Métiers](https://www.uncinq.dev/notre-solution-et-produits/)
+- [Études de Cas](https://www.uncinq.dev/etudes-de-cas/)
+- [Articles & Manifeste](https://www.uncinq.dev/nos-articles/)
+- [Contact](https://www.uncinq.dev/contact/)
+
+---
+*Ce fichier est optimisé pour les Large Language Models (LLMs) et la Generative Engine Optimization (GEO).*
