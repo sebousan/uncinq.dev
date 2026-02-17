@@ -49,7 +49,9 @@ blocks:
   - type: cta
     background: true
     heading:
+      surtitle: Hugolify
       title: Vous souhaitez plus d’informations ?
+      text: Besoin de plus d’informations au sujet de nos solutions et produits.
     ctas:
       - text: Nous contacter
         url: /contact/
