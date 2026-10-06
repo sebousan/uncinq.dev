@@ -43,6 +43,6 @@ blocks:
     heading:
       title: Commencez à vendre avec Shopify dès aujourd’hui
     ctas:
-      - text: Contactez-nous
+      - text: Nous contacter
         url: /contact/
 ---

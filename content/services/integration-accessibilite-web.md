@@ -2,6 +2,7 @@
 draft: false
 weight: 6
 title: Accessibilité Web
+slug: creation-site-web-accessible
 description: Mise en conformité des sites Web aux référentiels d’accessibilité RGAA / WCAG
 image:
   src: https://res.cloudinary.com/uncinq/image/upload/v1759161875/a11y_fv7pyf.svg
@@ -48,6 +49,6 @@ blocks:
     heading:
       title: Rendez votre site Web accessible à tous dès aujourd’hui
     ctas:
-      - text: Contactez-nous
+      - text: Nous contacter
         url: /contact/
 ---

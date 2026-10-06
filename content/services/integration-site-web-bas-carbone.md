@@ -63,6 +63,6 @@ blocks:
     heading:
       title: Réduisez l’empreinte environnementale de votre site Web dès aujourd’hui
     ctas:
-      - text: Contactez-nous
+      - text: Nous contacter
         url: /contact/
 ---

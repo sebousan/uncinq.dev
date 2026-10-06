@@ -214,7 +214,7 @@ blocks:
   - type: datas
     heading:
       title: Analyse du site conçu avec Hugolify
-      text: Grâce à Google Lighthouse qui est un outil open-source permettant de mesurer la qualité des pages Web. Voici, ci-dessous, {{<  blank_link text=`le résultat sur Google PageSpeed` link=`https://pagespeed.web.dev/analysis/https-jcbiver-com/ol265bow4q?form_factor=mobile` >}} du test des Core Web Vitals de la page d’accueil sur mobile.
+      text: Grâce à Google Lighthouse qui est un outil open source permettant de mesurer la qualité des pages Web. Voici, ci-dessous, {{<  blank_link text=`le résultat sur Google PageSpeed` link=`https://pagespeed.web.dev/analysis/https-jcbiver-com/ol265bow4q?form_factor=mobile` >}} du test des Core Web Vitals de la page d’accueil sur mobile.
     column: 4
     show_color: true
     show_gauge: true

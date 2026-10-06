@@ -37,6 +37,7 @@
                 transition-delay: calc(#{$transition-delay} * 0.6)
 
     [data-anim="heading"],
+    [data-anim="footing"],
     [data-anim="content"],
     [data-anim="sidebar"],
     [data-anim="pagination"]
@@ -108,6 +109,7 @@
     [data-anim="block"]
         & > div,
         .heading,
+        .footing,
         .bottom
             opacity: 0
             transform: translateY(2rem)
@@ -115,11 +117,13 @@
             transition-property: opacity, transform
             transition-timing-function: $transition-effect
         .heading,
+        .footing,
         .bottom
             transition-delay: calc(#{$transition-delay} * 0.5)
         &[data-anim-show]
             & > div,
             .heading,
+            .footing,
             .bottom
                 opacity: 1
                 transform: translateY(0)

@@ -2,23 +2,19 @@
 isIndex: true
 title: Accueil
 hero:
+  surtitle: Engagements
   title: Nous développons des sites Web pérennes, accessibles à tous et à faible émission de carbone.
-  image:
-    class: filter
-    src: https://res.cloudinary.com/uncinq/image/upload/v1758116615/205.OK_zdg2ue.svg
-  image_2:
-    src: https://res.cloudinary.com/uncinq/image/upload/v1759305747/website_fyqtjp.png
   ctas:
+    - text: Nos expertises
+      url: /nos-expertises/
     - text: Notre approche
       url: "/nos-articles/notre-approche-de-la-conception-d-un-site-web/"
-    - text: Contactez-nous
-      url: /contact/
 blocks:
   - type: informations
     background: true
     column: 4
     heading:
-      surtitle: Développement Web depuis 20 ans
+      surtitle: Développement Web depuis +20 ans
       title: L’expertise au service de sites Web performants et durables.
     items:
       - title: Performance
@@ -40,14 +36,14 @@ blocks:
       surtitle: Nos expertises
       title: Une approche low-code pour garantir une qualité et une longévité optimales.
     items:
-      - Audit de performance de votre site Web
-      - Développement de site Web statique avec Hugo
-      - Développement de site e-commerce avec Shopify
-      - Développement de site Web dynamique avec Wordpress
-      - Optimisation des Core Web Vitals
-      - Accessibilité Web
-      - Intégration de site Web bas carbone
-      - Intégration avec Bootstrap
+      - audit-performance-site-web
+      - site-web-statique-hugo
+      - site-ecommerce-shopify
+      - site-web-dynamique-wordpress
+      - optimisation-des-core-web-vitals
+      - integration-accessibilite-web
+      - integration-site-web-bas-carbone
+      - integration-bootstrap
   
   - type: editorial
     surtitle: Manifeste
@@ -57,25 +53,29 @@ blocks:
       class: filter
       src: https://res.cloudinary.com/uncinq/image/upload/v1758116671/264.Teaming-Up_tqtwat.svg
     cta:
-      text: Découvrir
+      text: Découvrir notre approche
       url: "/nos-articles/notre-approche-de-la-conception-d-un-site-web/"
   
   - type: editorial
     direction: rtl
-    surtitle: open-source
-    title: Créateur de Hugolify, le framework Hugo embarquant plusieurs headless CMS
+    surtitle: solution
+    title: Créateur de Hugolify, le framework Hugo open source embarquant plusieurs headless CMS
     text: Solution pour un Web pérenne, plus simple, plus accessible et à faible émission de carbone.
     image:
-      src: https://res.cloudinary.com/uncinq/image/upload/v1758204585/logo-hugolify-picto_i6dlrq.svg
+      src: https://res.cloudinary.com/uncinq/image/upload/v1759154195/hugolify-screenshot_ycim2y.png
+      alt: Capture d’écran du site Hugolify
+      screenshot: true
     cta:
-      text: Découvrir
+      text: Découvrir Hugolify
       url: "/notre-solution-et-produits/hugolify/"
   
   - type: selected
     section: pages
+    layout: list
     heading:
+      surtitle: Produits
       title: Nos six produits métiers disponibles
-      text: Basé sur Hugolify, ces produits ont des fonctionnalités supplémentaires et un espace admin dédié à l’univers du métier concerné.
+      text: Construits sur Hugolify, ces produits ont des fonctionnalités supplémentaires et un espace admin dédié à l’univers du métier concerné.
     items:
       - architectify
       - capitalify
@@ -83,6 +83,10 @@ blocks:
       - lawyerify
       - medicalify
       - realestatify
+    footing:
+      ctas:
+        - text: Découvrir nos produits
+          url: "/notre-solution-et-produits/#nos-six-produits-métiers-disponibles"
   
   - type: editorial
     surtitle: Article
@@ -93,7 +97,7 @@ blocks:
       src: https://res.cloudinary.com/uncinq/image/upload/v1758116853/299.Algorithm_uu3kn0.svg
     direction: rtl
     cta:
-      text: Découvrir
+      text: Comprendre les Core Web Vitals
       url: "/nos-articles/comprendre-les-core-web-vitals-signaux-web-essentiels-de-google/"
   
   - type: latest

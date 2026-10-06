@@ -30,7 +30,7 @@ blocks:
       alt: Architectify
   - type: cta
     heading:
-      surtitle: open-source
+      surtitle: open source
       title: Basé sur Hugolify et profitant de toutes ses évolutions
       text: Architectify a des fonctionnalités supplémentaires et un espace admin dédié à l’univers des métiers de l’architecture.
     ctas:
@@ -64,7 +64,7 @@ blocks:
           text: Voir le site de Hugo
           url: https://www.gohugo.io
       - title: Bootstrap
-        text: Framework front open-source le plus utilisé
+        text: Framework front open source le plus utilisé
         image:
           src: https://res.cloudinary.com/uncinq/image/upload/v1758128591/logo-bootstrap-5_h3gtgt.svg
           isLogo: true
@@ -73,7 +73,7 @@ blocks:
           text: Voir le site de Bootstrap
           url: https://getbootstrap.com
       - title: Decap
-        text: CMS open-source très léger, git-based
+        text: CMS open source très léger, git-based
         image:
           src: https://res.cloudinary.com/uncinq/image/upload/v1758125974/logo-decap-cms_s1xnvt.svg
           isLogo: true

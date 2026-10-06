@@ -47,6 +47,6 @@ blocks:
     heading:
       title: Ayez un site Web dynamique de qualité en ligne dès aujourd’hui
     ctas:
-      - text: Contactez-nous
+      - text: Nous contacter
         url: /contact/
 ---

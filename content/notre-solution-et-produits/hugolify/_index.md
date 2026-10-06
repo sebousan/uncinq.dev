@@ -102,7 +102,7 @@ blocks:
     column: 4
     items:
       - title: Hugo
-        text: Générateur de site Web statique open-source le plus rapide du monde.
+        text: Générateur de site Web statique open source le plus rapide du monde.
         image:
           src: https://res.cloudinary.com/uncinq/image/upload/v1759139728/logo-hugo_mpfc7g.svg
           isLogo: true
@@ -111,7 +111,7 @@ blocks:
           text: Voir le site de Hugo
           url: https://www.gohugo.io
       - title: Bootstrap
-        text: Framework front open-source le plus utilisé depuis des années.
+        text: Framework front open source le plus utilisé depuis des années.
         image:
           src: https://res.cloudinary.com/uncinq/image/upload/v1758128591/logo-bootstrap-5_h3gtgt.svg
           isLogo: true
@@ -120,7 +120,7 @@ blocks:
           text: Voir le site de Bootstrap
           url: https://getbootstrap.com
       - title: Decap CMS
-        text: CMS open-source très léger et ne nécessitant pas d’installation.
+        text: CMS open source très léger et ne nécessitant pas d’installation.
         image:
           src: https://res.cloudinary.com/uncinq/image/upload/v1758125974/logo-decap-cms_s1xnvt.svg
           isLogo: true

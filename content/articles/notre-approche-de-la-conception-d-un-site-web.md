@@ -228,8 +228,10 @@ blocks:
   - type: cta
     background: true
     heading:
+      surtitle: Manifeste
       title: Vous souhaitez plus d’informations ?
+      text: Besoin de plus d’informations au sujet de notre approche de la conception d’un site Web.
     ctas:
-      - text: Contactez-nous
+      - text: Nous contacter
         url: /contact/
 ---

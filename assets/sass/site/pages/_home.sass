@@ -1,4 +1,17 @@
 .home-page
+    .hero
+        .container
+            min-height: $home-hero-min-height-mobile
+            @include media-breakpoint-up(md)
+                min-height: $home-hero-min-height
+        &-content
+            margin: auto
+            text-align: center
+        .cta
+            justify-content: center
+        h1
+            @include font-size($home-hero-h1-font-size)
+            line-height: 1.2
     main
         padding-top: 0
         section:first-of-type

@@ -1,7 +1,7 @@
 ---
 title: Développement de site Web statique avec Hugo
 weight: 2
-description: Grâce à notre framework open-source Hugolify.
+description: Grâce à notre framework open source Hugolify.
 image:
   src: https://res.cloudinary.com/uncinq/image/upload/v1759139728/logo-hugo_mpfc7g.svg
 hero:
@@ -54,6 +54,6 @@ blocks:
     heading:
       title: Ayez un site Web statique de qualité en ligne dès aujourd’hui
     ctas:
-      - text: Contactez-nous
+      - text: Nous contacter
         url: /contact/
 ---

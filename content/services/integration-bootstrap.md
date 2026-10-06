@@ -2,7 +2,7 @@
 draft: false
 weight: 8
 title: Intégration avec Bootstrap
-description: L’un des frameworks front-end et des projets open-source les plus populaires au monde.
+description: L’un des frameworks front-end open source les plus populaires au monde.
 image:
   src: https://res.cloudinary.com/uncinq/image/upload/v1758128591/logo-bootstrap-5_h3gtgt.svg
 hero:
@@ -54,6 +54,6 @@ blocks:
       title: Besoin d’une intégration avec Bootstrap ?
       text: Nous développons sur ce framework front-end depuis la version 3
     ctas:
-      - text: Contactez-nous
+      - text: Nous contacter
         url: /contact/
 ---
