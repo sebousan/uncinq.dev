@@ -131,6 +131,7 @@ blocks:
     text: Les métriques de performance Web définies par Google et annoncées pour la première fois en mai 2020.
     image:
       src: https://res.cloudinary.com/uncinq/image/upload/v1758116853/299.Algorithm_uu3kn0.svg
+      class: filter
     direction: rtl
     cta:
       text: Découvrir
