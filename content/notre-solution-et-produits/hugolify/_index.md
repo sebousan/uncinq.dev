@@ -12,8 +12,10 @@ hero:
   ctas:
     - text: Découvrir
       url: "#main"
-    - text: Tarification transparente
-      url: "forfaits"
+    - text: Documentation
+      url: https://www.hugolify.io/docs/
+      blank: true
+      hreflang: en
   image:
     src: https://res.cloudinary.com/uncinq/image/upload/v1758116598/181.Nodes_vgmgrr.svg
     class: filter
@@ -98,7 +100,8 @@ blocks:
   - type: informations
     heading:
       surtitle: stack
-      title: Développé avec Hugo, il s’appuie sur Bootstrap et intègre plusieurs Headless CMS.
+      title: Développé avec Hugo, il s’appuie sur Bootstrap ou Socle et intègre plusieurs Headless CMS.
+      text: Bootstrap est proposé par défaut. [Socle](/notre-solution-et-produits/socle/), notre fondation CSS sans framework, permet de construire votre propre design system.
     column: 4
     items:
       - title: Hugo
@@ -141,4 +144,16 @@ blocks:
       - 2024/biver
       - 2023/miriam-lasserre
       - 2023/venn-capital
+
+  - type: cta
+    background: true
+    heading:
+      surtitle: Forfaits
+      title: Une tarification transparente
+      text: Hébergement, maintenance et support technique compris, à partir de 39 € HT par mois.
+    ctas:
+      - text: Voir les forfaits
+        url: /notre-solution-et-produits/hugolify/forfaits/
+      - text: Nous contacter
+        url: /contact/
 ---

@@ -1,6 +1,6 @@
 ---
 title: Développement de site e-commerce avec Shopify
-weight: 3
+weight: 2
 description: Accompagnement, configuration et développement.
 image:
   src: https://res.cloudinary.com/uncinq/image/upload/v1759139798/logo-shopify_f8iihq.svg
@@ -37,6 +37,16 @@ blocks:
     image:
       src: https://res.cloudinary.com/uncinq/image/upload/v1759161093/screen-shopify-products_gvtzui.png
       alt: Capture d’écran du module d’édition de Shopify
+
+  - type: editorial
+    title: Un thème de départ construit sur Socle
+    text: Votre thème part de notre base Shopify, construite sur Socle, notre fondation CSS open source. Structure, composants et feuilles de style sont prêts à l’emploi et s’adaptent à votre identité grâce aux design tokens.
+    image:
+      class: filter
+      src: https://res.cloudinary.com/uncinq/image/upload/v1758116481/150.Cubes_llpfto.svg
+    cta:
+      text: Découvrir Socle
+      url: /notre-solution-et-produits/socle/
 
   - type: cta
     background: true

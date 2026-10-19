@@ -1,6 +1,6 @@
 ---
 draft: false
-weight: 6
+weight: 9
 title: Accessibilité Web
 slug: creation-site-web-accessible
 description: Mise en conformité des sites Web aux référentiels d’accessibilité RGAA / WCAG

@@ -1,6 +1,6 @@
 ---
 title: Développement de site Web statique avec Hugo
-weight: 2
+weight: 1
 description: Grâce à notre framework open source Hugolify.
 image:
   src: https://res.cloudinary.com/uncinq/image/upload/v1759139728/logo-hugo_mpfc7g.svg
@@ -37,7 +37,7 @@ blocks:
   - type: editorial
     background: true
     direction: rtl
-    title: Nous avons développé un framework Hugo utilisant Bootstrap et qui intègre plusieurs Headless CMS. 
+    title: Nous avons développé Hugolify, un framework Hugo open source qui intègre plusieurs Headless CMS.
     text: >-
       Il permet de garantir une grande qualité de code et de développer plus rapidement.
     image:
@@ -48,6 +48,16 @@ blocks:
       blank: false
       url: /notre-solution-et-produits/hugolify/
       text: Découvrir la solution Hugolify
+
+  - type: editorial
+    title: Un design system construit sur Socle
+    text: Hugolify peut s’appuyer sur Socle, notre fondation CSS open source, plutôt que sur Bootstrap. Votre site dispose alors de son propre design system, sans framework CSS.
+    image:
+      class: filter
+      src: https://res.cloudinary.com/uncinq/image/upload/v1758116481/150.Cubes_llpfto.svg
+    cta:
+      text: Découvrir Socle
+      url: /notre-solution-et-produits/socle/
 
   - type: cta
     background: true

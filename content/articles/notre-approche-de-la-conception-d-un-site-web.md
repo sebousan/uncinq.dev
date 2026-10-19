@@ -152,7 +152,7 @@ blocks:
     cta:
       text: Éco-conception de site Web
       blank: true
-      url: https://www.eco-conception-site-web.com/
+      url: https://www.eco-conception-site-web.fr/
   
   - type: editorial
     direction: rtl

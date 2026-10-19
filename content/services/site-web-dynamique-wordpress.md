@@ -42,6 +42,16 @@ blocks:
       src: https://res.cloudinary.com/uncinq/image/upload/v1759161097/screen-wordpress-themes_rpyoju.png
       alt: Écran du choix de thème dans Wordpress
 
+  - type: editorial
+    title: Les mêmes design tokens sur tous vos sites
+    text: Socle, notre fondation CSS open source, fonctionne aussi avec WordPress. Votre thème peut partager les mêmes design tokens que vos autres sites, boutique en ligne comprise.
+    image:
+      class: filter
+      src: https://res.cloudinary.com/uncinq/image/upload/v1758116481/150.Cubes_llpfto.svg
+    cta:
+      text: Découvrir Socle
+      url: /notre-solution-et-produits/socle/
+
   - type: cta
     background: true
     heading:

@@ -39,11 +39,10 @@ blocks:
       - audit-performance-site-web
       - site-web-statique-hugo
       - site-ecommerce-shopify
-      - site-web-dynamique-wordpress
-      - optimisation-des-core-web-vitals
-      - integration-accessibilite-web
-      - integration-site-web-bas-carbone
-      - integration-bootstrap
+    footing:
+      ctas:
+        - text: Découvrir toutes nos expertises
+          url: /nos-expertises/
   
   - type: editorial
     surtitle: Manifeste
@@ -59,6 +58,17 @@ blocks:
   - type: editorial
     direction: rtl
     surtitle: solution
+    title: Créateur de Socle, la fondation CSS open source indépendante du framework
+    text: Design tokens, styles de base et composants pour des interfaces cohérentes, accessibles et légères, quelle que soit la plateforme.
+    image:
+      class: filter
+      src: https://res.cloudinary.com/uncinq/image/upload/v1758116481/150.Cubes_llpfto.svg
+    cta:
+      text: Découvrir Socle
+      url: "/notre-solution-et-produits/socle/"
+  
+  - type: editorial
+    surtitle: solution
     title: Créateur de Hugolify, le framework Hugo open source embarquant plusieurs headless CMS
     text: Solution pour un Web pérenne, plus simple, plus accessible et à faible émission de carbone.
     image:
@@ -71,6 +81,7 @@ blocks:
   
   - type: selected
     section: pages
+    background: true
     layout: list
     heading:
       surtitle: Produits

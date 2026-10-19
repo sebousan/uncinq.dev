@@ -1,7 +1,7 @@
 ---
 title: Audit de performance de votre site Web
 description: Focus sur les Core Web Vitals de Google.
-weight: 1
+weight: 5
 slug: audit-performance-site-Web-core-web-vitals
 image:
   src: https://res.cloudinary.com/uncinq/image/upload/v1759146493/logo-google-pagespeed-insights_xzawon.svg
@@ -30,6 +30,9 @@ blocks:
       - title: Intervention
         icon: code-slash
         text: Nous pouvons également intervenir directement pour effectuer les modifications.
+        cta:
+          text: Optimisation des Core Web Vitals
+          url: /nos-expertises/optimisation-des-core-web-vitals/
 
   - type: editorial
     background: true

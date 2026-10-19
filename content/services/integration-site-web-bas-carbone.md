@@ -1,15 +1,16 @@
 ---
 draft: false
-weight: 7
+weight: 10
 title: Intégration de site Web bas carbone
 description: Étroitement lié à la conception de site Web performant.
 image:
-  src: https://res.cloudinary.com/uncinq/image/upload/v1759164448/logo-websitecarbon-white_fmsjj5.svg
+  class: filter
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758120275/scribble_final_version-122_qffbl0.svg
 hero:
   surtitle: Nos expertises
   title: Intégration de site Web bas carbone
   image:
-    src: https://res.cloudinary.com/uncinq/image/upload/v1759164448/logo-websitecarbon-white_fmsjj5.svg
+    src: https://res.cloudinary.com/uncinq/image/upload/v1758120275/scribble_final_version-122_qffbl0.svg
   cta:
     text: Découvrir
     url: "#main"

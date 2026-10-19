@@ -1,6 +1,6 @@
 ---
 draft: false
-weight: 8
+weight: 7
 title: Intégration avec Bootstrap
 description: L’un des frameworks front-end open source les plus populaires au monde.
 image:
@@ -47,6 +47,18 @@ blocks:
 
 
       **Communauté Active :** Bootstrap bénéficie d'une grande communauté d'utilisateurs et de développeurs, ce qui signifie que vous pouvez trouver des ressources, des astuces et des solutions pour résoudre des problèmes spécifiques liés à Bootstrap, et cela contribue à la maintenance efficace du projet.
+
+  - type: editorial
+    background: true
+    direction: rtl
+    title: Une alternative sans framework
+    text: Pour les projets qui n’ont pas besoin de Bootstrap, nous proposons Socle, notre fondation CSS open source. Du CSS natif et des design tokens, sans framework, pour un design system sur mesure.
+    image:
+      class: filter
+      src: https://res.cloudinary.com/uncinq/image/upload/v1758116481/150.Cubes_llpfto.svg
+    cta:
+      text: Découvrir Socle
+      url: /notre-solution-et-produits/socle/
 
   - type: cta
     background: true
