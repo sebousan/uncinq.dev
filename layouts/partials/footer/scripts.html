@@ -1,0 +1,11 @@
+{{/*
+Analytics — backport of the hugolify-theme v2 dispatcher (footer/analytics.html),
+which reads `params.analytics.<service>` and renders in production builds only.
+hugolify-theme v1.29 has no dispatcher: delete this file and
+footer/analytics/plausible.html when upgrading to v2, the config stays the same.
+*/}}
+{{- if hugo.IsProduction }}
+  {{- with site.Params.analytics.plausible }}
+    {{- partial "footer/analytics/plausible.html" (cond (reflect.IsMap .) . dict) }}
+  {{- end }}
+{{- end }}

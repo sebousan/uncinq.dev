@@ -42,7 +42,16 @@ Ce site a été conçu avec [Hugolify](https://www.hugolify.io), une solution op
 
 ## Mesure d’audience
 
-À ce jour, uncinq.dev ne collecte aucune donnée personnelle à travers son site internet (pas de mesure d’audience ni de formulaires).
+Pour connaître la fréquentation du site et améliorer son contenu, uncinq.dev utilise [Plausible Analytics](https://plausible.io), un outil de mesure d’audience respectueux de la vie privée.
+
+- **Aucun cookie** n’est déposé et rien n’est stocké sur votre appareil.
+- **Aucune donnée personnelle** n’est collectée : votre adresse IP n’est pas conservée. Elle sert uniquement à calculer un identifiant anonyme, renouvelé chaque jour, pour compter les visiteurs uniques, puis elle est supprimée.
+- Les statistiques sont **agrégées et anonymes** : pages consultées, site d’origine, type d’appareil, navigateur, système d’exploitation et localisation approximative (pays, région, ville).
+- Les données sont **hébergées dans l’Union européenne** et ne sont ni partagées ni revendues.
+
+Aucun suivi d’un site à l’autre n’est possible et aucun consentement n’est donc requis. Pour en savoir plus, consultez la [politique de données de Plausible](https://plausible.io/data-policy).
+
+uncinq.dev ne collecte par ailleurs aucune donnée personnelle (pas de formulaire).
 
 
 ## Liens hypertextes
