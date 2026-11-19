@@ -248,7 +248,7 @@ blocks:
           isLogo: true
       - title: Sveltia CMS
         image:
-          src: https://res.cloudinary.com/uncinq/image/upload/v1758126005/logo-sveltia-cms_eh8ftl.png
+          src: https://res.cloudinary.com/uncinq/image/upload/v1795040379/sveltia-cms_vi0wwh.svg
           isLogo: true
       - title: Bootstrap
         image:

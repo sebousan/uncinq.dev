@@ -1,0 +1,74 @@
+/* tokens/site.css */
+/*
+ * Un Cinq dark scheme — fixed, not a dark mode.
+ *
+ * NOT IN USE YET. This site still builds on the v1 stack (hugolify-theme +
+ * SASS), where nothing imports this file; it is here so the palette is ready
+ * the day the site moves to hugolify-theme/v2 + hugolify-theme-design-system.
+ * Until then the dark palette lives in assets/sass/abstracts/_variables-site.sass,
+ * and the two have to be changed together.
+ *
+ * The site is dark whatever the visitor's OS says, so the palette is declared on
+ * :root once and nothing here sits behind prefers-color-scheme. The theme
+ * (hugolify-theme-uncinqify) sets css.darkmode: false for the same reason: the
+ * core then puts data-color-scheme="light" on <html>, which is what keeps
+ * @uncinq/design-tokens' themes/dark.css out of the way. Read that attribute as
+ * "the OS does not get a say", not as "this site is light".
+ *
+ * Values come from the SASS site variables, kept exact: the design system's
+ * gray ramp has no rung at #111111.
+ *
+ * What is NOT here: shape (radius, button padding), header, footer, hero and
+ * menu surfaces, and everything under assets/sass/site/. Those are the rest of
+ * the migration.
+ */
+@layer tokens {
+  :root {
+    /* ── Scheme ───────────────────────────────────────────────────────
+       Same token set as design-tokens' dark theme, Un Cinq values. */
+    --color-background: oklch(17.76% 0 0); /* #111111 — $body-bg */
+    --color-background-disabled: oklch(25.2% 0 0); /* #222222 */
+    --color-background-media: oklch(25.2% 0 0); /* #222222 */
+    --color-background-muted: oklch(21.78% 0 0); /* #1a1a1a — $light */
+    --color-background-muted-hover: oklch(25.2% 0 0); /* #222222 — $secondary_light */
+    --color-border: oklch(32.11% 0 0); /* #333333 — $border-color */
+    --color-heading: var(--color-white); /* $headings-color */
+    --color-shadow: var(--color-white); /* a shadow on a dark ground is light */
+    --color-text: var(--color-white); /* $body-color */
+    --color-text-disabled: var(--color-gray-600);
+    --color-text-hover: var(--color-white);
+    --color-text-muted: oklch(74.12% 0 0); /* #ababab — $text-muted */
+    /* Anything printed on a muted surface: inline code, status badges,
+       keyfeature alerts. Upstream it assumes the surface is pale. */
+    --color-text-on-muted: var(--color-white);
+    --form-color-background: oklch(21.78% 0 0); /* #1a1a1a */
+
+    /* ── Light family ─────────────────────────────────────────────────
+       A "light" surface on this site is a dark one. The SASS site said the
+       same thing with $light: darken(white, 90%). Without this, a
+       .block-light section paints a pale band across the page and its
+       heading stays white on it. */
+    --color-light: oklch(21.78% 0 0); /* #1a1a1a */
+    --color-light-hover: oklch(25.2% 0 0); /* #222222 */
+    --color-light-muted: oklch(20.9% 0 0); /* #181818 — $tertiary */
+    --color-light-strong: oklch(32.11% 0 0); /* #333333 */
+    --color-text-on-light: var(--color-white);
+
+    /* ── Brand ────────────────────────────────────────────────────────
+       White here, where the theme's baseline is black. Everything that
+       sits on the brand colour has to turn dark with it — nothing else
+       would be readable on white. Accent aliases brand upstream, so it
+       follows on its own. */
+    --color-brand: var(--color-white); /* $primary */
+    --color-brand-hover: var(--color-gray-200);
+    --color-brand-muted: oklch(from var(--color-white) l c h / 0.1); /* surtitle badge */
+    --color-brand-strong: var(--color-white);
+    --color-text-on-accent: var(--color-black);
+    --color-text-on-brand: var(--color-black);
+
+    /* ── Components ───────────────────────────────────────────────────
+       The theme turns a page card cream under the pointer; on this ground
+       it steps up the dark ramp instead. */
+    --page-color-background-hover: var(--color-background-muted-hover);
+  }
+}
