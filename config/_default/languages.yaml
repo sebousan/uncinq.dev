@@ -1,5 +1,5 @@
 fr:
-  languageCode: fr
-  languageName: Français
+  label: Français
+  locale: fr
   weight: 1
   title: Un Cinq

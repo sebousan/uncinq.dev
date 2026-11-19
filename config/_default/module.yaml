@@ -1,5 +1,15 @@
 imports:
-  - path: github.com/sebousan/hugolify-theme-uncinqify
-  - path: github.com/hugolify/hugolify-theme-casestudies
-  - path: github.com/hugolify/hugolify-theme-services
-  - path: github.com/hugolify/hugolify-theme
+  # themes
+  - path: github.com/sebousan/hugolify-theme-uncinqify/v2
+
+  # content
+  - path: github.com/hugolify/hugolify-theme-casestudies/v2
+  - path: github.com/hugolify/hugolify-theme-services/v2
+
+  # core
+  - path: github.com/hugolify/hugolify-theme/v2
+  - path: github.com/hugolify/hugolify-theme-design-system
+  - path: github.com/hugolify/hugolify-theme-icons
+
+  - path: github.com/hugolify/hugolify-admin/v2
+

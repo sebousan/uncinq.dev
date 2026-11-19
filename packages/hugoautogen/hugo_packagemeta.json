@@ -1,0 +1,16 @@
+{
+  "sum": "b352d99ad2a5b207",
+  "dependencySources": {
+    "dependencies": {
+      "prettier-plugin-go-template": "github.com/hugolify/hugolify-theme-services"
+    },
+    "devDependencies": {
+      "@uncinq/component-tokens": "github.com/hugolify/hugolify-theme-design-system",
+      "@uncinq/css-base": "github.com/hugolify/hugolify-theme-design-system",
+      "@uncinq/css-components": "github.com/hugolify/hugolify-theme-design-system",
+      "@uncinq/design-tokens": "github.com/hugolify/hugolify-theme-design-system",
+      "postcss-custom-media": "github.com/hugolify/hugolify-theme-design-system",
+      "postcss-import": "github.com/hugolify/hugolify-theme-design-system"
+    }
+  }
+}
