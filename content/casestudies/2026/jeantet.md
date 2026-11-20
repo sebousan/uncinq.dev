@@ -2,11 +2,13 @@
 isIndex: false
 draft: false
 date: 2026-11-16T08:00:00.000Z
-slug: jeantet-migration-wordpress-lawyerify
+slug: jeantet-migration-wordpress-hugo-lawyerify
 title: Jeantet
 description: Migration d’un site Wordpress vers Lawyerify pour un cabinet d’avocats d’affaires indépendant.
 seo:
+  title: Jeantet, migration d’un site Wordpress vers Hugo avec Lawyerify
   image: https://res.cloudinary.com/uncinq/image/upload/v1795095996/share-migration-wordpress-to-lawyerify_m3lztk.png
+  description: Migration d’un site Wordpress vers Hugo avec Lawyerify pour un cabinet d’avocats d’affaires indépendant. Sobriété, performance et accessibilité.
 image:
   src: https://res.cloudinary.com/uncinq/image/upload/v1795006291/logo-jeantet_cysdxk.svg
 hero:
@@ -377,15 +379,22 @@ blocks:
       image:
         src: https://res.cloudinary.com/uncinq/image/upload/v1758205367/sebastien-moulene_ft0yg7.jpg
 
-  # Screenshot of the home page, desktop, 3024 x 1638 px
-  - type: figure
+  # Silent montage of the live site, 5 s, 1600 x 900: home, expertises, lawyers, a lawyer page, news.
+  # Recorded on 2026-11-20 with _audits/jeantet/lighthouse/record-montage.mjs (montage-jeantet.json).
+  # MP4 only, with q_auto: 0.87 MB instead of 3.3 MB, lighter than the WebM upload (1.4 MB with
+  # q_auto, jeantet-montage_dk0s3b), which the theme would pick first. 0.37 MB at 800 px on mobile.
+  # Looping, so controls stay on: moving content over 5 s must be pausable (WCAG 2.2.2).
+  # Poster: the former home capture, an image/upload URL the theme's Cloudinary partial reads.
+  - type: video
     grid: medium
-    offset: center
-    figure:
-      src: https://res.cloudinary.com/uncinq/image/upload/v1795041070/screenshot-jeantet-home_h2pu8y.png
+    video:
+      mp4: https://res.cloudinary.com/uncinq/video/upload/v1795180539/jeantet-montage-6s_tb3oms.mp4
+      webm: https://res.cloudinary.com/uncinq/video/upload/v1795180544/jeantet-montage-6s_gffboy.webm
+      autoplay: true
+      loop: true
+      controls: true
       screenshot: true
-      alt: Capture d’écran de la page d’accueil du nouveau site Jeantet
-      legend: Page d’accueil du nouveau site Jeantet
+      legend: Visite rapide du nouveau site Jeantet, de l’accueil aux actualités
 
   - type: cta
     background: true

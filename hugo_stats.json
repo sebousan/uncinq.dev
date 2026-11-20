@@ -38,7 +38,8 @@
       "svg",
       "time",
       "title",
-      "ul"
+      "ul",
+      "video"
     ],
     "classes": [
       "404-page",
@@ -73,6 +74,7 @@
       "block-selected-pages",
       "block-selected-services",
       "block-title",
+      "block-video",
       "bottom",
       "breadcrumb-wrapper",
       "btn",
@@ -163,6 +165,7 @@
       "icon-window-fullscreen",
       "images",
       "information",
+      "is-lazy",
       "item",
       "items",
       "items-3",
@@ -171,6 +174,7 @@
       "items-6",
       "js-chart",
       "js-gauge",
+      "js-video",
       "linkedin",
       "logo",
       "main-menu",
