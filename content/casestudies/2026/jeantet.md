@@ -138,10 +138,12 @@ blocks:
       # site's Turnstile payloads (two 1.5 MiB XHR with a one-time token) were downloaded again on
       # every page, so the savings add up over a visit. Pages on Netlify's CDN and media on
       # Cloudinary's, instead of Apache with PHP and MySQL (HTTP/1.1, 1.5 to 5.4 s server response).
+      # Energy stays qualitative: nothing was measured in kWh or CO2. The old site had WP Super Cache,
+      # so the text does not claim that each page used to be computed on every visit.
       - icon: leaf
         title: Pour l’environnement
         text: >-
-          Volet environnemental de la RSE : de 4 à plus de 8 Mo de moins à chaque page vue, et des pages servies par les CDN de Netlify et Cloudinary plutôt que par un serveur Apache, PHP et MySQL.
+          Volet environnemental de la RSE : jusqu’à 8 Mo de moins à chaque page vue. Moins de données à transporter, moins de serveurs sollicités : un site plus sobre, qui consomme moins d’énergie.
       # Security: no PHP, MySQL or plugins on the new site, see "État des lieux" and the Patchstack
       # quote above; shield-check answers the shield-slash of the old site's "Sécurité" card
       - icon: shield-check
@@ -316,7 +318,6 @@ blocks:
         text: 2,4 s pour afficher la page, contre 9,8 s.
       - title: Performance en plus
         value: 59
-        prefix: "+"
         suffix: "%"
         limit: 100
         text: 100 sur 100 dans Google PageSpeed, contre 63.
