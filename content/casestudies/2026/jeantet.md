@@ -73,15 +73,16 @@ blocks:
     # the two read as one section
     background: true
 
-  # PageSpeed Insights (Lighthouse 13.6.0), mobile, 2026-11-16 09:15, report 3qnbqz2sij, still online
-  # on 2026-11-18 once the old site was gone. Screenshot in _audits/jeantet, in case PageSpeed drops it.
+  # PageSpeed Insights (Lighthouse 13.6.0), mobile, 2026-11-16 09:15, report 3qnbqz2sij. The link
+  # points to its full-page capture on Cloudinary, not to pagespeed.web.dev, where shared reports
+  # expire within about a month; the full report (JSON, HTML) is in _audits/jeantet/pagespeed.
   # Core Web Vitals: Chrome UX Report, origin, last 28 days: LCP 4.1 s, INP 115 ms, CLS 0, FCP 3.5 s, TTFB 2.7 s
   - type: datas
     background: true
     heading:
       title: Analyse de l’ancien site du cabinet
       text: >-
-        Google Lighthouse, un outil open source, mesure la qualité des pages Web. Voici, ci-dessous, {{<  blank_link text=`le résultat sur Google PageSpeed` link=`https://pagespeed.web.dev/analysis/https-www-jeantet-fr/3qnbqz2sij?form_factor=mobile` >}} de la page d’accueil sur mobile, mesuré le 16 novembre 2026.
+        Google Lighthouse, un outil open source, mesure la qualité des pages Web. Voici, ci-dessous, {{<  blank_link text=`le résultat sur Google PageSpeed` link=`https://res.cloudinary.com/uncinq/image/upload/v1795166316/3qnbqz2sij-pagespeed-fullpage_crvs7v.png` >}} de la page d’accueil sur mobile, mesuré le 16 novembre 2026.
 
 
         Les données réelles des visiteurs, collectées par Chrome sur les 28 derniers jours, vont dans le même sens : le site échoue à l’évaluation des [Core Web Vitals](/nos-articles/comprendre-les-core-web-vitals-signaux-web-essentiels-de-google/) de Google. Le plus grand élément de la page met 4,1 s à s’afficher, quand Google recommande moins de 2,5 s.
@@ -239,7 +240,7 @@ blocks:
   # TBT 0 ms, CLS 0, Speed Index 2.2 s, 1199 KiB. Desktop: Speed Index 0.9 s, 1824 KiB.
   # The report of go-live evening, 2026-11-18 22:49 (5vtive4ipp): 99, 93, 100, 100 on mobile.
   # Screenshots of both in _audits/jeantet. The link points to the full-page capture of muj2nr2fo4 on
-  # Cloudinary, not to pagespeed.web.dev, where shared reports expire after some months; the full
+  # Cloudinary, not to pagespeed.web.dev, where shared reports expire within about a month; the full
   # report (JSON, HTML) is in _audits/jeantet/pagespeed.
   - type: datas
     heading:
