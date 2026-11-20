@@ -250,17 +250,17 @@ blocks:
         value: 87
         suffix: "%"
         limit: 100
-        text: 590 Ko transférés à chaque visite, contre 4,5 Mo.
+        text: 590 Ko transférés à chaque visite, contre 4,5 Mo.
       - title: JavaScript en moins
         value: 99
         suffix: "%"
         limit: 100
-        text: 5 Ko chargés, contre 906 Ko.
+        text: 5 Ko chargés, contre 906 Ko.
       - title: Temps d’affichage en moins
         value: 71
         suffix: "%"
         limit: 100
-        text: 2,1 s pour afficher la page, contre 7,2 s.
+        text: 2,1 s pour afficher la page, contre 7,2 s.
       - title: Performance en plus
         value: 89
         prefix: "+"
