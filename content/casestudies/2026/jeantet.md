@@ -1,6 +1,6 @@
 ---
 isIndex: false
-draft: false
+draft: true
 date: 2026-11-16T08:00:00.000Z
 slug: jeantet-migration-wordpress-lawyerify
 title: Jeantet

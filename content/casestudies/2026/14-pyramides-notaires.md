@@ -32,6 +32,10 @@ blocks:
       legend: Office notarial 14 Pyramides
       credit: © 14 Pyramides
 
+  # Backgrounds go by section, as in jeantet.md: the old site (background), why improve (none),
+  # what was built (background), the results (none), the stack (background), then the home page
+  # capture (none) and the CTA (background).
+
   # Old site from its Wayback Machine snapshot of 2026-10-03
   # (web.archive.org/web/20261003210633/https://14pyramides.notaires.fr/): custom theme "14p";
   # plugins seen from outside: GDPR Cookie Compliance, Contact Form 7, Contact Form 7 Honeypot,
@@ -76,6 +80,7 @@ blocks:
   # on 2026-11-20 ("Il n'existe aucun rapport pour l'ID"), like l4c2349ult and i1n9synvmc, and no
   # capture of it was kept: hence no link.
   - type: datas
+    background: true
     heading:
       title: Analyse de l’ancien site de l’office
       text: >-
@@ -104,7 +109,6 @@ blocks:
   # BBC: web.dev, "Why does speed matter?", checked on 2026-11-19, as in jeantet.md
   - type: informations
     column: 3
-    background: true
     heading:
       title: Pourquoi améliorer ces critères ?
     items:
@@ -127,8 +131,8 @@ blocks:
         title: Pour l’accessibilité
         text: >-
           Volet social de la RSE : une accessibilité nettement améliorée au regard des critères du RGAA, le référentiel français, du lien d’évitement à la navigation au clavier.
-      # Home page, PageSpeed mobile: 4613 KiB in October, 671 KiB for the new site (699 KiB measured
-      # locally on the live site on 2026-11-20), so 3.85 MiB less. Inner pages of the old site were
+      # Home page, PageSpeed mobile: 4613 KiB in October, 587 KiB for the live site on 2026-11-20
+      # (report rpy5md65b1), so 3.93 MiB less. Inner pages of the old site were
       # not measured before it went offline: no per-page figure, unlike Jeantet.
       - icon: leaf
         title: Pour l’environnement
@@ -143,6 +147,7 @@ blocks:
   # fr and en; 69 posts per language
   - type: informations
     column: 3
+    background: true
     heading:
       title: Un site à l’image de l’étude
       text: Une nouvelle architecture pensée autour des expertises et des équipes de l’office.
@@ -179,33 +184,33 @@ blocks:
     heading:
       title: Un espace d’administration sur mesure
       text: >-
-        Fini l’admin Wordpress compliqué et parasité par des fonctionnalités inutiles à l’office. Place à un admin dédié et simplifié pour 14 Pyramides.
+        Fini l’admin Wordpress compliqué et parasité par des fonctionnalités inutiles à l’office. Place à un admin dédié et simplifié pour 14 Pyramides, construit avec Decap CMS.
+    background: true
     grid: medium
     offset: center
     figure:
       src: https://res.cloudinary.com/uncinq/image/upload/v1792250347/14pyramides-admin-lawyerify_ahjxd8.png
-      alt: Capture d’écran de l’admin Lawyerify de 14 Pyramides
-      legend: Admin Lawyerify dédié à 14 Pyramides
+      alt: Capture d’écran de l’admin Decap CMS de 14 Pyramides
+      legend: Admin Lawyerify dédié à 14 Pyramides, dans Decap CMS
       screenshot: true
 
-  # PageSpeed Insights (Lighthouse 13.5.0), mobile, 2026-10-19, on the preprod 14pyramides.netlify.app,
-  # report i1n9synvmc: expired, hence no link. The live site, measured locally on 2026-11-20
-  # (Lighthouse 13.6.0, medians of 3 runs, _audits/14pyramides/lighthouse/lawyerify-live): mobile
-  # 99, 96, 100, 100, Speed Index 1.3 s, 699 KiB; desktop 100, 96, 100, 100, Speed Index 0.5 s.
-  # TODO: a PageSpeed report of the live site, archived the day it is run and linked through its
-  # capture on Cloudinary, as in jeantet.md
+  # PageSpeed Insights (Lighthouse 13.6.0), live site, 2026-11-20 11:19, report rpy5md65b1: 100
+  # everywhere, on mobile and on desktop. Mobile: FCP 1.1 s, LCP 1.7 s, TBT 0 ms, CLS 0, Speed Index
+  # 2.1 s, 587 KiB (JS 5.3, CSS 37.0); desktop: Speed Index 0.8 s, 381 KiB. Archived in
+  # _audits/14pyramides/pagespeed (JSON, HTML, full-page capture).
+  # TODO: link "le résultat sur Google PageSpeed" to the capture once it is on Cloudinary, as in jeantet.md
+  # Before: preprod report i1n9synvmc of 2026-10-19 (99, 100, 100, 100), expired.
   - type: datas
     heading:
       title: Analyse du nouveau site de l’office
       text: >-
-        Même test, sur la page d’accueil du nouveau site conçu avec Lawyerify, mesuré le 19 octobre 2026, juste avant sa mise en ligne.
+        Même test, sur la page d’accueil du nouveau site conçu avec Lawyerify. Voici, ci-dessous, le résultat sur Google PageSpeed sur mobile, mesuré le 20 novembre 2026 sur le site en ligne : 100 sur 100 partout, sur mobile comme sur ordinateur.
     column: 4
     show_color: true
     show_gauge: true
-    background: true
     items:
       - title: Performance
-        value: 99
+        value: 100
         suffix: "%"
         limit: 100
       - title: Accessibilité
@@ -222,44 +227,45 @@ blocks:
         limit: 100
 
   # Replaces the "Comparaison technique" title and its two charts, as in jeantet.md. Home page,
-  # mobile. Bytes: PageSpeed (Lighthouse 13.5.0), Wordpress 2026-10-17, Lawyerify 2026-10-19 on the
-  # preprod. Speed Index: Wordpress from a local Lighthouse 13.5.0 run, 2026-10-17; Lawyerify from
-  # PageSpeed, 2026-10-19. Chart data kept here:
-  # - total 4613 -> 671 KiB: 85 % less, 6.9 times lighter (4.5 MiB -> 0.66 MiB)
-  # - JS 906 -> 5.8 KiB: 99 % less
-  # - CSS 147 -> 36.8 KiB: 75 % less
-  # - Speed Index mobile 7.2 -> 1.9 s: 74 % less, 3.8 times faster; desktop 1.7 -> 0.9 s
-  # - performance score, PageSpeed mobile: 53 -> 99, +87 % (+46 points)
-  # No minus sign: the titles carry the direction, so every gauge reads as a gain. No show_color:
-  # it would paint 74 and 85 orange, since they are below 90.
+  # mobile. Wordpress: PageSpeed (Lighthouse 13.5.0), 2026-10-17, and for the Speed Index a local
+  # Lighthouse 13.5.0 run the same day. Lawyerify: PageSpeed report rpy5md65b1 of the live site,
+  # 2026-11-20 (Lighthouse 13.6.0).
+  # - total 4613 -> 587 KiB: 87 % less, 7.9 times lighter (4.5 MiB -> 0.57 MiB)
+  # - JS 906 -> 5.3 KiB: 99 % less
+  # - CSS 147 -> 37.0 KiB: 75 % less
+  # - Speed Index mobile 7.2 -> 2.1 s: 71 % less, 3.4 times faster; desktop 1.7 -> 0.8 s
+  # - performance score, PageSpeed mobile: 53 -> 100, +89 % (+47 points)
+  # Before, with the preprod report i1n9synvmc of 2026-10-19: 671 KiB, JS 5.8, CSS 36.8, Speed Index
+  # 1.9 s mobile and 0.9 s desktop, performance 99.
+  # No minus sign: the titles carry the direction, so every value reads as a gain.
   - type: datas
     heading:
-      title: Près de sept fois plus léger, près de quatre fois plus rapide
+      title: Près de huit fois plus léger, plus de trois fois plus rapide
       text: >-
-        Voici la comparaison chiffrée de la page d’accueil des deux sites sur mobile, grâce aux données de Google Lighthouse, mesurées en octobre 2026.
+        Voici la comparaison chiffrée de la page d’accueil des deux sites sur mobile, grâce aux données de Google Lighthouse : en octobre 2026 pour l’ancien site, le 20 novembre pour le nouveau.
     column: 4
     items:
       - title: Données en moins
-        value: 85
+        value: 87
         suffix: "%"
         limit: 100
-        text: 670 Ko transférés à chaque visite, contre 4,5 Mo.
+        text: 590 Ko transférés à chaque visite, contre 4,5 Mo.
       - title: JavaScript en moins
         value: 99
         suffix: "%"
         limit: 100
-        text: 6 Ko chargés, contre 906 Ko.
+        text: 5 Ko chargés, contre 906 Ko.
       - title: Temps d’affichage en moins
-        value: 74
+        value: 71
         suffix: "%"
         limit: 100
-        text: 1,9 s pour afficher la page, contre 7,2 s.
+        text: 2,1 s pour afficher la page, contre 7,2 s.
       - title: Performance en plus
-        value: 87
+        value: 89
         prefix: "+"
         suffix: "%"
         limit: 100
-        text: 99 sur 100 dans Google PageSpeed, contre 53.
+        text: 100 sur 100 dans Google PageSpeed, contre 53.
 
   # From the 14pyramides repo: Decap CMS, media stored in the repo and served by the site (no
   # Cloudinary), no Pagefind; Netlify runs "yarn build" (Hugo) on each commit
@@ -290,6 +296,18 @@ blocks:
           src: https://res.cloudinary.com/uncinq/image/upload/v1795097257/logo-netlify-picto_clrkf6.svg
           isLogo: true
         text: Mise en ligne et hébergement.
+
+  # As in jeantet.md, after the stack, with the same background. Figures from the gains block above:
+  # 7.9 times lighter (4613 -> 587 KiB), 3.4 times faster (Speed Index 7.2 -> 2.1 s), home page, mobile.
+  - type: quote
+    background: true
+    quote: >-
+      « Près de huit fois plus léger, plus de trois fois plus rapide : un site qui s’affiche tout de suite, même sur mobile, c’est d’abord plus de confort pour chaque visiteur de l’office. »
+    author:
+      title: Sébastien Moulène
+      text: Un Cinq
+      image:
+        src: https://res.cloudinary.com/uncinq/image/upload/v1758205367/sebastien-moulene_ft0yg7.jpg
 
   # Live home page on 2026-11-20, 1512 x 819 at device scale 2, 3024 x 1638 px, like jeantet.md
   - type: figure
