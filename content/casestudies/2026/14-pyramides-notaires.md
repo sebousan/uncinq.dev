@@ -198,13 +198,14 @@ blocks:
   # everywhere, on mobile and on desktop. Mobile: FCP 1.1 s, LCP 1.7 s, TBT 0 ms, CLS 0, Speed Index
   # 2.1 s, 587 KiB (JS 5.3, CSS 37.0); desktop: Speed Index 0.8 s, 381 KiB. Archived in
   # _audits/14pyramides/pagespeed (JSON, HTML, full-page capture).
-  # TODO: link "le résultat sur Google PageSpeed" to the capture once it is on Cloudinary, as in jeantet.md
+  # The link points to the full-page capture on Cloudinary, not to pagespeed.web.dev, where shared
+  # reports expire within about a month, as in jeantet.md
   # Before: preprod report i1n9synvmc of 2026-10-19 (99, 100, 100, 100), expired.
   - type: datas
     heading:
       title: Analyse du nouveau site de l’office
       text: >-
-        Même test, sur la page d’accueil du nouveau site conçu avec Lawyerify. Voici, ci-dessous, le résultat sur Google PageSpeed sur mobile, mesuré le 20 novembre 2026 sur le site en ligne : 100 sur 100 partout, sur mobile comme sur ordinateur.
+        Même test, sur la page d’accueil du nouveau site conçu avec Lawyerify. Voici, ci-dessous, {{<  blank_link text=`le résultat sur Google PageSpeed` link=`https://res.cloudinary.com/uncinq/image/upload/v1795170706/rpy5md65b1-pagespeed-fullpage_nadtlr.png` >}} sur mobile, mesuré le 20 novembre 2026 sur le site en ligne : 100 sur 100 partout, sur mobile comme sur ordinateur.
     column: 4
     show_color: true
     show_gauge: true
