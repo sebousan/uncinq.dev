@@ -101,7 +101,9 @@ blocks:
     heading:
       surtitle: stack
       title: Développé avec Hugo, il s’appuie sur un design system Socle et intègre plusieurs Headless CMS.
-      text: [Socle](/notre-solution-et-produits/socle/), notre fondation CSS sans framework, permet de construire votre propre design system. Bootstrap est également proposé pour gérer le CSS et le JS.
+      text: >-
+          [Socle](/notre-solution-et-produits/socle/), notre fondation CSS sans framework, permet de construire votre propre design system.
+          Bootstrap est également proposé pour gérer le CSS et le JS.
     column: 4
     items:
       - title: Hugo
