@@ -59,7 +59,7 @@ blocks:
     offset: center
     figure:
       screenshot: true
-      src: https://res.cloudinary.com/uncinq/image/upload/v1759154195/hugolify-screenshot_ycim2y.png
+      src: https://res.cloudinary.com/uncinq/image/upload/v1794995524/screenshot-hugolify-home_pl9a2y.png
       alt: Capture d’écran du site Hugolify
       legend: Site Web de Hugolify
     footing:
@@ -93,15 +93,15 @@ blocks:
     offset: center
     figure:
       screenshot: true
-      src: https://res.cloudinary.com/uncinq/image/upload/v1758126305/screenshot-hugolify-decapcms-home_ynatqv.png
-      alt: Capture d’écran de l’espace admin de Hugolify avec Decap CMS
-      legend: Exemple d’espace admin de Hugolify avec Decap CMS
+      src: https://res.cloudinary.com/uncinq/image/upload/v1794648464/screenshot-sveltiacms-home_hilyka.png
+      alt: Capture d’écran de l’espace admin de Hugolify avec Sveltia CMS
+      legend: Exemple d’espace admin de Hugolify avec Sveltia CMS
 
   - type: informations
     heading:
       surtitle: stack
-      title: Développé avec Hugo, il s’appuie sur Bootstrap ou Socle et intègre plusieurs Headless CMS.
-      text: Bootstrap est proposé par défaut. [Socle](/notre-solution-et-produits/socle/), notre fondation CSS sans framework, permet de construire votre propre design system.
+      title: Développé avec Hugo, il s’appuie sur un design system Socle et intègre plusieurs Headless CMS.
+      text: [Socle](/notre-solution-et-produits/socle/), notre fondation CSS sans framework, permet de construire votre propre design system. Bootstrap est également proposé pour gérer le CSS et le JS.
     column: 4
     items:
       - title: Hugo
@@ -113,24 +113,15 @@ blocks:
           blank: true
           text: Voir le site de Hugo
           url: https://www.gohugo.io
-      - title: Bootstrap
-        text: Framework front open source le plus utilisé depuis des années.
-        image:
-          src: https://res.cloudinary.com/uncinq/image/upload/v1758128591/logo-bootstrap-5_h3gtgt.svg
-          isLogo: true
-        cta:
-          blank: true
-          text: Voir le site de Bootstrap
-          url: https://getbootstrap.com
-      - title: Decap CMS
+      - title: Sveltia CMS
         text: CMS open source très léger et ne nécessitant pas d’installation.
         image:
-          src: https://res.cloudinary.com/uncinq/image/upload/v1758125974/logo-decap-cms_s1xnvt.svg
+          src: https://res.cloudinary.com/uncinq/image/upload/v1795040379/sveltia-cms_vi0wwh.svg
           isLogo: true
         cta:
           blank: true
-          text: Voir le site de Decap CMS
-          url: https://decapcms.org
+          text: Voir le site de Sveltia CMS
+          url: https://sveltiacms.app/
 
   - type: selected-casestudies
     section: casestudies
